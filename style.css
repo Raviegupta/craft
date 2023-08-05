@@ -1,0 +1,368 @@
+*{
+    padding: 0;
+    margin: auto;
+    box-sizing: border-box;
+    font-family: 'montserrat';
+    color: #000000;
+}
+.text-align-center {
+    text-align: center;
+}
+.section-padding-left-right {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.section-padding-top-bottom {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.button-common-css {
+    padding: 10px 20px;
+    border-radius: 57px;
+    background: #FE8453;
+    border: none;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+.button-common-css:hover {
+    background-color: #fe4901;
+}
+a {
+    text-decoration: none;
+}
+
+
+
+
+
+.banner-slider {
+    position: relative;
+    width: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.slider-container {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+}
+.slide {
+    flex: 0 0 100%;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+.prev-btn,
+.next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.prev-btn {
+    left: 0;
+}
+.next-btn {
+    right: 0;
+}
+
+
+
+
+/* .artwork-tending-now-1 {
+    border: 3px solid blue;
+} */
+.artwork-tending-now-2 {
+    /* border: 3px solid tomato; */
+    background-color: #fffdf5;
+}
+.artwork-tending-now-heading {
+   /* border: 2px solid red;  */
+   padding-bottom: 10px;
+}
+
+
+.artwork-tending-now-image-display-box {
+    .wrapper-image-cards {
+        /* border: 2px solid red; */
+        display: flex;
+        /* width: 85%; */
+        gap: 20px;
+        flex-wrap: wrap;
+        padding: 20px 0;
+    }
+    .single-image-box {
+        border: 1px solid white;   
+    }
+    .single-image-box img {
+        /* border: 1px solid blue; */
+        width: 135px;
+    }
+
+
+
+    .image-details-text-box {
+        display: flex;
+        gap: 5px;
+        justify-content: flex-start;
+        /* border: 1px solid red; */
+        width: fit-content;
+        width: 135px;
+    }
+    .image-details-text-box h5 {
+        font-size: 0.6rem;
+        /* border: 1px solid red; */
+        height: 20px;
+        overflow-y: hidden;
+    }
+    .image-details-text-box-whislist-box img {
+        width: auto;
+    }
+
+    .single-image-box-para-1 {
+        font-size: 0.75rem;
+        color: gray;
+    }
+    .single-image-box-para-2 {
+        font-size: 0.8rem;
+        color: gray;
+    }
+    .single-image-box-para-3 {
+        font-size: 0.8rem;
+        color: #000000;
+    }
+}
+
+
+
+
+
+
+
+#proactive-artworks {
+    /* border: 2px solid blue; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #F5F4F2;
+
+    .proactive-artworks-left-side-sec-row-image-box {
+        border: 1px solid #000; 
+    } 
+
+    .proactive-artworks-left-side-sec-row-image-box img {
+        border: 1px solid red;
+    }
+
+    .proactive-artworks-left-side-sec-row {
+        display: grid;
+        grid-template-columns: 10% 90%;
+        margin: 5px 0;
+        
+
+        .proactive-artworks-left-side-sec-row-heading {
+            color: #000;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            font-weight: 500;
+            margin-left: 0px;
+        }
+    }
+
+    .proactive-artworks-left-side-third-row {
+        font-size: 0.8rem;
+        font-weight: 700;
+        /* border: 1px solid red; */
+        padding-right: 100px;
+    }
+}
+
+
+
+#curative-for-you {
+    /* border: 3px solid red;     */
+    position: relative;
+
+    .curative-for-you-image-boxes-wrapper {
+        display: flex;
+        padding-top: 10px;
+
+        .curative-for-you-image-box {
+            width: 160px;
+        }
+    }
+
+    #curated-for-you-popup {
+        display: flex;
+        width: 49%;
+        background-color: white;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 0 1px #000000;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        
+        .curated-for-you-popup-left-side h1 {
+            font-family: sans-serif;
+            font-weight: bolder;
+        }
+        .curated-for-you-popup-left-side p {
+            font-size: .75rem;
+            padding-top: 3px;
+            
+        }
+
+        /* .curated-for-you-popup-right-side button {
+            padding: 10px 20px;
+            border-radius: 57px;
+            background: #FE8453;
+            border: none;
+            color: white;
+            font-weight: 600;
+        } */
+    }
+
+}
+
+
+#shop-by-art-style {
+    /* border: 2px solid red; */
+    padding-top: 120px;
+    padding-bottom: 20px;
+    background-color: #F0FAFF;
+    background-color: #F0FAFF;
+
+    .shop-by-art-style-heading {
+        color: black;
+        font-size: 2rem;
+         
+    }
+
+    .shop-by-art-style-image-boxes-wrapper {
+        padding: 40px 0;
+        display: grid;
+        gap: 10px;
+        grid-template-columns: 1fr 1fr 1fr;
+
+        #shop-by-art-style-image-box-3 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+        }
+    }
+}
+
+
+
+#everything-about-collecting-art-section {
+    /* border: 5px solid blue; */
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    .everything-about-collecting-art-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        .everything-about-collecting-art-left-side {
+            /* border: 1px solid red; */
+            width: 100%; 
+        }
+
+        .everything-about-collecting-art-left-side h1 {
+            font-size: 2rem;
+        }
+        .everything-about-collecting-art-left-side p {
+            font-size: 0.8rem;
+        }
+        .everything-about-collecting-art-left-side :nth-child(3) {
+            margin-top: 5px;
+        }
+        .everything-about-collecting-art-left-side :nth-child(4) {
+            margin-bottom: 5px;
+        }
+        .everything-about-collecting-art-left-side button {
+            /* border: 2px solid blue; */
+            padding-left: 40px;
+            padding-right: 40px;
+            margin-top: 20px;
+        }
+    }
+
+    .everything-about-collecting-art-right-side img {
+        border-radius: 10px;
+    }
+}
+
+
+
+.artwork-price-range-section {
+    background-color: #FFFDF5;
+    
+
+    .artwork-price-range {
+        /* border: 1px solid red; */
+    
+        .artwork-price-range-all-tabs-wrapper {
+            /* border: 1px solid red; */
+            padding: 20px 0;
+            width: 95%;
+            margin-left: 0;
+        }
+    
+        .artwork-price-range-one-tab {
+            display: flex;
+            justify-content: space-between;
+            margin-left: 0;
+            padding: 5px 15px;
+            border-radius: 12px;
+            background: #F5F2E2;
+            margin: 15px auto;
+        }
+        .artwork-price-range-one-tab-left {
+            /* border: 1px solid red; */
+            margin-left: 0;
+        }
+        .artwork-price-range-one-tab-left-range {
+            font-size: 0.7rem;
+            color: gray;
+        }
+        .artwork-price-range-one-tab-price-row {
+            /* border: 1px solid red; */
+            display: flex;
+            gap: 5px;
+        }
+        .artwork-price-range-one-tab-price-row span {
+            color: #FE8453;
+            font-size: 1.3rem;
+            font-weight: bold;
+        }
+        .artwork-price-range-one-tab-right {
+            margin-right: 0;
+        }
+
+
+        
+    }
+    .everything-about-collecting-art-wrapper {
+        /* border: 1px solid red; */
+        gap: 60px;
+    }
+}
+
+
+
+
+
+
+.meet-our-artists-section {
+    border: 2px solid red;   
+}
+.meet-our-artists-section h1 {
+    font-size: 2rem;
+}
