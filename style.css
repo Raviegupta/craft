@@ -535,3 +535,91 @@ img {
         padding-top: 7px;
     }
 }
+
+#know-more-about-us {
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    .know-more-about-us-left-side {
+        /* border: 1px solid blue; */
+        margin-top: 0;
+    }
+    .know-more-about-us-left-side > h1 {
+        font-size: 1.90rem;
+    }
+    .know-more-about-us-left-side > p {
+        /* background-color: aqua; */
+        width: 90%;
+        margin-left: 0;
+        padding-top: 22px;
+        font-size: 0.75rem;
+    }
+
+    .know-more-about-us-btn {
+        /* border: 2px solid blue; */
+        padding: 20px 0;
+    }
+    .know-more-about-us-btn a button {
+        font-size: 0.7rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+#follow-us-on-insta {
+    /* border: 1px solid red; */
+    padding: 40px 0;
+
+}
+#follow-us-on-insta > h1 {
+    font-size: 2rem;
+}
+#follow-us-on-insta > p {
+    font-size: 0.9rem;
+    padding: 10px 0;
+}
+#beutiful-one-line-images-below-insta {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 1px;
+    /* border: 2px solid red; */
+    padding: 20px 0; 
+}
+
+
+
+
+
+#subscribe-newsletter {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px; 
+}
+#subscribe-newsletter img{
+    width: 40px;
+    padding-bottom: 20px ;
+}
+#subscribe-newsletter > h1 {
+    font-size: 2rem;
+}
+#subscribe-newsletter > div{
+    margin-top: 20px;
+    border-bottom: 2px solid #FE8453;
+}
+#subscribe-newsletter .email-input{
+    /* border: 2px solid red; */
+    display: flex;
+    border-bottom: 2px solid #FE8453;
+}
+#subscribe-newsletter .email-input input {
+    border: none;
+}
+
