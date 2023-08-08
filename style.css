@@ -598,10 +598,11 @@ img {
 
 
 #subscribe-newsletter {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     flex-direction: column;
     padding-bottom: 50px; 
+    
 }
 #subscribe-newsletter img{
     width: 40px;
@@ -610,16 +611,25 @@ img {
 #subscribe-newsletter > h1 {
     font-size: 2rem;
 }
-#subscribe-newsletter > div{
-    margin-top: 20px;
-    border-bottom: 2px solid #FE8453;
-}
-#subscribe-newsletter .email-input{
-    /* border: 2px solid red; */
-    display: flex;
-    border-bottom: 2px solid #FE8453;
-}
-#subscribe-newsletter .email-input input {
-    border: none;
-}
 
+#email-input{
+    border: none;
+    margin-top: 20px;
+    padding: 5px 0;
+    /* border-bottom: 2px solid #FE8453; */
+    width: 89%;
+    outline: none;
+    
+}
+#email-subscription-submit-btn {
+    font-size: 1rem;
+    border: none;
+    background-color: white;
+    color: #FE8453;
+    cursor: pointer;
+}
+.email-input-box {
+    /* border: 3px solid red; */
+    width: 30%;
+    border-bottom: 2px solid #FE8453; 
+}
