@@ -244,7 +244,6 @@ img {
     .shop-by-art-style-heading {
         color: black;
         font-size: 2rem;
-         
     }
 
     .shop-by-art-style-image-boxes-wrapper {
@@ -258,6 +257,18 @@ img {
             grid-template-columns: 1fr 1fr;
             gap: 10px;
         }
+    }
+
+    .shop-by-art-style-image-box {
+        position: relative;
+    }
+    .shop-by-art-style-image-box-title {
+        /* border: 2px solid blue; */
+        position: absolute;
+        left: 7%;
+        bottom: 7%;
+        color: white;
+        font-weight: bold;
     }
 }
 
