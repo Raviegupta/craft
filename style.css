@@ -152,19 +152,21 @@ img {
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: #F5F4F2;
+    padding-right: 0;
 
     .proactive-artworks-left-side-sec-row-image-box {
         border: 1px solid #000; 
     } 
 
-    .proactive-artworks-left-side-sec-row-image-box img {
+    /* .proactive-artworks-left-side-sec-row-image-box img {
         border: 1px solid red;
-    }
+    } */
 
     .proactive-artworks-left-side-sec-row {
         display: grid;
         grid-template-columns: 10% 90%;
         margin: 5px 0;
+        gap: 10px;
         
 
         .proactive-artworks-left-side-sec-row-heading {
@@ -202,7 +204,7 @@ img {
         display: flex;
         width: 49%;
         background-color: white;
-        padding: 30px;
+        padding: 40px 30px;
         border-radius: 10px;
         box-shadow: 0 0 1px #000000;
         position: absolute;
