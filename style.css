@@ -790,3 +790,90 @@ img {
     }
 }
 /* -----------------CSS FOR HEADER ENDS HERE------------------*/
+
+/* -----------------CSS FOR HEADER ENDS HERE------------------*/
+.my-footer-main {
+    background-color: #000000;
+    /* border: 2px solid red; */
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 0;
+
+    .foot-col {
+        list-style-type: none;
+        margin-top: 0;
+    }
+    .foot-col h1 {
+        color: #FE8453;
+        font-family: Montserrat;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 50px; /* 250% */
+    }
+    .foot-col li a{
+        text-decoration: none;
+        color: #B3B3B3;
+        font-family: Montserrat;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px; /* 185.714% */
+    }
+    .col-5 {
+        border: 2px solid red;
+       
+        margin-top: 20px;
+        padding: 10px 30px 30px 30px;
+        border-radius: 10px;
+        background-color: #FE8453;
+        box-shadow:  0 0 3px;
+        text-align: center;
+    }
+    .col-5 h1 {
+        color: white;
+        font-weight: 600;
+        font-size: 1rem;
+      
+    }
+    .col-5 a button {
+        background-color: white;
+        color: #000;
+    }
+    
+}
+
+.my-footer-last {
+    background-color: #000000;
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    padding-top: 0px;
+
+    .my-footer-last-middle-part {
+        /* border: 2px solid red;  */
+        display: flex;
+        gap: 30px;
+        width: fit-content;
+       
+         
+    }
+    .my-footer-last-middle-part h1 {
+        color: white;
+        font-size: 1rem;
+    }
+
+    .foot-social-media-icons {
+        display: flex;
+        gap: 10px;
+        /* border: 2px solid red; */  
+    }
+
+    #copyright-line p{
+        color: white;
+        padding: 10px;
+        font-size: 0.5rem;
+    }
+  
+}
+
