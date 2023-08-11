@@ -339,10 +339,9 @@ img {
 
 
 #shop-by-art-style {
-    /* border: 2px solid red; */
+    border: 3px solid blue;
     padding-top: 120px;
     padding-bottom: 20px;
-    background-color: #F0FAFF;
     background-color: #F0FAFF;
 
     .shop-by-art-style-heading {
@@ -351,6 +350,7 @@ img {
     }
 
     .shop-by-art-style-image-boxes-wrapper {
+        border: 3px solid red;
         padding: 40px 0;
         display: grid;
         gap: 10px;
@@ -358,64 +358,83 @@ img {
 
         #shop-by-art-style-image-box-3 {
             display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 10px;
+            grid-template-columns: 48% 48%;
+            column-gap: 5px;
         }
     }
 
     .shop-by-art-style-image-box {
         position: relative;
     }
+    
+}
+.shop-by-art-style-image-box-title {
+    /* border: 2px solid blue; */
+    position: absolute;
+    left: 7%;
+    bottom: 7%;
+    color: white;
+    font-weight: 900;
+    font-size: .9rem;
+}
+@media only screen and (max-width:768px) {
     .shop-by-art-style-image-box-title {
-        /* border: 2px solid blue; */
-        position: absolute;
-        left: 7%;
-        bottom: 7%;
-        color: white;
-        font-weight: bold;
+        font-size: .7rem;  
+    }
+}
+@media only screen and (max-width:768px) {
+    .shop-by-art-style-image-box-title {
+        font-size: .5rem;  
     }
 }
 
 
 
 #everything-about-collecting-art-section {
-    /* border: 5px solid blue; */
+    border: 3px solid blue;
     padding-top: 100px;
     padding-bottom: 100px;
+}
+.everything-about-collecting-art-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 
-    .everything-about-collecting-art-wrapper {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+    .everything-about-collecting-art-left-side {
+        /* border: 1px solid red; */
+        width: 100%; 
+    }
 
-        .everything-about-collecting-art-left-side {
-            /* border: 1px solid red; */
-            width: 100%; 
-        }
-
-        .everything-about-collecting-art-left-side h1 {
-            font-size: 2rem;
-        }
-        .everything-about-collecting-art-left-side p {
-            font-size: 0.8rem;
-        }
-        .everything-about-collecting-art-left-side :nth-child(3) {
-            margin-top: 5px;
-        }
-        .everything-about-collecting-art-left-side :nth-child(4) {
-            margin-bottom: 5px;
-        }
-        .everything-about-collecting-art-left-side button {
-            /* border: 2px solid blue; */
-            padding-left: 40px;
-            padding-right: 40px;
-            margin-top: 20px;
-        }
+    .everything-about-collecting-art-left-side h1 {
+        font-size: 2rem;
+    }
+    .everything-about-collecting-art-left-side p {
+        font-size: 0.8rem;
+    }
+    .everything-about-collecting-art-left-side :nth-child(3) {
+        margin-top: 5px;
+    }
+    .everything-about-collecting-art-left-side :nth-child(4) {
+        margin-bottom: 5px;
+    }
+    .everything-about-collecting-art-left-side button {
+        /* border: 2px solid blue; */
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-top: 20px;
     }
 
     .everything-about-collecting-art-right-side img {
         border-radius: 10px;
     }
 }
+@media only screen and (max-width:480px) {
+    .everything-about-collecting-art-wrapper {
+        border: 2px solid red;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}
+
 
 
 
@@ -464,8 +483,6 @@ img {
             margin-right: 0;
         }
 
-
-        
     }
     .everything-about-collecting-art-wrapper {
         /* border: 1px solid red; */
@@ -483,45 +500,51 @@ img {
 
 
 .meet-our-artists-section {
-    /* border: 2px solid blue; */
+    border: 2px solid blue;
     background-color: white;  
-     
 }
 .meet-our-artists-section h1 {
     font-size: 2rem;
 }
-
-
 #meet-our-artists-cards-wrapper {
-    /* border: 5px solid yellow; */
+    /* border: 3px solid red; */
     margin: 30px auto;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     gap: 15px;
-    /* flex-wrap: nowrap; */
-    .one-card-box-main-image img {
-        border-radius: 10px;
-    }
-
-    .artists-cards-one-card-box {
-        /* border: 2px solid blue; */
-        width: max-content;
-        position: relative;
-    
-    }
-    .artists-cards-icon-plus-tag-box {
-        /* border: 2px solid red; */
-        position: absolute;
-        bottom: 18px;
-        left: 10px;
-    }
-
-    .one-card-tag-heading {
-        color: white;
-    }
-    
 }
-
-
+.one-card-box-main-image img {
+    border-radius: 10px;
+}
+.artists-cards-one-card-box {
+    width: 178px;
+    /* border: 3px solid blue; */
+    position: relative;
+}
+.artists-cards-icon-plus-tag-box {
+    /* border: 2px solid red; */
+    position: absolute;
+    bottom: 18px;
+    left: 10px;
+}
+.one-card-icon-box img {
+    color: white;
+    background-color: white;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.one-card-tag-heading {
+    color: white;
+    font-size: 1rem;
+}
+@media only screen and (max-width:480px) {
+    .artists-cards-one-card-box {
+        width: 300px;
+        /* border: 3px solid blue; */
+        position: relative;
+    }
+}
 
 
 
@@ -543,7 +566,6 @@ img {
     }
 }
 
-
 .get-inspired-section-cards-wrapper {
     /* border: 2px solid blue; */
     margin: 35px auto;
@@ -556,8 +578,6 @@ img {
     /* border: 1px solid red; */
     position: relative;
     
-
-
     .get-inspired-section-one-card-image {
         border: 2px solid white;
     }
@@ -574,15 +594,12 @@ img {
         top: 20px;
         left: 20px;
     }
-
     .get-inspired-section-one-card-box-bottom-part {
         /* border: 2px solid red; */
         display: flex;
         position: absolute;
         bottom: 0;
     }
-
-
     .get-inspired-section-one-card-box-bottom-part .left-part {
         /* border: 2px solid tomato; */
         padding: 10px 15px;
@@ -602,6 +619,15 @@ img {
         padding: 10px;
     }
 }
+@media only screen and (max-width: 480px) {
+    .get-inspired-section-cards-wrapper {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+
 
 
 
