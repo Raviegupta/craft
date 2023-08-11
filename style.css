@@ -68,7 +68,7 @@ a {
 .banner-slider {
     position: relative;
     width: 100%;
-    max-width: 1250px;
+    /* max-width: 1250px; */
     margin: 0 auto;
     overflow: hidden;
 }
