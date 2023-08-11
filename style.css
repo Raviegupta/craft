@@ -245,7 +245,7 @@ img {
 
 /* continue... */
 #curative-for-you {
-    /* border: 3px solid red;     */
+    border: 3px solid red;    
     position: relative;
 
     .curative-for-you-image-boxes-wrapper {
@@ -257,38 +257,85 @@ img {
         }
     }
 
-    #curated-for-you-popup {
-        display: flex;
-        width: 49%;
-        background-color: white;
-        padding: 40px 30px;
-        border-radius: 10px;
-        box-shadow: 0 0 1px #000000;
-        position: absolute;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        
-        .curated-for-you-popup-left-side h1 {
-            font-family: sans-serif;
-            font-weight: bolder;
-        }
-        .curated-for-you-popup-left-side p {
-            font-size: .75rem;
-            padding-top: 3px;
-            
-        }
-
-        /* .curated-for-you-popup-right-side button {
-            padding: 10px 20px;
-            border-radius: 57px;
-            background: #FE8453;
-            border: none;
-            color: white;
-            font-weight: 600;
-        } */
+    .curated-for-you-popup-left-side {
+        border: 1px solid red;
+        margin-right: 20px;
     }
-
 }
+#curated-for-you-popup {
+    display: flex;
+    width: 49%;
+    background-color: white;
+    padding: 40px 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 1px #000000;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    .curated-for-you-popup-left-side h1 {
+        font-family: sans-serif;
+        font-weight: bolder;
+    }
+    .curated-for-you-popup-left-side p {
+        font-size: .75rem;
+        padding-top: 3px;           
+    }
+    /* .curated-for-you-popup-right-side button {
+        padding: 10px 20px;
+        border-radius: 57px;
+        background: #FE8453;
+        border: none;
+        color: white;
+        font-weight: 600;
+    } */
+}
+
+
+@media only screen and (max-width: 768px) {
+    #curated-for-you-popup {
+        border: 2px solid black;
+        width: 70%;
+        padding: 10px 20px; 
+    }
+    .curated-for-you-popup-right-side button {
+        padding: 15px 20px;
+        border-radius: 57px;
+        background: #FE8453;
+        border: none;
+        color: white;
+        font-weight: 600;
+        font-size: 0.7rem;
+    }
+}
+@media only screen and (max-width: 480px) {
+    #curated-for-you-popup {
+        border: 2px solid black;
+        width: 80%;
+        padding: 10px 20px; 
+    }
+    .curated-for-you-popup-right-side button {
+        padding: 15px 20px;
+        border-radius: 57px;
+        background: #FE8453;
+        border: none;
+        color: white;
+        font-weight: 600;
+        font-size: 0.6rem;
+    }
+    .curated-for-you-popup-left-side h1 {
+        font-size: 1rem;
+    }
+}
+
+
+
+
+
+
+
+
+
 
 
 #shop-by-art-style {
