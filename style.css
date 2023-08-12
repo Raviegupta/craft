@@ -1,17 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
 /* GLOBAL STYLING */
 *{
     padding: 0;
     margin: auto;
     box-sizing: border-box;
-    font-family: 'montserrat';
-    color: #000000;
+    font-family: 'Montserrat', sans-serif;
 }
 .text-align-center {
     text-align: center;
 }
 .section-padding-left-right {
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 75px;
+    padding-right: 75px;
 }
 .section-padding-top-bottom {
     padding-top: 20px;
@@ -35,8 +36,8 @@ a {
 
 @media only screen and (max-width: 1024px){
     .section-padding-left-right {
-        padding-left: 75px;
-        padding-right: 75px;
+        padding-left: 50px;
+        padding-right: 50px;
     }
 }
 @media only screen and (max-width: 768px){
@@ -108,23 +109,25 @@ img {
 
 
 /* CSS STYLING For Home-Page Artwork Trending Now Section & Curator's fresh pick of the week Section*/
-/* .artwork-tending-now-1 {
+.artwork-tending-now-1 {
     border: 3px solid blue;
-} */
+}
 .artwork-tending-now-2 {
     /* border: 3px solid tomato; */
     background-color: #fffdf5;
 }
 .artwork-tending-now-heading {
    /* border: 2px solid red;  */
-   padding-bottom: 10px;
+   font-size: 32px;
+}
+.artwork-tending-now-para {
+    font-size: 14px;
 }
 .artwork-tending-now-image-display-box {
     .wrapper-image-cards {
-        /* border: 2px solid red; */
+        border: 2px solid red;
         display: flex; 
         justify-content: space-between;
-        /* width: 85%; */
         row-gap: 10px;
         column-gap: 10px;
         flex-wrap: wrap;
@@ -170,7 +173,12 @@ img {
         color: #000000;
     }
 }
-
+@media only screen and (max-width: 480px) {
+    .single-image-box {
+        border: 1px solid red;
+        width: 40%;
+    }
+}
 
 
 /* CSS STYLING For Home-Page PROCURE ARTWORKS's Section*/
