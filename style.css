@@ -63,8 +63,8 @@ a {
 
 
 
-/* -----------------CSS FOR HOME PAGE STARTS HERE---------------------*/
-/* STYLING FOR BANNER SECTION */
+/* ============================ CSS FOR HOME PAGE STARTS HERE =========================== */
+/* CSS STYLING FOR HOME-PAGE BANNER SECTION */
 .banner-slider {
     position: relative;
     width: 100%;
@@ -104,7 +104,7 @@ img {
 
 
 
-/* CSS STYLING For Home-Page Artwork Trending Now Section and Curator's fresh pick of the week Section*/
+/* CSS STYLING For Home-Page Artwork Trending Now Section & Curator's fresh pick of the week Section*/
 /* .artwork-tending-now-1 {
     border: 3px solid blue;
 } */
@@ -170,9 +170,7 @@ img {
 
 
 
-
-
-/* CSS STYLING For Home-Page Proactive Artwork's Section*/
+/* CSS STYLING For Home-Page PROCURE ARTWORKS's Section*/
 #proactive-artworks {
     /* border: 3px solid blue; */
     display: grid;
@@ -241,9 +239,7 @@ img {
 
 
 
-
-
-/* continue... */
+/* CSS STYLING For Home-Page CURATED FOR YOU Section*/
 #curative-for-you {
     /* border: 3px solid red;     */
     position: relative;
@@ -290,8 +286,6 @@ img {
         font-weight: 600;
     } */
 }
-
-
 @media only screen and (max-width: 768px) {
     #curated-for-you-popup {
         /* border: 2px solid black; */
@@ -330,14 +324,7 @@ img {
 
 
 
-
-
-
-
-
-
-
-
+/* CSS STYLING For Home-Page SHOP BY ART STYLE Section*/
 #shop-by-art-style {
     /* border: 3px solid blue; */
     padding-top: 120px;
@@ -361,7 +348,6 @@ img {
     grid-template-columns: 48% 48%;
     column-gap: 5px;
 }
-
 .shop-by-art-style-image-box {
     position: relative;
 }
@@ -396,9 +382,7 @@ img {
 
 
 
-
-
-
+/* CSS STYLING For Home-Page Everything About Collecting Art Section */
 #everything-about-collecting-art-section {
     /* border: 3px solid blue; */
     padding-top: 100px;
@@ -446,7 +430,7 @@ img {
 
 
 
-
+/* CSS STYLING For Home-Page ARTWORK PRICE RANGE Section */
 .artwork-price-range-section {
     background-color: #FFFDF5;
     
@@ -501,13 +485,7 @@ img {
 
 
 
-
-
-
-
-
-
-
+/* CSS STYLING Home-Page MEET OUR ARTISTS Section */
 .meet-our-artists-section {
     /* border: 2px solid blue; */
     background-color: white;  
@@ -565,12 +543,7 @@ img {
 
 
 
-
-
-
-
-
-
+/* CSS STYLING Home-Page GET INSPIRED Section */
 #get-inspired-section {
     /* border: 5px solid blue; */
     background-color: #fafafa;
@@ -646,12 +619,7 @@ img {
 
 
 
-
-
-
-
-
-
+/* CSS STYLING Home-Page WHY SHOP WITH US Section */
 #why-shop-with-us {
     /* border: 2px solid blue; */
     background-color: #f1faff;
@@ -751,11 +719,7 @@ img {
 
 
 
-
-
-
-
-
+/* CSS STYLING For Home-Page PROCURE ARTWORKS's Section */
 #follow-us-on-insta {
     /* border: 1px solid red; */
     padding: 60px 0;
@@ -783,10 +747,7 @@ img {
 }
 
 
-
-
-
-
+/* CSS STYLING For Home-Page SUBSCRIBE NEWSLETTER Section */
 #subscribe-newsletter {
     /* border: 3px solid blue; */
     display: flex;
@@ -835,9 +796,7 @@ img {
         border-bottom: 2px solid #FE8453; 
     }
 }
-/* -----------------CSS FOR HOME PAGE ENDS HERE---------------------*/
-
-
+/* ============================ CSS FOR HOME PAGE ENDS HERE =========================== */
 
 
 
