@@ -902,92 +902,6 @@ img {
 
 
 
-
-
-
-
-
-
-
-
-
-
-/* -----------------CSS FOR PRODUCT LISTING PAGE STARTS HERE---------------------*/
-.plp-products-display-box {
-
-    .plp-products-wrapper-cards {
-        /* border: 5px solid red; */
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        place-items: center;
-        /* width: 65%; */
-        row-gap: 30px;
-        /* flex-wrap: wrap; */
-        padding: 20px 0;
-    }
-    .plp-products-image-wrapper > img {
-        border: 4px solid black;   
-        padding: 3px;
-    }
-    /* this is for positioning the whislist */
-    .plp-products-image-and-whislist-wrapper {
-        position: relative;
-    }
-    .plp-products-whislist-wrapper {
-        position: absolute; 
-        bottom: 15px;
-        right: 15px;
-    }
-
-
-
-    .plp-products-image-details-text-box {
-        border: 3px solid white;
-    }
-    .plp-products-image-details-text-box h5 {
-        font-size: 0.7rem;
-        /* border: 1px solid red; */
-        height: 20px;
-    }
-
-
-
-
-    .plp-products-single-image-box-para-1 {
-        font-size: 0.75rem;
-        color: gray;
-    }
-    .plp-products-single-image-box-para-2 {
-        font-size: 0.8rem;
-        color: gray;
-    }
-    .plp-products-single-image-box-para-3 {
-        font-size: 0.8rem;
-        color: #000000;
-    }
-}
-
-
-#plp-left-side-bar-section {
-    /* border: 2px solid red; */
-    width: 20%;
-}
-/* -----------------CSS FOR PRODUCT LISTING PAGE PAGE ENDS HERE------------------*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* -----------------CSS FOR HEADER STARTS HERE------------------*/
 .my-header {
     /* border: 3px solid red; */
@@ -1151,3 +1065,83 @@ img {
   
 }
 /* -----------------CSS FOR FOOTER STARTS HERE------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -----------------CSS FOR PRODUCT LISTING PAGE STARTS HERE---------------------*/
+.plp-products-display-box {
+
+    .plp-products-wrapper-cards {
+        /* border: 5px solid red; */
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        place-items: center;
+        /* width: 65%; */
+        row-gap: 30px;
+        /* flex-wrap: wrap; */
+        padding: 20px 0;
+    }
+    .plp-products-image-wrapper > img {
+        border: 4px solid black;   
+        padding: 3px;
+    }
+    /* this is for positioning the whislist */
+    .plp-products-image-and-whislist-wrapper {
+        position: relative;
+    }
+    .plp-products-whislist-wrapper {
+        position: absolute; 
+        bottom: 15px;
+        right: 15px;
+    }
+
+
+
+    .plp-products-image-details-text-box {
+        border: 3px solid white;
+    }
+    .plp-products-image-details-text-box h5 {
+        font-size: 0.7rem;
+        /* border: 1px solid red; */
+        height: 20px;
+    }
+
+
+
+
+    .plp-products-single-image-box-para-1 {
+        font-size: 0.75rem;
+        color: gray;
+    }
+    .plp-products-single-image-box-para-2 {
+        font-size: 0.8rem;
+        color: gray;
+    }
+    .plp-products-single-image-box-para-3 {
+        font-size: 0.8rem;
+        color: #000000;
+    }
+}
+
+
+#plp-left-side-bar-section {
+    /* border: 2px solid red; */
+    width: 20%;
+}
+/* -----------------CSS FOR PRODUCT LISTING PAGE PAGE ENDS HERE------------------*/
