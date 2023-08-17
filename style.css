@@ -1087,6 +1087,15 @@ img {
 /* -----------------CSS FOR PRODUCT LISTING PAGE STARTS HERE---------------------*/
 
 /* -----------------CSS FOR PRODUCT LISTING PAGE PAGE ENDS HERE------------------*/
+.plp-main-display {
+    border: 2px  solid red;
+    width: 80%;
+    margin-right: 0;
+}
+
+
+
+
 
 /* CSS STYLING For Home-Page Artwork Trending Now Section & Curator's fresh pick of the week Section*/
 .plp {
@@ -1227,3 +1236,48 @@ img {
 
 
 
+
+
+
+
+
+
+/* Accordian */
+.accordion {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    /* border: 1px solid #ccc; */
+  }
+  
+  .accordion-section {
+    /* border-top: 1px solid #ccc; */
+    background-color: #F5F2E2;
+    border-radius: 5px;
+    margin: 5px;
+  }
+  
+  .accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    /* background-color: #F5F2E2; */
+    cursor: pointer;
+  }
+
+  .accordion-header-question {
+    margin-left: 0;
+  }
+  .accordion-icon {
+    margin-right: 0;
+  }
+  
+  .accordion-content {
+    display: none;
+    padding: 10px;
+  }
+  
+  .active {
+    display: block;
+  }
