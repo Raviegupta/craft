@@ -1085,63 +1085,145 @@ img {
 
 
 /* -----------------CSS FOR PRODUCT LISTING PAGE STARTS HERE---------------------*/
-.plp-products-display-box {
 
-    .plp-products-wrapper-cards {
-        /* border: 5px solid red; */
+/* -----------------CSS FOR PRODUCT LISTING PAGE PAGE ENDS HERE------------------*/
+
+/* CSS STYLING For Home-Page Artwork Trending Now Section & Curator's fresh pick of the week Section*/
+.plp {
+    border: 3px solid blue;
+}
+.plp-heading {
+   /* border: 2px solid red;  */
+   font-size: 32px;
+}
+.plp-para {
+    font-size: 16px;
+}
+
+.plp-cards {
+    /* border: 2px solid red; */
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-width: 1200px;
+    cursor: pointer;
+}
+.plp-single-image-box {
+    /* border: 2px solid gray; */
+    /* height: 300px; */
+    display: grid;
+    grid-template-rows: 60% 40%;
+    gap: 5px;
+}
+/* .plp-single-image-box-image-wrapper {
+    border: 1px solid blue;
+} */
+.plp-single-image-box-text-box {
+    width: 100%;
+    margin-left: 0;
+}
+
+.plp-single-image-box-image-wrapper > img {
+    height: fit-content;
+    border: 4px solid black;
+    padding: 3px;
+    cursor: pointer;
+}
+
+
+.plp-image-details-text-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid red; */
+    width: 100%;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    margin-top: 3px;
+}
+
+.plp-image-details-text-box h5 {
+    /* border: 1px solid red; */
+    font-size: 0.6rem;
+    margin-left: 0;
+}
+.plp-image-details-text-box-whislist-box{
+    display: flex;
+    /* border: 2px solid green; */
+    margin-right: 0;
+    width: 30px;
+    cursor: pointer;
+}
+
+.plp-single-image-box-para-1 {
+    font-size: 0.75rem;
+    color: gray;
+    line-height: 16px;
+}
+.plp-single-image-box-para-2 {
+    font-size: 0.8rem;
+    color: gray;
+    line-height: 16px;
+}
+.plp-single-image-box-para-3 {
+    font-size: 0.8rem;
+    color: #000000;
+    line-height: 20px;
+}
+@media only screen and (max-width: 480px) {
+    .plp-artwork-tending-now-1 {
+        /* border: 3px solid red; */
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .plp-cards {
+        /* border: 1px solid blue; */
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        place-items: center;
-        /* width: 65%; */
-        row-gap: 30px;
-        /* flex-wrap: wrap; */
-        padding: 20px 0;
+        grid-template-columns: 50% 50%;
+        gap: 0px;
     }
-    .plp-products-image-wrapper > img {
-        border: 4px solid black;   
-        padding: 3px;
+    .plp-single-image-box {
+        border: 1px solid rgb(224, 212, 212);
+        height: 350px;
+        width: 100%;
+        display: grid;
+        grid-template-rows: 70% 30%;
+        /* border-top: 10px solid red; */
+        padding: 20px;
     }
-    /* this is for positioning the whislist */
-    .plp-products-image-and-whislist-wrapper {
+    .plp-artwork-tending-now-heading  {
+        /* border: 2px solid red; */
+        font-size: 1.5rem;
+    }
+    .plp-artwork-tending-now-para {
+        font-size: 11px;
+    }
+    .plp-image-details-text-box {
+        /* border: 1px solid red; */
+        width: 100%;
+    }
+    .plp-single-image-box-text-box {
+        /* border: 1px solid blue; */
+        width: 100%;
         position: relative;
     }
-    .plp-products-whislist-wrapper {
-        position: absolute; 
-        bottom: 15px;
-        right: 15px;
-    }
-
-
-
-    .plp-products-image-details-text-box {
-        border: 3px solid white;
-    }
-    .plp-products-image-details-text-box h5 {
-        font-size: 0.7rem;
+    .plp-image-details-text-box-whislist-box {
         /* border: 1px solid red; */
-        height: 20px;
+        position: absolute;
+        bottom: -10px;
+        right: 0px;
     }
-
-
-
-
-    .plp-products-single-image-box-para-1 {
-        font-size: 0.75rem;
-        color: gray;
+    .plp-image-details-text-box-heading {
+        font-size: 0.9rem;
+        width: 100%;
+        line-height: 20px;
     }
-    .plp-products-single-image-box-para-2 {
-        font-size: 0.8rem;
-        color: gray;
-    }
-    .plp-products-single-image-box-para-3 {
-        font-size: 0.8rem;
-        color: #000000;
+    .plp-single-image-box-text-box p {
+        line-height: 18px;
     }
 }
 
 
-#plp-left-side-bar-section {
-    /* border: 2px solid red; */
-    width: 20%;
-}
-/* -----------------CSS FOR PRODUCT LISTING PAGE PAGE ENDS HERE------------------*/
+
