@@ -561,6 +561,12 @@ img {
         /* border: 1px solid red; */
         gap: 60px;
     }
+
+    .artwork-price-range-one-tab-price-row h3 {
+        text-decoration: none;
+        /* background-color: red; */
+        color: black;
+    }
 }
 
 
