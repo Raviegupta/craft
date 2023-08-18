@@ -13,6 +13,7 @@
   }
 
   .filter-bar {
+    border: 3px solid red;
     /* flex: 1; */
     width: 20%; /* Set the width of the sidebar */
     padding: 10px;
@@ -27,6 +28,7 @@
   }
 
   .filter-label {
+    /* border: 1px solid red; */
     display: block;
     padding: 10px;
     cursor: pointer;
@@ -82,29 +84,54 @@
     border: 4px solid rgb(232, 219, 219);
     border-color: white;
   }
+
+  /* Color filter */
+  .color-filter {
+      display: none;
+      padding: 10px;
+    }
+
+    .color-option {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      margin-right: 5px;
+      /* border-radius: 50%; */
+      cursor: pointer;
+    }
+</style>
+<style>
+  .filter-label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 </style>
 </head>
 <body>
 <div class="page-container">
   <div class="filter-bar">
-    <div class="filter">
-      <div class="filter-label" onclick="toggleFilter('mediumFilter')">
-        MEDIUM
-      </div>
-      <div class="filter-options" id="mediumFilter">
-        <div class="filter-option">
-          <input type="checkbox" id="mediumOil">
-          <label for="mediumOil">Oil</label>
+
+    <div class="filter filter-accordian-section">
+        <div class="filter-label filter-accordian-header" onclick="toggleFilter('mediumFilter')">
+            <h4 class="filter-accordion-title">MEDIUM</h4>
+            <span class="filter-accordion-icon"><img src="../images/Accordian-Arrow-down.png" alt="" style="width: 12px;"></span>
         </div>
-        <div class="filter-option">
-          <input type="checkbox" id="mediumAcrylic">
-          <label for="mediumAcrylic">Acrylic</label>
+        <div class="filter-options filter-content" id="mediumFilter">
+            <div class="filter-option">
+                <input type="checkbox" id="mediumOil">
+                <label for="mediumOil">Oil</label>
+            </div>
+            <div class="filter-option">
+                <input type="checkbox" id="mediumAcrylic">
+                <label for="mediumAcrylic">Acrylic</label>
+            </div>
+            <!-- Add more medium options here -->
         </div>
-        <!-- Add more medium options here -->
-      </div>
     </div>
-    <div class="filter">
-      <div class="filter-label" onclick="toggleFilter('styleFilter')">
+
+    <div class="filter filter-accordian-section">
+      <div class="filter-label filter-accordian-header" onclick="toggleFilter('styleFilter')">
         ARTIST
       </div>
       <div class="filter-options" id="styleFilter">
@@ -119,7 +146,7 @@
         <!-- Add more style options here -->
       </div>
     </div>
-    <div class="filter">
+    <div class="filter filter-accordian-section">
       <div class="filter-label" onclick="toggleFilter('subjectFilter')">
         SUBJECT
       </div>
@@ -135,7 +162,7 @@
         <!-- Add more subject options here -->
       </div>
     </div>
-    <div class="filter">
+    <div class="filter filter-accordian-section">
       <div class="filter-label" onclick="toggleFilter('artistFilter')">
         ARTIST
       </div>
@@ -151,9 +178,9 @@
         <!-- Add more artist options here -->
       </div>
     </div>
-    <div class="filter">
+    <div class="filter filter-accordian-section">
       <div class="filter-label" onclick="toggleFilter('surfaceFilter')">
-        SURFECE
+        SURFACE
       </div>
       <div class="filter-options" id="surfaceFilter">
         <div class="filter-option">
@@ -167,7 +194,7 @@
         <!-- Add more surface options here -->
       </div>
     </div>
-    <div class="filter">
+    <div class="filter filter-accordian-section">
       <div class="filter-label" onclick="toggleFilter('sizeFilter')">
         SIZE
       </div>
@@ -183,7 +210,7 @@
         <!-- Add more size options here -->
       </div>
     </div>
-    <div class="filter">
+    <div class="filter filter-accordian-section">
       <div class="filter-label" onclick="toggleFilter('sizeFilter')">
         ORIENTATION
       </div>
@@ -200,15 +227,36 @@
       </div>
     </div>
     <!-- ... (previous HTML code) ... -->
-    <div class="filter">
-        <div class="filter-label" onclick="toggleFilter('colorFilter')">
+  
+    <!-- Color filter -->
+    <div class="filter filter-accordian-section">
+      <div class="filter-label" onclick="toggleFilter('colorFilter')">
         COLOR
-        </div>
-        <div class="filter-options" id="colorFilter">
+      </div>
+      <div class="filter-options color-filter" id="colorFilter">
         <div class="filter-option">
-            <input type="color" id="colorPicker">
+          <div class="color-option" style="background-color: red;"></div>
+          <div class="color-option" style="background-color: green;"></div>
+          <div class="color-option" style="background-color: blue;"></div>
+          <div class="color-option" style="background-color: #ffffff;"></div>
+          <div class="color-option" style="background-color: #c8c8c8;"></div>
+          <div class="color-option" style="background-color: #a7194b;"></div>
+          <div class="color-option" style="background-color: #fe2712;"></div>
+          <div class="color-option" style="background-color: #fb9902;"></div>
+          <div class="color-option" style="background-color: #fabc02;"></div>
+          <div class="color-option" style="background-color: #ffebcd;"></div>
+          <div class="color-option" style="background-color: #fefe33;"></div>
+          <div class="color-option" style="background-color: #d0ea2b;"></div>
+          <div class="color-option" style="background-color: #66b032;"></div>
+          <div class="color-option" style="background-color: #0391ce;"></div>
+          <div class="color-option" style="background-color: #0247fe;"></div>
+          <div class="color-option" style="background-color: #3d01a5;"></div>
+          <div class="color-option" style="background-color: #8601af;"></div>
+          <div class="color-option" style="background-color: #000000;"></div>
+          <div class="color-option" style="background-color: #6e3300;"></div>
+          <!-- Add more color options here -->
         </div>
-        </div>
+      </div>
     </div>
   <!-- ... (continue with the rest of your HTML code) ... -->
   
@@ -219,6 +267,9 @@
     <!-- Display your product items here -->
   </div>
 </div>
+
+
+
 
 <script>
   // JavaScript logic for filtering products based on selected filters
@@ -233,8 +284,9 @@
   const sizeSmall = document.getElementById('sizeSmall');
   const sizeMedium = document.getElementById('sizeMedium');
 
-  const colorPicker = document.getElementById('colorPicker');
-  // Add more filter elements here
+  const colorOptions = document.querySelectorAll('.color-option'); // Select all color options
+
+  
 
   // Example product data (replace with actual product data)
   const products = [
@@ -305,22 +357,7 @@
     }
   }
 
-  // Function to apply filters and update product list
-function updateProductList() {
-  const filteredProducts = products.filter(product => {
-    // ... (previous filter conditions)
-
-    const selectedColor = colorPicker.value;
-    const productColor = product.color; // Replace 'color' with your actual product attribute
-
-    return (
-      // ... (previous filter conditions) &&
-      (!selectedColor || selectedColor === productColor)
-    );
-  });
-
-  // ... (previous updateProductList logic)
-}
+ 
 
   // Event listeners for filter changes
   mediumOil.addEventListener('change', updateProductList);
@@ -335,8 +372,36 @@ function updateProductList() {
   sizeMedium.addEventListener('change', updateProductList);
   // Add event listeners for other filters
 
+  // Event listener for color options
+  colorOptions.forEach(option => {
+    option.addEventListener('click', () => {
+      // Apply color filter here
+      updateProductList();
+    });
+  });
+
   // Initial update of the product list
   updateProductList();
 </script>
+
+<!-- <script>
+  const filterAccordionSections = document.querySelectorAll('.filter-accordion-section');
+  console.log(filterAccordionSections);
+
+  filterAccordionSections.forEach(section => {
+    const headerFilter = section.querySelector('.filter-accordion-header');
+    const contentFilter = section.querySelector('.filter-content');
+    const icon = section.querySelector('.filter-accordion-icon');
+
+    headerFilter.addEventListener('click', () => {
+      contentFilter.classList.toggle('active');
+      if (contentFilter.classList.contains('active')) {
+          icon.innerHTML = '<img src="../images/Accordian-Arrow-up.png" alt="Up Arrow" style="width: 12px;">';
+      } else {
+          icon.innerHTML = '<img src="../images/Accordian-Arrow-down.png" alt="Up Arrow" style="width: 12px;">';
+      }
+    });
+  });
+</script> -->
 </body>
 </html>
