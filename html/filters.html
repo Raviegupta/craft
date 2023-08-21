@@ -106,49 +106,37 @@
     justify-content: space-between;
     align-items: center;
   }
+  .filter-accordian-header {
+    background-color: red;
+  }
 </style>
 </head>
 <body>
 <div class="page-container">
+
   <div class="filter-bar">
-
+    
     <div class="filter filter-accordian-section">
-        <div class="filter-label filter-accordian-header" onclick="toggleFilter('mediumFilter')">
-            <h4 class="filter-accordion-title">MEDIUM</h4>
-            <span class="filter-accordion-icon"><img src="../images/Accordian-Arrow-down.png" alt="" style="width: 12px;"></span>
-        </div>
-        <div class="filter-options filter-content" id="mediumFilter">
-            <div class="filter-option">
-                <input type="checkbox" id="mediumOil">
-                <label for="mediumOil">Oil</label>
-            </div>
-            <div class="filter-option">
-                <input type="checkbox" id="mediumAcrylic">
-                <label for="mediumAcrylic">Acrylic</label>
-            </div>
-            <!-- Add more medium options here -->
-        </div>
-    </div>
-
-    <div class="filter filter-accordian-section">
-      <div class="filter-label filter-accordian-header" onclick="toggleFilter('styleFilter')">
-        ARTIST
+      <div class="filter-label" onclick="toggleFilter('mediumFilter')">
+        <h4>MEDIUM</h4>
+        <span class="accordion-icon"><img src="../images/Accordian-Arrow-down.png" alt="" style="width: 12px;"></span>
       </div>
-      <div class="filter-options" id="styleFilter">
+      <div class="filter-options" id="mediumFilter">
         <div class="filter-option">
-          <input type="checkbox" id="styleAbstract">
-          <label for="styleAbstract">Abstract</label>
+          <input type="checkbox" id="subjectLandscape">
+          <label for="subjectLandscape">Landscape</label>
         </div>
         <div class="filter-option">
-          <input type="checkbox" id="styleRealism">
-          <label for="styleRealism">Realism</label>
+          <input type="checkbox" id="subjectPortrait">
+          <label for="subjectPortrait">Portrait</label>
         </div>
-        <!-- Add more style options here -->
+        <!-- Add more subject options here -->
       </div>
     </div>
     <div class="filter filter-accordian-section">
       <div class="filter-label" onclick="toggleFilter('subjectFilter')">
-        SUBJECT
+        <h4>SUBJECT</h4>
+        <span class="accordion-icon"><img src="../images/Accordian-Arrow-down.png" alt="" style="width: 12px;"></span>
       </div>
       <div class="filter-options" id="subjectFilter">
         <div class="filter-option">
@@ -197,22 +185,6 @@
     <div class="filter filter-accordian-section">
       <div class="filter-label" onclick="toggleFilter('sizeFilter')">
         SIZE
-      </div>
-      <div class="filter-options" id="sizeFilter">
-        <div class="filter-option">
-          <input type="checkbox" id="sizeSmall">
-          <label for="sizeSmall">Small</label>
-        </div>
-        <div class="filter-option">
-          <input type="checkbox" id="sizeMedium">
-          <label for="sizeMedium">Medium</label>
-        </div>
-        <!-- Add more size options here -->
-      </div>
-    </div>
-    <div class="filter filter-accordian-section">
-      <div class="filter-label" onclick="toggleFilter('sizeFilter')">
-        ORIENTATION
       </div>
       <div class="filter-options" id="sizeFilter">
         <div class="filter-option">
@@ -285,6 +257,8 @@
   const sizeMedium = document.getElementById('sizeMedium');
 
   const colorOptions = document.querySelectorAll('.color-option'); // Select all color options
+  const icon = document.querySelector('.accordion-icon');
+  console.log(icon);
 
   
 
@@ -384,24 +358,7 @@
   updateProductList();
 </script>
 
-<!-- <script>
-  const filterAccordionSections = document.querySelectorAll('.filter-accordion-section');
-  console.log(filterAccordionSections);
 
-  filterAccordionSections.forEach(section => {
-    const headerFilter = section.querySelector('.filter-accordion-header');
-    const contentFilter = section.querySelector('.filter-content');
-    const icon = section.querySelector('.filter-accordion-icon');
 
-    headerFilter.addEventListener('click', () => {
-      contentFilter.classList.toggle('active');
-      if (contentFilter.classList.contains('active')) {
-          icon.innerHTML = '<img src="../images/Accordian-Arrow-up.png" alt="Up Arrow" style="width: 12px;">';
-      } else {
-          icon.innerHTML = '<img src="../images/Accordian-Arrow-down.png" alt="Up Arrow" style="width: 12px;">';
-      }
-    });
-  });
-</script> -->
 </body>
 </html>

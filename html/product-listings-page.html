@@ -679,9 +679,9 @@
         const accordionSections = document.querySelectorAl('.accordion-section');
       
         accordionSections.forEach(section => {
-          const header = section.querySelector('.accordion-header');
-          const content = section.querySelector('.accordion-content');
-          const icon = section.querySelector('.accordion-icon');
+          const header = document.querySelector('.accordion-header');
+          const content = document.querySelector('.accordion-content');
+          const icon = document.querySelector('.accordion-icon');
       
           header.addEventListener('click', () => {
             content.classList.toggle('active');
