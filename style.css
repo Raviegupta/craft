@@ -1780,7 +1780,9 @@ img {
 /* CSS STYLING Home-Page MEET OUR ARTISTS Section */
 .meet-our-artists-section {
     /* border: 2px solid blue; */
-    background-color: white;  
+    background-color: white; 
+    padding-top: 60px; 
+    padding-bottom: 60px; 
 }
 .meet-our-artists-section h1 {
     font-size: 2rem;
@@ -1789,15 +1791,17 @@ img {
     /* border: 3px solid red; */
     margin: 30px auto;
     display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
+    flex-wrap: nowrap;
+    gap: 10px;
 }
+/* .one-card-box-main-image {
+    width: 125%;
+} */
 .one-card-box-main-image img {
     border-radius: 10px;
+    width: 100%;
 }
 .artists-cards-one-card-box {
-    width: 178px;
-    /* border: 3px solid blue; */
     position: relative;
 }
 .artists-cards-icon-plus-tag-box {
@@ -1816,22 +1820,77 @@ img {
     color: white;
     font-size: 1rem;
 }
-@media only screen and (max-width:480px) {
+@media only screen and (max-width: 2560px) and (min-width: 1400px) {  
+    .meet-our-artists-section {
+        /* border: 2px solid blue; */
+        background-color: white; 
+        padding-top: 100px; 
+        padding-bottom: 100px; 
+    }
+    .meet-our-artists-section h1 {
+        font-size: 3rem;
+    }
+}
+@media only screen and (max-width: 1000px) and (min-width: 850px) {  
+    .meet-our-artists-section {
+        /* border: 2px solid blue; */
+        background-color: white; 
+        padding-top: 60px; 
+        padding-bottom: 60px; 
+    }
+    .meet-our-artists-section h1 {
+        font-size: 2rem;
+    }
+    .one-card-tag-heading {
+        color: white;
+        font-size: 0.7rem;
+        /* font-weight: normal; */
+        letter-spacing: 1.5;
+    }
+    #meet-our-artists-cards-wrapper {
+        gap: 10px;
+    }
+}
+@media only screen and (max-width: 850px) and (min-width: 600px) {  
+    .meet-our-artists-section {
+        /* border: 2px solid blue; */
+        background-color: white; 
+        padding-top: 60px; 
+        padding-bottom: 60px; 
+    }
+    .meet-our-artists-section h1 {
+        font-size: 2rem;
+    }
+    .one-card-tag-heading {
+        color: white;
+        font-size: 0.5rem;
+        font-weight: normal;
+        letter-spacing: 1.5;
+    }
+    #meet-our-artists-cards-wrapper {
+        gap: 10px;
+    }
+}
+
+
+@media only screen and (max-width:600px) and (min-width: 320px) {
     #meet-our-artists-cards-wrapper {
         width: 100%;
         display: flex;
         flex-wrap: nowrap;
         overflow-x: scroll;
+        gap: 0px;
     }
     .one-card-box-main-image img {
         border-radius: 10px;
-        width: 170px;
+        width: 200px;
     }
     .artists-cards-one-card-box {
         /* border: 3px solid blue; */
         margin: 10px;
     }
 }
+
 
 
 
