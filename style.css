@@ -1135,30 +1135,43 @@ img {
 /* *********************************************************************************************************** */
 /* *********************************************************************************************************** */
 
-/* to be continue .................................... */
+/* work is started .................................... */
 /* CSS STYLING For Home-Page SHOP BY ART STYLE Section*/
 #shop-by-art-style {
-    /* border: 3px solid blue; */
+    border: 10px solid blue;
     padding-top: 120px;
     padding-bottom: 20px;
     background-color: #F0FAFF;
-
-    .shop-by-art-style-heading {
-        color: black;
-        font-size: 2rem;
-    }    
 }
+.shop-by-art-style-heading {
+    color: black;
+    font-size: 2rem;
+}   
 .shop-by-art-style-image-boxes-wrapper {
-    /* border: 3px solid red; */
     padding: 40px 0;
     display: grid;
-    gap: 10px;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 15px;
 }
-#shop-by-art-style-image-box-3 {
-    display: grid;
-    grid-template-columns: 48% 48%;
-    column-gap: 5px;
+.shop-by-art-style-image-box {
+    width: 100%;
+}
+.shop-by-art-style-image-box  img {
+    border-radius: 10px;
+    width: 100%;
+}
+.shop-by-art-style-image-box-1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.shop-by-art-style-image-box-2 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+
 }
 .shop-by-art-style-image-box {
     position: relative;
@@ -1169,26 +1182,143 @@ img {
     left: 7%;
     bottom: 7%;
     color: white;
-    font-weight: 900;
-    font-size: .9rem;
 }
-@media only screen and (max-width:768px) {
+
+@media only screen and (max-width: 2560px) and (min-width: 1800px) {
+    #shop-by-art-style {
+        padding-top: 200px;
+        padding-bottom: 100px;
+        background-color: #F0FAFF;  
+    }
+    .shop-by-art-style-heading {
+        color: black;
+        font-size: 4rem;
+    }  
+    .shop-by-art-style-image-boxes-wrapper {
+       gap: 25px;
+    }
     .shop-by-art-style-image-box-title {
-        font-size: .5rem;  
+        color: white;
+        font-weight: 900;
+        font-size: 2.3rem;
+        color: #fff;
+        font-weight: normal;
+    }
+    .shop-by-art-style-image-box-title-2 {
+        font-size: 1.7rem;
     }
 }
-@media only screen and (max-width:480px) {
+@media only screen and (max-width: 1800px) and (min-width: 1400px) {
+    #shop-by-art-style {
+        padding-top: 200px;
+        padding-bottom: 100px;
+        background-color: #F0FAFF;  
+    }
+    .shop-by-art-style-heading {
+        color: black;
+        font-size: 3.5rem;
+    }  
     .shop-by-art-style-image-boxes-wrapper {
-        grid-template-columns: 1fr;
+       gap: 20px;
+    }
+
+    .shop-by-art-style-image-box-title {
+        color: white;
+        font-weight: 900;
+        font-size: 2.1rem;
+        color: #fff;
+        font-weight: normal;
+    }
+    .shop-by-art-style-image-box-title-2 {
+        font-size: 1.4rem;
+    }
+}
+@media only screen and (max-width: 1400px) and (min-width: 1000px) {
+    #shop-by-art-style {
+        padding-top: 150px;
+        padding-bottom: 60px;
+        background-color: #F0FAFF;  
+    }
+    .shop-by-art-style-heading {
+        color: black;
+        font-size: 2.5rem;
+    }  
+    .shop-by-art-style-image-boxes-wrapper {
+       gap: 10px;
+    }
+
+    .shop-by-art-style-image-box-title {
+        color: white;
+        font-weight: 900;
+        font-size: 1.5rem;
+        color: #fff;
+        font-weight: normal;
+    }
+    .shop-by-art-style-image-box-title-2 {
+        font-size: 1.1rem;
+    }
+}
+@media only screen and (max-width: 1000px) and (min-width: 600px) {
+    #shop-by-art-style {
+        padding-top: 100px;
+        padding-bottom: 30px;
+        background-color: #F0FAFF;  
+    }
+    .shop-by-art-style-heading {
+        color: black;
+        font-size: 2rem;
+    }  
+    .shop-by-art-style-image-boxes-wrapper {
+       gap: 10px;
+    }
+
+    .shop-by-art-style-image-box-title {
+        color: white;
+        font-weight: 900;
+        font-size: 1rem;
+        color: #fff;
+        font-weight: normal;
+    }
+    .shop-by-art-style-image-box-title-2 {
+        font-size: 0.7rem;
+    }
+}
+
+@media only screen and (max-width: 600px) and (min-width:320px) {
+    .shop-by-art-style-image-boxes-wrapper {
+        grid-template-columns: 1fr 1fr;
         
     }
-    .shop-by-art-style-image-box-title {
-        font-size: 1rem;  
+    .shop-by-art-style-heading {
+        color: black;
+        font-size: 2rem;
+    }  
+    .sas-1 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
     }
-    #shop-by-art-style-image-box-3 {
-        /* border: 2px solid red; */
-        grid-template-columns: 1fr 1fr;
-        /* column-gap: 5px; */
+    .sas-2 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .shop-by-art-style-image-boxes-wrapper {
+        gap: 10px;
+     }
+     .shop-by-art-style-image-box-title {
+        color: white;
+        font-weight: 900;
+        font-size: 1rem;
+        font-weight: normal;
+    }
+    .shop-by-art-style-image-box-title-2 {
+        color: white;
+        font-weight: 900;
+        font-size: 1rem;
+        font-weight: normal;
     }
 }
 
