@@ -1138,7 +1138,7 @@ img {
 /* work is started .................................... */
 /* CSS STYLING For Home-Page SHOP BY ART STYLE Section*/
 #shop-by-art-style {
-    border: 10px solid blue;
+    /* border: 10px solid blue; */
     padding-top: 120px;
     padding-bottom: 20px;
     background-color: #F0FAFF;
@@ -1334,6 +1334,8 @@ img {
 
 
 
+
+
 /* CSS STYLING For Home-Page Everything About Collecting Art Section */
 #everything-about-collecting-art-section {
     /* border: 3px solid blue; */
@@ -1343,40 +1345,281 @@ img {
 .everything-about-collecting-art-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+.everything-about-collecting-art-left-side {
+    /* border: 1px solid red; */
+    width: 100%; 
+}
 
+.everything-about-collecting-art-left-side h1 {
+    font-size: 2rem;
+}
+.everything-about-collecting-art-left-side p {
+    font-size: 0.8rem;
+}
+.everything-about-collecting-art-left-side :nth-child(3) {
+    margin-top: 5px;
+}
+.everything-about-collecting-art-left-side :nth-child(4) {
+    margin-bottom: 5px;
+}
+.everything-about-collecting-art-left-side button {
+    /* border: 2px solid blue; */
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 20px;
+}
+.everything-about-collecting-art-right-side img {
+    border-radius: 10px;
+}
+@media only screen and (max-width: 2560px) and (min-width: 1800px) { 
+    #everything-about-collecting-art-section {
+        padding-top: 130px;
+        padding-bottom: 130px;
+    }
     .everything-about-collecting-art-left-side {
-        /* border: 1px solid red; */
         width: 100%; 
     }
-
     .everything-about-collecting-art-left-side h1 {
-        font-size: 2rem;
+        font-size: 3rem;
     }
     .everything-about-collecting-art-left-side p {
-        font-size: 0.8rem;
+        font-size: 1.5rem;
+        letter-spacing: 1.5;
     }
     .everything-about-collecting-art-left-side :nth-child(3) {
-        margin-top: 5px;
+        margin-top: 20px;
     }
     .everything-about-collecting-art-left-side :nth-child(4) {
         margin-bottom: 5px;
     }
     .everything-about-collecting-art-left-side button {
         /* border: 2px solid blue; */
-        padding-left: 40px;
-        padding-right: 40px;
+        padding: 20px 70px;
         margin-top: 20px;
+        font-size: 1.5rem;
+        font-weight: normal;
     }
-
+    .everything-about-collecting-art-right-side  {
+        width: 100%;
+    }
     .everything-about-collecting-art-right-side img {
         border-radius: 10px;
     }
 }
-@media only screen and (max-width:480px) {
+@media only screen and (max-width: 1800px) and (min-width: 1400px) { 
+    #everything-about-collecting-art-section {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .everything-about-collecting-art-left-side {
+        width: 100%; 
+    }
+    .everything-about-collecting-art-left-side h1 {
+        font-size: 2.5rem;
+    }
+    .everything-about-collecting-art-left-side p {
+        font-size: 1.5rem;
+        letter-spacing: 1.5;
+    }
+    .everything-about-collecting-art-left-side :nth-child(3) {
+        margin-top: 20px;
+    }
+    .everything-about-collecting-art-left-side :nth-child(4) {
+        margin-bottom: 5px;
+    }
+    .everything-about-collecting-art-left-side button {
+        /* border: 2px solid blue; */
+       padding: 20px 70px;
+        margin-top: 20px;
+        font-size: 1.5rem;
+        font-weight: normal;
+    }
+    .everything-about-collecting-art-right-side  {
+        width: 100%;
+    }
+    .everything-about-collecting-art-right-side img {
+        border-radius: 10px;
+    }
+}
+@media only screen and (max-width: 1400px) and (min-width: 1200px) { 
+    #everything-about-collecting-art-section {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .everything-about-collecting-art-left-side {
+        width: 100%; 
+    }
+    .everything-about-collecting-art-left-side h1 {
+        font-size: 1.9rem;
+    }
+    .everything-about-collecting-art-left-side p {
+        font-size: 1rem;
+        letter-spacing: 1.5;
+    }
+    .everything-about-collecting-art-left-side :nth-child(3) {
+        margin-top: 20px;
+    }
+    .everything-about-collecting-art-left-side :nth-child(4) {
+        margin-bottom: 5px;
+    }
+    .everything-about-collecting-art-left-side button {
+        /* border: 2px solid blue; */
+       padding: 20px 70px;
+        margin-top: 20px;
+        font-size: 1.5rem;
+        font-weight: normal;
+    }
+    .everything-about-collecting-art-right-side  {
+        width: 100%;
+    }
+    .everything-about-collecting-art-right-side img {
+        border-radius: 10px;
+    }
+}
+@media only screen and (max-width: 1200px) and (min-width: 1000px) { 
+    #everything-about-collecting-art-section {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .everything-about-collecting-art-left-side {
+        width: 100%; 
+    }
+    .everything-about-collecting-art-left-side h1 {
+        font-size: 1.5rem;
+    }
+    .everything-about-collecting-art-left-side p {
+        font-size: 0.9rem;
+        letter-spacing: 1.5;
+    }
+    .everything-about-collecting-art-left-side :nth-child(3) {
+        margin-top: 10px;
+    }
+    .everything-about-collecting-art-left-side :nth-child(4) {
+        margin-bottom: 5px;
+    }
+    .everything-about-collecting-art-left-side button {
+        /* border: 2px solid blue; */
+       padding: 14px 40px;
+        margin-top: 20px;
+        font-size: 1.2rem;
+        font-weight: normal;
+    }
+    .everything-about-collecting-art-right-side  {
+        width: 100%;
+    }
+    .everything-about-collecting-art-right-side img {
+        border-radius: 10px;
+    }
+}
+@media only screen and (max-width: 1000px) and (min-width: 800px) { 
+    #everything-about-collecting-art-section {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .everything-about-collecting-art-left-side {
+        width: 100%; 
+    }
+    .everything-about-collecting-art-left-side h1 {
+        font-size: 1.3rem;
+    }
+    .everything-about-collecting-art-left-side p {
+        font-size: 0.7rem;
+        letter-spacing: 1.5;
+    }
+    .everything-about-collecting-art-left-side :nth-child(3) {
+        margin-top: 10px;
+    }
+    .everything-about-collecting-art-left-side :nth-child(4) {
+        margin-bottom: 0px;
+    }
+    .everything-about-collecting-art-left-side button {
+        /* border: 2px solid blue; */
+       padding: 11px 43px;
+        margin-top: 20px;
+        font-size: 0.8rem;
+        font-weight: normal;
+    }
+    .everything-about-collecting-art-right-side  {
+        width: 100%;
+    }
+    .everything-about-collecting-art-right-side img {
+        border-radius: 10px;
+    }
+}
+@media only screen and (max-width: 800px) and (min-width: 600px) { 
+    #everything-about-collecting-art-section {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .everything-about-collecting-art-left-side {
+        width: 100%; 
+    }
+    .everything-about-collecting-art-left-side h1 {
+        font-size: 1rem;
+    }
+    .everything-about-collecting-art-left-side p {
+        font-size: 0.5rem;
+        letter-spacing: 1.5;
+    }
+    .everything-about-collecting-art-left-side :nth-child(3) {
+        margin-top: 10px;
+    }
+    .everything-about-collecting-art-left-side :nth-child(4) {
+        margin-bottom: 0px;
+    }
+    .everything-about-collecting-art-left-side button {
+        /* border: 2px solid blue; */
+       padding: 11px 43px;
+        margin-top: 20px;
+        font-size: 0.8rem;
+        font-weight: normal;
+    }
+    .everything-about-collecting-art-right-side  {
+        width: 100%;
+    }
+    .everything-about-collecting-art-right-side img {
+        border-radius: 10px;
+    }
+}
+@media only screen and (max-width: 600px) and (min-width: 320px) { 
     .everything-about-collecting-art-wrapper {
         /* border: 2px solid red; */
         grid-template-columns: 1fr;
         gap: 20px;
+    }
+    #everything-about-collecting-art-section {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .everything-about-collecting-art-left-side {
+        width: 100%; 
+    }
+    .everything-about-collecting-art-left-side h1 {
+        font-size: 1.5rem;
+    }
+    .everything-about-collecting-art-left-side p {
+        font-size: 0.7rem;
+        letter-spacing: 1.5;
+    }
+    .everything-about-collecting-art-left-side :nth-child(3) {
+        margin-top: 10px;
+    }
+    .everything-about-collecting-art-left-side :nth-child(4) {
+        margin-bottom: 0px;
+    }
+    .everything-about-collecting-art-left-side button {
+        /* border: 2px solid blue; */
+       padding: 11px 43px;
+        margin-top: 20px;
+        font-size: 0.8rem;
+        font-weight: normal;
+    }
+    .everything-about-collecting-art-right-side  {
+        width: 100%;
+    }
+    .everything-about-collecting-art-right-side img {
+        border-radius: 10px;
     }
 }
 
@@ -1385,61 +1628,152 @@ img {
 /* CSS STYLING For Home-Page ARTWORK PRICE RANGE Section */
 .artwork-price-range-section {
     background-color: #FFFDF5;
-    
+    /* border: 2px solid red; */
+}
+/* .artwork-price-range {
+    border: 1px solid red;
+} */
+.artwork-price-range-all-tabs-wrapper {
+    /* border: 1px solid red; */
+    padding: 20px 0;
+    width: 95%;
+    margin-left: 0;
+}
+.artwork-price-range-one-tab {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0;
+    padding: 5px 15px;
+    border-radius: 12px;
+    background: #F5F2E2;
+    margin: 15px auto;
+}
+.artwork-price-range-one-tab-left {
+    /* border: 1px solid red; */
+    margin-left: 0;
+}
+.artwork-price-range-one-tab-left-range {
+    font-size: 0.7rem;
+    color: gray;
+}
+.artwork-price-range-one-tab-price-row {
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 5px;
+}
+.artwork-price-range-one-tab-price-row span {
+    color: #FE8453;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.artwork-price-range-one-tab-right {
+    margin-right: 0;
+}
+.everything-about-collecting-art-wrapper {
+    /* border: 1px solid red; */
+    gap: 60px;
+}
 
-    .artwork-price-range {
-        /* border: 1px solid red; */
-    
-        .artwork-price-range-all-tabs-wrapper {
-            /* border: 1px solid red; */
-            padding: 20px 0;
-            width: 95%;
-            margin-left: 0;
-        }
-    
-        .artwork-price-range-one-tab {
-            display: flex;
-            justify-content: space-between;
-            margin-left: 0;
-            padding: 5px 15px;
-            border-radius: 12px;
-            background: #F5F2E2;
-            margin: 15px auto;
-        }
-        .artwork-price-range-one-tab-left {
-            /* border: 1px solid red; */
-            margin-left: 0;
-        }
-        .artwork-price-range-one-tab-left-range {
-            font-size: 0.7rem;
-            color: gray;
-        }
-        .artwork-price-range-one-tab-price-row {
-            /* border: 1px solid red; */
-            display: flex;
-            gap: 5px;
-        }
-        .artwork-price-range-one-tab-price-row span {
-            color: #FE8453;
-            font-size: 1.3rem;
-            font-weight: bold;
-        }
-        .artwork-price-range-one-tab-right {
-            margin-right: 0;
-        }
+.artwork-price-range-one-tab-price-row h3 {
+    text-decoration: none;
+    /* background-color: red; */
+    color: black;
+}
 
+@media only screen and (max-width: 2560px) and (min-width: 1800px) {
+    .everything-about-collecting-art-left-side h1 {
+        font-size: 3.5rem;
     }
-    .everything-about-collecting-art-wrapper {
-        /* border: 1px solid red; */
-        gap: 60px;
+    .artwork-price-range-one-tab {
+        padding: 25px 25px;
+        border-radius: 15px;
+        background: #F5F2E2;
+        margin: 30px auto;
     }
-
+    .artwork-price-range-one-tab-left-range {
+        font-size: 1.4rem;
+    }
+    .artwork-price-range-one-tab-price-row span {
+        font-size: 2rem;
+    }
     .artwork-price-range-one-tab-price-row h3 {
-        text-decoration: none;
-        /* background-color: red; */
-        color: black;
+        font-size: 2rem;
+    }
+    .artwork-price-range-one-tab-right img {
+        width: 18px;
     }
 }
+@media only screen and (max-width: 1800px) and (min-width: 1400px) {
+    .everything-about-collecting-art-left-side h1 {
+        font-size: 2.5rem;
+    }
+    .artwork-price-range-one-tab {
+        padding: 10px 20px;
+        border-radius: 15px;
+        background: #F5F2E2;
+        margin: 25px auto;
+    }
+    .artwork-price-range-one-tab-left-range {
+        font-size: 1.1rem;
+    }
+    .artwork-price-range-one-tab-price-row span {
+        font-size: 1.4rem;
+    }
+    .artwork-price-range-one-tab-price-row h3 {
+        font-size: 1.4rem;
+    }
+    .artwork-price-range-one-tab-right img {
+        width: 14px;
+    }
+}
+@media only screen and (max-width: 1200px) and (min-width: 900px) {
+    .artwork-price-range-one-tab {
+        padding: 5px 15px;
+        border-radius: 7px;
+        background: #F5F2E2;
+        margin: 10px auto;
+    }
+    .artwork-price-range-one-tab-left-range {
+        font-size: .7rem;
+    }
+    .artwork-price-range-one-tab-price-row span {
+        font-size: 1rem;
+    }
+    .artwork-price-range-one-tab-price-row h3 {
+        font-size: 1rem;
+    }
+    .artwork-price-range-one-tab-right img {
+        width: 10px;
+    }
+}
+
+@media only screen and (max-width: 900px) and (min-width: 600px) {
+    .artwork-price-range-one-tab {
+        padding: 5px 10px;
+        border-radius: 7px;
+        background: #F5F2E2;
+        margin: 7px auto;
+    }
+    .artwork-price-range-one-tab-left-range {
+        font-size: .6rem;
+    }
+    .artwork-price-range-one-tab-price-row span {
+        font-size: 0.7rem;
+    }
+    .artwork-price-range-one-tab-price-row h3 {
+        font-size: 0.7rem;
+    }
+    .artwork-price-range-one-tab-right img {
+        width: 7px;
+    }
+}
+
+
+
+
+
+
+
 
 
 
