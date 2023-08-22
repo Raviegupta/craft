@@ -1820,7 +1820,7 @@ img {
     color: white;
     font-size: 1rem;
 }
-@media only screen and (max-width: 2560px) and (min-width: 1400px) {  
+@media only screen and (max-width: 2560px) and (min-width: 1800px) {  
     .meet-our-artists-section {
         /* border: 2px solid blue; */
         background-color: white; 
@@ -1828,7 +1828,31 @@ img {
         padding-bottom: 100px; 
     }
     .meet-our-artists-section h1 {
-        font-size: 3rem;
+        font-size: 4rem;
+        padding: 30px 0;
+    }
+}
+@media only screen and (max-width: 1860px) and (min-width: 1400px) {  
+    .meet-our-artists-section {
+        /* border: 2px solid blue; */
+        background-color: white; 
+        padding-top: 100px; 
+        padding-bottom: 100px; 
+    }
+    .meet-our-artists-section h1 {
+        font-size: 3.5rem;
+        padding: 30px 0;
+    }
+}
+@media only screen and (max-width: 1460px) and (min-width: 1000px) {  
+    .meet-our-artists-section {
+        /* border: 2px solid blue; */
+        background-color: white; 
+        padding-top: 80px; 
+        padding-bottom: 80px; 
+    }
+    .meet-our-artists-section h1 {
+        font-size: 2.5rem;
     }
 }
 @media only screen and (max-width: 1000px) and (min-width: 850px) {  
@@ -1871,8 +1895,6 @@ img {
         gap: 10px;
     }
 }
-
-
 @media only screen and (max-width:600px) and (min-width: 320px) {
     #meet-our-artists-cards-wrapper {
         width: 100%;
@@ -1898,17 +1920,16 @@ img {
 #get-inspired-section {
     /* border: 5px solid blue; */
     background-color: #fafafa;
-    
-    .get-inspired-heading {
-        font-size: 2rem;
-    }
-    .get-inspired-section-para {
-        /* background-color: red; */
-        font-size: 0.7rem;
-        margin: 10px auto;
-    }
+    padding-top: 60px; 
+    padding-bottom: 60px; 
 }
-
+.get-inspired-heading {
+    font-size: 2rem;
+}
+.get-inspired-para {
+    /* border: 2px solid red; */
+    margin: 10px auto;
+}
 .get-inspired-section-cards-wrapper {
     /* border: 2px solid blue; */
     margin: 35px auto;
@@ -1916,59 +1937,104 @@ img {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
-
 .get-inspired-section-one-card-box {
     /* border: 1px solid red; */
     position: relative;
-    
-    .get-inspired-section-one-card-image {
-        border: 2px solid white;
-    }
-    .get-inspired-section-one-card-image img{
-        border-radius: 15px;
-    }
+}
+.get-inspired-section-one-card-image {
+    border: 2px solid white;
+}
+.get-inspired-section-one-card-image img{
+    border-radius: 15px;
+}
+.get-inspired-section-one-card-box-top-left-para {
+    background-color: white;
+    padding: 5px 20px 5px 5px;
+    font-size: .7rem;
+    font-weight: bold;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.get-inspired-section-one-card-box-bottom-part {
+    /* border: 2px solid red; */
+    display: flex;
+    position: absolute;
+    bottom: 0;
+}
+.get-inspired-section-one-card-box-bottom-part .left-part {
+    /* border: 2px solid tomato; */
+    padding: 10px 15px;
+}
+.get-inspired-section-one-card-box-bottom-part .left-part h1 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: white;
+}
+.get-inspired-section-one-card-box-bottom-part .left-part p {
+    font-size: 0.8rem;
+    padding-top: 10px;
+    color: white;
+}
 
-    .get-inspired-section-one-card-box-top-left-para {
-        background-color: white;
-        padding: 5px 20px 5px 5px;
-        font-size: .7rem;
-        font-weight: bold;
-        position: absolute;
-        top: 20px;
-        left: 20px;
+.get-inspired-section-one-card-box-bottom-part .right-part {
+    padding: 10px;
+}
+@media only screen and (max-width: 2560px) and (min-width: 1900px) {
+    .get-inspired-heading {
+        font-size: 4rem;
     }
-    .get-inspired-section-one-card-box-bottom-part {
-        /* border: 2px solid red; */
-        display: flex;
-        position: absolute;
-        bottom: 0;
-    }
-    .get-inspired-section-one-card-box-bottom-part .left-part {
-        /* border: 2px solid tomato; */
-        padding: 10px 15px;
-    }
-    .get-inspired-section-one-card-box-bottom-part .left-part h1 {
-        font-size: 1.1rem;
-        font-weight: bold;
-        color: white;
-    }
-    .get-inspired-section-one-card-box-bottom-part .left-part p {
-        font-size: 0.8rem;
-        padding-top: 10px;
-        color: white;
-    }
-
-    .get-inspired-section-one-card-box-bottom-part .right-part {
-        padding: 10px;
+    .get-inspired-para {
+        font-size: 1.6rem;
+        margin-bottom: 30px;
     }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 1900px) and (min-width: 1400px) {
+    .get-inspired-heading {
+        font-size: 3rem;
+    }
+    .get-inspired-para {
+        font-size: 1.2rem;
+        margin-bottom: 30px;
+    }
+}
+@media only screen and (max-width: 1400px) and (min-width: 1000px) {
+    .get-inspired-heading {
+        font-size: 2.5rem;
+    }
+    .get-inspired-para {
+        font-size: 1rem;
+        margin-bottom: 30px;
+    }
+}
+@media only screen and (max-width: 1000px) and (min-width: 600px) {
+    .get-inspired-heading {
+        font-size: 2rem;
+        /* background-color: red; */
+    }
+    .get-inspired-para {
+        font-size: 0.8rem;
+        margin-bottom: 30px;
+    }
+}
+@media only screen and (max-width: 600px) and (min-width: 320px) {
     .get-inspired-section-cards-wrapper {
         grid-template-columns: 1fr;
     }
 }
 
 
+
+
+
+
+
+
+
+
+
+
+/* to be continue .................. */
 
 /* CSS STYLING Home-Page WHY SHOP WITH US Section */
 #why-shop-with-us {
