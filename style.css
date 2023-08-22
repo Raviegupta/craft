@@ -2385,7 +2385,7 @@ img {
     #know-more-about-us {
         padding-top: 10px;
         padding-bottom: 0;
-        border: 2px solid blue;
+        /* border: 2px solid blue; */
         grid-template-columns: 1fr;
     }
     .know-more-about-us-left-side > p {
