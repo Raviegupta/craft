@@ -1151,14 +1151,15 @@ img {
     padding: 40px 0;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    gap: 15px;
 }
 .shop-by-art-style-image-box {
+    height: 100%;
     width: 100%;
 }
-.shop-by-art-style-image-box  img {
-    border-radius: 10px;
+.shop-by-art-style-image-box > img {
+    height: 100%;
     width: 100%;
+    border-radius: 15px;
 }
 .shop-by-art-style-image-box-1 {
     grid-column-start: 1;
@@ -1173,6 +1174,7 @@ img {
     grid-row-end: 3;
 
 }
+
 .shop-by-art-style-image-box {
     position: relative;
 }
@@ -1244,7 +1246,7 @@ img {
         font-size: 2.5rem;
     }  
     .shop-by-art-style-image-boxes-wrapper {
-       gap: 10px;
+       gap: 15px;
     }
 
     .shop-by-art-style-image-box-title {
@@ -1256,6 +1258,9 @@ img {
     }
     .shop-by-art-style-image-box-title-2 {
         font-size: 1.1rem;
+    }
+    .shop-by-art-style-image-box > img {
+        border-radius: 12px;
     }
 }
 @media only screen and (max-width: 1000px) and (min-width: 600px) {
@@ -1275,12 +1280,15 @@ img {
     .shop-by-art-style-image-box-title {
         color: white;
         font-weight: 900;
-        font-size: 1rem;
+        font-size: 0.9rem;
         color: #fff;
         font-weight: normal;
     }
     .shop-by-art-style-image-box-title-2 {
-        font-size: 0.7rem;
+        font-size: 0.6rem;
+    }
+    .shop-by-art-style-image-box > img {
+        border-radius: 10px;
     }
 }
 
@@ -1321,6 +1329,8 @@ img {
         font-weight: normal;
     }
 }
+
+
 
 
 
