@@ -682,18 +682,17 @@ img {
     }
     .artwork-tending-now-heading  {
         /* border: 2px solid red; */
-        font-size: 2rem;
+        font-size: 2.5rem;
         text-align: left;
         padding-left: 15px;
         padding-right: 15px;
     }
     .artwork-tending-now-para {
-        font-size: 13px;
-        padding-left: 10px;
-        padding-right: 10px;
+        font-size: 14px;
         /* border: 2px solid red; */
         text-align: left;
-        padding-left: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
     .image-details-text-box {
         /* border: 1px solid red; */
@@ -1373,7 +1372,11 @@ img {
     }
     .shop-by-art-style-heading {
         color: black;
-        font-size: 2rem;
+        font-size: 2.5rem;
+        /* border: 2px solid red; */
+        text-align: left;
+        padding-left: 5px;
+        padding-right: 5px;
     }  
     .sas-1 {
         grid-column-start: 1;
@@ -1853,11 +1856,11 @@ img {
 }
 @media only screen and (max-width: 900px) and (min-width: 320px) {
     .apr-heading {
-        font-size: 2rem;
+        font-size: 2.5rem !important;
         text-align: left;
-        /* padding-left: 5px;
-        padding-right: 5px; */
-        border: 2px solid red;
+        padding-left: 5px;
+        padding-right: 5px;
+        /* border: 2px solid red; */
     }
 }
 
@@ -1872,7 +1875,7 @@ img {
     padding-bottom: 60px; 
 }
 .meet-our-artists-section h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 #meet-our-artists-cards-wrapper {
     /* border: 3px solid red; */
@@ -2001,7 +2004,7 @@ img {
     }
     .meet-our-artists-section-heading {
         text-align: left;
-        border: 2PX SOLID RED;
+        /* border: 2PX SOLID RED; */
         padding-left: 5px;
         padding-RIGHT: 5px;
     }
@@ -2121,6 +2124,7 @@ img {
         /* border: 2px solid red; */
         padding-left: 5px;
         padding-right: 5px;
+        font-size: 2.5rem;
     }
     .get-inspired-para {
         text-align: left;
@@ -2307,6 +2311,7 @@ img {
         /* border: 2px solid red; */
         padding-left: 5px;
         padding-right: 5px;
+        font-size: 2.2rem;
     }
 }
 
@@ -2613,6 +2618,17 @@ img {
         display: flex;
         overflow-x: scroll;
     }
+    #follow-us-on-insta > h1 {
+        padding-left: 10px;
+        padding-right: 10px;
+        /* text-align: left; */
+        font-size: 1.9rem;
+    }
+    /* #follow-us-on-insta > p {
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: left;
+    } */
 }
 
 
