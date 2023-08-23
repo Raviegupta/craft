@@ -95,6 +95,11 @@ img {
     border: none;
     cursor: pointer;
 }
+.prev-btn img,
+.next-btn img {
+    width: 25px;
+    color: white;
+}
 .prev-btn {
     left: 0;
 }
@@ -104,6 +109,37 @@ img {
 .prev-btn:hover, .next-btn:hover {
     background-color: #FE8453;
 }
+@media only screen and (max-width: 600px)  {
+    .banner-slider {
+        border: 2px solid red;
+        height: 60vw;
+    }
+    .slide img {
+        height: 60vw;
+        /* width: max-content; */
+    }
+    .prev-btn img,
+    .next-btn img {
+        width: 15px;
+        color: white;
+    }
+    .prev-btn,
+    .next-btn {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        padding: 4px 5px 0px 5px;
+        font-size: 16px;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        border: none;
+        cursor: pointer;
+}
+}
+
+
+
+
 
 
 
