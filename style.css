@@ -3142,6 +3142,64 @@ img {
         gap: 10px;
     }
 }
+.hamburger-icon {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+   
+    .lang-select, .are-you-artist-link, .user-account, .search-wrapper input, .nav-bar a{
+        display: none;
+    }
+    .search-wrapper i {
+       border: none !important; 
+
+    }
+
+    .my-header {
+        position: relative;
+    }
+    .craft-logo a img{
+        /* border: 2px solid red; */
+        width: 100px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .search-wrapper i {
+        position: absolute;
+        left: 20%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+     }
+     .my-whislist {
+        /* border: 2px solid red; */
+        margin-right: 5px;
+     }
+     .hamburger-icon {
+        display: flex;
+     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* -----------------CSS FOR HEADER ENDS HERE------------------*/
 
 /* -----------------CSS FOR FOOTER STARTS HERE------------------*/
