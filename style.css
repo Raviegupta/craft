@@ -2720,9 +2720,9 @@ img {
         /* border: 2px solid red; */
         font-size: 1rem;
     }
-    .email-input-box {
-        /* border: 2px solid red; */
-    }
+    /* .email-input-box {
+        border: 2px solid red;
+    } */
     #email-subscription-submit-btn {
         font-size: 1.0rem;
     }
