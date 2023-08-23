@@ -111,11 +111,11 @@ img {
 }
 @media only screen and (max-width: 600px)  {
     .banner-slider {
-        border: 2px solid red;
-        height: 100vh;
+        /* border: 2px solid red;  */
+        height: 60vh;
     }
     .slide img {
-        height: 100vh;
+        height: 60vh;
         /* width: max-content; */
     }
     .prev-btn img,
@@ -686,6 +686,9 @@ img {
     }
     .artwork-tending-now-para {
         font-size: 13px;
+        padding-left: 10px;
+        padding-right: 10px;
+        /* border: 2px solid red; */
     }
     .image-details-text-box {
         /* border: 1px solid red; */
