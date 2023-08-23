@@ -682,15 +682,14 @@ img {
     }
     .artwork-tending-now-heading  {
         /* border: 2px solid red; */
-        font-size: 2.5rem;
-        text-align: left;
+        font-size: 2rem;
+
         padding-left: 15px;
         padding-right: 15px;
     }
     .artwork-tending-now-para {
         font-size: 14px;
         /* border: 2px solid red; */
-        text-align: left;
         padding-left: 15px;
         padding-right: 15px;
     }
@@ -716,6 +715,11 @@ img {
     }
     .single-image-box-text-box p {
         line-height: 18px;
+    }
+    .single-image-box-image-wrapper img {
+        /* border: 2px solid blue; */
+        height: auto;
+        /* height: auto; */
     }
 }
 
@@ -1374,7 +1378,6 @@ img {
         color: black;
         font-size: 2.5rem;
         /* border: 2px solid red; */
-        text-align: left;
         padding-left: 5px;
         padding-right: 5px;
     }  
@@ -2003,7 +2006,6 @@ img {
         margin: 10px;
     }
     .meet-our-artists-section-heading {
-        text-align: left;
         /* border: 2PX SOLID RED; */
         padding-left: 5px;
         padding-RIGHT: 5px;
@@ -2120,14 +2122,12 @@ img {
         grid-template-columns: 1fr;
     }
     .get-inspired-heading {
-        text-align: left;
         /* border: 2px solid red; */
         padding-left: 5px;
         padding-right: 5px;
         font-size: 2.5rem;
     }
     .get-inspired-para {
-        text-align: left;
         /* border: 2px solid red; */
         padding-left: 5px;
         padding-right: 5px;
@@ -2307,7 +2307,6 @@ img {
 }
 @media only screen and (max-width: 600px) and (min-width:320px) {
     .why-shop-heading {
-        text-align: left;
         /* border: 2px solid red; */
         padding-left: 5px;
         padding-right: 5px;
