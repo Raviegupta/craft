@@ -682,9 +682,10 @@ img {
     }
     .artwork-tending-now-heading  {
         /* border: 2px solid red; */
-        font-size: 1.7rem;
+        font-size: 2rem;
         text-align: left;
-        padding-left: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
     .artwork-tending-now-para {
         font-size: 13px;
