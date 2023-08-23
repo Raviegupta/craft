@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .menu-hidden {
+            display: none;
+        }
+        .mobile-menu-one {
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    <div class="our-creator-menu">
+        <div class="mobile-menu-one">
+            <h3>Our Creators</h3>
+            <img class="arrow-down" src="../images/Accordian-Arrow-down.png" alt="">
+            <img class="menu-hidden arrow-up" src="../images/Accordian-Arrow-up.png" alt="">
+        </div>
+        <ul class="creator-menu-list menu-hidden">
+            <li style="list-style-type: none;">Painters</li>
+            <li style="list-style-type: none;">Photographers</li>
+            <li style="list-style-type: none;">Sculptors</li>
+            <li style="list-style-type: none;">Draftsman artists</li>
+        </ul>
+    </div>
+
+    <h3 class="our-collections-menu">Our Collections
+        <ul class="collections-menu-list menu-hidden">
+            <li style="list-style-type: none;">Painters</li>
+            <li style="list-style-type: none;">Photographers</li>
+            <li style="list-style-type: none;">Sculptors</li>
+            <li style="list-style-type: none;">Draftsman artists</li>
+        </ul>
+    </h3>
+
+    <h3 class="our-events-menu">Our Events 
+        <ul class="events-menu-list menu-hidden">
+            <li style="list-style-type: none;">Painters</li>
+            <li style="list-style-type: none;">Photographers</li>
+            <li style="list-style-type: none;">Sculptors</li>
+            <li style="list-style-type: none;">Draftsman artists</li>
+        </ul>
+    </h3>
+    <h3 class="our-sign-up-menu">Signup
+        <ul class="trade-menu-list menu-hidden">
+            <li style="list-style-type: none;">Painters</li>
+            <li style="list-style-type: none;">Photographers</li>
+            <li style="list-style-type: none;">Sculptors</li>
+            <li style="list-style-type: none;">Draftsman artists</li>
+        </ul>
+    </h3>
+    <h3 class="our-favorites-menu">My Favorites
+        <ul class="favorites-menu-list menu-hidden">
+            <li style="list-style-type: none;">Painters</li>
+            <li style="list-style-type: none;">Photographers</li>
+            <li style="list-style-type: none;">Sculptors</li>
+            <li style="list-style-type: none;">Draftsman artists</li>
+        </ul>
+    </h3>
+    <h3 class="our-trade-menu">Trade
+        <ul class="trade-menu-list menu-hidden">
+            <li style="list-style-type: none;">Painters</li>
+            <li style="list-style-type: none;">Photographers</li>
+            <li style="list-style-type: none;">Sculptors</li>
+            <li style="list-style-type: none;">Draftsman artists</li>
+        </ul>
+    </h3>
+
+    <script>
+        const arrowDown = document.querySelector('.arrow-down');
+        const arrowUp = document.querySelector('.arrow-up');
+
+        const creatorMenu = document.querySelector('.our-creator-menu');
+        const creatorMenuList = document.querySelector('.creator-menu-list');
+        const collectionMenu = document.querySelector('.our-collections-menu');
+        const collectionMenuList = document.querySelector('.collections-menu-list');
+
+
+        creatorMenu.addEventListener('click', (() => {
+            if (creatorMenuList.classList.contains('menu-hidden')) {
+                creatorMenuList.classList.remove('menu-hidden')
+                arrowDown.classList.remove('menu-hidden')
+            } else {
+                creatorMenuList.classList.add('menu-hidden')
+                arrowDown.classList.add('menu-hidden')
+                arrowUp.classList.remove('menu-hidden')
+            }
+            
+        }))
+
+        collectionMenu.addEventListener('click', (() => {
+            if (collectionMenuList.classList.contains('menu-hidden')) {
+                collectionMenuList.classList.remove('menu-hidden')
+            } else {
+                collectionMenuList.classList.add('menu-hidden')
+            }
+            
+        }))
+
+    </script>
+</body>
+</html>

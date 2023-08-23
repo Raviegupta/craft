@@ -3157,11 +3157,14 @@ img {
     }
 
     .my-header {
+        /* border: 3px solid red; */
+        height: 70px;
         position: relative;
     }
     .craft-logo a img{
         /* border: 2px solid red; */
         width: 100px;
+        /* height: 30px; */
         position: absolute;
         left: 50%;
         top: 50%;
