@@ -116,7 +116,7 @@ img {
     }
     .slide img {
         height: 60vh;
-        /* width: max-content; */
+        width: max-content;
     }
     .prev-btn img,
     .next-btn img {
@@ -721,6 +721,11 @@ img {
         height: auto;
         /* height: auto; */
     }
+
+
+ 
+   
+
 }
 
 
@@ -3170,7 +3175,7 @@ img {
     line-height: 26px; /* 185.714% */
 }
 .col-5 {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin-top: 20px;
     padding: 10px 30px 30px 30px;
     border-radius: 10px;
@@ -3187,6 +3192,38 @@ img {
     background-color: white;
     color: #000;
 } 
+
+
+@media only screen and (max-width: 2560px) and (min-width: 1800px) {
+    .foot-col h1 {
+        font-size: 2rem;
+        line-height: 2;
+    }
+    .foot-col li a{
+        font-size: 25px;
+        line-height: 1.5;
+    }
+}
+@media only screen and (max-width: 1800px) and (min-width: 1600px) {
+    .foot-col h1 {
+        font-size: 1.3rem;
+        line-height: 2;
+    }
+    .foot-col li a{
+        font-size: 16px;
+        line-height: 1.5;
+    }
+}
+@media only screen and (max-width: 1000px) and (min-width: 700px) {
+    .foot-col h1 {
+        font-size: 0.9rem;
+      
+    }
+    .foot-col li a{
+        font-size: 11px;
+      
+    }
+}
 
 @media only screen and (max-width: 768px) {
     .foot-col h1 {
@@ -3207,7 +3244,74 @@ img {
         text-align: center;
         padding-bottom: 20px;
     }
+    .col-5 {
+        /* border: 3px solid red; */
+        width: 100%;
+        margin-left: 50%;
+        margin-right: 25px;;
+        margin-bottom: 40px;
+    }
+    .col-5 h1 {
+        font-size: 1rem;
+        font-weight: normal;
+        margin-bottom: 20px;
+        margin-top: 15px;
+    }
+    .col-5 a button{
+        margin-bottom: 15px;
+    }
+    .col-3{
+        /* border: 3px solid red; */
+        margin-bottom: 20px;
+    }
 }
+@media only screen and (max-width: 500px) {
+    .col-5 {
+        /* border: 3px solid red; */
+        width: 100%;
+        margin-left: 50%;
+        margin-right: 25px;;
+        margin-bottom: 40px;
+    }
+    .col-5 h1 {
+        font-size: 0.7rem;
+        font-weight: normal;
+        margin-bottom: 7px;
+        margin-top: 5px;
+    }
+    .col-5 a button{
+        margin-bottom: 5px;
+        font-size: .5rem;
+    }
+    .col-3{
+        /* border: 3px solid red; */
+        margin-bottom: 20px;
+    }
+}
+@media only screen and (max-width: 350px) {
+    .col-5 {
+        /* border: 3px solid red; */
+        width: 100%;
+        margin-left: 50%;
+        margin-right: 25px;;
+        margin-bottom: 40px;
+    }
+    .col-5 h1 {
+        font-size: 0.5rem;
+        font-weight: normal;
+        margin-bottom: 7px;
+        margin-top: 5px;
+    }
+    .col-5 a button{
+        margin-bottom: 5px;
+        font-size: .5rem;
+    }
+    .col-3{
+        /* border: 3px solid red; */
+        margin-bottom: 20px;
+    }
+}
+
 
 
 .my-footer-last {
@@ -3244,6 +3348,28 @@ img {
   
 }
 /* -----------------CSS FOR FOOTER STARTS HERE------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
