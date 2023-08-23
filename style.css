@@ -2572,7 +2572,7 @@ img {
 .email-input-box {
     /* border: 3px solid red; */
     width: 37%;
-    border-bottom: 2px solid #FE8453; 
+    border-bottom: 1px solid #FE8453; 
 }
 @media only screen and (max-width:2560px) and (min-width:2100px) {
     #subscribe-newsletter > img {
@@ -2704,8 +2704,8 @@ img {
 }
 @media only screen and (max-width:1400px) and (min-width:1350px) {
     #subscribe-newsletter > img {
-        width: 70px;
-        margin-bottom: 20px;
+        width: 50px;
+        margin-bottom: 0px;
     }
     #subscribe-newsletter > h1 {
         font-size: 2rem;
@@ -2718,20 +2718,19 @@ img {
     }
     #email-input::placeholder {
         /* border: 2px solid red; */
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
     .email-input-box {
         /* border: 2px solid red; */
-        margin-top: 70px;
     }
     #email-subscription-submit-btn {
-        font-size: 1.3rem;
+        font-size: 1.0rem;
     }
     .email-input-box {
         /* border: 3px solid red; */
         width: 30%;
         border-bottom: 2px solid #FE8453;
-        margin-top: 30px; 
+        margin-top: 10px; 
     }
 }
 @media only screen and (max-width:1350px) and (min-width:1150px) {
