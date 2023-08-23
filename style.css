@@ -1343,6 +1343,9 @@ img {
     .shop-by-art-style-heading {
         color: black;
         font-size: 2rem;
+        text-align: left;
+        padding-left: 15px;
+        padding-right: 15px;
     }  
     .shop-by-art-style-image-boxes-wrapper {
        gap: 10px;
@@ -1848,6 +1851,15 @@ img {
         width: 7px;
     }
 }
+@media only screen and (max-width: 900px) and (min-width: 320px) {
+    .apr-heading {
+        font-size: 2rem;
+        text-align: left;
+        /* padding-left: 5px;
+        padding-right: 5px; */
+        border: 2px solid red;
+    }
+}
 
 
 
@@ -1987,6 +1999,13 @@ img {
         /* border: 3px solid blue; */
         margin: 10px;
     }
+    .meet-our-artists-section-heading {
+        text-align: left;
+        border: 2PX SOLID RED;
+        padding-left: 5px;
+        padding-RIGHT: 5px;
+    }
+  
 }
 
 
@@ -2096,6 +2115,18 @@ img {
 @media only screen and (max-width: 600px) and (min-width: 320px) {
     .get-inspired-section-cards-wrapper {
         grid-template-columns: 1fr;
+    }
+    .get-inspired-heading {
+        text-align: left;
+        /* border: 2px solid red; */
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .get-inspired-para {
+        text-align: left;
+        /* border: 2px solid red; */
+        padding-left: 5px;
+        padding-right: 5px;
     }
 }
 
@@ -2268,6 +2299,14 @@ img {
     .why-shop-with-us-one-icon-box {
         /* border: 1px solid red; */
         margin-left: 0;
+    }
+}
+@media only screen and (max-width: 600px) and (min-width:320px) {
+    .why-shop-heading {
+        text-align: left;
+        /* border: 2px solid red; */
+        padding-left: 5px;
+        padding-right: 5px;
     }
 }
 
