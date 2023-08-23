@@ -683,12 +683,16 @@ img {
     .artwork-tending-now-heading  {
         /* border: 2px solid red; */
         font-size: 1.7rem;
+        text-align: left;
+        padding-left: 10px;
     }
     .artwork-tending-now-para {
         font-size: 13px;
         padding-left: 10px;
         padding-right: 10px;
         /* border: 2px solid red; */
+        text-align: left;
+        padding-left: 10px;
     }
     .image-details-text-box {
         /* border: 1px solid red; */
@@ -1965,7 +1969,7 @@ img {
         gap: 10px;
     }
 }
-@media only screen and (max-width:600px) and (min-width: 320px) {
+@media only screen and (max-width:600px) {
     #meet-our-artists-cards-wrapper {
         width: 100%;
         display: flex;
@@ -1974,8 +1978,9 @@ img {
         gap: 0px;
     }
     .one-card-box-main-image img {
-        border-radius: 10px;
-        width: 200px;
+        /* border: 2px solid red; */
+        border-radius: 7px;
+        width: 250px;
     }
     .artists-cards-one-card-box {
         /* border: 3px solid blue; */
