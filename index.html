@@ -18,6 +18,7 @@
     <!-- This is Header Section -->
     <section class="my-header">
         <div class="hamburger-icon"><a href="#"><img src="images/menu2.png" alt="" style="width: 20px;"></a></div>
+        <div class="hamburger-icon-cross menu-hidden"><a href="#"><img src="images/menu3.png" alt="" style="width: 20px;"></a></div>
         <div class="craft-logo"><a href=""><img src="images/Group 43.png" alt=""></a></div>
         <ul class="nav-bar">
             <a href=""><li>ARTWORKS</li></a>
@@ -326,21 +327,21 @@
         <section id="mobile-menu-section-2-details" class="mob-menu-bottom">
             <div class="mob-menu-phone">
                 <div>
-                    <img src="../images/Wishlist - New.png" alt="">
+                    <img src="./images/phone.png" alt="">
                 </div>
                 <p>+91 94656 76544</p>
             </div>
             <div class="mob-menu-about">
                 <div>
-                    <img src="../images/Wishlist - New.png" alt="">
+                    <img src="./images/about us icon.png" alt="">
                 </div>
                 <p>About Us</p>
             </div>
             <div class="mob-menu-app">
                 <div>
-                    <img src="../images/Wishlist - New.png" alt="">
+                    <img src="./images/app icon.png" alt="">
                 </div>
-                <p>Add the SINGULART app</p>
+                <p>Add the CRAFTTATVA app</p>
             </div>
 
             <button class="lang-curr-selection-btn">ENGLISH | INR</button>
@@ -353,17 +354,37 @@
     <!-- Home-Page Banner Section -->
     <div class="banner-slider">
         <div class="slider-container">
-          <div class="slide">
-            <img src="images/Banner.png" alt="Banner 1">
+
+          <div class="slide slide-1">
+            <img src="images/banner-1.png" alt="Banner 1">
+            <div class="textbox-banner-1">
+                <p>The online Art Gallery</p>
+                <p>India's leading online art marketplace that empowrs artists and making their art accessible to everyone. Discover, buy, and sell art online. 1100+ artists onboard.</p>
+                <a href=""><button class="button-common-css">Explore our Artworks</button></a>
+            </div>
           </div>
-          <div class="slide">
-            <img src="images/Banner.png" alt="Banner 2">
+          
+          <div class="slide slide-2">
+            <img src="images/Banner-1.png" alt="Banner 2">
+            <div class="textbox-banner-2">
+                <p>Travel with CRAFTTATVA</p>
+                <p>Let the power of art transport you to enchanting destinations.</p>
+                <a href=""><button class="button-common-css">Explore</button></a>
+            </div>
+          </div>  
+          
+          <div class="slide slide-3">
+            <img src="images/Banner-1.png" alt="Banner 3">
+            <div class="textbox-banner-3">
+                <p>A unique selection for you</p>
+                <p>The perfect mix of yoyr favourites and novelties to inspire you.</p>
+                <a href=""><button class="button-common-css">DISCOVER YOUR SELECTION</button></a>
+            </div>
           </div>
-          <div class="slide">
-            <img src="images/Banner.png" alt="Banner 3">
-          </div>
-          <div class="slide">
-            <img src="images/Banner.png" alt="Banner 4">
+          
+          
+          <div class="slide slide-4">
+            <img src="images/Banner-1.png" alt="Banner 4">
           </div>
         </div>
         <button class="prev-btn"><img src="images/Group 11.png" alt=""></button>
@@ -1172,7 +1193,7 @@
         const nextBtn = document.querySelector(".next-btn");
 
         let currentIndex = 0;
-        const intervalTime = 3000;
+        const intervalTime = 30000;
 
         function showSlide(index) {
             sliderContainer.style.transform = `translateX(-${index * 100}%)`;
@@ -1208,6 +1229,7 @@
 <!-- this section js is for mobile menu -->
     <script>
         const hamburgerIcon = document.querySelector('.hamburger-icon');
+        const hamburgerIconCross = document.querySelector('.hamburger-icon-cross');
         const mobileMenuMain = document.querySelector('.mobile-menu-main');
 
         const mobileMenu1 = document.querySelector('.mobile-menu-1');
@@ -1353,11 +1375,17 @@
             // console.log(mobileMenuMain);
             if(mobileMenuMain.classList.contains('menu-hidden')) {
                 mobileMenuMain.classList.remove('menu-hidden')
-            } else {
-                mobileMenuMain.classList.add('menu-hidden')
-            }         
-
+                hamburgerIcon.classList.add('menu-hidden');
+                hamburgerIconCross.classList.remove('menu-hidden');
+            }       
         }))
+
+        hamburgerIconCross.addEventListener('click', (() => {
+            mobileMenuMain.classList.add('menu-hidden');
+            hamburgerIconCross.classList.add('menu-hidden');
+            hamburgerIcon.classList.remove('menu-hidden');
+        }))
+
     </script>
 <!-- ****************************************************************************** -->
 </body>

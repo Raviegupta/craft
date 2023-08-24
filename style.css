@@ -26,6 +26,7 @@
     color: white;
     font-weight: 600;
     cursor: pointer;
+    font-weight: normal;
 }
 .button-common-css:hover {
     background-color: #fe4901;
@@ -109,6 +110,107 @@ img {
 .prev-btn:hover, .next-btn:hover {
     background-color: #FE8453;
 }
+
+
+/* ******************** customization for banner-1 *************************** */
+.slide-1 {
+    position: relative;
+}
+.textbox-banner-1 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /* border: 3px solid red; */
+    width: 60%;
+}
+.textbox-banner-1 p:first-child {
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+.textbox-banner-1 p:nth-child(2) {
+    color: white;
+    text-align: center;
+    font-size: 0.6rem;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    width: 70%;
+}
+.textbox-banner-1 button {
+   /* border: 3px solid blue; */
+   display: flex;
+}
+/* ******************** customization for banner-1 *************************** */
+
+
+
+/* ******************** customization for banner-2 *************************** */
+    .slide-2 {
+        position: relative;
+    }
+    .textbox-banner-2 {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        /* border: 3px solid red; */
+        width: 60%;
+    }
+    .textbox-banner-2 p:first-child {
+        color: white;
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 2.5rem;
+        font-weight: normal;
+    }
+    .textbox-banner-2 p:nth-child(2) {
+        color: white;
+        text-align: center;
+        font-size: 0.6rem;
+        line-height: 1.5;
+        margin-bottom: 10px;
+        width: 70%;
+    }
+    .textbox-banner-2 button {
+        display: flex;
+    }
+/* ******************** customization for banner-2 *************************** */
+
+/* ******************** customization for banner-3 *************************** */
+.slide-3 {
+    position: relative;
+}
+.textbox-banner-3 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /* border: 3px solid red; */
+    width: 60%;
+}
+.textbox-banner-3 p:first-child {
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+.textbox-banner-3 p:nth-child(2) {
+    color: white;
+    text-align: center;
+    font-size: 0.6rem;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    width: 70%;
+}
+.textbox-banner-3 button {
+    display: flex;
+}
+/* ******************** customization for banner-2 *************************** */
+
 @media only screen and (max-width: 600px)  {
     .banner-slider {
         /* border: 2px solid red;  */
@@ -116,11 +218,12 @@ img {
     }
     .slide img {
         height: 60vh;
-        width: max-content;
+        /* width: 100%; */
+        object-fit: cover;
     }
     .prev-btn img,
     .next-btn img {
-        width: 15px;
+        width: 25px;
         color: white;
     }
     .prev-btn,
@@ -134,7 +237,119 @@ img {
         color: white;
         border: none;
         cursor: pointer;
-}
+    }
+
+    /* ******************** customization for banner-1 *************************** */
+    .slide-1 {
+        position: relative;
+    }
+    .textbox-banner-1 {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        /* border: 1px solid red; */
+        width: 90%;
+        height: 70%;
+    }
+    .textbox-banner-1 p:first-child {
+        color: white;
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+    .textbox-banner-1 p:nth-child(2) {
+        color: white;
+        text-align: center;
+        font-size: 0.9rem;
+        line-height: 1.4;
+        margin-bottom: 40px;
+        width: 90%;
+    }
+    .textbox-banner-1 button {
+        /* border: 3px solid blue; */
+        display: flex;
+        padding: 12px 30px;
+        font-size: 1.3rem;
+    }
+    /* ******************** customization for banner-1 *************************** */
+
+    /* ******************** customization for banner-2 *************************** */
+    .slide-2 img {
+        /* height: 40%; */
+        margin-top: 0;
+    }
+    .slide-2 {
+        position: relative;
+    }
+    .textbox-banner-2 {
+        position: absolute;
+        left: 50%;
+        bottom: 0%;
+        transform: translate(-50%);
+        border: 1px solid red;
+        width: 100%;
+        height: 60%;
+        background-color: #f5f4f2;
+    }
+    .textbox-banner-2 p:first-child {
+        color: #333;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 15px;
+        font-size: 2.5rem;
+        font-weight: normal;
+    }
+    .textbox-banner-2 p:nth-child(2) {
+        color: #333;
+        text-align: center;
+        font-size: 0.8rem;
+        line-height: 1.3;
+        margin-bottom: 25px;
+        width: 70%;
+    }
+    .textbox-banner-2 button {
+       /* border: 3px solid blue; */
+       display: flex;
+       padding: 12px 30px;
+       font-size: 1.5rem;
+    }
+    /* ******************** customization for banner-1 *************************** */
+
+    /* ******************** customization for banner-3 *************************** */
+    .slide-3 {
+        position: relative;
+    }
+    .textbox-banner-3 {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        /* border: 3px solid red; */
+        width: 90%;
+    }
+    .textbox-banner-3 p:first-child {
+        color: white;
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 2.5rem;
+        font-weight: normal;
+    }
+    .textbox-banner-3 p:nth-child(2) {
+        color: white;
+        text-align: center;
+        font-size: 1.1rem;
+        line-height: 1.5;
+        margin-bottom: 150px;
+        width: 100%;
+    }
+    .textbox-banner-3 button {
+        display: flex;
+        padding: 12px 30px;
+        font-size: 1.2rem;
+    }
+/* ******************** customization for banner-2 *************************** */
 }
 
 
@@ -3678,6 +3893,8 @@ img {
   .mob-menu-top, .mob-menu-bottom {
     /* border: 2px solid red; */
     padding: 0 15px;
+    padding-top: 0px;
+    padding-bottom: 25px;
   }
 
     .menu-hidden {
@@ -3699,14 +3916,14 @@ img {
         
     } */
     .mobile-menu-heading-wrapper-2 h4 {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
         margin-left: 0;
     }
     
-    /* .arrow {
-        width: 13px;
-        height: 9px;
-    } */
+    .arrow {
+        width: 12px;
+        height: 8px;
+    }
     .mobile-menu-heading-wrapper h1 {
         margin-left: 0;
     }
@@ -3714,15 +3931,15 @@ img {
     #mobile-menu-section-2-details {
         background-color: #f5f4f2;
         /* border: 2px solid red; */
-        padding-top: 30px;
-        padding-bottom: 30px;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
     .mob-menu-phone, .mob-menu-about, .mob-menu-app {
         /* border: 1px solid blue; */
         display: grid;
         grid-template-columns: 5% 95%;
-        gap: 5px;
-        margin-bottom: 10px;
+        gap: 10px;
+        margin-bottom: 25px;
     }
     .mob-menu-phone div > img, .mob-menu-about div > img, .mob-menu-app div > img {
         display: flex;
@@ -3735,8 +3952,8 @@ img {
     .mob-menu-phone p, .mob-menu-about p, .mob-menu-app p {
         margin-left: 0;  
         /* border: 2px solid red; */
-        font-size: 0.7rem;
-        color: #444;
+        font-size: 1rem;
+        color: #666;
     }
 
     .lang-curr-selection-btn {
@@ -3744,7 +3961,7 @@ img {
         letter-spacing: 1.5;
         font-size: 0.9rem;
         margin-top: 15px;
-        padding: 10px 15px;
+        padding: 13px 25px;
     }
 
     .mobile-menu-1-list li, 
@@ -3775,8 +3992,8 @@ img {
     .mobile-menu-7,
     .mobile-menu-8  {
         /* border: 1px solid red; */
-        margin-top: -25px;
-        margin-bottom: -25px;
+        margin-top: -20px;
+        margin-bottom: -20px;
     }
     .mobile-menu-3 {
         margin-top: 0px;
@@ -3791,5 +4008,10 @@ img {
     .mobile-menu-7 li:last-child,
     .mobile-menu-8 li:last-child {
         margin-bottom: 15px;
+    }
+    .my-mob-menu ul li {
+        /* border: 1px solid red; */
+        color: black;
+        font-weight: normal;
     }
   /* ***************************************************************************************** */
