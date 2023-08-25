@@ -3541,6 +3541,10 @@ img {
     background-color: white;
     color: #000;
 } 
+.col-5 a button:hover {
+    background-color: white;
+    /* color: #000; */
+} 
 
 
 @media only screen and (max-width: 2560px) and (min-width: 1800px) {
