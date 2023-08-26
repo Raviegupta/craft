@@ -672,10 +672,9 @@ img {
     column-gap: 70px;
 }
 .single-image-box {
-    
     /* border: 2px solid tomato; */
     display: grid;
-    grid-template-rows: 60% 40%;
+    /* grid-template-rows: 60% 40%; */
     gap: 5px;
 }
 /* .single-image-box-image-wrapper {
@@ -747,16 +746,16 @@ img {
         column-gap: 50px;
     }
     .single-image-box {   
-        height: 600px;
+        height: 480px;
         display: grid;
         grid-template-rows: 70% 30%;
         gap: 5px;
     }
     .single-image-box-image-wrapper > img {
-        height: 400px;
+        height: 330px;
     }
     .single-image-box-text-box {
-        height: 180px;
+        height: 140px;
         width: 100%;
     }
     .image-details-text-box {
@@ -790,16 +789,16 @@ img {
         column-gap: 40px;
     }
     .single-image-box {   
-        height: 520px;
+        height: 430px;
         display: grid;
         grid-template-rows: 66% 34%;
         gap: 5px;
     }
     .single-image-box-image-wrapper > img {
-        height: 333px;
+        height: 280px;
     }
     .single-image-box-text-box {
-        height: 150px;
+        height: 140px;
         width: 100%;
     }
     .image-details-text-box {
@@ -828,22 +827,22 @@ img {
     }
 }
 
-@media only screen and (max-width: 1900px) and (min-width: 1600px){
+@media only screen and (max-width: 1900px) and (min-width: 1700px){
     .wrapper-image-cards {
         row-gap: 80px;
         column-gap: 30px;
     }
     .single-image-box {   
-        height: 500px;
+        height: 390px;
         display: grid;
         grid-template-rows: 66% 34%;
         gap: 5px;
     }
     .single-image-box-image-wrapper > img {
-        height: 333px;
+        height: 250px;
     }
     .single-image-box-text-box {
-        height: 150px;
+        height: 130px;
         width: 100%;
     }
     .image-details-text-box {
@@ -871,19 +870,19 @@ img {
         padding: 5px 0;
     }
 }
-@media only screen and (max-width: 1600px) and (min-width: 1440px) {
+@media only screen and (max-width: 1700px) and (min-width: 1500px) {
     .wrapper-image-cards {
         row-gap: 80px;
         column-gap: 30px;
     }
     .single-image-box {   
-        height: 400px;
+        height: 350px;
         display: grid;
         grid-template-rows: 66% 34%;
         gap: 5px;
     }
     .single-image-box-image-wrapper > img {
-        height: 250px;
+        height: 200px;
     }
     .single-image-box-text-box {
         /* border: 3px solid blue; */
@@ -915,19 +914,19 @@ img {
         padding: 5px 0;
     }
 }
-@media only screen and (max-width: 1440px) and (min-width: 1250px) {
+@media only screen and (max-width: 1500px) and (min-width: 1250px) {
     .wrapper-image-cards {
         row-gap: 60px;
         column-gap: 30px;
     }
     .single-image-box {   
-        height: 370px;
+        height: 300px;
         display: grid;
         grid-template-rows: 66% 34%;
         gap: 5px;
     }
     .single-image-box-image-wrapper > img {
-        height: 230px;
+        height: 175px;
     }
     .single-image-box-text-box {
         /* border: 3px solid blue; */
@@ -965,17 +964,18 @@ img {
         column-gap: 20px;
     }
     .single-image-box {   
-        height: 320px;
+        height: 250px;
         display: grid;
         grid-template-rows: 60% 40%;
         gap: 5px;
+        /* border: 3px solid RED; */
     }
     .single-image-box-image-wrapper > img {
-        height: 180px;
+        height: 150px;
     }
     .single-image-box-text-box {
         /* border: 3px solid blue; */
-        height: 120px;
+        height: 95px;
         width: 100%;
     }
     .image-details-text-box {
@@ -983,17 +983,17 @@ img {
         /* padding: 10px 0; */
     }
     .image-details-text-box h5 {
-        height: 24px;
-        font-size: 1rem;
+        height: 22px;
+        font-size: 0.9rem;
         line-height: 20px;
         overflow:hidden;
     }
     .single-image-box-para-1 {
-        font-size: .8rem;
+        font-size: .7rem;
         line-height: 15px;
     }
     .single-image-box-para-2 {
-        font-size: .8rem;
+        font-size: .7rem;
         /* padding: 5px 0; */
     }
     .single-image-box-para-3 {
