@@ -659,7 +659,6 @@ img {
     font-style: normal;
     line-height: normal;
 }
-
 .wrapper-image-cards {
     /* border: 5px solid red; */
     padding: 30px 0;
@@ -677,14 +676,9 @@ img {
     /* grid-template-rows: 60% 40%; */
     gap: 5px;
 }
-/* .single-image-box-image-wrapper {
-    border: 1px solid blue;
-} */
-
 .single-image-box-text-box {
     margin-left: 0;
 }
-
 .single-image-box-image-wrapper > img {
     height: fit-content;
     height: 200px;
@@ -692,8 +686,6 @@ img {
     padding: 3px;
     cursor: pointer;
 }
-
-
 .image-details-text-box {
     display: flex;
     justify-content: space-between;
@@ -704,7 +696,6 @@ img {
     grid-template-columns: 75% 25%;
     margin-top: 3px;
 }
-
 .image-details-text-box h5 {
     /* border: 1px solid red; */
     font-size: 0.9375rem;
@@ -717,7 +708,6 @@ img {
     width: 30px;
     cursor: pointer;
 }
-
 .single-image-box-para-1 {
     font-size: 0.875rem;
     color: gray;
@@ -737,9 +727,6 @@ img {
     font-weight: 500;
     line-height: normal;
 }
-
-
-
 @media only screen and (max-width: 2560px) and (min-width: 2100px) {
     .wrapper-image-cards {
         row-gap: 80px;
@@ -826,7 +813,6 @@ img {
         padding: 5px 0;
     }
 }
-
 @media only screen and (max-width: 1900px) and (min-width: 1700px){
     .wrapper-image-cards {
         row-gap: 80px;
@@ -1101,11 +1087,6 @@ img {
         padding: 3px 0;
     }
 }
-
-
-
-
-
 @media only screen and (max-width: 600px) and (min-width: 320px) {
     .artwork-tending-now-1 {
         /* border: 3px solid red; */
@@ -1171,13 +1152,7 @@ img {
     .single-image-box-image-wrapper img {
         /* border: 2px solid blue; */
         height: auto;
-        /* height: auto; */
     }
-
-
- 
-   
-
 }
 
 
@@ -1227,17 +1202,19 @@ img {
         font-size: 2.5rem;
     }
     .proactive-artworks-left-side-sec-row {
-        /* border: 3px solid blue; */
+        border: 3px solid blue;
         grid-template-columns: 20% 80%;
-        margin: 15px -30px;
+        margin: 15px -25px;
         gap: 20px;
     }
     .proactive-artworks-left-side-sec-row-heading h1 {
         font-size: 3.5rem;
         font-weight: 900;
+        margin-left: -40PX;
     }
     .proactive-artworks-left-side-sec-row-image-box img {
         width: 150px;
+        /* border: 2PX SOLID RED; */
     }
     .proactive-artworks-left-side-third-row {
         font-size: 1.5rem;
@@ -1263,6 +1240,7 @@ img {
     .proactive-artworks-left-side-sec-row-heading h1 {
         font-size: 3rem;
         font-weight: 900;
+        margin-left: -30PX;
     }
     .proactive-artworks-left-side-sec-row-image-box img {
         width: 125px;
@@ -1342,7 +1320,7 @@ img {
         margin-left: -40px;
     }
 }
-@media only screen and (max-width: 1200px) and (min-width: 1100px) { 
+@media only screen and (max-width: 1200px) and (min-width: 1000px) { 
     .proactive-artworks-left-side-sec-row-heading h1 {
         /* border: 1px solid red; */
         font-size: 2rem;
@@ -1351,14 +1329,6 @@ img {
     }
 }
 
-@media only screen and (max-width: 1100px) and (min-width: 1000px) { 
-    .proactive-artworks-left-side-sec-row-heading h1 {
-        /* border: 1px solid red; */
-        font-size: 2rem;
-        font-weight: 900;
-        margin-left: -20px;
-    }
-}
 @media only screen and (max-width: 1000px) and (min-width: 768px) {
     .proactive-artworks-left-side-first-row {
         font-size: 1rem;
@@ -1376,7 +1346,7 @@ img {
         /* border: 1px solid red; */
         font-size: 1.7rem;
         font-weight: 900;
-        margin-left: -20px;
+        margin-left: -30px;
     }
     .proactive-artworks-left-side-sec-row-image-box img {
         width: 70px;
@@ -1406,6 +1376,12 @@ img {
     .proactive-artworks-left-side-sec-row-image-box {
         margin-left: -10px;
     }
+    .proactive-artworks-left-side-sec-row-heading h1 {
+        /* border: 1px solid red; */
+        font-size: 1.5rem;
+        font-weight: 900;
+        margin-left: -15px;
+    }
 }
 
 @media only screen and (max-width: 600px) and (min-width: 320px) { 
@@ -1420,9 +1396,14 @@ img {
         padding: 50px;
     }
 }
-
-
-
+@media only screen and (max-width:370px) {
+    .proactive-artworks-left-side-sec-row-heading h1 {
+        /* border: 1px solid red; */
+        font-size: 1.2rem;
+        font-weight: 900;
+        margin-left: -15px;
+    }
+}
 
 
 /* CSS STYLING For Home-Page CURATED FOR YOU Section*/
