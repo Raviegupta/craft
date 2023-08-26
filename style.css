@@ -11,8 +11,9 @@
     text-align: center;
 }
 .section-padding-left-right {
-    padding-left: 75px;
-    padding-right: 75px;
+    padding-left: 150px;
+    padding-right: 150px;
+    /* max-width: 1440px; */
 }
 .section-padding-top-bottom {
     padding-top: 30px;
@@ -3477,7 +3478,7 @@ img {
 
 
 @media only screen and (max-width: 600px) {
-    .lang-select, .are-you-artist-link, .user-account, .search-wrapper input, .nav-bar a{
+    .lang-select, .are-you-artist-link, .user-account, .search-wrapper, .nav-bar a{
         display: none;
     }
     /* .search-wrapper i {
