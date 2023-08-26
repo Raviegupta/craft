@@ -62,8 +62,8 @@ a {
 
 
 
-
-/* ============================ CSS FOR HOME PAGE STARTS HERE =========================== */
+/* ======================================================================================= */
+/* ============================ CSS FOR HOME PAGE STARTS HERE ============================ */
 /* ======================================================================================= */
 
 /* -----------------CSS FOR HEADER STARTS HERE------------------*/
@@ -3694,9 +3694,144 @@ img {
     }
 }
 /* -----------------CSS FOR FOOTER ENDS HERE------------------*/
-/* ============================ CSS FOR HOME PAGE ENDS HERE =========================== */
+/* ======================================================================================= */
+/* ============================ CSS FOR HOME PAGE ENDS HERE ============================== */
+/* ======================================================================================= */
+
+
+
+
+
+/* ======================================================================================= */
+/* ======== CSS FOR MOBILE MENU (APPEARS ON CLICK OF HAMBURGER ICON) ===================== */
+/* ======================================================================================= */
+  /* this section is for mobile menu */
+  .mob-menu-top, .mob-menu-bottom {
+    /* border: 2px solid red; */
+    padding: 0 15px;
+    padding-top: 0px;
+    padding-bottom: 25px;
+  }
+    .menu-hidden {
+        display: none;
+    }
+    .mobile-menu-heading-wrapper {
+        display: grid;
+        grid-template-columns: 95% 5%;
+        padding: 25px 0;
+    }
+    /* .mobile-menu-heading-wrapper-1 {
+        border-bottom: 1px solid rgb(232, 215, 215);
+    } */
+    .mobile-menu-1, .mobile-menu-2 {
+        border-bottom: 1px solid rgb(232, 215, 215);
+    }
+    /* .mobile-menu-heading-wrapper-2 {
+        padding: 15px 0;
+        
+    } */
+    .mobile-menu-heading-wrapper-2 h4 {
+        font-size: 0.9rem;
+        margin-left: 0;
+    }
+    
+    .arrow {
+        width: 12px;
+        height: 8px;
+    }
+    .mobile-menu-heading-wrapper h1 {
+        margin-left: 0;
+    }
+
+    #mobile-menu-section-2-details {
+        background-color: #f5f4f2;
+        /* border: 2px solid red; */
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .mob-menu-phone, .mob-menu-about, .mob-menu-app {
+        /* border: 1px solid blue; */
+        display: grid;
+        grid-template-columns: 5% 95%;
+        gap: 10px;
+        margin-bottom: 25px;
+    }
+    .mob-menu-phone div > img, .mob-menu-about div > img, .mob-menu-app div > img {
+        display: flex;
+        align-items: center;
+        /* border: 2px solid red; */
+    }
+    .mob-menu-phone div, .mob-menu-about div, .mob-menu-app div  {
+        margin-left: 0;
+    }
+    .mob-menu-phone p, .mob-menu-about p, .mob-menu-app p {
+        margin-left: 0;  
+        /* border: 2px solid red; */
+        font-size: 1rem;
+        color: #666;
+    }
 
+    .lang-curr-selection-btn {
+        font-weight: bold;
+        letter-spacing: 1.5;
+        font-size: 0.9rem;
+        margin-top: 15px;
+        padding: 13px 25px;
+    }
 
+    .mobile-menu-1-list li, 
+    .mobile-menu-2-list li, 
+    .mobile-menu-3-list li,
+    .mobile-menu-4-list li,
+    .mobile-menu-5-list li,
+    .mobile-menu-6-list li,
+    .mobile-menu-7-list li,
+    .mobile-menu-8-list li {
+        /* border: 1px solid red; */
+        padding: 10px 10px;
+    }
+    
+    .mobile-menu-1-list li:last-child, 
+    .mobile-menu-2-list li:last-child{
+        /* border: 1px solid red; */
+        margin-bottom: 10px;
+    }
+    .my-mob-menu ul li:first-child{
+        /* border: 1px solid red; */
+        margin-top: -15px;
+    }
+    .mobile-menu-3,
+    .mobile-menu-4,
+    .mobile-menu-5,
+    .mobile-menu-6,
+    .mobile-menu-7,
+    .mobile-menu-8  {
+        /* border: 1px solid red; */
+        margin-top: -20px;
+        margin-bottom: -20px;
+    }
+    .mobile-menu-3 {
+        margin-top: 0px;
+    }
+    .mobile-menu-8 {
+        margin-bottom: 0px;
+    }
+    .mobile-menu-3 li:last-child,
+    .mobile-menu-4 li:last-child,
+    .mobile-menu-5 li:last-child,
+    .mobile-menu-6 li:last-child,
+    .mobile-menu-7 li:last-child,
+    .mobile-menu-8 li:last-child {
+        margin-bottom: 15px;
+    }
+    .my-mob-menu ul li {
+        /* border: 1px solid red; */
+        color: black;
+        font-weight: normal;
+    }
+/* ======================================================================================= */
+/* ======== CSS FOR MOBILE MENU (APPEARS ON CLICK OF HAMBURGER ICON) ===================== */
+/* ======================================================================================= */
 
 
 
@@ -3776,8 +3911,9 @@ img {
 
 
 
-
-/* -----------------CSS FOR PRODUCT LISTING PAGE STARTS HERE---------------------*/
+/* ======================================================================================= */
+/* ======================= CSS FOR PRODUCT LISTING PAGE STARTS HERE ====================== */
+/* ======================================================================================= */
 
 /* -----------------CSS FOR PRODUCT LISTING PAGE PAGE ENDS HERE------------------*/
 .plp-main-display {
@@ -3785,10 +3921,6 @@ img {
     width: 80%;
     margin-right: 0;
 }
-
-
-
-
 
 
 /* CSS STYLING For Home-Page Artwork Trending Now Section & Curator's fresh pick of the week Section*/
@@ -4016,130 +4148,4 @@ img {
 
 
 
-  /* ***************************************************************************************** */
-  /* this section is for mobile menu */
-  .mob-menu-top, .mob-menu-bottom {
-    /* border: 2px solid red; */
-    padding: 0 15px;
-    padding-top: 0px;
-    padding-bottom: 25px;
-  }
-
-    .menu-hidden {
-        display: none;
-    }
-    .mobile-menu-heading-wrapper {
-        display: grid;
-        grid-template-columns: 95% 5%;
-        padding: 25px 0;
-    }
-    /* .mobile-menu-heading-wrapper-1 {
-        border-bottom: 1px solid rgb(232, 215, 215);
-    } */
-    .mobile-menu-1, .mobile-menu-2 {
-        border-bottom: 1px solid rgb(232, 215, 215);
-    }
-    /* .mobile-menu-heading-wrapper-2 {
-        padding: 15px 0;
-        
-    } */
-    .mobile-menu-heading-wrapper-2 h4 {
-        font-size: 0.9rem;
-        margin-left: 0;
-    }
-    
-    .arrow {
-        width: 12px;
-        height: 8px;
-    }
-    .mobile-menu-heading-wrapper h1 {
-        margin-left: 0;
-    }
-
-    #mobile-menu-section-2-details {
-        background-color: #f5f4f2;
-        /* border: 2px solid red; */
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
-    .mob-menu-phone, .mob-menu-about, .mob-menu-app {
-        /* border: 1px solid blue; */
-        display: grid;
-        grid-template-columns: 5% 95%;
-        gap: 10px;
-        margin-bottom: 25px;
-    }
-    .mob-menu-phone div > img, .mob-menu-about div > img, .mob-menu-app div > img {
-        display: flex;
-        align-items: center;
-        /* border: 2px solid red; */
-    }
-    .mob-menu-phone div, .mob-menu-about div, .mob-menu-app div  {
-        margin-left: 0;
-    }
-    .mob-menu-phone p, .mob-menu-about p, .mob-menu-app p {
-        margin-left: 0;  
-        /* border: 2px solid red; */
-        font-size: 1rem;
-        color: #666;
-    }
-
-    .lang-curr-selection-btn {
-        font-weight: bold;
-        letter-spacing: 1.5;
-        font-size: 0.9rem;
-        margin-top: 15px;
-        padding: 13px 25px;
-    }
-
-    .mobile-menu-1-list li, 
-    .mobile-menu-2-list li, 
-    .mobile-menu-3-list li,
-    .mobile-menu-4-list li,
-    .mobile-menu-5-list li,
-    .mobile-menu-6-list li,
-    .mobile-menu-7-list li,
-    .mobile-menu-8-list li {
-        /* border: 1px solid red; */
-        padding: 10px 10px;
-    }
-    
-    .mobile-menu-1-list li:last-child, 
-    .mobile-menu-2-list li:last-child{
-        /* border: 1px solid red; */
-        margin-bottom: 10px;
-    }
-    .my-mob-menu ul li:first-child{
-        /* border: 1px solid red; */
-        margin-top: -15px;
-    }
-    .mobile-menu-3,
-    .mobile-menu-4,
-    .mobile-menu-5,
-    .mobile-menu-6,
-    .mobile-menu-7,
-    .mobile-menu-8  {
-        /* border: 1px solid red; */
-        margin-top: -20px;
-        margin-bottom: -20px;
-    }
-    .mobile-menu-3 {
-        margin-top: 0px;
-    }
-    .mobile-menu-8 {
-        margin-bottom: 0px;
-    }
-    .mobile-menu-3 li:last-child,
-    .mobile-menu-4 li:last-child,
-    .mobile-menu-5 li:last-child,
-    .mobile-menu-6 li:last-child,
-    .mobile-menu-7 li:last-child,
-    .mobile-menu-8 li:last-child {
-        margin-bottom: 15px;
-    }
-    .my-mob-menu ul li {
-        /* border: 1px solid red; */
-        color: black;
-        font-weight: normal;
-    }
-  /* ***************************************************************************************** */
+ 
