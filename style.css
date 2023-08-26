@@ -628,10 +628,13 @@ img {
     }
     /* =*=*=*=*=*=*=*=*=*= customization for banner-3 =*=*=*=*=*=*=*=*=*=  */
 }
+/* ------------------------------CSS FOR HEADER ENDS HERE------------------*/
+
 
 
 
 /* CSS STYLING For Home-Page Artwork Trending Now Section & Curator's fresh pick of the week Section*/
+/* -------------------------------------------------------------------------------------------------*/
 /* .artwork-tending-now-1 {
     border: 3px solid blue;
 } */
@@ -1154,11 +1157,11 @@ img {
         height: auto;
     }
 }
+/* -----------------------------------------------------------*/
 
 
 
-
-
+/* -----------------------------------------------------------*/
 /* CSS STYLING For Home-Page PROCURE ARTWORKS's Section*/
 #proactive-artworks {
     /* border: 3px solid blue; */
@@ -1407,7 +1410,9 @@ img {
 
 
 
+
 /* CSS STYLING For Home-Page CURATED FOR YOU Section*/
+/* ------------------------------------------------ */
 #curative-for-you {
     /* border: 3px solid red; */
     position: relative;
@@ -1449,7 +1454,7 @@ img {
     padding: 15px 25px;
 }
 
-@media only screen and (max-width: 2560px) and (min-width: 1800px) {
+@media only screen and (max-width: 4000px) and (min-width: 1800px) {
     .curative-for-you-image-box {
         width: 100%;
     }
@@ -1642,13 +1647,13 @@ img {
         margin: auto;
     }
 }
+/* ------------------------------------------------ */
 
 
-/* *********************************************************************************************************** */
-/* *********************************************************************************************************** */
 
-/* work is started .................................... */
+
 /* CSS STYLING For Home-Page SHOP BY ART STYLE Section*/
+/* -------------------------------------------------- */
 #shop-by-art-style {
     /* border: 10px solid blue; */
     padding-top: 120px;
@@ -1698,7 +1703,7 @@ img {
     color: white;
 }
 
-@media only screen and (max-width: 2560px) and (min-width: 1800px) {
+@media only screen and (max-width: 4000px) and (min-width: 1800px) {
     #shop-by-art-style {
         padding-top: 200px;
         padding-bottom: 100px;
@@ -1840,14 +1845,13 @@ img {
         font-weight: normal;
     }
 }
-
-
-
+/* ------------------------------------------------ */
 
 
 
 
 /* CSS STYLING For Home-Page Everything About Collecting Art Section */
+/* ----------------------------------------------------------------- */
 #everything-about-collecting-art-section {
     /* border: 3px solid blue; */
     padding-top: 100px;
@@ -2133,10 +2137,13 @@ img {
         border-radius: 10px;
     }
 }
+/* ------------------------------------------------ */
+
 
 
 
 /* CSS STYLING For Home-Page ARTWORK PRICE RANGE Section */
+/* ----------------------------------------------------- */
 .artwork-price-range-section {
     background-color: #FFFDF5;
     /* border: 2px solid red; */
@@ -2249,19 +2256,19 @@ img {
 }
 @media only screen and (max-width: 1200px) and (min-width: 900px) {
     .artwork-price-range-one-tab {
-        padding: 5px 15px;
+        padding: 5px 25px;
         border-radius: 7px;
         background: #F5F2E2;
-        margin: 10px auto;
+        margin: 20px auto;
     }
     .artwork-price-range-one-tab-left-range {
-        font-size: .7rem;
+        font-size: 1rem;
     }
     .artwork-price-range-one-tab-price-row span {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
     .artwork-price-range-one-tab-price-row h3 {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
     .artwork-price-range-one-tab-right img {
         width: 10px;
@@ -2276,13 +2283,13 @@ img {
         margin: 7px auto;
     }
     .artwork-price-range-one-tab-left-range {
-        font-size: .6rem;
+        font-size: 1rem;
     }
     .artwork-price-range-one-tab-price-row span {
-        font-size: 0.7rem;
+        font-size: 1.3rem;
     }
     .artwork-price-range-one-tab-price-row h3 {
-        font-size: 0.7rem;
+        font-size: 1.3rem;
     }
     .artwork-price-range-one-tab-right img {
         width: 7px;
@@ -2290,7 +2297,7 @@ img {
     
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
     .artwork-price-range-all-tabs-wrapper {
         /* border: 1px solid blue; */
         padding: 20px 0;
@@ -2298,7 +2305,7 @@ img {
         margin-left: 0;
     }
     .artwork-price-range-one-tab {
-        border: 1px solid rgb(228, 219, 219);
+        /* border: 1px solid rgb(228, 219, 219); */
         padding: 15px;
         margin-bottom: 25px;
     }
@@ -2312,11 +2319,13 @@ img {
         /* border: 2px solid red; */
     }
 }
+/* ------------------------------------------------ */
 
 
 
 
 /* CSS STYLING Home-Page MEET OUR ARTISTS Section */
+/* ----------------------------------------------- */
 .meet-our-artists-section {
     /* border: 2px solid blue; */
     background-color: white; 
@@ -2418,7 +2427,7 @@ img {
     }
     .one-card-tag-heading {
         color: white;
-        font-size: 0.5rem;
+        font-size: 0.6rem;
         font-weight: normal;
         letter-spacing: 1.5;
     }
@@ -2450,11 +2459,13 @@ img {
     }
   
 }
+/* ------------------------------------------------ */
 
 
 
 
 /* CSS STYLING Home-Page GET INSPIRED Section */
+/* ------------------------------------------------ */
 #get-inspired-section {
     /* border: 5px solid blue; */
     background-color: #fafafa;
@@ -2554,12 +2565,13 @@ img {
         padding-right: 5px;
     }
 }
-
+/* --------------------------------------------------- */
 
 
 
 
 /* CSS STYLING Home-Page WHY SHOP WITH US Section */
+/* ---------------------------------------------- */
 #why-shop-with-us {
     /* border: 2px solid blue; */
     background-color: #f1faff;
@@ -2953,16 +2965,13 @@ img {
         width: 100%;
     }
 }
+/* ------------------------------------------------ */
 
 
 
-
-
-
-
-/* to be continue .................. */
 
 /* CSS STYLING For Home-Page PROCURE ARTWORKS's Section */
+/* ---------------------------------------------------- */
 #follow-us-on-insta {
     /* border: 1px solid red; */
     padding: 60px 0;
@@ -2983,10 +2992,8 @@ img {
     padding: 20px 0; 
 }
 @media only screen and (max-width: 2560px) and (min-width: 1800px) { 
-   
     #follow-us-on-insta {
         padding: 120px 0;
-    
     }
     #follow-us-on-insta > p {
         font-size: 2.4rem;
@@ -3015,7 +3022,6 @@ img {
         margin-bottom: 20px;
     }
 }
-
 @media only screen and (max-width: 600px) {
     #beutiful-one-line-images-below-insta {
         display: flex;
@@ -3033,9 +3039,13 @@ img {
         text-align: left;
     } */
 }
+/* ---------------------------------------------------- */
+
+
 
 
 /* CSS STYLING For Home-Page SUBSCRIBE NEWSLETTER Section */
+/* ------------------------------------------------------ */
 #subscribe-newsletter {
     /* border: 3px solid blue; */
     display: flex;
@@ -3350,11 +3360,6 @@ img {
     }
 }
 
-
-
-
-
-
 @media only screen and (max-width: 768px) {
     #subscribe-newsletter > img {
         width: 60px;
@@ -3450,28 +3455,7 @@ img {
         border-bottom: 2px solid #FE8453; 
     }
 }
-/* ============================ CSS FOR HOME PAGE ENDS HERE =========================== */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* ------------------------------------------------------ */
 
 
 
@@ -3528,7 +3512,6 @@ img {
     /* color: #000; */
 } 
 
-
 @media only screen and (max-width: 2560px) and (min-width: 1800px) {
     .foot-col h1 {
         font-size: 2rem;
@@ -3559,7 +3542,6 @@ img {
       
     }
 }
-
 @media only screen and (max-width: 768px) {
     .foot-col h1 {
         font-size: 13px;
@@ -3647,42 +3629,113 @@ img {
     }
 }
 
-
-
 .my-footer-last {
     background-color: #000000;
     /* border: 2px solid red; */
     display: grid;
-    grid-template-columns: 30% 40% 30%;
-    padding-top: 0px;
+    grid-template-columns: 25% 50% 25%;
+    padding-top: 20px;
+    padding-bottom: 20px;
 
     .my-footer-last-middle-part {
         /* border: 2px solid red;  */
         display: flex;
-        gap: 30px;
-        width: fit-content;
-       
-         
+        margin-left: auto;
+        /* gap: 30px; */
+        width: fit-content;  
+        width: 100%; 
     }
     .my-footer-last-middle-part h1 {
         color: white;
         font-size: 1rem;
     }
-
     .foot-social-media-icons {
         display: flex;
-        gap: 10px;
+        gap: 30px;
         /* border: 2px solid red; */  
     }
-
+    .foot-social-media-icons a img {
+        width: 125%;
+    }
     #copyright-line p{
         color: white;
         padding: 10px;
         font-size: 0.5rem;
     }
-  
+    /* .my-footer-last-middle-part-wrapper {
+        border: 2px solid red;
+    } */
+    .my-footer-last-middle-part a h1 {
+        font-size: 1.5rem;
+        letter-spacing: 1.5;
+        margin-right: 30px;
+    }
+    #copyright-line {
+        text-align: center;
+    }
+    #copyright-line strong {
+        text-align: center;
+        font-weight: bold;
+        letter-spacing: 1.5;
+    }
 }
-/* -----------------CSS FOR FOOTER STARTS HERE------------------*/
+@media only screen and (max-width: 768px) {
+    .my-footer-last-middle-part {
+        /* border: 3px solid red; */
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        margin-top: -20px;
+    
+    }
+    .my-footer-last-middle-part a h1 {
+        text-align: center;
+        margin-left: 7%;
+    }
+}
+/* -----------------CSS FOR FOOTER ENDS HERE------------------*/
+/* ============================ CSS FOR HOME PAGE ENDS HERE =========================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3732,6 +3785,7 @@ img {
     width: 80%;
     margin-right: 0;
 }
+
 
 
 
@@ -3873,6 +3927,21 @@ img {
         line-height: 18px;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
