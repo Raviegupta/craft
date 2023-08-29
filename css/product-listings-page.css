@@ -1,16 +1,194 @@
 /* ======================================================================================= */
 /* ======================= CSS FOR PRODUCT LISTING PAGE STARTS HERE ====================== */
 /* ======================================================================================= */
+
+/* -----------------PRODUCT LISTING PAGE MAIN DISPLAY STARTS HERE------------------*/
 .plp-main-display {
-    border: 2px  solid red;
-    width: 80%;
+    border: 3px  solid tomato;
+    width: 77.5%;
     margin-right: 0;
 }
 
-/* CSS STYLING For Home-Page Artwork Trending Now Section & Curator's fresh pick of the week Section*/
-.plp {
-    border: 3px solid blue;
+.plp-products-display-padding-left-right-setup {
+    /* border: 2px solid blue; */
+    padding-left: 50px;
+    padding-right: 50px;
 }
+@media only screen and (max-width: 1000px){
+    
+}
+/* -----------------PRODUCT LISTING PAGE MAIN DISPLAY ENDS HERE------------------*/
+
+
+
+/* -----------------PRODUCT LISTING PAGE Painting Heading Box Section STARTS HERE------------------*/
+.plp-heading-box {
+    background-color: #faf5e4;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.plp-heading-box-heading {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    /* border: 2px solid red; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/* -----------------PRODUCT LISTING PAGE Painting Heading Box Section ENDS HERE------------------*/
+
+
+
+/* -----------------PRODUCT LISTING PAGE WHY SHOP WITH US SETUP STARTS HERE------------------*/
+@media only screen and (max-width: 1000px) {
+    .plp-products-why-shop-wraopper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+/* -----------------PRODUCT LISTING PAGE WHY SHOP WITH US SETUP ENDS HERE------------------*/
+
+
+
+
+
+
+
+/* -----------------PRODUCT LISTING PAGE Why Accordian Section STARTS HERE------------------*/
+.accordian-section-heading {
+    
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-top: 3.75rem;
+    padding-bottom: 1.75rem;
+
+}
+
+.accordion {
+    display: flex;
+    flex-direction: column;
+    /* margin: 10px; */
+    /* border: 3px solid #ccc; */
+    background-color: #fffdf5;
+    /* background-color: red; */
+}
+
+.accordion-section {
+    /* border: 1px solid red; */
+    background-color: #F5F2E2;
+    border-radius: 10px;
+    margin: 8px;
+
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+}
+
+.accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    /* background-color: #F5F2E2; */
+    cursor: pointer;
+}
+.accordion-header-question {
+    margin-left: 0;
+}
+.accordion-icon {
+    margin-right: 0;
+}
+.accordion-content {
+    display: none;
+    padding: 10px;
+}
+.active {
+    display: block;
+}
+/* -----------------PRODUCT LISTING PAGE Why Accordian Section ENDS HERE------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ****************************************** SPARE CSS **************************************************** */
+/* CSS STYLING For Home-Page Artwork Trending Now Section & Curator's fresh pick of the week Section*/
+/* .plp {
+    border: 3px solid blue;
+} */
 .plp-heading {
    /* border: 2px solid red;  */
    font-size: 32px;
@@ -143,44 +321,4 @@
         line-height: 18px;
     }
 }
-
- 
-/* -----------------PRODUCT LISTING PAGE Why Accordian Section STARTS HERE------------------*/
-.accordion {
-    display: flex;
-    flex-direction: column;
-    /* margin: 10px; */
-    border: 3px solid #ccc;
-    background-color: #fffdf5;
-    /* background-color: red; */
-}
-
-.accordion-section {
-    /* border-top: 1px solid #ccc; */
-    background-color: #F5F2E2;
-    border-radius: 5px;
-    margin: 5px;
-}
-
-.accordion-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    /* background-color: #F5F2E2; */
-    cursor: pointer;
-}
-.accordion-header-question {
-    margin-left: 0;
-}
-.accordion-icon {
-    margin-right: 0;
-}
-.accordion-content {
-    display: none;
-    padding: 10px;
-}
-.active {
-    display: block;
-}
-/* -----------------PRODUCT LISTING PAGE Why Accordian Section STARTS HERE------------------*/
+/* ****************************************** SPARE CSS **************************************************** */
