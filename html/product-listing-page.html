@@ -4,14 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CrattTatva PLP</title>
+
+    <!-- stylesheet -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="../css/product-listings-page.css">
+
+    <!-- script -->
+    <script src="../js/plp/plp-accordian.js" defer></script>
 </head>
 <body>
     
-
-
     <main class="plp-main-display">
         <!-- PRODUCT LISTING Painting Heading Box Section -->
         <section class="plp-heading-box plp-products-display-padding-left-right-setup">
@@ -79,7 +82,7 @@
                     </div>
                     <div class="single-image-box">
                         <div class="single-image-box-image-wrapper">
-                            <img src="../images/Mask group (23).png" alt="">
+                            <img src="../images/image 7 (2).png" alt="">
                         </div>
                         
                         <div class="single-image-box-text-box">
@@ -165,7 +168,7 @@
                     </div>
                     <div class="single-image-box">
                         <div class="single-image-box-image-wrapper">
-                            <img src="../images/Mask group (23).png" alt="">
+                            <img src="../images/image 7 (2).png" alt="">
                         </div>
                         
                         <div class="single-image-box-text-box">
@@ -251,7 +254,7 @@
                     </div>
                     <div class="single-image-box">
                         <div class="single-image-box-image-wrapper">
-                            <img src="../images/Mask group (23).png" alt="">
+                            <img src="../images/image 7 (2).png" alt="">
                         </div>
                         
                         <div class="single-image-box-text-box">
@@ -337,7 +340,7 @@
                     </div>
                     <div class="single-image-box">
                         <div class="single-image-box-image-wrapper">
-                            <img src="../images/Mask group (23).png" alt="">
+                            <img src="../images/image 7 (2).png" alt="">
                         </div>
                         
                         <div class="single-image-box-text-box">
@@ -418,7 +421,7 @@
                         <p>Shop original handmade paintings directly from an artists</p>
                     </div>
                 </div>
-                <div class="why-shop-with-us-one-icon-box one-icon-box-3 plp-why-shop-one-icon-box">
+                <div class="why-shop-with-us-one-icon-box one-icon-box-3 plp-why-shop-one-icon-box plp-why-shop-one-icon-box-3">
                     <img src="../images/Group 24.png" alt="">
                     <div>
                         <h4>Risk-free Shopping</h4>
@@ -492,35 +495,5 @@
         </section>
     </main>
     
-
-
-      
-      
-      
-
-
-
-
-    
-
-
-
-    <script>
-        const accordionSections = document.querySelectorAll('.accordion-section');
-        accordionSections.forEach(section => {
-            const header = section.querySelector('.accordion-header');
-            const content = section.querySelector('.accordion-content');
-            const icon = section.querySelector('.accordion-icon');
-  
-            header.addEventListener('click', () => {
-                content.classList.toggle('active');
-                if (content.classList.contains('active')) {
-                    icon.innerHTML = '<img src="../images/Accordian-Arrow-up.png" alt="Up Arrow" style="width: 12px;">';
-                } else {
-                    icon.innerHTML = '<img src="../images/Accordian-Arrow-down.png" alt="Up Arrow" style="width: 12px;">';
-                }
-            });
-         });
-    </script>
 </body>
 </html>
