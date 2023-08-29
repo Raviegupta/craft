@@ -4,7 +4,7 @@
 
 /* -----------------PRODUCT LISTING PAGE MAIN DISPLAY STARTS HERE------------------*/
 .plp-main-display {
-    border: 3px  solid tomato;
+    border: 5px  solid tomato;
     width: 77.5%;
     margin-right: 0;
 }
@@ -14,10 +14,30 @@
     padding-left: 50px;
     padding-right: 50px;
 }
-@media only screen and (max-width: 1000px){
-    
+@media only screen and (max-width: 900px) {
+    .plp-main-display {
+        width: 100%;
+    }
+    .plp-products-display-padding-left-right-setup {
+        /* border: 2px solid blue; */
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }
 /* -----------------PRODUCT LISTING PAGE MAIN DISPLAY ENDS HERE------------------*/
+
+
+
+/* -----------------PRODUCT LISTING PAGE PRODUCTS DISPLAY AREA STARTS HERE------------------*/
+
+
+/* -----------------PRODUCT LISTING PAGE PRODUCTS DISPLAY AREA ENDS HERE--------------------*/
+
+
+
+
+
+
 
 
 
@@ -42,7 +62,22 @@
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+@media only screen and (max-width: 900px) {
+    .plp-heading-box {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
 /* -----------------PRODUCT LISTING PAGE Painting Heading Box Section ENDS HERE------------------*/
+
+
+
+
+
+
+
 
 
 
@@ -54,10 +89,9 @@
     margin-right: 50px;
     border-bottom: 1px solid rgb(215, 209, 209);
 }
-
 #my-pagination {
     width: 60%;
-    /* border: 2px solid red; */
+    border: 2px solid red;
     display: flex;
 }
 .my-pagination-show-1 {
@@ -81,19 +115,57 @@
     display: flex;
     gap: 20px;
 }
-
+@media only screen and (max-width: 1500px) {
+    #my-pagination {
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    #my-pagination {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .my-pagination-show-2, .to-hide-on-mob {
+        display: none;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .to-hide-on-mob {
+        background-color: red;
+        display: none !important;
+    }
+}
 /* ------------PRODUCT LISTING PAGE PAGINATION Section ENDS HERE---------------- */
 
 
 
 
 /* -----------------PRODUCT LISTING PAGE WHY SHOP WITH US SETUP STARTS HERE------------------*/
-@media only screen and (max-width: 1000px) {
-    .plp-products-why-shop-wraopper {
+@media only screen and (max-width: 1600px) {
+    .plp-products-why-shop-wrapper {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
 }
+.plp-products-why-shop-wrapper {
+    border: 2px solid red;
+}
+.plp-why-shop-one-icon-box-1 {
+    /* border: 2px solid red; */
+    margin-left: 0;
+
+}
+@media only screen and (max-width: 900px) {
+    .plp-products-why-shop-wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .plp-why-shop-one-icon-box {
+        margin-left: 0;
+    }
+}
+
 /* -----------------PRODUCT LISTING PAGE WHY SHOP WITH US SETUP ENDS HERE------------------*/
 
 
