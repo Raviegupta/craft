@@ -1,0 +1,14 @@
+.ring {
+    border: 5px solid red;
+}
+
+.sub-ring {
+    border: 3px solid blue;
+}
+
+.pdp-about-the-creator-section {
+    margin-left: 50px;
+    margin-right: 50px;
+    display: grid;
+    grid-template-columns: 25% 40% 35%;
+}
