@@ -1,14 +1,271 @@
-.ring {
-    border: 5px solid red;
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
+/* GLOBAL STYLING */
+*{
+    padding: 0;
+    /* margin: auto; */
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.ring {
+    border: 3px solid red;
+}
 .sub-ring {
     border: 3px solid blue;
 }
-
 .pdp-about-the-creator-section {
     margin-left: 50px;
     margin-right: 50px;
     display: grid;
     grid-template-columns: 25% 40% 35%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* |*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|* */
+/* |*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|* */
+.pdp-about-the-creator-section {
+    border: 1px solid blue;
+    display: grid;
+    grid-template-columns: 65% 35%;
+}
+/* -*-*-*-*-*-*-*-*-*- ABOUT THE CREATOR SECTION -DETAILS -*-*-*-*-*-*-*-*-*- */
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+.pdp-about-the-creator-section-details {
+    border: 0px solid red;
+}
+.about-the-creator-heading {
+    border: 0px solid red;
+}
+
+/* ---------- ((profile + name) + follow button) ---------- */
+.profile-wrapper {
+    /* border: 1px solid blue; */
+    display: flex;
+    gap: 30px;
+}
+.profile-img-wrapper {
+    border: 0px solid red;
+}
+.profile-img-wrapper img {
+    border-radius: 50%;
+}
+.profile-name-wrapper {
+    /* border: 2px solid red; */
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.profile-follow-btn {
+    border-radius: 1.21875rem;
+    border: 1px solid #000;
+    background: #FFF;
+    width: 7.875rem;
+    height: 2.4375rem;
+    flex-shrink: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+}
+/* ---------- ((profile + name) + follow button) ---------- */
+
+/* ********* ((Artist highlight + credentials) + texts) ********* */
+.pdp-about-creator-artist-highlight-cred-txt-wrapper {
+    /* border: 2px solid red; */
+    display: flex;
+}
+.artist-highlight-cred-wrapper {
+    /* border: 2px solid black; */
+    width: 35%;
+}
+.artist-highlight-text-wrapper {
+    border: 2px solid red;
+    width: 65%;
+}
+/* ---------artist highlight section-------- */
+.pdp-artist-highlight-section {
+    /* border: 1px solid blue; */
+    padding-bottom: 20px;
+    border-bottom: 1px solid #E0E0E0;
+    margin-right: 25px;
+}
+.art-light-1-unit {
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.art-light-1-unit-txt-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    /* border: 1px solid red; */
+    padding-left: 10px;
+    /* padding-right: 10px; */
+}
+.artist-gf {
+    width: 2.7305rem;
+    height: 2.7305rem;
+    flex-shrink: 0;
+    border: 1px solid #f1e7d0;
+    border-radius: 50%;
+    background-color: #fff4db;
+    padding: 0.25rem;
+}
+/* ---------artist highlight section-------- */
+
+/* ----------credential section------------- */
+.pdp-artist-cred-section {
+    border: 0px solid tomato;
+}
+.cred-heading {
+    /* border: 2px solid red; */
+    margin-bottom: 0;
+}
+.cred-section-one-unit {
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 2.81rem;
+}
+.cred-section-one-unit p {
+    color: #404040;
+    font-family: Montserrat;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.8125rem; /* 321.429% */
+}
+.cred-section-one-unit span {
+    /* border: 3px solid red; */
+    display: flex;
+}
+/* ----------credential section------------- */
+
+/* -------artist highlight text section------ */
+.artist-highlight-text-wrapper {
+    border: 3px solid red;
+    padding-left: 20px;
+}
+.artist-highlight-text-wrapper-heading {
+    color: #404040;
+    font-family: Montserrat;
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.25rem; /* 128.571% */
+}
+.artist-highlight-text-wrapper-para {
+    color: #404040;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; /* 150% */
+}
+/* -------artist highlight text section------ */
+/* ********* ((Artist highlight + credentials) + texts) ********* */
+/* -*-*-*-*-*-*-*-*-*- ABOUT THE CREATOR SECTION -DETAILS -*-*-*-*-*-*-*-*-*- */
+/* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
+
+/* -------------- right side image ------------ */
+.pdp-about-the-creator-section-image-wrapper {
+    border: 3px solid black;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+.pdp-about-the-creator-section-image-wrapper img {
+    width: 100%;
+    /* height: 100%; */
+    /* border: 1px solid black; */
+    border-radius: 15px;
+}
+/* -------------- right side image ------------ */
+
+
+/* |R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R| */
+@media only screen and (max-width: 1000px) {
+    .pdp-about-the-creator-section-image-wrapper {
+        display: none;
+    }
+    .pdp-about-the-creator-section {
+        grid-template-columns: 100%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .about-the-creator-heading {
+        text-align: center;
+    }
+    .profile-wrapper{
+        border: 2px solid blue;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+    }
+    .profile-img-wrapper {
+        border: 0px solid red;
+    }
+    .profile-name-wrapper{
+        border: 0px solid red;
+        text-align: center;
+        
+    }
+    .profile-name-wrapper p{
+        margin-top: -12px;
+        
+    }
+    .pdp-about-the-creator-section-image-wrapper {
+        display: block;
+        padding-left: 0;
+    }
+
+    .pdp-about-creator-artist-highlight-cred-txt-wrapper {
+        border: 3px solid black;
+        flex-direction: column;
+
+    }
+    .artist-highlight-text-wrapper {
+        border: 3px solid blue;
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .artist-highlight-cred-wrapper {
+        border: 2px solid red;
+        width: 100%;
+    }
+    .pdp-artist-highlight-section {
+        margin-right: 0;
+    }
+    .pdp-about-the-creator-section-image-wrapper {
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+/* |R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R| */
+
+/* |*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|* */
+/* |*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|* */
