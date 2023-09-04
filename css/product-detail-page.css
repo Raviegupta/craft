@@ -816,3 +816,58 @@
 
 /* |*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|* */
 /* |*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|* */
+
+
+
+
+
+
+
+
+/* |*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|* */
+.pdp-other-artworks-by-section {
+    border: 2px solid red;
+}
+.product-single-card-wrapper {
+    border: 2px solid blue;
+    width: max-content;
+}
+
+.product-image-and-whislist-wrapper {
+    border: 2px solid black;
+    width: max-content;
+    position: relative;
+}
+.pdp-image-wrapper {
+    border: 0px solid blue;
+}
+.pdp-image-wrapper img{
+    width: auto;
+}
+.pdp-whislist-wrapper {
+    /* border: 2px solid orangered; */
+    width: max-content;
+    position: absolute;
+    bottom: 0.25rem;
+    right: 0.5rem;
+}
+
+.product-image-details-text-box {
+    border: 0px solid red;
+}
+ 
+
+
+
+
+
+/* |R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R| */
+
+/* |R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R| */
+/* |*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|* */
+
+
+
+
+
+
