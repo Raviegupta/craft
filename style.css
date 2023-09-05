@@ -1236,7 +1236,7 @@ img {
         font-size: 2.5rem;
     }
     .proactive-artworks-left-side-sec-row {
-        border: 3px solid blue;
+        border: 0px solid blue;
         grid-template-columns: 20% 80%;
         margin: 15px -25px;
         gap: 20px;
