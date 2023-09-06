@@ -6,7 +6,7 @@ const nextBtn = document.querySelector(".next-btn");
 
         
 let currentIndex = 0;
-const intervalTime = 3000;
+const intervalTime = 5000;
 
 function showSlide(index) {
     sliderContainer.style.transform = `translateX(-${index * 100}%)`;
