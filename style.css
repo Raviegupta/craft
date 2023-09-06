@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
 
 /* GLOBAL STYLING */
 *{
@@ -10,15 +11,7 @@
 .text-align-center {
     text-align: center;
 }
-.section-padding-left-right {
-    padding-left: 150px;
-    padding-right: 150px;
-    /* max-width: 1440px; */
-}
-.section-padding-top-bottom {
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
+
 .button-common-css {
     padding: 15px 30px;
     border-radius: 57px;
@@ -37,27 +30,27 @@ a {
     text-decoration: none;
     color: #000;
 }
-.font-wt-normal {
-    font-weight: normal;
-}
-@media only screen and (max-width: 1024px){
-    .section-padding-left-right {
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-}
-@media only screen and (max-width: 768px){
-    .section-padding-left-right {
-        padding-left: 30px;
-        padding-right: 30px;
-    }
-}
-@media only screen and (max-width: 480px) {
-    .section-padding-left-right {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-}
+
+
+
+
+/* **************************************************************************************** */
+
+/* **************************************************************************************** */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -639,33 +632,16 @@ img {
 
 /* CSS STYLING For Home-Page Artwork Trending Now Section & Curator's fresh pick of the week Section*/
 /* -------------------------------------------------------------------------------------------------*/
-/* .artwork-tending-now-1 {
+.artwork-tending-now-1 {
     border: 3px solid blue;
-} */
+}
 .artwork-tending-now-2 {
     /* border: 3px solid tomato; */
     background-color: #fffdf5;
 }
-.artwork-tending-now-heading {
-   /* border: 2px solid red;  */
-   font-size: 2.5rem;
-   color: #000;
-   font-weight: 600;
-   line-height: normal;
-   padding: 10px 0;
-}
-.artwork-tending-now-heading-only {
-    /* border: 2px solid blue;  */
-    padding: 0;
-    font-weight: bolder;
-}
-.artwork-tending-now-para {
-    font-size: 1rem;
-    color: #000;
-    font-weight: 400;
-    font-style: normal;
-    line-height: normal;
-}
+
+
+
 .wrapper-image-cards {
     /* border: 5px solid red; */
     padding: 30px 0;
@@ -1041,12 +1017,6 @@ img {
     }
 }
 @media only screen and (max-width: 900px) and (min-width: 600px) {
-    .artwork-tending-now-heading {
-        font-size: 2rem;
-     }
-     .artwork-tending-now-para {
-        font-size: 0.8rem;
-    }
     .wrapper-image-cards {
         row-gap: 30px;
         column-gap: 20px;
@@ -1118,19 +1088,6 @@ img {
     .artwork-tending-now-1 {
         /* border: 3px solid yellow; */
         padding-bottom: 0;
-    }
-    .artwork-tending-now-heading  {
-        /* border: 2px solid red; */
-        font-size: 2rem;
-
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-    .artwork-tending-now-para {
-        font-size: 14px;
-        /* border: 2px solid red; */
-        padding-left: 15px;
-        padding-right: 15px;
     }
     .image-details-text-box {
         /* border: 1px solid red; */
@@ -1216,9 +1173,8 @@ img {
     gap: 20px;
 }
 .proactive-artworks-left-side-sec-row-heading {
-    color: #000;
-    font-weight: 500;
     margin-left: 0px;
+    border: 2px solid red;
 }
 .proactive-artworks-left-side-third-row {
     padding-right: 100px;
@@ -1233,213 +1189,30 @@ img {
     height: 100%;
 }
 @media only screen and (max-width: 2560px) and (min-width: 1800px) {
-    .proactive-artworks-left-side-first-row {
-        font-size: 2rem;
-    }
-    .proactive-artworks-left-side-first-row > strong {
-        font-size: 2.5rem;
-    }
-    .proactive-artworks-left-side-sec-row {
-        border: 0px solid blue;
-        grid-template-columns: 20% 80%;
-        margin: 15px -25px;
-        gap: 20px;
-    }
-    .proactive-artworks-left-side-sec-row-heading h1 {
-        font-size: 3.5rem;
-        font-weight: 900;
-        margin-left: -40PX;
-    }
-    .proactive-artworks-left-side-sec-row-image-box img {
-        width: 150px;
-        /* border: 2PX SOLID RED; */
-    }
-    .proactive-artworks-left-side-third-row {
-        font-size: 1.5rem;
-        font-weight: 700;
-    }
-    .proactive-artworks-left-side {
-        padding: 120px 0;
-    }
+    
 }
 @media only screen and (max-width: 1800px) and (min-width: 1600px) {
-    .proactive-artworks-left-side-first-row {
-        font-size: 1.8rem;
-    }
-    .proactive-artworks-left-side-first-row > strong {
-        font-size: 2rem;
-    }
-    .proactive-artworks-left-side-sec-row {
-        /* border: 3px solid blue; */
-        grid-template-columns: 20% 80%;
-        margin: 15px -30px;
-        gap: 20px;
-    }
-    .proactive-artworks-left-side-sec-row-heading h1 {
-        font-size: 3rem;
-        font-weight: 900;
-        margin-left: -30PX;
-    }
-    .proactive-artworks-left-side-sec-row-image-box img {
-        width: 125px;
-    }
-    .proactive-artworks-left-side-third-row {
-        font-size: 1.4rem;
-        font-weight: 700;
-    }
-    .proactive-artworks-left-side {
-        padding: 120px 0;
-    }
+   
 }
 @media only screen and (max-width: 1600px) and (min-width: 1400px) {
-    .proactive-artworks-left-side-first-row {
-        font-size: 1.8rem;
-    }
-    .proactive-artworks-left-side-first-row > strong {
-        font-size: 2rem;
-    }
-    .proactive-artworks-left-side-sec-row {
-        /* border: 3px solid blue; */
-        grid-template-columns: 20% 80%;
-        margin: 15px -30px;
-        gap: 20px;
-    }
-    .proactive-artworks-left-side-sec-row-heading h1 {
-        font-size: 2.5rem;
-        font-weight: 900;
-        margin-left: -30px;
-    }
-    .proactive-artworks-left-side-sec-row-image-box img {
-        width: 125px;
-    }
-    .proactive-artworks-left-side-third-row {
-        font-size: 1.1rem;
-        font-weight: 700;
-    }
-    .proactive-artworks-left-side {
-        padding: 120px 0;
-    }
+   
 }
 @media only screen and (max-width: 1400px) and (min-width: 1000px) {
-    .proactive-artworks-left-side-first-row {
-        font-size: 1rem;
-    }
-    .proactive-artworks-left-side-first-row > strong {
-        font-size: 1.1rem;
-    }
-    .proactive-artworks-left-side-sec-row {
-        /* border: 3px solid blue; */
-        grid-template-columns: 20% 80%;
-        margin: 15px -30px;
-        gap: 20px;
-    }
-    .proactive-artworks-left-side-sec-row-heading h1 {
-        /* border: 1px solid red; */
-        font-size: 2rem;
-        font-weight: 900;
-        margin-left: -50px;
-    }
-    .proactive-artworks-left-side-sec-row-image-box img {
-        width: 70px;
-    }
-    .proactive-artworks-left-side-third-row {
-        font-size: 1rem;
-        font-weight: 700;
-    }
-    .proactive-artworks-left-side {
-        padding: 70px 0;
-    }
-}
-@media only screen and (max-width: 1300px) and (min-width: 1200px) { 
-    .proactive-artworks-left-side-sec-row-heading h1 {
-        /* border: 1px solid red; */
-        font-size: 2rem;
-        font-weight: 900;
-        margin-left: -40px;
-    }
-}
-@media only screen and (max-width: 1200px) and (min-width: 1000px) { 
-    .proactive-artworks-left-side-sec-row-heading h1 {
-        /* border: 1px solid red; */
-        font-size: 2rem;
-        font-weight: 900;
-        margin-left: -30px;
-    }
+    
 }
 
 @media only screen and (max-width: 1000px) and (min-width: 768px) {
-    .proactive-artworks-left-side-first-row {
-        font-size: 1rem;
-    }
-    .proactive-artworks-left-side-first-row > strong {
-        font-size: 1.1rem;
-    }
-    .proactive-artworks-left-side-sec-row {
-        /* border: 3px solid blue; */
-        grid-template-columns: 20% 80%;
-        margin: 15px -30px;
-        gap: 20px;
-    }
-    .proactive-artworks-left-side-sec-row-heading h1 {
-        /* border: 1px solid red; */
-        font-size: 1.7rem;
-        font-weight: 900;
-        margin-left: -30px;
-    }
-    .proactive-artworks-left-side-sec-row-image-box img {
-        width: 70px;
-    }
-    .proactive-artworks-left-side-third-row {
-        font-size: 0.8rem;
-        font-weight: 700;
-    }
-    .proactive-artworks-left-side {
-        padding: 70px 0;
-    }
+        
+    
 }
 @media only screen and (max-width:768px) {
     #proactive-artworks {
-        /* border: 2px solid red; */
         display: grid;
         grid-template-columns: 1fr;
         place-items: center;
-        /* padding-right: 30px; */
-        padding-left: 0;
-        
     }
     .proactive-artworks-left-side {
-        /* border: 2px solid red; */
-        padding: 40px 40px;
-    }
-    .proactive-artworks-left-side-sec-row-image-box {
-        margin-left: -10px;
-    }
-    .proactive-artworks-left-side-sec-row-heading h1 {
-        /* border: 1px solid red; */
-        font-size: 1.5rem;
-        font-weight: 900;
-        margin-left: -15px;
-    }
-}
-
-@media only screen and (max-width: 600px) and (min-width: 320px) { 
-    .proactive-artworks-left-side-third-row {
-        /* border: 1px solid red; */
-        font-size: 0.8rem;
-        padding-right: 0;
-        margin-top: 10px;
-    }
-    .proactive-artworks-left-side {
-        /* border: 2px solid red; */
-        padding: 50px;
-    }
-}
-@media only screen and (max-width:370px) {
-    .proactive-artworks-left-side-sec-row-heading h1 {
-        /* border: 1px solid red; */
-        font-size: 1.2rem;
-        font-weight: 900;
-        margin-left: -15px;
+        border: 2px solid red;
     }
 }
 
@@ -1456,14 +1229,7 @@ img {
     display: flex;
     padding-top: 15px;
 }
-/* .curative-for-you-image-box {
-    width: 160px;
-} */
 
-.curated-for-you-popup-left-side {
-    /* border: 1px solid red; */
-    margin-right: 20px;
-}
 #curated-for-you-popup {
     display: flex;
     width: 49%;
@@ -1489,199 +1255,10 @@ img {
     padding: 15px 25px;
 }
 
-@media only screen and (max-width: 4000px) and (min-width: 1800px) {
-    .curative-for-you-image-box {
-        width: 100%;
-    }
-    .curated-for-you-popup-left-side h1 {
-        font-family: sans-serif;
-        font-size: 3.5rem;
-        line-height: 1.5;
-    }
-    .curated-for-you-popup-left-side p {
-        font-size: 1.6rem;
-        padding-top: 3px;           
-    }
-    .curated-for-you-popup-right-side button {
-        font-size: 1.6rem;
-        font-weight: normal;
-        padding: 30px 50px;
-    }
-    #curated-for-you-popup {
-        width: 70%;
-        padding: 70px 50px;
-    }
-}
-@media only screen and (max-width: 1800px) and (min-width: 1450px) {
-    .curative-for-you-image-box {
-        width: 100%;
-    }
-    .curated-for-you-popup-left-side h1 {
-        font-family: sans-serif;
-        font-size: 2.5rem;
-        line-height: 1.5;
-    }
-    .curated-for-you-popup-left-side p {
-        font-size: 1.2rem;
-        padding-top: 3px;           
-    }
-    .curated-for-you-popup-right-side button {
-        font-size: 1.3rem;
-        font-weight: normal;
-        padding: 30px 50px;
-    }
-    #curated-for-you-popup {
-        width: 70%;
-        padding: 70px 50px;
-    }
 
-}
-@media only screen and (max-width: 1450px) and (min-width: 1150px) {
-    .curative-for-you-image-box {
-        width: 100%;
-    }
-    .curated-for-you-popup-left-side h1 {
-        font-family: sans-serif;
-        font-size: 2rem;
-        line-height: 1.5;
-    }
-    .curated-for-you-popup-left-side p {
-        font-size: 1rem;
-        padding-top: 3px;           
-    }
-    .curated-for-you-popup-right-side button {
-        font-size: 1rem;
-        font-weight: normal;
-    }
-    #curated-for-you-popup {
-        width: 70%;
-        padding: 40px;
-    }
 
-}
-@media only screen and (max-width: 1150px) and (min-width: 1050px) {
-    .curative-for-you-image-box {
-        width: 100%;
-    }
-    .curated-for-you-popup-left-side h1 {
-        font-family: sans-serif;
-        font-size: 2rem;
-        line-height: 1.5;
-    }
-    .curated-for-you-popup-left-side p {
-        font-size: 1rem;
-        padding-top: 3px;           
-    }
-    .curated-for-you-popup-right-side button {
-        font-size: 0.8rem;
-        font-weight: normal;
-    }
-    #curated-for-you-popup {
-        width: 70%;
-        padding: 40px;
-    }
 
-}
-@media only screen and (max-width: 1050px) and (min-width: 830px) {
-    .curative-for-you-image-box {
-        width: 100%;
-    }
-    .curated-for-you-popup-left-side h1 {
-        font-family: sans-serif;
-        font-size: 2rem;
-        line-height: 1.5;
-    }
-    .curated-for-you-popup-left-side p {
-        font-size: 0.7rem;
-        padding-top: 3px;           
-    }
-    .curated-for-you-popup-right-side button {
-        font-size: 0.8rem;
-        font-weight: normal;
-    }
-    #curated-for-you-popup {
-        width: 70%;
-        padding: 20px 30px;
-    }
-}
-@media only screen and (max-width: 830px) and (min-width: 768px) {
-    .curative-for-you-image-box {
-        width: 100%;
-    }
-    .curated-for-you-popup-left-side h1 {
-        font-family: sans-serif;
-        font-size: 1.5rem;
-        line-height: 1.5;
-    }
-    .curated-for-you-popup-left-side p {
-        font-size: 1rem;
-        padding-top: 3px;           
-    }
-    .curated-for-you-popup-right-side button {
-        font-size: 0.8rem;
-        font-weight: normal;
-    }
-    #curated-for-you-popup {
-        width: 70%;
-        padding: 20px 30px;
-    }
-}
-@media only screen and (max-width: 768px) and (min-width: 600px) {
-    #curated-for-you-popup {
-        /* border: 2px solid black; */
-        width: 80%;
-        padding: 20px 30px;
-    }
-    .curated-for-you-popup-left-side p {
-        font-size: .9rem;
-        padding-top: 3px;           
-    }
-    .curated-for-you-popup-right-side button {
-        padding: 15px 20px;
-        border-radius: 57px;
-        background: #FE8453;
-        border: none;
-        color: white;
-        font-size: 1rem;
-        font-weight: normal;
-    }
-}
-@media only screen and (max-width: 600px) and (min-width: 320px) {
-    #curated-for-you-popup {
-        /* border: 2px solid black; */
-        width: 75%;
-        padding: 20px; 
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
-        text-align: center;
-    }
-    .curated-for-you-popup-left-side h1 {
-        font-family: sans-serif;
-        font-size: 1.3rem;
-        line-height: 1.5;
-    }
-    .curated-for-you-popup-left-side p {
-        font-size: 0.8rem;
-        padding-top: 3px;           
-    }
-    .curated-for-you-popup-right-side button {
-        padding: 15px 20px;
-        border-radius: 57px;
-        background: #FE8453;
-        border: none;
-        color: white;
-        font-weight: normal;
-        font-size: 1rem;
-    }
-    .hidden {
-        display: none;
-    }
-    .curated-for-you-popup-left-side {
-        /* border: 2px solid red; */
-        margin: auto;
-    }
-}
+
 /* ------------------------------------------------ */
 
 
@@ -1690,19 +1267,14 @@ img {
 /* CSS STYLING For Home-Page SHOP BY ART STYLE Section*/
 /* -------------------------------------------------- */
 #shop-by-art-style {
-    /* border: 10px solid blue; */
-    padding-top: 120px;
-    padding-bottom: 20px;
+    border: 5px solid blue;
     background-color: #F0FAFF;
 }
-.shop-by-art-style-heading {
-    color: black;
-    font-size: 2.5rem;
-}   
+  
 .shop-by-art-style-image-boxes-wrapper {
-    padding: 40px 0;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
+    border: 5px solid blue;
 }
 .shop-by-art-style-image-box {
     height: 100%;
@@ -1724,7 +1296,6 @@ img {
     grid-column-end: 5;
     grid-row-start: 1;
     grid-row-end: 3;
-
 }
 
 .shop-by-art-style-image-box {
@@ -1738,32 +1309,9 @@ img {
     color: white;
 }
 
-@media only screen and (max-width: 4000px) and (min-width: 1800px) {
-    #shop-by-art-style {
-        padding-top: 200px;
-        padding-bottom: 100px;
-        background-color: #F0FAFF;  
-    }
-
-    .shop-by-art-style-image-boxes-wrapper {
-       gap: 25px;
-    }
-    .shop-by-art-style-image-box-title {
-        color: white;
-        font-weight: 900;
-        font-size: 2.3rem;
-        color: #fff;
-        font-weight: normal;
-    }
-    .shop-by-art-style-image-box-title-2 {
-        font-size: 1.7rem;
-    }
-}
 @media only screen and (max-width: 1800px) and (min-width: 1400px) {
     #shop-by-art-style {
-        padding-top: 200px;
-        padding-bottom: 100px;
-        background-color: #F0FAFF;  
+        padding-top: 100px;
     } 
     .shop-by-art-style-image-boxes-wrapper {
        gap: 20px;
@@ -1888,9 +1436,7 @@ img {
 /* CSS STYLING For Home-Page Everything About Collecting Art Section */
 /* ----------------------------------------------------------------- */
 #everything-about-collecting-art-section {
-    /* border: 3px solid blue; */
-    padding-top: 100px;
-    padding-bottom: 100px;
+    border: 3px solid blue;
 }
 .everything-about-collecting-art-wrapper {
     display: grid;
@@ -1900,277 +1446,14 @@ img {
     /* border: 1px solid red; */
     width: 100%; 
 }
-
-.everything-about-collecting-art-left-side h1 {
-    font-size: 2rem;
-}
-.everything-about-collecting-art-left-side p {
-    font-size: 0.8rem;
-}
 .everything-about-collecting-art-left-side :nth-child(3) {
     margin-top: 5px;
 }
 .everything-about-collecting-art-left-side :nth-child(4) {
     margin-bottom: 5px;
 }
-.everything-about-collecting-art-left-side button {
-    /* border: 2px solid blue; */
-    padding-left: 40px;
-    padding-right: 40px;
-    margin-top: 20px;
-}
 .everything-about-collecting-art-right-side img {
     border-radius: 10px;
-}
-@media only screen and (max-width: 2560px) and (min-width: 1800px) { 
-    #everything-about-collecting-art-section {
-        padding-top: 130px;
-        padding-bottom: 130px;
-    }
-    .everything-about-collecting-art-left-side {
-        width: 100%; 
-    }
-    .everything-about-collecting-art-left-side h1 {
-        font-size: 3rem;
-    }
-    .everything-about-collecting-art-left-side p {
-        font-size: 1.5rem;
-        letter-spacing: 1.5;
-    }
-    .everything-about-collecting-art-left-side :nth-child(3) {
-        margin-top: 20px;
-    }
-    .everything-about-collecting-art-left-side :nth-child(4) {
-        margin-bottom: 5px;
-    }
-    .everything-about-collecting-art-left-side button {
-        /* border: 2px solid blue; */
-        padding: 20px 70px;
-        margin-top: 20px;
-        font-size: 1.5rem;
-        font-weight: normal;
-    }
-    .everything-about-collecting-art-right-side  {
-        width: 100%;
-    }
-    .everything-about-collecting-art-right-side img {
-        border-radius: 10px;
-    }
-}
-@media only screen and (max-width: 1800px) and (min-width: 1400px) { 
-    #everything-about-collecting-art-section {
-        padding-top: 100px;
-        padding-bottom: 100px;
-    }
-    .everything-about-collecting-art-left-side {
-        width: 100%; 
-    }
-    .everything-about-collecting-art-left-side h1 {
-        font-size: 2.5rem;
-    }
-    .everything-about-collecting-art-left-side p {
-        font-size: 1.5rem;
-        letter-spacing: 1.5;
-    }
-    .everything-about-collecting-art-left-side :nth-child(3) {
-        margin-top: 20px;
-    }
-    .everything-about-collecting-art-left-side :nth-child(4) {
-        margin-bottom: 5px;
-    }
-    .everything-about-collecting-art-left-side button {
-        /* border: 2px solid blue; */
-       padding: 15px 60px;
-        margin-top: 20px;
-        font-size: 1.5rem;
-        font-weight: normal;
-    }
-    .everything-about-collecting-art-right-side  {
-        width: 100%;
-    }
-    .everything-about-collecting-art-right-side img {
-        border-radius: 10px;
-    }
-}
-@media only screen and (max-width: 1400px) and (min-width: 1200px) { 
-    #everything-about-collecting-art-section {
-        padding-top: 100px;
-        padding-bottom: 100px;
-    }
-    .everything-about-collecting-art-left-side {
-        width: 100%; 
-    }
-    .everything-about-collecting-art-left-side h1 {
-        font-size: 1.9rem;
-    }
-    .everything-about-collecting-art-left-side p {
-        font-size: 1rem;
-        letter-spacing: 1.5;
-    }
-    .everything-about-collecting-art-left-side :nth-child(3) {
-        margin-top: 20px;
-    }
-    .everything-about-collecting-art-left-side :nth-child(4) {
-        margin-bottom: 5px;
-    }
-    .everything-about-collecting-art-left-side button {
-        /* border: 2px solid blue; */
-       padding: 10px 45px;
-        margin-top: 20px;
-        font-size: 1.4rem;
-        font-weight: normal;
-    }
-    .everything-about-collecting-art-right-side  {
-        width: 100%;
-    }
-    .everything-about-collecting-art-right-side img {
-        border-radius: 10px;
-    }
-}
-@media only screen and (max-width: 1200px) and (min-width: 1000px) { 
-    #everything-about-collecting-art-section {
-        padding-top: 100px;
-        padding-bottom: 100px;
-    }
-    .everything-about-collecting-art-left-side {
-        width: 100%; 
-    }
-    .everything-about-collecting-art-left-side h1 {
-        font-size: 1.5rem;
-    }
-    .everything-about-collecting-art-left-side p {
-        font-size: 0.9rem;
-        letter-spacing: 1.5;
-    }
-    .everything-about-collecting-art-left-side :nth-child(3) {
-        margin-top: 10px;
-    }
-    .everything-about-collecting-art-left-side :nth-child(4) {
-        margin-bottom: 5px;
-    }
-    .everything-about-collecting-art-left-side button {
-        /* border: 2px solid blue; */
-       padding: 13px 40px;
-        margin-top: 20px;
-        font-size: 1.1rem;
-        font-weight: normal;
-    }
-    .everything-about-collecting-art-right-side  {
-        width: 100%;
-    }
-    .everything-about-collecting-art-right-side img {
-        border-radius: 10px;
-    }
-}
-@media only screen and (max-width: 1000px) and (min-width: 800px) { 
-    #everything-about-collecting-art-section {
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
-    .everything-about-collecting-art-left-side {
-        width: 100%; 
-    }
-    .everything-about-collecting-art-left-side h1 {
-        font-size: 1.3rem;
-    }
-    .everything-about-collecting-art-left-side p {
-        font-size: 0.7rem;
-        letter-spacing: 1.5;
-    }
-    .everything-about-collecting-art-left-side :nth-child(3) {
-        margin-top: 10px;
-    }
-    .everything-about-collecting-art-left-side :nth-child(4) {
-        margin-bottom: 0px;
-    }
-    .everything-about-collecting-art-left-side button {
-        /* border: 2px solid blue; */
-       padding: 11px 43px;
-        margin-top: 20px;
-        font-size: 0.8rem;
-        font-weight: normal;
-    }
-    .everything-about-collecting-art-right-side  {
-        width: 100%;
-    }
-    .everything-about-collecting-art-right-side img {
-        border-radius: 10px;
-    }
-}
-@media only screen and (max-width: 800px) and (min-width: 600px) { 
-    #everything-about-collecting-art-section {
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
-    .everything-about-collecting-art-left-side {
-        width: 100%; 
-    }
-    .everything-about-collecting-art-left-side h1 {
-        font-size: 1rem;
-    }
-    .everything-about-collecting-art-left-side p {
-        font-size: 0.5rem;
-        letter-spacing: 1.5;
-    }
-    .everything-about-collecting-art-left-side :nth-child(3) {
-        margin-top: 10px;
-    }
-    .everything-about-collecting-art-left-side :nth-child(4) {
-        margin-bottom: 0px;
-    }
-    .everything-about-collecting-art-left-side button {
-        /* border: 2px solid blue; */
-       padding: 11px 43px;
-        margin-top: 20px;
-        font-size: 0.8rem;
-        font-weight: normal;
-    }
-    .everything-about-collecting-art-right-side  {
-        width: 100%;
-    }
-    .everything-about-collecting-art-right-side img {
-        border-radius: 10px;
-    }
-}
-@media only screen and (max-width: 600px) and (min-width: 320px) { 
-    .everything-about-collecting-art-wrapper {
-        /* border: 2px solid red; */
-        grid-template-columns: 1fr;
-        gap: 20px;
-    }
-    #everything-about-collecting-art-section {
-        padding-top: 50px;
-        padding-bottom: 50px;
-    }
-    .everything-about-collecting-art-left-side {
-        width: 100%; 
-    }
-    .everything-about-collecting-art-left-side h1 {
-        font-size: 1.5rem;
-    }
-    .everything-about-collecting-art-left-side p {
-        font-size: 0.7rem;
-        letter-spacing: 1.5;
-    }
-    .everything-about-collecting-art-left-side :nth-child(3) {
-        margin-top: 10px;
-    }
-    .everything-about-collecting-art-left-side :nth-child(4) {
-        margin-bottom: 0px;
-    }
-    .everything-about-collecting-art-left-side button {
-        /* border: 2px solid blue; */
-       padding: 11px 43px;
-        margin-top: 20px;
-        font-size: 0.8rem;
-        font-weight: normal;
-    }
-    .everything-about-collecting-art-right-side  {
-        width: 100%;
-    }
-    .everything-about-collecting-art-right-side img {
-        border-radius: 10px;
-    }
 }
 /* ------------------------------------------------ */
 
@@ -2181,11 +1464,11 @@ img {
 /* ----------------------------------------------------- */
 .artwork-price-range-section {
     background-color: #FFFDF5;
-    /* border: 2px solid red; */
+    border: 2px solid red;
 }
-/* .artwork-price-range {
+.artwork-price-range {
     border: 1px solid red;
-} */
+}
 .artwork-price-range-all-tabs-wrapper {
     /* border: 1px solid red; */
     padding: 20px 0;
@@ -2209,7 +1492,6 @@ img {
     .artwork-price-range-one-tab-left-range {
         color: rgb(109, 104, 104);
     }
-
 }
 .artwork-price-range-one-tab-left {
     /* border: 1px solid red; */
@@ -2242,120 +1524,7 @@ img {
     /* background-color: red; */
     color: black;
 }
-
-@media only screen and (max-width: 2560px) and (min-width: 1800px) {
-    .everything-about-collecting-art-left-side h1 {
-        font-size: 3.5rem;
-    }
-    .artwork-price-range-one-tab {
-        padding: 25px 25px;
-        border-radius: 15px;
-        background: #F5F2E2;
-        margin: 30px auto;
-    }
-    .artwork-price-range-one-tab-left-range {
-        font-size: 1.4rem;
-    }
-    .artwork-price-range-one-tab-price-row span {
-        font-size: 2rem;
-    }
-    .artwork-price-range-one-tab-price-row h3 {
-        font-size: 2rem;
-    }
-    .artwork-price-range-one-tab-right img {
-        width: 18px;
-    }
-}
-@media only screen and (max-width: 1800px) and (min-width: 1400px) {
-    .everything-about-collecting-art-left-side h1 {
-        font-size: 2.5rem;
-    }
-    .artwork-price-range-one-tab {
-        padding: 10px 20px;
-        border-radius: 15px;
-        background: #F5F2E2;
-        margin: 25px auto;
-    }
-    .artwork-price-range-one-tab-left-range {
-        font-size: 1.1rem;
-    }
-    .artwork-price-range-one-tab-price-row span {
-        font-size: 1.4rem;
-    }
-    .artwork-price-range-one-tab-price-row h3 {
-        font-size: 1.4rem;
-    }
-    .artwork-price-range-one-tab-right img {
-        width: 14px;
-    }
-}
-@media only screen and (max-width: 1200px) and (min-width: 900px) {
-    .artwork-price-range-one-tab {
-        padding: 5px 25px;
-        border-radius: 7px;
-        background: #F5F2E2;
-        margin: 20px auto;
-    }
-    .artwork-price-range-one-tab-left-range {
-        font-size: 1rem;
-    }
-    .artwork-price-range-one-tab-price-row span {
-        font-size: 1.2rem;
-    }
-    .artwork-price-range-one-tab-price-row h3 {
-        font-size: 1.2rem;
-    }
-    .artwork-price-range-one-tab-right img {
-        width: 10px;
-    }
-}
-
-@media only screen and (max-width: 900px) and (min-width: 600px) {
-    .artwork-price-range-one-tab {
-        padding: 5px 10px;
-        border-radius: 7px;
-        background: #F5F2E2;
-        margin: 7px auto;
-    }
-    .artwork-price-range-one-tab-left-range {
-        font-size: 1rem;
-    }
-    .artwork-price-range-one-tab-price-row span {
-        font-size: 1.3rem;
-    }
-    .artwork-price-range-one-tab-price-row h3 {
-        font-size: 1.3rem;
-    }
-    .artwork-price-range-one-tab-right img {
-        width: 7px;
-    }
-    
-}
-
-@media only screen and (max-width: 900px) {
-    .artwork-price-range-all-tabs-wrapper {
-        /* border: 1px solid blue; */
-        padding: 20px 0;
-        width: 100%;
-        margin-left: 0;
-    }
-    .artwork-price-range-one-tab {
-        /* border: 1px solid rgb(228, 219, 219); */
-        padding: 15px;
-        margin-bottom: 25px;
-    }
-}
-@media only screen and (max-width: 900px) and (min-width: 320px) {
-    .apr-heading {
-        font-size: 2.5rem !important;
-        text-align: left;
-        padding-left: 5px;
-        padding-right: 5px;
-        /* border: 2px solid red; */
-    }
-}
 /* ------------------------------------------------ */
-
 
 
 
@@ -2364,12 +1533,8 @@ img {
 .meet-our-artists-section {
     /* border: 2px solid blue; */
     background-color: white; 
-    padding-top: 60px; 
-    padding-bottom: 60px; 
 }
-.meet-our-artists-section h1 {
-    font-size: 2.5rem;
-}
+
 #meet-our-artists-cards-wrapper {
     /* border: 3px solid red; */
     margin: 30px auto;
@@ -2399,101 +1564,7 @@ img {
     border-radius: 50px;
     cursor: pointer;
 }
-.one-card-tag-heading {
-    color: white;
-    font-size: 1rem;
-}
-@media only screen and (max-width: 2560px) and (min-width: 1800px) {  
-    .meet-our-artists-section {
-        /* border: 2px solid blue; */
-        background-color: white; 
-        padding-top: 100px; 
-        padding-bottom: 100px; 
-    }
-}
-@media only screen and (max-width: 1860px) and (min-width: 1400px) {  
-    .meet-our-artists-section {
-        /* border: 2px solid blue; */
-        background-color: white; 
-        padding-top: 100px; 
-        padding-bottom: 100px; 
-    }
-}
-@media only screen and (max-width: 1460px) and (min-width: 1000px) {  
-    .meet-our-artists-section {
-        /* border: 2px solid blue; */
-        background-color: white; 
-        padding-top: 80px; 
-        padding-bottom: 80px; 
-    }
-    .meet-our-artists-section h1 {
-        font-size: 2.5rem;
-    }
-}
-@media only screen and (max-width: 1000px) and (min-width: 850px) {  
-    .meet-our-artists-section {
-        /* border: 2px solid blue; */
-        background-color: white; 
-        padding-top: 60px; 
-        padding-bottom: 60px; 
-    }
-    .meet-our-artists-section h1 {
-        font-size: 2rem;
-    }
-    .one-card-tag-heading {
-        color: white;
-        font-size: 0.7rem;
-        /* font-weight: normal; */
-        letter-spacing: 1.5;
-    }
-    #meet-our-artists-cards-wrapper {
-        gap: 10px;
-    }
-}
-@media only screen and (max-width: 850px) and (min-width: 600px) {  
-    .meet-our-artists-section {
-        /* border: 2px solid blue; */
-        background-color: white; 
-        padding-top: 60px; 
-        padding-bottom: 60px; 
-    }
-    .meet-our-artists-section h1 {
-        font-size: 2rem;
-    }
-    .one-card-tag-heading {
-        color: white;
-        font-size: 0.6rem;
-        font-weight: normal;
-        letter-spacing: 1.5;
-    }
-    #meet-our-artists-cards-wrapper {
-        gap: 10px;
-    }
-}
-@media only screen and (max-width:600px) {
-    #meet-our-artists-cards-wrapper {
-        width: 100%;
-        display: flex;
-        flex-wrap: nowrap;
-        overflow-x: scroll;
-        gap: 0px;
-    }
-    .one-card-box-main-image img {
-        /* border: 2px solid red; */
-        border-radius: 7px;
-        width: 250px;
-    }
-    .artists-cards-one-card-box {
-        /* border: 3px solid blue; */
-        margin: 10px;
-    }
-    .meet-our-artists-section-heading {
-        /* border: 2PX SOLID RED; */
-        padding-left: 5px;
-        padding-RIGHT: 5px;
-    }
-  
-}
+
 /* ------------------------------------------------ */
 
 
@@ -2502,18 +1573,10 @@ img {
 /* CSS STYLING Home-Page GET INSPIRED Section */
 /* ------------------------------------------------ */
 #get-inspired-section {
-    /* border: 5px solid blue; */
+    border: 5px solid blue;
     background-color: #fafafa;
-    padding-top: 60px; 
-    padding-bottom: 60px; 
 }
-.get-inspired-heading {
-    font-size: 2.5rem;
-}
-.get-inspired-para {
-    /* border: 2px solid red; */
-    margin: 10px auto;
-}
+
 .get-inspired-section-cards-wrapper {
     /* border: 2px solid blue; */
     margin: 35px auto;
@@ -2565,41 +1628,7 @@ img {
     padding: 10px;
 }
 
-@media only screen and (max-width: 1400px) and (min-width: 1000px) {
-    .get-inspired-heading {
-        font-size: 2.5rem;
-    }
-    .get-inspired-para {
-        font-size: 1rem;
-        margin-bottom: 30px;
-    }
-}
-@media only screen and (max-width: 1000px) and (min-width: 600px) {
-    .get-inspired-heading {
-        font-size: 2rem;
-        /* background-color: red; */
-    }
-    .get-inspired-para {
-        font-size: 0.8rem;
-        margin-bottom: 30px;
-    }
-}
-@media only screen and (max-width: 600px) and (min-width: 320px) {
-    .get-inspired-section-cards-wrapper {
-        grid-template-columns: 1fr;
-    }
-    .get-inspired-heading {
-        /* border: 2px solid red; */
-        padding-left: 5px;
-        padding-right: 5px;
-        font-size: 2.5rem;
-    }
-    .get-inspired-para {
-        /* border: 2px solid red; */
-        padding-left: 5px;
-        padding-right: 5px;
-    }
-}
+
 /* --------------------------------------------------- */
 
 
@@ -2608,15 +1637,10 @@ img {
 /* CSS STYLING Home-Page WHY SHOP WITH US Section */
 /* ---------------------------------------------- */
 #why-shop-with-us {
-    /* border: 2px solid blue; */
+    border: 2px solid blue;
     background-color: #f1faff;
-    padding-top: 60px;
-    padding-bottom: 60px;
 }
-.why-shop-heading {
-    font-size: 2.5rem;
-    /* border: 2px solid red; */
-}
+
 
 .why-shop-with-us-icons-boxes-wrapper {
     display: flex;
@@ -2651,130 +1675,7 @@ img {
     font-size: 0.7rem;
     padding-top: 7px;
 }
-@media only screen and (max-width: 2560px) and (min-width: 1800px) {
-    .why-shop-with-us-icons-boxes-wrapper {
-        gap: 50px;
-    }
-    #why-shop-with-us {
-        padding-top: 120px;
-        padding-bottom: 120px;
-    }
-    
-    .why-shop-with-us-one-icon-box > img {
-        width: 70px;
-    }
-    .why-shop-with-us-one-icon-box > div h4 {
-        /* border: 1px solid red; */
-        margin-left: 0;
-        font-size: 2rem;
-    }
-    .why-shop-with-us-one-icon-box > div p {
-        font-size: 1.3rem;
-        padding-top: 7px;
-    } 
-}
-@media only screen and (max-width: 1800px) and (min-width: 1400px) {
-    .why-shop-with-us-icons-boxes-wrapper {
-        gap: 50px;
-    }
-    #why-shop-with-us {
-        padding-top: 80px;
-        padding-bottom: 80px;
-    }
-   
-    .why-shop-with-us-one-icon-box > img {
-        width: 70px;
-    }
-    .why-shop-with-us-one-icon-box > div h4 {
-        /* border: 1px solid red; */
-        margin-left: 0;
-        font-size: 1.5rem;
-    }
-    .why-shop-with-us-one-icon-box > div p {
-        font-size: 1rem;
-        padding-top: 7px;
-    }
-    
-}
-@media only screen and (max-width: 1400px) and (min-width: 1000px) {
-    .why-shop-with-us-icons-boxes-wrapper {
-        gap: 50px;
-    }
-    #why-shop-with-us {
-        padding-top: 80px;
-        padding-bottom: 80px;
-    }
-    .why-shop-heading {
-        font-size: 2.5rem;
-        margin-bottom: 20px;
-    }
-    .why-shop-with-us-one-icon-box > img {
-        width: 40px;
-    }
-    .why-shop-with-us-one-icon-box > div h4 {
-        /* border: 1px solid red; */
-        margin-left: 0;
-        font-size: 1.3rem;
-    }
-    .why-shop-with-us-one-icon-box > div p {
-        font-size: 0.7rem;
-        padding-top: 7px;
-    }
-    
-}
-@media only screen and (max-width: 1000px) and (min-width: 768px) {
-    .why-shop-with-us-icons-boxes-wrapper {
-        gap: 30px;
-    }
-    #why-shop-with-us {
-        padding-top: 60px;
-        padding-bottom: 60px;
-    }
-    .why-shop-heading {
-        font-size: 2rem;
-        margin-bottom: 10px;
-    }
-    .why-shop-with-us-one-icon-box > img {
-        width: 40px;
-    }
-    .why-shop-with-us-one-icon-box > div h4 {
-        /* border: 1px solid red; */
-        margin-left: 0;
-        font-size: 0.9rem;
-    }
-    .why-shop-with-us-one-icon-box > div p {
-        font-size: 0.6rem;
-        padding-top: 7px;
-    }
-    .why-shop-with-us-one-icon-box {
-        gap: 15px;
-    }
-    
-}
-@media only screen and (max-width: 768px) {
-    .why-shop-with-us-icons-boxes-wrapper {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-}
-@media only screen and (max-width: 480px) {
-    .why-shop-with-us-icons-boxes-wrapper {
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-    .why-shop-with-us-one-icon-box {
-        /* border: 1px solid red; */
-        margin-left: 0;
-    }
-}
-@media only screen and (max-width: 600px) and (min-width:320px) {
-    .why-shop-heading {
-        /* border: 2px solid red; */
-        padding-left: 5px;
-        padding-right: 5px;
-        font-size: 2.2rem;
-    }
-}
+
 
 /* KNOW MORE ABOUT US PART OF WHY SHOP WITH US  */
 #know-more-about-us {
@@ -2793,213 +1694,8 @@ img {
 .know-more-about-us-btn a button {
     font-size: 0.7rem;
 }
-.know-more-about-us-left-side > h1 {
-    font-size: 1.80rem;
-}
-.know-more-about-us-left-side > p {
-    /* background-color: aqua; */
-    width: 90%;
-    margin-left: 0;
-    padding-top: 22px;
-    font-size: 0.75rem;
-    line-height: 1.5;
-    color: #000;
-}
-@media only screen and (max-width: 2560px) and (min-width: 1900px) { 
-    #know-more-about-us {
-        /* border: 3px solid red; */
-        padding-top: 80px;
-        padding-bottom: 40px;
-    }
-    .know-more-about-us-left-side > h1 {
-        font-size: 3.5rem;
-        padding-bottom: 10px;
-    }
-    .know-more-about-us-left-side > p {
-        /* background-color: aqua; */
-        width: 90%;
-        margin-left: 0;
-        padding-top: 22px;
-        font-size: 1.5rem;
-    }
-    .know-more-about-us-btn a button {
-        font-size: 1.5rem;
-        font-weight: normal;
-        padding: 25px 40px;
-        margin-top: 30px;
-    }
-    .know-more-about-us-right-side {
-        width: 100%;
-    }
-}
-@media only screen and (max-width: 1900px) and (min-width: 1700px) { 
-    #know-more-about-us {
-        /* border: 3px solid red; */
-        padding-top: 80px;
-        padding-bottom: 40px;
-    }
-    .know-more-about-us-left-side > h1 {
-        font-size: 3rem;
-        padding-bottom: 10px;
-    }
-    .know-more-about-us-left-side > p {
-        /* background-color: aqua; */
-        width: 90%;
-        margin-left: 0;
-        padding-top: 22px;
-        font-size: 1.5rem;
-    }
-    .know-more-about-us-btn a button {
-        font-size: 1.5rem;
-        font-weight: normal;
-        padding: 25px 40px;
-        margin-top: 30px;
-    }
-    .know-more-about-us-right-side {
-        width: 100%;
-    }
-}
-@media only screen and (max-width: 1700px) and (min-width: 1400px) { 
-    #know-more-about-us {
-        /* border: 3px solid red; */
-        padding-top: 80px;
-        padding-bottom: 40px;
-    }
-    .know-more-about-us-left-side > h1 {
-        font-size: 2.5rem;
-        padding-bottom: 10px;
-    }
-    .know-more-about-us-left-side > p {
-        /* background-color: aqua; */
-        width: 90%;
-        margin-left: 0;
-        padding-top: 22px;
-        font-size: 1rem;
-    }
-    .know-more-about-us-btn a button {
-        font-size: 1rem;
-        font-weight: normal;
-        padding: 15px 25px;
-        margin-top: 30px;
-    }
-    .know-more-about-us-right-side {
-        width: 100%;
-    }
-}
-@media only screen and (max-width: 1400px) and (min-width: 1000px) { 
-    #know-more-about-us {
-        /* border: 3px solid red; */
-        padding-top: 80px;
-        padding-bottom: 0px;
-    }
-    .know-more-about-us-left-side > h1 {
-        font-size: 1.6rem;
-        padding-bottom: 10px;
-    }
-    .know-more-about-us-left-side > p {
-        /* background-color: aqua; */
-        width: 90%;
-        margin-left: 0;
-        padding-top: 22px;
-        font-size: 1rem;
-    }
-    .know-more-about-us-btn a button {
-        font-size: 0.7rem;
-        font-weight: normal;
-        padding: 13px 25px;
-        margin-top: 30px;
-    }
-    .know-more-about-us-right-side {
-        width: 100%;
-    }
-}
-@media only screen and (max-width: 1000px) and (min-width: 768px) { 
-    #know-more-about-us {
-        /* border: 3px solid red; */
-        padding-top: 80px;
-        padding-bottom: 0px;
-    }
-    .know-more-about-us-left-side > h1 {
-        font-size: 1.3rem;
-        padding-bottom: 10px;
-    }
-    .know-more-about-us-left-side > p {
-        /* background-color: aqua; */
-        width: 90%;
-        margin-left: 0;
-        padding-top: 22px;
-        font-size: 0.65rem;
-    }
-    .know-more-about-us-btn a button {
-        font-size: 0.7rem;
-        font-weight: normal;
-        padding: 13px 25px;
-        margin-top: 30px;
-    }
-    .know-more-about-us-right-side {
-        width: 100%;
-    }
-}
-@media only screen and (max-width: 768px) and (min-width: 600px) { 
-    #know-more-about-us {
-        /* border: 3px solid red; */
-        padding-top: 80px;
-        padding-bottom: 0px;
-    }
-    .know-more-about-us-left-side > h1 {
-        font-size: 1.05rem;
-        padding-bottom: 10px;
-    }
-    .know-more-about-us-left-side > p {
-        /* background-color: aqua; */
-        width: 90%;
-        margin-left: 0;
-        padding-top: 22px;
-        font-size: 0.5rem;
-    }
-    .know-more-about-us-btn a button {
-        font-size: 0.6rem;
-        font-weight: normal;
-        padding: 10px 20px;
-        margin-top: 20px;
-    }
-    .know-more-about-us-right-side {
-        width: 100%;
-    }
-}
-@media only screen and (max-width: 600px) and (min-width: 320px) { 
-    
-    #know-more-about-us {
-        padding-top: 10px;
-        padding-bottom: 0;
-        /* border: 2px solid blue; */
-        grid-template-columns: 1fr;
-    }
-    .know-more-about-us-left-side > p {
-        text-align: justify;
-    }
-    .know-more-about-us-left-side > h1 {
-        /* border: 2px solid red; */
-        font-size: 1.5rem;
-    }
-    .know-more-about-us-left-side > p {
-        /* background-color: aqua; */
-        width: 100%;
-        margin-left: 0;
-        padding-top: 22px;
-        font-size: 0.7rem;
-    }
-    .know-more-about-us-btn a button {
-        font-size: 0.6rem;
-        font-weight: normal;
-        padding: 10px 20px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-    .know-more-about-us-right-side {
-        width: 100%;
-    }
-}
+
+
 /* ------------------------------------------------ */
 
 
@@ -3008,72 +1704,17 @@ img {
 /* CSS STYLING For Home-Page PROCURE ARTWORKS's Section */
 /* ---------------------------------------------------- */
 #follow-us-on-insta {
-    /* border: 1px solid red; */
-    padding: 60px 0;
+    border: 1px solid red;
+}
 
-}
-#follow-us-on-insta > h1 {
-    font-size: 2.5rem;
-}
-#follow-us-on-insta > p {
-    font-size: 1rem;
-    padding: 10px 0;
-}
 #beutiful-one-line-images-below-insta {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 1px;
-    /* border: 2px solid red; */
-    padding: 20px 0; 
+    border: 2px solid red;
 }
-@media only screen and (max-width: 2560px) and (min-width: 1800px) { 
-    #follow-us-on-insta {
-        padding: 120px 0;
-    }
-    #follow-us-on-insta > p {
-        font-size: 2.4rem;
-        padding: 10px 0;
-    }
-}
-@media only screen and (max-width: 1800px) and (min-width: 1400px) { 
-    #follow-us-on-insta {
-        padding: 120px 0;
-        margin-bottom: 30px;
-    }
-   
-}
-@media only screen and (max-width: 1400px) and (min-width: 1000px) { 
-    #follow-us-on-insta h1 {
-        font-size: 2rem;
-        /* margin-bottom: 10px; */
-    }
-    #follow-us-on-insta {
-        padding: 60px 0;
-        margin-bottom: 20px;
-    }
-    #follow-us-on-insta > p {
-        font-size: 1.2rem;
-        padding: 10px 0;
-        margin-bottom: 20px;
-    }
-}
-@media only screen and (max-width: 600px) {
-    #beutiful-one-line-images-below-insta {
-        display: flex;
-        overflow-x: scroll;
-    }
-    #follow-us-on-insta > h1 {
-        padding-left: 10px;
-        padding-right: 10px;
-        /* text-align: left; */
-        font-size: 1.9rem;
-    }
-    /* #follow-us-on-insta > p {
-        padding-left: 10px;
-        padding-right: 10px;
-        text-align: left;
-    } */
-}
+
+
 /* ---------------------------------------------------- */
 
 
@@ -3868,25 +2509,3 @@ img {
 /* ======== CSS FOR MOBILE MENU (APPEARS ON CLICK OF HAMBURGER ICON) ===================== */
 /* ======================================================================================= */
 
-
-
-
-
-
-
-
-
-
-
-
-/* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
-/* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
-/* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
-
-
-
-
-
-/* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
-/* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
-/* ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| */
