@@ -8,6 +8,21 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
+
+:root {
+    --tcr-1: #000;
+    --tcr-2: #656565;
+    --tcr-3: #FFF;
+    --btn-clr: #FE8453;
+
+    --bgr-1: #FFF;
+    --bgr-2: #FFFDF5;
+    --bgr-3: #F5F4F2;
+    --bgr-4: #F0FAFF;
+    --bgr-5: #FAFAFA;
+    --bgr-6: #F1FAFF;
+  }
+
 .text-align-center {
     text-align: center;
 }
@@ -30,11 +45,11 @@ a {
     text-decoration: none;
     color: #000;
 }
-.section-styles {
+.stn-stl {
     border: 4px solid tomato;
     padding: 3.5rem 10rem;
 }
-.section-heading-styles {
+.stn-h-stl {
     color: #000;
     text-align: center;
     font-family: Montserrat;
@@ -44,13 +59,36 @@ a {
     line-height: normal;
     font-style: normal;
 }
-.section-sub-heading-styles {
+.stn-sh-stl {
     color: #000;
     text-align: center;
     font-family: Montserrat;
     font-size: 1rem;
     font-style: normal;
     font-weight: 400;
+    line-height: normal;
+}
+.pro-ttl {
+    color: #000;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.pro-typ {
+    color: #656565;
+    font-family: Montserrat;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.pro-size {
+    color: #656565;
+    font-family: Montserrat;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 500;
     line-height: normal;
 }
 
@@ -1288,19 +1326,20 @@ img {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.curated-for-you-popup-left-side h1 {
-    font-family: sans-serif;
-    font-weight: bolder;
-}
-.curated-for-you-popup-left-side p {
-    font-size: .75rem;
-    padding-top: 3px;           
-}
-.curated-for-you-popup-right-side button {
-    font-weight: normal;
-    padding: 15px 25px;
-}
 
+#curated-for-you-popup div > h2 {
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: left;
+    /* border: 2px solid blueviolet; */
+    margin-bottom: 0.44rem;
+}
+#curated-for-you-popup div > h3 {
+    /* border: 2px solid red; */
+    line-height: 131.25%;
+}
 
 
 
