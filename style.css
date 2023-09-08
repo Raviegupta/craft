@@ -55,8 +55,11 @@
 
     --list-none: none;
 
+    --box-shadow-1: 0px 22px 47px 0px #DEE9EE;
+
     --justify-content-space-around: 
     --justify-content-space-evenly:
+
   }
 
 .flex {
@@ -87,7 +90,7 @@ a {
 }
 
 .stn-stl {
-    border: 2px solid blue;
+    border: 1px solid blue;
     padding: 3.5rem 10rem;
     max-width: 1920px;
 }
@@ -964,9 +967,8 @@ img {
     font-size: var(--fnt-siz-5);
     font-style: var(--fnt-stl-normal);
     font-weight: var(--fnt-wt-2);
-    line-height: 2.75rem;
+    /* line-height: 2.75rem; */
 }
-
 .proactive-artworks-left-side-third-row {
     color: var(--cr-1);
     font-family: Montserrat;
@@ -991,7 +993,6 @@ img {
         grid-template-columns: 5fr 5fr;
     }
     .proactive-artworks-left-side {
-        border: 2px solid red;
         padding-top: 50px;
         padding-bottom: 50px;
     }
@@ -1020,57 +1021,106 @@ img {
 /* CSS STYLING For Home-Page CURATED FOR YOU Section*/
 /* ------------------------------------------------ */
 #curative-for-you {
-    /* border: 3px solid red; */
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 1.31rem;
+    padding-bottom: 0;
     position: relative;
 }
 .curative-for-you-image-boxes-wrapper {
     display: flex;
-    padding-top: 15px;
 }
-
-#curated-for-you-popup {
+.curative-for-you-image-boxes-wrapper img {
     display: flex;
-    width: 49%;
-    padding: 40px 30px;
-    border-radius: 10px;
-    border-radius: 0.9375rem;
-    background: #FFF;
-    box-shadow: 0px 22px 47px 0px #DEE9EE;
+    height: 100%;
+    width: 100%;
+}
+#curated-for-you-popup {
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
+    display: flex;
+    width: 49%;
+    padding: 40px 30px;
+    border-radius: 0.9375rem;
+    background-color: var(--bgr-1);
+    box-shadow: var(--box-shadow-1)
 }
-
 #curated-for-you-popup div > h2 {
     font-size: 2rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    text-align: left;
-    /* border: 2px solid blueviolet; */
+    font-weight: var(--fnt-wt-4);
+    text-align: var(--text-align-left);
     margin-bottom: 0.44rem;
 }
 #curated-for-you-popup div > h3 {
-    /* border: 2px solid red; */
-    line-height: 131.25%;
+    text-align: var(--text-align-left);
+    line-height: var(--line-ht-131-prcnt);
 }
-
-
-
-
+.curated-for-you-popup-texts {
+    margin-right: 3.37rem;
+}
+@media only screen and (max-width: 1650px) {
+    #curated-for-you-popup {
+        width: 60%;
+    }
+}
+@media only screen and (max-width: 1400px) {
+    #curated-for-you-popup {
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 1150px) {
+    #curated-for-you-popup {
+        width: 80%
+    }
+}
+@media only screen and (max-width: 900px) {
+    #curated-for-you-popup {
+        flex-direction: column;
+        width: 70%;
+        padding: 25px;
+    }
+    .curated-for-you-popup-texts {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .curated-for-you-popup-texts > h2 {
+        text-align: center !important;
+    }
+    .curated-for-you-popup-texts > h3 {
+        text-align: center !important;
+        margin-bottom: 0.88rem;
+    }
+    .hidden-1 {
+        display: none;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .hidden-2 {
+        display: none;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .hidden-3 {
+        display: none;
+    }
+}
 /* ------------------------------------------------ */
-
 
 
 
 /* CSS STYLING For Home-Page SHOP BY ART STYLE Section*/
 /* -------------------------------------------------- */
 #shop-by-art-style {
-    background-color: #F0FAFF;
-    padding-top: 50px;
+    background-color: var(--bgr-4);
+    padding-top: 11.63rem;
 }
-  
+#shop-by-art-style > h2 {
+    border: 2px solid red;
+    margin-bottom: 3.06rem;
+}
 .shop-by-art-style-image-boxes-wrapper {
+    border: 2px solid red;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
 }
@@ -1111,30 +1161,10 @@ img {
     .shop-by-art-style-image-boxes-wrapper {
        gap: 20px;
     }
-    .shop-by-art-style-image-box-title {
-        color: white;
-        font-weight: 900;
-        font-size: 2.1rem;
-        color: #fff;
-        font-weight: normal;
-    }
-    .shop-by-art-style-image-box-title-2 {
-        font-size: 1.4rem;
-    }
 }
 @media only screen and (max-width: 1400px) and (min-width: 1000px) {
     .shop-by-art-style-image-boxes-wrapper {
        gap: 15px;
-    }
-    .shop-by-art-style-image-box-title {
-        color: white;
-        font-weight: 900;
-        font-size: 1.5rem;
-        color: #fff;
-        font-weight: normal;
-    }
-    .shop-by-art-style-image-box-title-2 {
-        font-size: 1.1rem;
     }
     .shop-by-art-style-image-box > img {
         border-radius: 12px;
