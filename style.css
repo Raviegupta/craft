@@ -57,9 +57,12 @@
 
     --box-shadow-1: 0px 22px 47px 0px #DEE9EE;
 
+    --border-radius-1: 0.9375rem;
+    --border-radius-2: 0.971rem;
+    --border-radius-3: 3.0625rem;
+
     --justify-content-space-around: 
     --justify-content-space-evenly:
-
   }
 
 .flex {
@@ -68,16 +71,16 @@
     align-items: center;
 }
 .button-common-css {
-    padding: 15px 30px;
-    border-radius: 57px;
+    padding: 1rem 2rem;
+    border-radius: var(--border-radius-3);
     color: var(--cr-3);
     text-align: var(--text-align-center);
     font-size: var(--fnt-siz-3);
     background-color: var(--orng-clr);
-    border: var(--border-none);
     font-weight: var(--fnt-wt-3);
-    cursor: var(--cursor-pointer);
     line-height: var(--line-ht-normal);
+    border: var(--border-none);
+    cursor: var(--cursor-pointer);
 }
 
 .button-common-css:hover {
@@ -1042,7 +1045,7 @@ img {
     display: flex;
     width: 49%;
     padding: 40px 30px;
-    border-radius: 0.9375rem;
+    border-radius: var(--border-radius-1);
     background-color: var(--bgr-1);
     box-shadow: var(--box-shadow-1)
 }
@@ -1116,22 +1119,22 @@ img {
     padding-top: 11.63rem;
 }
 #shop-by-art-style > h2 {
-    border: 2px solid red;
     margin-bottom: 3.06rem;
 }
 .shop-by-art-style-image-boxes-wrapper {
-    border: 2px solid red;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
+    gap: 1.04rem;
 }
 .shop-by-art-style-image-box {
     height: 100%;
     width: 100%;
-}
+}   
 .shop-by-art-style-image-box > img {
     height: 100%;
     width: 100%;
-    border-radius: 15px;
+    border-radius: var(--border-radius-2);
+    background: linear-gradient(1deg, rgba(0, 0, 0, 0.57) 4.73%, rgba(0, 0, 0, 0.00) 49.31%);
 }
 .shop-by-art-style-image-box-1 {
     grid-column-start: 1;
@@ -1145,57 +1148,24 @@ img {
     grid-row-start: 1;
     grid-row-end: 3;
 }
-
 .shop-by-art-style-image-box {
     position: relative;
 }
-.shop-by-art-style-image-box-title {
-    /* border: 2px solid blue; */
+.sas-title {
     position: absolute;
-    left: 7%;
-    bottom: 7%;
-    color: white;
-}
-
-@media only screen and (max-width: 1800px) and (min-width: 1400px) {
-    .shop-by-art-style-image-boxes-wrapper {
-       gap: 20px;
-    }
-}
-@media only screen and (max-width: 1400px) and (min-width: 1000px) {
-    .shop-by-art-style-image-boxes-wrapper {
-       gap: 15px;
-    }
-    .shop-by-art-style-image-box > img {
-        border-radius: 12px;
-    }
+    left: 7.78%;
+    bottom: 6.7%;
 }
 @media only screen and (max-width: 1000px) and (min-width: 600px) {
     #shop-by-art-style {
         padding-top: 100px;
         padding-bottom: 30px;
-        background-color: #F0FAFF;  
+    } 
+    .sas-fig-caption-1-stl {
+        font-size: var(--fnt-siz-6);
     }
-    .shop-by-art-style-heading {
-        color: black;
-        font-size: 2rem;
-        text-align: left;
-        padding-left: 15px;
-        padding-right: 15px;
-    }  
-    .shop-by-art-style-image-boxes-wrapper {
-       gap: 10px;
-    }
-
-    .shop-by-art-style-image-box-title {
-        color: white;
-        font-weight: 900;
-        font-size: 0.9rem;
-        color: #fff;
-        font-weight: normal;
-    }
-    .shop-by-art-style-image-box-title-2 {
-        font-size: 0.6rem;
+    .sas-fig-caption-2-stl {
+        font-size: 0.777rem;
     }
     .shop-by-art-style-image-box > img {
         border-radius: 10px;
@@ -1204,16 +1174,8 @@ img {
 
 @media only screen and (max-width: 600px) and (min-width:320px) {
     .shop-by-art-style-image-boxes-wrapper {
-        grid-template-columns: 1fr 1fr;
-        
-    }
-    .shop-by-art-style-heading {
-        color: black;
-        font-size: 2.5rem;
-        /* border: 2px solid red; */
-        padding-left: 5px;
-        padding-right: 5px;
-    }  
+        grid-template-columns: 1fr 1fr; 
+    } 
     .sas-1 {
         grid-column-start: 1;
         grid-column-end: 2;
@@ -1226,24 +1188,8 @@ img {
         grid-row-start: 1;
         grid-row-end: 2;
     }
-    .shop-by-art-style-image-boxes-wrapper {
-        gap: 10px;
-     }
-     .shop-by-art-style-image-box-title {
-        color: white;
-        font-weight: 900;
-        font-size: 1rem;
-        font-weight: normal;
-    }
-    .shop-by-art-style-image-box-title-2 {
-        color: white;
-        font-weight: 900;
-        font-size: 1rem;
-        font-weight: normal;
-    }
 }
 /* ------------------------------------------------ */
-
 
 
 
@@ -1252,19 +1198,32 @@ img {
 .everything-about-collecting-art-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding: 3.25rem 0;
 }
 .everything-about-collecting-art-left-side {
-    /* border: 1px solid red; */
-    width: 100%; 
+    width: 100%;
 }
-.everything-about-collecting-art-left-side :nth-child(3) {
-    margin-top: 5px;
+.everything-about-collecting-art-left-side > div > h2 {
+    text-align: var(--text-align-left);
 }
-.everything-about-collecting-art-left-side :nth-child(4) {
-    margin-bottom: 5px;
+.everything-about-collecting-art-left-side > div > h3 {
+    text-align: var(--text-align-left);
+}
+.eac-h {
+    margin-bottom: 0.69rem;
+    border: 2px solid red;
+}
+.eac-sh {
+    border: 2px solid red;
+    margin-bottom: 2.19rem;
 }
 .everything-about-collecting-art-right-side img {
-    border-radius: 10px;
+    border-radius: var(--border-radius-1);
+}
+
+.everything-about-collecting-art-left-side button {
+    padding-left: 3.63rem;
+    padding-right: 3.63rem;
 }
 /* ------------------------------------------------ */
 
@@ -1336,6 +1295,18 @@ img {
     color: black;
 }
 /* ------------------------------------------------ */
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
