@@ -16,6 +16,7 @@
     --cr-4: #909090;
     --cr-5: #1F2017;
     --orng-clr: #FE8453;
+    --orng-clr-hover: #FE4901;
 
     --bgr-1: #FFF;
     --bgr-2: #FFFDF5;
@@ -23,6 +24,7 @@
     --bgr-4: #F0FAFF;
     --bgr-5: #FAFAFA;
     --bgr-6: #F1FAFF;
+    --bgr-7: #F5F2E2;
 
     --fnt-siz-1: 2.5rem;
     --fnt-siz-2: 1rem;
@@ -60,6 +62,7 @@
     --border-radius-1: 0.9375rem;
     --border-radius-2: 0.971rem;
     --border-radius-3: 3.0625rem;
+    --border-radius-4: 0.75rem;
 
     --justify-content-space-around: 
     --justify-content-space-evenly:
@@ -84,7 +87,7 @@
 }
 
 .button-common-css:hover {
-    background-color: #fe4901;
+    background-color: var(--orng-clr-hover);
 }
 
 a {
@@ -177,6 +180,7 @@ a {
     font-weight: var(--fnt-wt-4);
     line-height: var(--line-ht-normal);
 }
+
 .apr-price-range-stl {
     color: var(--cr-2);
     font-family: Montserrat;
@@ -1211,10 +1215,8 @@ img {
 }
 .eac-h {
     margin-bottom: 0.69rem;
-    border: 2px solid red;
 }
 .eac-sh {
-    border: 2px solid red;
     margin-bottom: 2.19rem;
 }
 .everything-about-collecting-art-right-side img {
@@ -1233,53 +1235,37 @@ img {
 /* CSS STYLING For Home-Page ARTWORK PRICE RANGE Section */
 /* ----------------------------------------------------- */
 .artwork-price-range-section {
-    background-color: #FFFDF5;
-    border: 2px solid red;
+    background-color: var(--bgr-2);
 }
-.artwork-price-range {
-    border: 1px solid red;
+.artwork-price-range > h2 {
+    text-align: var(--text-align-left);
 }
 .artwork-price-range-all-tabs-wrapper {
-    /* border: 1px solid red; */
-    padding: 20px 0;
+    padding: 1.25rem 0;
     width: 95%;
     margin-left: 0;
 }
 .artwork-price-range-one-tab {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 0;
-    padding: 7px 17px;
-    border-radius: 12px;
-    background: #F5F2E2;
-    margin: 15px auto;
+    padding: 7px 1.31rem;
+    border-radius: var(--border-radius-4);
+    background: var(--bgr-7);
+    margin:  1.19rem auto;
 }
 .artwork-price-range-one-tab:hover {
-    background-color: #FE8453;
-    .artwork-price-range-one-tab-price-row span {
-        color: #000;
-    }
-    .artwork-price-range-one-tab-left-range {
-        color: rgb(109, 104, 104);
+    background-color: var(--orng-clr);
+    .rupee-sign {
+        color: var(--cr-1);
     }
 }
 .artwork-price-range-one-tab-left {
-    /* border: 1px solid red; */
     margin-left: 0;
 }
-.artwork-price-range-one-tab-left-range {
-    font-size: 0.7rem;
-    color: gray;
-}
-.artwork-price-range-one-tab-price-row {
-    /* border: 1px solid red; */
+.apr-price-rupee-stl {
     display: flex;
-    gap: 5px;
+    gap: 0.25rem
 }
-.artwork-price-range-one-tab-price-row span {
-    color: #FE8453;
-    font-size: 1.3rem;
-    font-weight: bold;
+.rupee-sign {
+    color: var(--orng-clr);
 }
 .artwork-price-range-one-tab-right {
     margin-right: 0;
@@ -1288,7 +1274,6 @@ img {
     /* border: 1px solid red; */
     gap: 60px;
 }
-
 .artwork-price-range-one-tab-price-row h3 {
     text-decoration: none;
     /* background-color: red; */
@@ -1304,31 +1289,19 @@ img {
 
 
 
-
-
-
-
-
-
 /* CSS STYLING Home-Page MEET OUR ARTISTS Section */
 /* ----------------------------------------------- */
 .meet-our-artists-section {
-    /* border: 2px solid blue; */
-    background-color: white; 
+    background-color: var(--bgr-1); 
 }
-
 #meet-our-artists-cards-wrapper {
-    /* border: 3px solid red; */
-    margin: 30px auto;
-    display: flex;
+    border: 3px solid red;
+    margin: 2.5rem auto;
     flex-wrap: nowrap;
-    gap: 10px;
+    gap: 1.25rem;
 }
-/* .one-card-box-main-image {
-    width: 125%;
-} */
 .one-card-box-main-image img {
-    border-radius: 10px;
+    border-radius: var(--border-radius-1);
     width: 100%;
 }
 .artists-cards-one-card-box {
@@ -1338,10 +1311,10 @@ img {
     /* border: 2px solid red; */
     position: absolute;
     bottom: 18px;
-    left: 10px;
+    left: 1.25rem;
 }
 .one-card-icon-box img {
-    color: white;
+    
     background-color: white;
     border-radius: 50px;
     cursor: pointer;
