@@ -79,17 +79,20 @@
     align-items: center;
 }
 .button-common-css {
+    font-family: Montserrat;
     padding: 1rem 2rem;
     border-radius: var(--border-radius-3);
     color: var(--cr-3);
     text-align: var(--text-align-center);
     font-size: var(--fnt-siz-3);
     background-color: var(--orng-clr);
+    font-style: var(--fnt-siz-9);
     font-weight: var(--fnt-wt-3);
     line-height: var(--line-ht-normal);
     border: var(--border-none);
     cursor: var(--cursor-pointer);
 }
+
 
 .button-common-css:hover {
     background-color: var(--orng-clr-hover);
@@ -114,6 +117,10 @@ a {
     .stn-stl {
         padding: 3.5rem 0.5rem;
     }
+}
+.stn-cntnt-wrapper {
+    width: 95%;
+    border: 2px solid blue;
 }
 
 .stn-h-stl {
@@ -251,6 +258,7 @@ a {
     padding: .3rem 1.5rem .5rem .5rem;
 }
 
+
 .why-shop-h {
     color: var(--cr-1);
     font-family: Montserrat;
@@ -275,6 +283,10 @@ a {
     font-style: var(--fnt-stl-normal);
     font-weight: var(--fnt-wt-1);
     line-height: var(--line-ht-normal);
+}
+.cia-p-2 {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
 }
 
 /* **************************************************************************************** */
@@ -1354,7 +1366,6 @@ img {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1.62rem;
-    width: 90%;
     margin-bottom: 2.56rem;
 }
 
@@ -1397,14 +1408,10 @@ img {
 /* CSS STYLING Home-Page WHY SHOP WITH US Section */
 /* ---------------------------------------------- */
 #why-shop-with-us {
-    background-color: #f1faff;
+    background-color: var(--bgr-6);
 }
-
-
 .why-shop-with-us-icons-boxes-wrapper {
-    display: flex;
-    gap: 40px;
-    /* border: 2px solid red; */
+    gap: 3.44rem;
     padding: 40px 20px;
 }
 .why-shop-with-us-one-icon-box {
@@ -1412,106 +1419,88 @@ img {
     display: flex;
     gap: 20px;
     margin-top: 0;
+    width: 100%;
 }
 .why-shop-with-us-one-icon-box > img {
     width: 50px;
-    /* background-color: red; */
     margin-top: 0;
 }
 .why-shop-with-us-one-icon-box > span img {
-    /* background-color: red; */
     margin-top: 0;
 }
-/* .why-shop-with-us-one-icon-box > div {
-    border: 2px solid blue;
-} */
+
 .why-shop-with-us-one-icon-box > div h4 {
-    /* border: 1px solid red; */
-    /* width: 70%; */
+    width: 60%;
     margin-left: 0;
-}
-.why-shop-with-us-one-icon-box > div p {
-    font-size: 0.7rem;
-    padding-top: 7px;
+    margin-bottom: 0.5rem;
 }
 
 
-/* KNOW MORE ABOUT US PART OF WHY SHOP WITH US  */
+
+
+/* CSS STYLING Home-Page KNOW MORE ABOUT US SECTION */
+/* ------------------------------------------------ */
+.know-more-about-us-section {
+    padding-top: 0;
+    padding-bottom: 6.25rem;
+    background-color: var(--bgr-6);
+}
 #know-more-about-us {
-    /* border: 2px solid red; */
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 .know-more-about-us-left-side {
-    /* border: 1px solid blue; */
     margin-top: 0;
 }
-.know-more-about-us-btn {
-    /* border: 2px solid blue; */
-    padding: 20px 0;
+.know-more-about-us-left-side > h2 {
+    /* border: 2px solid red; */
+    text-align: var(--text-align-left);
+    width: 110%;
 }
 .know-more-about-us-btn a button {
-    font-size: 0.7rem;
+    font-family: Open Sans;
+    font-size: var(--fnt-siz-2);
+    font-weight: var(--fnt-wt-1);
 }
-
-
+.cia-para-wrapper {
+    /* border: 2px solid red; */
+    margin-top: 1.25rem;
+    margin-bottom: 2.38rem;
+    margin-right: 2rem;
+}
 /* ------------------------------------------------ */
 
 
 
 
-/* CSS STYLING For Home-Page PROCURE ARTWORKS's Section */
+/* CSS STYLING For Home-Page Follow us on instagram Section */
 /* ---------------------------------------------------- */
-
-
+#follow-us-on-insta {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-top: 5.75rem;
+    background-color: var(--bgr-1);
+}
+#follow-us-on-insta h2 {
+    margin-bottom: 0.62rem;
+}
+#follow-us-on-insta h3 {
+    margin-bottom: 2.83rem;
+}
 #beutiful-one-line-images-below-insta {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 1px;
-    border: 2px solid red;
 }
-
-
 /* ---------------------------------------------------- */
 
 
 
 
-/* CSS STYLING For Home-Page SUBSCRIBE NEWSLETTER Section */
-/* ------------------------------------------------------ */
-#subscribe-newsletter {
-    display: flex;
-    flex-direction: column;
-}
 
-#email-input{
-    border: none;
-    margin-top: 20px;
-    padding: 15px 0;
-    /* border-bottom: 2px solid #FE8453; */
-    width: 88%;
-    outline: none;
-}
-#email-input::placeholder{
-   color: #818181;
-   font-weight: normal;
-}
-.email-input-box label {
-    font-size: 2rem;
-    color: #FE8453;
-}
-/* #email-subscription-submit-btn {
-    font-size: 1rem;
-    border: none;
-    background-color: white;
-    color: #FE8453;
-    cursor: pointer;
-} */
-.email-input-box {
-    /* border: 3px solid red; */
-    width: 37%;
-    border-bottom: 1px solid #FE8453; 
-}
+
+
 @media only screen and (max-width:2560px) and (min-width:2100px) {
     #subscribe-newsletter > img {
         width: 100px;
@@ -1881,6 +1870,56 @@ img {
     }
 }
 /* ------------------------------------------------------ */
+
+
+
+/* CSS STYLING For Home-Page SUBSCRIBE NEWSLETTER Section */
+/* ------------------------------------------------------ */
+#subscribe-newsletter {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bgr-1);
+    padding-top: 0;
+}
+#subscribe-newsletter > svg {
+    margin-top: 6.14rem;
+    margin-bottom: 2.47rem;
+}
+#email-input{
+    border: none;
+    margin-top: 20px;
+    padding: 15px 0;
+    /* border-bottom: 2px solid #FE8453; */
+    width: 88%;
+    outline: none;
+}
+#email-input::placeholder{
+   color: #818181;
+   font-weight: normal;
+}
+.email-input-box label {
+    font-size: 2rem;
+    color: #FE8453;
+}
+/* #email-subscription-submit-btn {
+    font-size: 1rem;
+    border: none;
+    background-color: white;
+    color: #FE8453;
+    cursor: pointer;
+} */
+.email-input-box {
+    /* border: 3px solid red; */
+    width: 37%;
+    border-bottom: 1px solid #FE8453; 
+}
+
+
+
+
+
+
+
 
 
 
