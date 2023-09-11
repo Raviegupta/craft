@@ -1,12 +1,16 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree&family=Montserrat:wght@400;500;600;700&family=Open+Sans&display=swap');
 
 /* GLOBAL STYLING AND COMMON STYLES*/
 *{
     padding: 0;
     margin: auto;
     box-sizing: border-box;
+    font-family: 'Figtree', sans-serif;
     font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 :root {
@@ -63,6 +67,7 @@
     --border-radius-2: 0.971rem;
     --border-radius-3: 3.0625rem;
     --border-radius-4: 0.75rem;
+    --border-radius-50-cnt: 50%;
 
     --justify-content-space-around: 
     --justify-content-space-evenly:
@@ -198,22 +203,32 @@ a {
     line-height: var(--line-ht-normal);
 }
 
+.meet-fig-gf-stl {
+    background-color: var(--bgr-1);
+    border-radius: var(--border-radius-50-cnt);
+    margin-bottom: 1.19rem;
+    width: 2.75rem;
+    padding: 0.3rem;
+    cursor: var(--cursor-pointer);
+}
 .meet-fig-caption-stl {
     color: var(--cr-3);
     font-family: Montserrat;
     font-size: var(--fnt-siz-11);
     font-style: var(--fnt-stl-normal);
-    font-weight: var(--fnt-wt-4);
+    font-weight: var(--fnt-wt-3);
     line-height: var(--line-ht-normal);
 }
 
 .gi-fig-caption-stl {
     color: var(--cr-3);
     font-family: Figtree;   
-    font-size: var(--fnt-siz-9);
+    font-size: var(--fnt-siz-11);
     font-style: var(--fnt-stl-normal);
     font-weight: var(--fnt-wt-4);
     line-height: var(--line-ht-normal);
+
+    margin-bottom: 1rem;
 }
 .gi-fig-caption-pieces-stl {
     color: var(--cr-3);
@@ -223,7 +238,7 @@ a {
     font-weight: var(--fnt-wt-1);
     line-height: var(--line-ht-normal);
 }
-.gi-fig-caption-top-left {
+.gi-fig-caption-top-left-stl {
     color: var(--cr-1);
     text-align: var(--text-align-center);
     font-family: Figtree;
@@ -231,6 +246,9 @@ a {
     font-style: var(--fnt-stl-normal);
     font-weight: var(--fnt-wt-1);
     line-height: var(--line-ht-normal);
+
+    background-color: var(--bgr-1);
+    padding: .3rem 1.5rem .5rem .5rem;
 }
 
 .why-shop-h {
@@ -1295,7 +1313,6 @@ img {
     background-color: var(--bgr-1); 
 }
 #meet-our-artists-cards-wrapper {
-    border: 3px solid red;
     margin: 2.5rem auto;
     flex-wrap: nowrap;
     gap: 1.25rem;
@@ -1303,21 +1320,15 @@ img {
 .one-card-box-main-image img {
     border-radius: var(--border-radius-1);
     width: 100%;
+    background-color: rgba(0, 0, 0, 0.22);
 }
 .artists-cards-one-card-box {
     position: relative;
 }
 .artists-cards-icon-plus-tag-box {
-    /* border: 2px solid red; */
     position: absolute;
     bottom: 18px;
     left: 1.25rem;
-}
-.one-card-icon-box img {
-    
-    background-color: white;
-    border-radius: 50px;
-    cursor: pointer;
 }
 
 /* ------------------------------------------------ */
@@ -1328,59 +1339,56 @@ img {
 /* CSS STYLING Home-Page GET INSPIRED Section */
 /* ------------------------------------------------ */
 #get-inspired-section {
-    background-color: #fafafa;
+    background-color: var(--bgr-5);
 }
+.gi-h {
+    padding-top: 1rem;
+    margin-bottom: 0.56rem;
+}
+.gi-sh {
+    margin-bottom: 2.91rem;
+    font-family: Open Sans;
+}
+
 .get-inspired-section-cards-wrapper {
-    /* border: 2px solid blue; */
-    gap: 15px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.62rem;
+    width: 90%;
+    margin-bottom: 2.56rem;
 }
+
 .get-inspired-section-one-card-box {
-    /* border: 1px solid red; */
     position: relative;
 }
-.get-inspired-section-one-card-image {
-    border: 2px solid white;
-}
-.get-inspired-section-one-card-image img{
-    border-radius: 15px;
-}
-.get-inspired-section-one-card-box-top-left-para {
-    background-color: white;
-    padding: 5px 20px 5px 5px;
-    font-size: .7rem;
-    font-weight: bold;
+.gi-fig-caption-top-left {
     position: absolute;
-    top: 20px;
-    left: 20px;
+    top: 1.29rem;
+    left: 1.3rem;
 }
-.get-inspired-section-one-card-box-bottom-part {
-    /* border: 2px solid red; */
-    display: flex;
+.gi-img-grad-overlay {
+    height: 95%;
+    width: 100%;
     position: absolute;
-    bottom: 0;
+    bottom: 0.25rem;
+    border-radius: var(--border-radius-1);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, rgba(0, 0, 0, 0.37) 57.29%, rgba(0, 0, 0, 0.78) 100%);
 }
-.get-inspired-section-one-card-box-bottom-part .left-part {
-    /* border: 2px solid tomato; */
-    padding: 10px 15px;
+.gi-img-grad-overlay .left-part {
+    width: 63%;
+    height: max-content;
+    position: absolute;
+    bottom: 1rem;
+    left: 1.2rem;
 }
-.get-inspired-section-one-card-box-bottom-part .left-part h1 {
-    font-size: 1.1rem;
-    font-weight: bold;
-    color: white;
+.gi-img-grad-overlay .right-part {
+    position: absolute;
+    bottom: 0.58rem;
+    right: 1.2rem;
 }
-.get-inspired-section-one-card-box-bottom-part .left-part p {
-    font-size: 0.8rem;
-    padding-top: 10px;
-    color: white;
+.get-inspired-section-one-card-image img {
+    border-radius: var(--border-radius-1);
 }
-
-.get-inspired-section-one-card-box-bottom-part .right-part {
-    padding: 10px;
-}
-
-
 /* --------------------------------------------------- */
 
 
