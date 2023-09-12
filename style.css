@@ -321,21 +321,16 @@ a {
 /* -----------------CSS FOR HEADER STARTS HERE------------------*/
 /* -------------------------------------------------------------*/
 .my-header {
-    /* border: 3px solid blue; */
-    display: flex;
     padding: 10px;
     height: 5.5rem;
     max-width: 1920px;
 }
 .craft-logo {
-    /* border: 3px solid red; */
     width: 15%;
     margin-right: 13rem;
 }
 .nav-bar {
-    border: 1px solid red;
     list-style-type: var(--list-none);
-    display: flex;
     gap: 2.75rem;
     color: var(--cr-1);
     font-size: var(--fnt-siz-2);
@@ -345,23 +340,22 @@ a {
     text-transform: uppercase;
 }
 .search-wrapper {
-    /* border: 1px solid gray; */
-    display: flex;
-    border-radius: 20px;
+    border: 1px solid var(--cr-1);
     margin-right: 20px;
     margin-left: 20px;
+    border-radius: 3.5rem;
 }
 .search-wrapper input {
     font-size: 0.9rem;
     padding: 8px 14px;
     padding: 13px 14px;
     
-    border: 1px solid gray;
     outline: none;
     width: 320px;
     border-right: none;
     border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;  
+    border-bottom-left-radius: 30px;
+    border: none;
 }
 .search-wrapper i {
     font-size: 1.2rem;
@@ -369,29 +363,39 @@ a {
     padding: 12px 13px;
     color: var(--orng-clr);
 
-    border: 1px solid gray;
     border-left: none;
     outline: none;
     border-top-right-radius: 30px; 
     border-bottom-right-radius: 30px; 
     cursor: var(--cursor-pointer);
 }
-    /* .lang-select {
-        margin: 20px auto;
-    } */
-    .my-accounts {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 10px;
-        margin-left: 10px;
-    }
-    .fa-bag-shopping {
-        color: var(--orng-clr);
-    }
-    .hamburger-icon {
-        display: none;
-    }
+.search-wrapper input::placeholder {
+    color: var(--cr-4);
+    font-family: Montserrat;
+    font-size: var(--fnt-siz-4);
+    font-style: var(--fnt-stl-normal);
+    font-weight: var(--fnt-wt-1);
+    line-height: var(--line-ht-normal);
+}
+.lang-select {
+    color: var(--cr-1);
+    font-family: Figtree;
+    font-size: var(--fnt-siz-2);
+    font-style: var(--fnt-stl-normal);
+    font-weight: var(--fnt-wt-4);
+    line-height: var(--line-ht-normal);
+    text-transform: uppercase;
+}
+.my-accounts {
+    gap: 1.25rem;
+    margin-left: 10px;
+}
+.fa-bag-shopping {
+    color: var(--orng-clr);
+}
+.hamburger-icon {
+    display: none;
+}
 @media only screen and (max-width: 1450px) and (min-width: 1250px) {
     .craft-logo {
         width: 15%;
@@ -402,64 +406,52 @@ a {
         font-size: 1rem;  
     }
 }
-@media only screen and (max-width: 1250px) and (min-width: 1100px) {
+@media only screen and (max-width: 1250px) and (min-width: 1150px) {
     .craft-logo {
         width: 15%;
         margin-right: 3rem;
     }
     .nav-bar {
         gap: 1rem;
-        font-size: 1rem;
     }
     .header-artist-btn {
-        /* background-color: black; */
-        font-size: .6rem;
+        font-size: var(--fnt-siz-8);
     }
 }
-@media only screen and (max-width: 1100px) and (min-width: 600px) {
+@media only screen and (max-width: 1150px) and (min-width: 600px) {
     .header-artist-btn {
-        /* background-color: black; */
-        margin-right: 5px;
-        padding: 7px 15px;
         display: none;
-        font-size: 0.8rem;
     }
     .nav-bar {
-        /* border: 1px solid red; */
-        margin-left: -25px;
         margin-right: 5px;
-        font-size: 1rem;
-        gap: 10px;
     }
     .craft-logo {
-        /* border: 3px solid red; */
         width: 20%;
-        margin-right: 3rem;
+        margin-right: 5rem;
     }
 }
+
 /* -----implementation of hamburger icon----- */
-@media only screen and (max-width: 990px) {
-    .lang-select, .are-you-artist-link, .user-account, .search-wrapper input, .nav-bar a{
+@media only screen and (max-width: 991px) {
+    .lang-select, .are-you-artist-link, .user-account, .search-wrapper input, .nav-bar a {
         display: none;
     }
-    .search-wrapper i {
-       border: none !important; 
-    }
     .my-header {
-        /* border: 3px solid red; */
         position: relative;
     }
     .craft-logo a img{
-        /* border: 2px solid red; */
-        width: 45%;
+        width:  35%;
         position: absolute;
         left: 50%;
         top: 50%;
         transform: translate(-50%, -50%);
     }
+    .search-wrapper {
+        border: none;
+    }
     .search-wrapper i {
         position: absolute;
-        left: 17%;
+        left: 10%;
         top: 50%;
         transform: translate(-50%, -50%);
         font-size: 1.5rem;
@@ -468,33 +460,38 @@ a {
         /* border: 3px solid red; */
         position: absolute;
         top: 50%;
-        right: 0;
+        right: 0%;
+        gap: 1.5rem;
         transform: translate(-50%, -50%);
-        font-size: 1.5rem;
-        margin-right: -15px;
-     }
-     .my-whislist {
-        /* border: 2px solid red; */
-        margin-right: 5px;
      }
      .hamburger-icon, .hamburger-icon-cross {
-        /* border: 3px solid red; */
         position: absolute;
         top: 50%;
-        left: 26px;
+        left: 2.2rem;
         transform: translate(-50%, -50%);
         display: flex;
         align-items: center;
         margin: 0 auto;
      }
 }
+@media only screen and (max-width: 750px) {
+    .search-wrapper i {
+        left: 12%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .search-wrapper i {
+        left: 14%;
+     }
+}
+@media only screen and (max-width: 500px) {
+    .search-wrapper i {
+        left: 17%;
+     }
+}
 @media only screen and (max-width: 400px) {
     .search-wrapper i {
-        font-size: 1.2rem;
         left: 20%;
-     }
-     .my-accounts {
-        font-size: 1.2rem;
      }
 }
 /* ----implementation of hamburger icon----  */
@@ -885,6 +882,21 @@ img {
         font-size: 1.3rem;
     }
     /* =*=*=*=*=*=*=*=*=*= customization for banner-3 =*=*=*=*=*=*=*=*=*=  */
+}
+
+
+@media only screen and (max-width: 991px) {
+    .textbox-banner-1 > h2 {
+        font-style: normal;
+    }
+    .textbox-banner-1 {
+        width: 95%;
+    }
+
+    .textbox-banner-1 > h3 {
+        font-size: 1rem;
+        width: 95%;
+    }
 }
 /* --------- CSS STYLING FOR HOME-PAGE BANNER SECTION ----------- */
 
@@ -1341,7 +1353,27 @@ img {
     left: 1.25rem;
 }
 
+
+@media only screen and (max-width: 1400px) {
+    .meet-fig-caption-stl {
+        font-size: var(--fnt-siz-10);
+    }
+}
+@media only screen and (max-width: 1100px) {
+    .meet-fig-caption-stl {
+        font-size: var(--fnt-siz-4);
+    }
+}
 /* ------------------------------------------------ */
+
+
+
+
+
+
+
+
+
 
 
 

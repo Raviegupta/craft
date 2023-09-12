@@ -24,15 +24,15 @@
 <body>
         
     <!-- This is Header Section -->
-    <section class="my-header">
+    <section class="my-header flex">
         <div class="hamburger-icon"><a href="#"><img src="images/menu2.png" alt="" style="width: 30px;"></a></div>
         <div class="hamburger-icon-cross menu-hidden"><a href="#"><img src="images/menu3.png" alt=""></a></div>
         <div class="craft-logo"><a href=""><img src="images/Group 43.png" alt=""></a></div>
-        <ul class="nav-bar">
+        <ul class="nav-bar flex">
             <a href="html/product-listing-page.html"><li>ARTWORKS</li></a>
             <a href="html/product-detail-page.html"><li>DISCOVER</li></a>
         </ul>
-        <div class="search-wrapper">
+        <div class="search-wrapper flex">
             <input type="search" name="" id="" placeholder="Search for Artist, Category, topic...">
             <i class="fa fa-search search-icon" aria-hidden="true"></i>
         </div>
@@ -188,10 +188,23 @@
             <option value="zu">Zulu - isiZulu</option>
         </select>
 
-        <div class="my-accounts">
-            <div class="user-account"><i class="fa-regular fa-user"></i></div>
-            <div><i class="fa-regular fa-heart my-whislist"></i></div>
-            <div><i class="fa-solid fa-bag-shopping"></i></div>
+        <div class="my-accounts flex">
+            <div class="user-account">
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="18" viewBox="0 0 14 18" fill="none">
+                    <path d="M13.5 18H12V14.2178C11.9994 13.6297 11.7656 13.066 11.3498 12.6502C10.934 12.2344 10.3702 12.0006 9.78225 12H3.71775C3.12975 12.0006 2.566 12.2344 2.15022 12.6502C1.73444 13.066 1.5006 13.6297 1.5 14.2178V18H0V14.2178C0.00119087 13.2321 0.393263 12.2872 1.09022 11.5902C1.78717 10.8933 2.73211 10.5012 3.71775 10.5H9.78225C10.7679 10.5012 11.7128 10.8933 12.4098 11.5902C13.1067 12.2872 13.4988 13.2321 13.5 14.2178V18Z" fill="black"/>
+                    <path d="M6.75 9C5.85999 9 4.98996 8.73608 4.24994 8.24161C3.50991 7.74715 2.93314 7.04434 2.59254 6.22208C2.25195 5.39981 2.16283 4.49501 2.33647 3.6221C2.5101 2.74918 2.93869 1.94736 3.56802 1.31802C4.19736 0.688685 4.99918 0.260102 5.8721 0.0864682C6.74501 -0.0871652 7.64981 0.00194979 8.47208 0.342544C9.29434 0.683138 9.99715 1.25991 10.4916 1.99994C10.9861 2.73996 11.25 3.60999 11.25 4.5C11.2488 5.69311 10.7743 6.83701 9.93067 7.68067C9.08701 8.52432 7.94311 8.99881 6.75 9ZM6.75 1.5C6.15666 1.5 5.57664 1.67595 5.08329 2.00559C4.58994 2.33524 4.20543 2.80377 3.97836 3.35195C3.7513 3.90013 3.69189 4.50333 3.80765 5.08527C3.9234 5.66722 4.20912 6.20176 4.62868 6.62132C5.04824 7.04088 5.58279 7.3266 6.16473 7.44236C6.74667 7.55811 7.34987 7.4987 7.89805 7.27164C8.44623 7.04458 8.91477 6.66006 9.24441 6.16671C9.57405 5.67336 9.75 5.09335 9.75 4.5C9.75 3.70435 9.43393 2.94129 8.87132 2.37868C8.30871 1.81607 7.54565 1.5 6.75 1.5Z" fill="black"/>
+                </svg>
+            </div>
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="18" viewBox="0 0 20 18" fill="none">
+                    <path d="M14.572 0C13.6668 0.0140802 12.7813 0.266775 12.005 0.732566C11.2287 1.19836 10.589 1.86075 10.1506 2.65285C9.71221 1.86075 9.07255 1.19836 8.29623 0.732566C7.51991 0.266775 6.63443 0.0140802 5.72921 0C4.28617 0.0626963 2.92659 0.693965 1.94751 1.75589C0.96843 2.81782 0.449427 4.22408 0.503892 5.66746C0.503892 11.1138 9.31136 17.4043 9.68597 17.6712L10.1506 18L10.6153 17.6712C10.9899 17.4059 19.7974 11.1138 19.7974 5.66746C19.8518 4.22408 19.3328 2.81782 18.3537 1.75589C17.3747 0.693965 16.0151 0.0626963 14.572 0ZM10.1506 16.0208C7.53556 14.0673 2.11168 9.2681 2.11168 5.66746C2.05673 4.6503 2.4062 3.65268 3.08388 2.89217C3.76156 2.13166 4.71247 1.66997 5.72921 1.60779C6.74594 1.66997 7.69685 2.13166 8.37453 2.89217C9.05221 3.65268 9.40168 4.6503 9.34673 5.66746H10.9545C10.8996 4.6503 11.249 3.65268 11.9267 2.89217C12.6044 2.13166 13.5553 1.66997 14.572 1.60779C15.5888 1.66997 16.5397 2.13166 17.2174 2.89217C17.895 3.65268 18.2445 4.6503 18.1896 5.66746C18.1896 9.26971 12.7657 14.0673 10.1506 16.0208Z" fill="black"/>
+                </svg>
+            </div>
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="18" viewBox="0 0 19 18" fill="none">
+                    <path d="M14 4.5C14 3.30653 13.5259 2.16193 12.682 1.31802C11.8381 0.474106 10.6935 0 9.5 0C8.30653 0 7.16193 0.474106 6.31802 1.31802C5.47411 2.16193 5 3.30653 5 4.5H0.5V15.75C0.5 16.3467 0.737053 16.919 1.15901 17.341C1.58097 17.7629 2.15326 18 2.75 18H16.25C16.8467 18 17.419 17.7629 17.841 17.341C18.2629 16.919 18.5 16.3467 18.5 15.75V4.5H14ZM9.5 1.5C10.2956 1.5 11.0587 1.81607 11.6213 2.37868C12.1839 2.94129 12.5 3.70435 12.5 4.5H6.5C6.5 3.70435 6.81607 2.94129 7.37868 2.37868C7.94129 1.81607 8.70435 1.5 9.5 1.5ZM17 15.75C17 15.9489 16.921 16.1397 16.7803 16.2803C16.6397 16.421 16.4489 16.5 16.25 16.5H2.75C2.55109 16.5 2.36032 16.421 2.21967 16.2803C2.07902 16.1397 2 15.9489 2 15.75V6H5V7.5H6.5V6H12.5V7.5H14V6H17V15.75Z" fill="black"/>
+                </svg>
+            </div>
         </div>
     </section>
 
@@ -1063,7 +1076,7 @@
 
 
     <!-- Home-Page Why shop with us -->
-    <section id="why-shop-with-us" class="hamburger-icon-click-not-render stn-stl">
+    <!-- <section id="why-shop-with-us" class="hamburger-icon-click-not-render stn-stl">
         <h2 class="stn-h-stl">Why Shop with us</h2>
         
         <ol class="stn-cntnt-wrapper why-shop-with-us-icons-boxes-wrapper flex" style="list-style-type: none;">
@@ -1096,7 +1109,7 @@
                 </div>
             </li>
         </ol>
-    </section>
+    </section> -->
 
     <!-- Home-Page Know More About Us -->
     <section class="stn-stl know-more-about-us-section">
@@ -1154,7 +1167,7 @@
     
 
     <!-- This is Footer Section -->
-    <footer id="my-footer" class="hamburger-icon-click-not-render">
+    <!-- <footer id="my-footer" class="hamburger-icon-click-not-render">
         <section class="my-footer-main section-padding-left-right section-padding-top-bottom">
             <ul class="foot-col col-1">
                 <h3>About us</h3>
@@ -1213,6 +1226,6 @@
             
             <img src="images/footer-right-sign.png" alt="">
         </section>
-    </footer>
+    </footer> -->
 </body>
 </html>
