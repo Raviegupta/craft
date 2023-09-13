@@ -19,6 +19,7 @@
     --cr-3: #FFF;
     --cr-4: #909090;
     --cr-5: #1F2017;
+    --cr-6: #B3B3B3;
     --orng-clr: #FE8453;
     --orng-clr-hover: #FE4901;
     --input-placeholder-clr: #818181;
@@ -30,6 +31,7 @@
     --bgr-5: #FAFAFA;
     --bgr-6: #F1FAFF;
     --bgr-7: #F5F2E2;
+    --bgr-8: #000;
 
     --fnt-siz-1: 2.5rem;
     --fnt-siz-2: 1rem;
@@ -53,6 +55,7 @@
     --line-ht-normal: normal;
     --line-ht-150-prcnt: 1.5;
     --line-ht-131-prcnt: 1.3125;
+    --line-ht-185-prcnt: 1.85714;
 
     --text-align-center: center;
     --text-align-left: left;
@@ -1984,11 +1987,16 @@ img {
 
 
 /* -----------------CSS FOR FOOTER STARTS HERE------------------*/
+#my-footer {
+    background-color: var(--bgr-8);
+}
 .my-footer-main {
-    background-color: #000000;
+    background-color: var(--bgr-8);
     /* border: 2px solid red; */
     display: flex;
-    padding-top: 50px;
+    padding-top: 3.88rem;
+    padding-left: 9rem;
+    padding-right: 9rem;
     padding-bottom: 0;
 
     .foot-col {
@@ -1996,34 +2004,34 @@ img {
         margin-top: 0;
     }  
 }
-.foot-col h1 {
-    color: #FE8453;
+.foot-col h3 {
+    color: var(--orng-clr);
     font-family: Montserrat;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 50px; /* 250% */
+    font-size: var(--fnt-siz-6);
+    font-style: var(--fnt-stl-normal);
+    font-weight: var(--fnt-wt-2);
+    line-height: 3.125rem; /* 250% */
 }
 .foot-col li a{
     text-decoration: none;
-    color: #B3B3B3;
+    color: var(--cr-6);
     font-family: Montserrat;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px; /* 185.714% */
+    font-size: var(--fnt-siz-4);
+    font-style: var(--fnt-stl-normal);
+    font-weight: var(--fnt-wt-1);
+    line-height: var(--line-ht-185-prcnt);
 }
 .col-5 {
     /* border: 2px solid red; */
     margin-top: 20px;
     padding: 10px 30px 30px 30px;
     border-radius: 10px;
-    background-color: #FE8453;
+    background-color: var(--orng-clr);
     box-shadow:  0 0 3px;
     text-align: center;
 }
-.col-5 h1 {
-    color: white;
+.col-5 h3 {
+    color: var(--cr-3);
     font-weight: 600;
     font-size: 1rem;
 }
@@ -2046,7 +2054,7 @@ img {
         line-height: 1.5;
     }
 }
-@media only screen and (max-width: 1800px) and (min-width: 1600px) {
+/* @media only screen and (max-width: 1800px) and (min-width: 1600px) {
     .foot-col h1 {
         font-size: 1.3rem;
         line-height: 2;
@@ -2055,7 +2063,7 @@ img {
         font-size: 16px;
         line-height: 1.5;
     }
-}
+} */
 @media only screen and (max-width: 1000px) and (min-width: 700px) {
     .foot-col h1 {
         font-size: 0.9rem;
