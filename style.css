@@ -1488,7 +1488,23 @@ img {
 }
 
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1600px) {
+    .meet-fig-caption-stl {
+        font-size: var(--fnt-siz-6);
+    }
+}
+@media only screen and (max-width: 1500px) {
+    .meet-fig-caption-stl {
+        font-size: var(--fnt-siz-10);
+    }
+}
+@media only screen and (max-width: 1440px) {
+    .meet-fig-caption-stl {
+        font-size: var(--fnt-siz-6);
+    }
+}
+
+@media only screen and (max-width: 1300px) {
     .meet-fig-caption-stl {
         font-size: var(--fnt-siz-10);
     }
@@ -1498,6 +1514,27 @@ img {
         font-size: var(--fnt-siz-4);
     }
 }
+
+@media only screen and (max-width: 991px) {
+    #meet-our-artists-cards-wrapper {
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        gap: 0px;
+    }
+    .one-card-box-main-image img {
+        width: 250px;
+    }
+    .artists-cards-one-card-box {
+        margin: 10px;
+    }
+    .meet-fig-caption-stl {
+        font-size: var(--fnt-siz-11);
+    }
+}
+
+
 /* ------------------------------------------------ */
 
 
