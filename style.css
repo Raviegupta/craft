@@ -937,9 +937,9 @@ img {
         grid-template-rows: 70% 30%;
         padding: 20px;
     }
-    .artwork-tending-now-1 {
+    /* .artwork-tending-now-1 {
         padding-bottom: 0;
-    }
+    } */
     .image-details-text-box {
         width: 100%;
     }
@@ -2435,6 +2435,8 @@ img {
     }
     .view-all-box-res {
         display: block;
+
+        margin-top: 1rem;
     }
     .view-all-res {
         margin-right: auto;
