@@ -2440,3 +2440,29 @@ img {
         margin-right: auto;
     }
 }
+
+
+
+
+.view-all-box-wrap-gi {
+    position: relative;
+    /* border: 5px solid gray; */
+} 
+.view-all-box-gi {
+    /* border: 5px solid gray; */
+    height: fit-content;
+    position: absolute;
+    top: 40px;
+    right: 0;
+}
+@media only screen and (max-width: 1150px) {
+    .view-all-box-gi {
+       display: none;
+    }
+    .view-all-box-res {
+        display: block;
+    }
+    .view-all-res {
+        margin-right: auto;
+    }
+}
