@@ -1710,7 +1710,25 @@ img {
 }
 
 @media only screen and (max-width: 991px) {
-    
+    #know-more-about-us {
+        display: grid;
+        grid-template-columns: 1fr;
+        position: relative;
+        padding-bottom: 6rem;
+    }
+    .know-more-about-us-left-side > h2 {
+        text-align: var(--text-align-center);
+        width: 100%;
+    }
+    .know-more-about-us-btn {
+        text-align: var(--text-align-center);
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%);
+        width: max-content;
+    }
+  
 }
 /* ------------------------------------------------ */
 
