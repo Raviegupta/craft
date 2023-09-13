@@ -2387,11 +2387,50 @@ img {
 .view-all-box-res {
     display: none;
 }
-
-
-
 @media only screen and (max-width: 1150px) {
     .view-all-box {
+       display: none;
+    }
+    .view-all-box-res {
+        display: block;
+    }
+    .view-all-res {
+        margin-right: auto;
+    }
+}
+
+
+
+
+
+
+
+.view-all-box-wrap-sas {
+    position: relative;
+    margin-bottom: 3.06rem;
+} 
+.view-all-box-sas {
+    /* border: 5px solid gray; */
+    height: fit-content;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+.view-all-sas {
+    display: flex;
+    gap: 1.3rem; 
+    width: max-content; 
+    margin-right: 0;
+
+    color: #1F2017;
+    font-family: Montserrat;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+} 
+@media only screen and (max-width: 1150px) {
+    .view-all-box-sas {
        display: none;
     }
     .view-all-box-res {
