@@ -1008,7 +1008,7 @@ img {
 .proactive-artworks-left-side-sec-row-heading {
     margin-left: 0px;
     margin: 0.88rem 0;
-    width: 95%;
+    width: 80%;
 }
 .proactive-artworks-left-side-sec-row-heading h2 {
     color: var(--cr-1);
@@ -1054,61 +1054,78 @@ img {
         width: 92%;
     }
 }
+
 @media only screen and (max-width:991px) {
     #proactive-artworks {
         grid-template-columns: 1fr;
         padding-left: 0;
     }
     .proactive-artworks-left-side {
-        padding-left: 5px;
-        text-align: center;
-        /* border: 2px solid red */
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-left: 0;
+        margin-right: 0;
+        text-align: var(--text-align-center);
     }
     .proactive-artworks-left-side-sec-row {
-        text-align: center;
-        width: 50%;
+        text-align: var(--text-align-center);
+        width: 55%;
+        gap: 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
     }
     .proactive-artworks-left-side-third-row {
         width: 100%;
     }
-    
 }
+
 @media only screen and (max-width: 850px) {
     .proactive-artworks-left-side-sec-row {
-        width: 60%;
+        width: 58%;
     }
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
+    .proactive-artworks-left-side-sec-row {
+        width: 63%;
+    }
+}
+@media only screen and (max-width: 750px) {
     .proactive-artworks-left-side-sec-row {
         width: 70%;
     }
 }
+@media only screen and (max-width: 660px) {
+    .proactive-artworks-left-side-sec-row {
+        width: 77%;
+    }
+}
 @media only screen and (max-width: 600px) {
     .proactive-artworks-left-side-sec-row {
-        width: 85%;
+        width: 78%;
+    }
+}
+@media only screen and (max-width: 590px) {
+    .proactive-artworks-left-side-sec-row {
+        width: 83%;
+    }
+}
+@media only screen and (max-width: 560px) {
+    .proactive-artworks-left-side-sec-row {
+        width: 91%;
+    }
+}
+@media only screen and (max-width: 520px) {
+    .proactive-artworks-left-side-sec-row {
+        width: 93%;
     }
 }
 @media only screen and (max-width: 500px) {
     .proactive-artworks-left-side-sec-row {
-        width: 95%;
-    }
-}
-@media only screen and (max-width: 450px) {
-    .proactive-artworks-left-side-sec-row {
-        width: 95%;
-    }
-    .proactive-artworks-left-side-sec-row-heading h2 {
-        font-size: var(--fnt-siz-9);
-    }
-}
-@media only screen and (max-width: 350px) {
-    .proactive-artworks-left-side-sec-row {
         width: 100%;
     }
-    .proactive-artworks-left-side-sec-row-heading h2 {
-        font-size: var(--fnt-siz-11);
-    }
 }
+
 
 
 
@@ -1611,9 +1628,9 @@ img {
     .get-inspired-section-cards-wrapper {
         grid-template-columns: 1fr;
     }
-    .get-inspired-section-one-card-box {
+    /* .get-inspired-section-one-card-box {
         width: 100%;
-    }
+    } */
    
 }
 /* --------------------------------------------------- */
@@ -1843,7 +1860,6 @@ img {
     outline: none;
 }
 #subscribe-newsletter h2 {
-    border: 2px solid red;
     width: 51%;
 }
 
@@ -1899,49 +1915,41 @@ img {
 @media only screen and (max-width: 1500px) {
     #subscribe-newsletter h2 {
         width: 55%;
-        border: 2px solid blue;
     }
 }
 @media only screen and (max-width: 1450px) {
     #subscribe-newsletter h2 {
         width: 53%;
-        border: 2px solid blue;
     }
 }
 @media only screen and (max-width: 1280px) {
     #subscribe-newsletter h2 {
         width: 55%;
-        border: 2px solid blue;
     }
 }
 @media only screen and (max-width: 1190px) {
     #subscribe-newsletter h2 {
         width: 65%;
-        border: 2px solid blue;
     }
 }
 @media only screen and (max-width: 1050px) {
     #subscribe-newsletter h2 {
         width: 70%;
-        border: 2px solid blue;
     }
 }
 @media only screen and (max-width: 991px) {
     #subscribe-newsletter h2 {
         width: 80%;
-        border: 2px solid blue;
     }
 }
 @media only screen and (max-width: 767px) {
     #subscribe-newsletter h2 {
         width: 95%;
-        border: 2px solid blue;
     }
 }
 @media only screen and (max-width: 650px) {
     #subscribe-newsletter h2 {
         width: 100%;
-        border: 2px solid blue;
     }
 }
 /* ------------------------------------------------ */
