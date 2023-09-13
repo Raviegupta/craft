@@ -1594,6 +1594,28 @@ img {
 .get-inspired-section-one-card-image img {
     border-radius: var(--border-radius-1);
 }
+
+@media only screen and (max-width:1150px) {
+    .gi-img-grad-overlay .left-part {
+        width: 56%;
+        
+    }
+} 
+
+@media only screen and (max-width: 991px) {
+    .get-inspired-section-cards-wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .get-inspired-section-cards-wrapper {
+        grid-template-columns: 1fr;
+    }
+    .get-inspired-section-one-card-box {
+        width: 100%;
+    }
+   
+}
 /* --------------------------------------------------- */
 
 
