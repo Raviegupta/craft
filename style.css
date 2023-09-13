@@ -2436,7 +2436,7 @@ img {
     .view-all-box-res {
         display: block;
 
-        margin-top: 1rem;
+        margin-top: 3rem;
     }
     .view-all-res {
         margin-right: auto;
@@ -2463,6 +2463,7 @@ img {
     }
     .view-all-box-res {
         display: block;
+        margin-top: 2rem;
     }
     .view-all-res {
         margin-right: auto;
