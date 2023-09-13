@@ -1355,26 +1355,8 @@ img {
     padding-right: 3.63rem;
 }
 
-@media only screen and (max-width: 1200px) and (min-width: 1000px) {
-    .everything-about-collecting-art-left-side h2 {
-        font-size: var(--fnt-siz-7);
-    }
-}
-@media only screen and (max-width: 991px) {
-    .everything-about-collecting-art-wrapper {
-        grid-template-columns: 1fr;
-    }
-    .everything-about-collecting-art-left-side {
-        text-align: center;
-        
-    }
-    .eac-h > h2{
-        text-align: var(--text-align-center) !important;
-    }
-    .eac-sh > h3{
-        text-align: var(--text-align-center) !important;
-    }
-}
+
+
 /* ------------------------------------------------ */
 
 
@@ -1427,6 +1409,50 @@ img {
     /* background-color: red; */
     color: black;
 }
+
+
+
+
+@media only screen and (max-width: 991px) {
+    .everything-about-collecting-art-wrapper {
+        grid-template-columns: 1fr;
+    }
+    .everything-about-collecting-art-left-side {
+        text-align: center;
+        
+    }
+    .eac-h > h2, .eac-sh > h3 {
+        text-align: var(--text-align-center) !important;
+    }
+
+
+    .artwork-price-range > h2 {
+        text-align: var(--text-align-center);
+    }
+    .artwork-price-range-one-tab-left p {
+        text-align: var(--text-align-left);
+    }
+    .artwork-price-range-all-tabs-wrapper {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .apr-dollar {
+        /* background-color: red; */
+        font-size: var(--fnt-siz-10);
+    }
+}
+@media only screen and (max-width: 360px) {
+    .apr-dollar {
+        /* background-color: red; */
+        font-size: var(--fnt-siz-10);
+    }
+    .apr-price-rupee-stl {
+        font-size: var(--fnt-siz-10);
+    }
+}
+
 /* ------------------------------------------------ */
 
 
