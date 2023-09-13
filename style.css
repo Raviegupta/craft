@@ -1842,6 +1842,11 @@ img {
     width: 89%;
     outline: none;
 }
+#subscribe-newsletter h2 {
+    border: 2px solid red;
+    width: 51%;
+}
+
 
 @media only screen and (max-width:1800px) and (min-width:1600px) {
     .email-input-box {
@@ -1887,6 +1892,56 @@ img {
     }
     #email-input{
         width: 80%;
+    }
+}
+
+
+@media only screen and (max-width: 1500px) {
+    #subscribe-newsletter h2 {
+        width: 55%;
+        border: 2px solid blue;
+    }
+}
+@media only screen and (max-width: 1450px) {
+    #subscribe-newsletter h2 {
+        width: 53%;
+        border: 2px solid blue;
+    }
+}
+@media only screen and (max-width: 1280px) {
+    #subscribe-newsletter h2 {
+        width: 55%;
+        border: 2px solid blue;
+    }
+}
+@media only screen and (max-width: 1190px) {
+    #subscribe-newsletter h2 {
+        width: 65%;
+        border: 2px solid blue;
+    }
+}
+@media only screen and (max-width: 1050px) {
+    #subscribe-newsletter h2 {
+        width: 70%;
+        border: 2px solid blue;
+    }
+}
+@media only screen and (max-width: 991px) {
+    #subscribe-newsletter h2 {
+        width: 80%;
+        border: 2px solid blue;
+    }
+}
+@media only screen and (max-width: 767px) {
+    #subscribe-newsletter h2 {
+        width: 95%;
+        border: 2px solid blue;
+    }
+}
+@media only screen and (max-width: 650px) {
+    #subscribe-newsletter h2 {
+        width: 100%;
+        border: 2px solid blue;
     }
 }
 /* ------------------------------------------------ */
