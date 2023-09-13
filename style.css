@@ -1670,8 +1670,7 @@ img {
 @media only screen and (max-width: 767px) {
     .why-shop-with-us-icons-boxes-wrapper {
         grid-template-columns: 1fr;
-    }
-    
+    } 
 }
 
 
@@ -1709,7 +1708,19 @@ img {
     margin-bottom: 2.38rem;
     margin-right: 2rem;
 }
+
+@media only screen and (max-width: 991px) {
+    
+}
 /* ------------------------------------------------ */
+
+
+
+
+
+
+
+
 
 
 
