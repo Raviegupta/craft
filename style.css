@@ -1756,6 +1756,47 @@ img {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 1px;
 }
+
+@media only screen and (max-width:991px) {
+    #beutiful-one-line-images-below-insta {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    #beauti-pic-7 {
+        display: none;
+    }
+}
+@media only screen and (max-width:800px) {
+    #beutiful-one-line-images-below-insta {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+    #beauti-pic-6 {
+        display: none;
+    }
+}
+@media only screen and (max-width:767px) {
+    #beutiful-one-line-images-below-insta {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    #beauti-pic-5 {
+        display: none;
+    }
+}
+@media only screen and (max-width: 600px) {
+    #beutiful-one-line-images-below-insta {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    #beauti-pic-4 {
+        display: none;
+    }
+}
+@media only screen and (max-width: 480px) {
+    #beutiful-one-line-images-below-insta {
+        grid-template-columns: 1fr 1fr;
+    }
+    #beauti-pic-3 {
+        display: none;
+    }
+}
 /* ---------------------------------------------------- */
 
 
