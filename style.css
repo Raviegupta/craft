@@ -1648,12 +1648,33 @@ img {
 .why-shop-with-us-one-icon-box > span img {
     margin-top: 0;
 }
-
 .why-shop-with-us-one-icon-box > div h4 {
     width: 60%;
     margin-left: 0;
     margin-bottom: 0.5rem;
 }
+
+@media only screen and (max-width: 1100px) {
+    .why-shop-with-us-icons-boxes-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .why-shop-with-us-one-icon-box img {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .why-shop-with-us-one-icon-box div {
+        margin-left: 0;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .why-shop-with-us-icons-boxes-wrapper {
+        grid-template-columns: 1fr;
+    }
+    
+}
+
+
 
 
 
