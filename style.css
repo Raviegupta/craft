@@ -116,7 +116,7 @@ a {
 }
 
 .stn-stl {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     padding: var(--stn-padding-top) var(--stn-padding-right) var(--stn-padding-bott) var(--stn-padding-left);
     max-width: 1920px;
 }
@@ -132,7 +132,7 @@ a {
 }
 .stn-cntnt-wrapper {
     width: 95%;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
 }
 
 .stn-h-stl {
@@ -886,7 +886,7 @@ img {
     font-weight: var(--fnt-wt-4);
 }
 .wrapper-image-cards {
-    border: 2px solid tomato;
+    /* border: 2px solid tomato; */
     padding: 1.5rem 0;
 
     max-width: 1920px;
@@ -2096,7 +2096,6 @@ img {
 
 .my-footer-last {
     background-color: #000;
-    border: 1px solid red;
     display: grid;
     grid-template-columns: 30% 40% 30%;
     padding-top: 0;
@@ -2135,7 +2134,6 @@ img {
 }
 @media only screen and (max-width: 991px) {
     .my-footer-last-middle-part {
-        border: 2px solid red;
         display: flex;
         flex-direction: column;
         width: 100%;
