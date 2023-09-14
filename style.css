@@ -20,6 +20,7 @@
     --cr-4: #909090;
     --cr-5: #1F2017;
     --cr-6: #B3B3B3;
+    --cr-7: #A4A4A4;
     --orng-clr: #FE8453;
     --orng-clr-hover: #FE4901;
     --input-placeholder-clr: #818181;
@@ -75,6 +76,12 @@
     --border-radius-5: 3.875rem;
     --border-radius-50-cnt: 50%;
 
+    --stn-padding-top: 3.5rem;
+    --stn-padding-bott: 3.5rem;
+    --stn-padding-left: 10rem;
+    --stn-padding-right: 10rem;
+
+
     --justify-content-space-around: 
     --justify-content-space-evenly:
   }
@@ -110,7 +117,7 @@ a {
 
 .stn-stl {
     border: 1px solid blue;
-    padding: 3.5rem 10rem;
+    padding: var(--stn-padding-top) var(--stn-padding-right) var(--stn-padding-bott) var(--stn-padding-left);
     max-width: 1920px;
 }
 @media only screen and (max-width: 1440px) {
@@ -1970,27 +1977,10 @@ img {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* -----------------CSS FOR FOOTER STARTS HERE------------------*/
 #my-footer {
     background-color: var(--bgr-8);
+    padding-bottom: 0;
 }
 .my-footer-main {
     background-color: var(--bgr-8);
@@ -2049,15 +2039,6 @@ img {
     line-height: var(--line-ht-normal);
     margin: .5rem 3.37rem 2rem 3.37rem;
 } 
-
-
-
-
-/* .col-5 a button:hover {
-    background-color: #000;
-    color: #fff;
-}  */
-
 @media only screen and (max-width: 991px) {
     .my-footer-main {
         display: grid;
@@ -2065,141 +2046,113 @@ img {
     }
     .foot-col {
         width: 100%;
-        border: 1px solid red;
-        text-align: center;
-        padding-bottom: 20px;
+        /* border: 1px solid red; */
+        text-align: var(--text-align-center);
+        padding-bottom: 30px;
     }
     .col-5 {
-        /* border: 3px solid red; */
         width: 100%;
         margin-left: 50%;
-        margin-right: 25px;;
         margin-bottom: 40px;
-    }
-    .col-5 h1 {
-        font-size: 1rem;
-        font-weight: normal;
-        margin-bottom: 20px;
-        margin-top: 15px;
     }
     .col-5 a button{
         margin-bottom: 15px;
     }
     .col-3{
-        /* border: 3px solid red; */
         margin-bottom: 20px;
     }
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) and (min-width: 470px) {
+   .col-5 {
+        width: 125%;
+        margin-left: 37.5%;
+   }
+}
+@media only screen and (max-width: 470px) {
+    .my-footer-main {
+        grid-template-columns: 1fr;
+    }
     .col-5 {
-        /* border: 3px solid red; */
-        width: 100%;
-        margin-left: 50%;
-        margin-right: 25px;;
-        margin-bottom: 40px;
-    }
-    .col-5 h1 {
-        font-size: 0.7rem;
-        font-weight: normal;
-        margin-bottom: 7px;
-        margin-top: 5px;
-    }
-    .col-5 a button{
-        margin-bottom: 5px;
-        font-size: .5rem;
-    }
-    .col-3{
-        /* border: 3px solid red; */
-        margin-bottom: 20px;
-    }
+        width: 80%;
+        margin-left: 10%;
+   }
+  
 }
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 380px) {
     .col-5 {
-        /* border: 3px solid red; */
-        width: 100%;
-        margin-left: 50%;
-        margin-right: 25px;;
-        margin-bottom: 40px;
-    }
-    .col-5 h1 {
-        font-size: 0.5rem;
-        font-weight: normal;
-        margin-bottom: 7px;
-        margin-top: 5px;
-    }
-    .col-5 a button{
-        margin-bottom: 5px;
-        font-size: .5rem;
-    }
-    .col-3{
-        /* border: 3px solid red; */
-        margin-bottom: 20px;
-    }
+        width: 90%;
+        margin-left: 5%;
+   }
 }
+@media only screen and (max-width: 340px) {
+    .col-5 {
+        width: 100%;
+        margin-left: 0%;
+   }
+}
+
+
+
 
 .my-footer-last {
-    background-color: #000000;
-    /* border: 2px solid red; */
+    background-color: #000;
+    border: 1px solid red;
     display: grid;
-    grid-template-columns: 25% 50% 25%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-
-    .my-footer-last-middle-part {
-        /* border: 2px solid red;  */
-        display: flex;
-        margin-left: auto;
-        /* gap: 30px; */
-        width: fit-content;  
-        width: 100%; 
-    }
-    .my-footer-last-middle-part h1 {
-        color: white;
-        font-size: 1rem;
-    }
-    .foot-social-media-icons {
-        display: flex;
-        gap: 30px;
-        /* border: 2px solid red; */  
-    }
-    .foot-social-media-icons a img {
-        width: 125%;
-    }
-    #copyright-line p{
-        color: white;
-        padding: 10px;
-        font-size: 0.5rem;
-    }
-    /* .my-footer-last-middle-part-wrapper {
-        border: 2px solid red;
-    } */
-    .my-footer-last-middle-part a h1 {
-        font-size: 1.5rem;
-        letter-spacing: 1.5;
-        margin-right: 30px;
-    }
-    #copyright-line {
-        text-align: center;
-    }
-    #copyright-line strong {
-        text-align: center;
-        font-weight: bold;
-        letter-spacing: 1.5;
-    }
+    grid-template-columns: 30% 40% 30%;
+    padding-top: 0;
+    /* margin-left: calc(-1 * var(--stn-padding-left)); */
+    /* margin-right: calc(-1 * var(--stn-padding-left)); */
 }
-@media only screen and (max-width: 768px) {
+.my-footer-last-middle-part {
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    gap: 3.87rem;
+    width: fit-content;  
+    margin-top: 3rem;
+}
+.foot-social-media-icons {
+    display: flex;
+    gap: 1rem;
+}
+#copyright-line p {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    color: var(--cr-7);
+    text-align: var(--text-align-center);
+    font-family: Montserrat;
+    font-size: 0.75rem;
+    font-style: var(--fnt-stl-normal);
+    font-weight: var(--fnt-wt-1);
+    line-height: var(--line-ht-131-prcnt);
+}
+.my-footer-last-middle-part-wrapper {
+    width: 100%;
+    height: 100%;
+}
+@media only screen and (max-width: 991px) {
     .my-footer-last-middle-part {
-        /* border: 3px solid red; */
+        border: 2px solid red;
         display: flex;
         flex-direction: column;
-        gap: 25px;
-        margin-top: -20px;
-    
+        width: 100%;
+        gap: 1rem;
     }
-    .my-footer-last-middle-part a h1 {
-        text-align: center;
-        margin-left: 7%;
+    .my-footer-last-middle-part {
+        margin-top: 0;
     }
+}
+@media only screen and (max-width: 400px) {
+    .my-footer-last img {
+        display: none;
+    }
+   .my-footer-last {
+    grid-template-columns: 1fr;
+    height: 100%;
+   }
 }
 /* -----------------CSS FOR FOOTER ENDS HERE------------------*/
 /* ======================================================================================= */
