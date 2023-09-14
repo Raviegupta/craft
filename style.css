@@ -44,6 +44,7 @@
     --fnt-siz-9: 1.554rem;
     --fnt-siz-10: 1.036rem;
     --fnt-siz-11: 1.375rem;
+    --fnt-siz-12: 1.4375rem;
 
     --fnt-wt-1: 400;
     --fnt-wt-2: 500;
@@ -71,6 +72,7 @@
     --border-radius-2: 0.971rem;
     --border-radius-3: 3.0625rem;
     --border-radius-4: 0.75rem;
+    --border-radius-5: 3.875rem;
     --border-radius-50-cnt: 50%;
 
     --justify-content-space-around: 
@@ -1994,9 +1996,6 @@ img {
     background-color: var(--bgr-8);
     /* border: 2px solid red; */
     display: flex;
-    padding-top: 3.88rem;
-    padding-left: 9rem;
-    padding-right: 9rem;
     padding-bottom: 0;
 
     .foot-col {
@@ -2022,74 +2021,51 @@ img {
     line-height: var(--line-ht-185-prcnt);
 }
 .col-5 {
-    /* border: 2px solid red; */
-    margin-top: 20px;
-    padding: 10px 30px 30px 30px;
-    border-radius: 10px;
+    border-radius: var(--border-radius-4);
     background-color: var(--orng-clr);
-    box-shadow:  0 0 3px;
-    text-align: center;
+    text-align: var(--text-align-center);
+    width: 17rem;
+    height: 10rem;
 }
 .col-5 h3 {
     color: var(--cr-3);
-    font-weight: 600;
-    font-size: 1rem;
+    text-align: var(--text-align-center);
+    font-family: Montserrat;
+    font-size: var(--fnt-siz-12);
+    font-style: var(--fnt-stl-normal);
+    font-weight: var(--fnt-wt-2);
+    line-height: var(--line-ht-normal);
+    margin: 2rem 1.63rem .5rem 1.63rem;
 }
 .col-5 a button {
-    background-color: white;
-    color: #000;
-} 
-.col-5 a button:hover {
-    background-color: white;
-    /* color: #000; */
+    background-color: var(--bgr-1);
+    border-radius: var(--border-radius-5);
+    color: var(--cr-1);
+    text-align: var(--text-align-center);
+    font-family: Open Sans;
+    font-size: var(--fnt-siz-2);
+    font-style: var(--fnt-stl-normal);
+    font-weight: var(--fnt-wt-3);
+    line-height: var(--line-ht-normal);
+    margin: .5rem 3.37rem 2rem 3.37rem;
 } 
 
-@media only screen and (max-width: 2560px) and (min-width: 1800px) {
-    .foot-col h1 {
-        font-size: 2rem;
-        line-height: 2;
-    }
-    .foot-col li a{
-        font-size: 25px;
-        line-height: 1.5;
-    }
-}
-/* @media only screen and (max-width: 1800px) and (min-width: 1600px) {
-    .foot-col h1 {
-        font-size: 1.3rem;
-        line-height: 2;
-    }
-    .foot-col li a{
-        font-size: 16px;
-        line-height: 1.5;
-    }
-} */
-@media only screen and (max-width: 1000px) and (min-width: 700px) {
-    .foot-col h1 {
-        font-size: 0.9rem;
-      
-    }
-    .foot-col li a{
-        font-size: 11px;
-      
-    }
-}
-@media only screen and (max-width: 768px) {
-    .foot-col h1 {
-        font-size: 13px;
-        line-height: 25px;
-    }
-    .foot-col li a{
-        font-size: 10px;
-        line-height: 10px;
-    }
+
+
+
+/* .col-5 a button:hover {
+    background-color: #000;
+    color: #fff;
+}  */
+
+@media only screen and (max-width: 991px) {
     .my-footer-main {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
     .foot-col {
         width: 100%;
-        /* border: 5px solid red; */
+        border: 1px solid red;
         text-align: center;
         padding-bottom: 20px;
     }
