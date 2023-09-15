@@ -8,8 +8,8 @@ const title = document.querySelectorAll('.pro-ttl-stl');
 
 title.forEach(title => {
     const text = title.textContent;
-    if( text.length > 12 ) {
-        title.textContent = text.slice(0, 12) + '...';
+    if( text.length > 20 ) {
+        title.textContent = text.slice(0, 20) + '...';
         console.log(title)
     }
 });

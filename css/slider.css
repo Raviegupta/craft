@@ -46,13 +46,13 @@
   }
   
   .pre-btn {
-    left: 4rem;
+    left: 0rem;
     /* transform: rotate(180deg); */
     transform: translateY(-50%);
   }
   
   .nxt-btn {
-    right: 4rem;
+    right: 0rem;
     transform: translateY(-50%);
   }
   
