@@ -1,14 +1,15 @@
   .product {
     position: relative;
     overflow: hidden;
-    padding: 20px;
+    /* padding: 20px; */
+    padding-top: 1rem;
   }
   
   .product-container {
     display: flex;
     overflow-x: auto;
     scroll-behavior: smooth;
-    gap: 2.5rem;
+    gap: 2rem;
     /* border: 3px solid red; */
     padding: 10px;
   }
@@ -21,7 +22,7 @@
     flex: 0 0 auto;
     /* width: 250px; */
     /* border: 1px solid rgb(223, 213, 213); */
-    padding: 1rem;
+    padding: 1.5rem;
     width: 300px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 0px 20px;
     /* border: 2px solid blue; */
@@ -64,17 +65,3 @@
   .nxt-btn:hover img {
     opacity: 1;
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
