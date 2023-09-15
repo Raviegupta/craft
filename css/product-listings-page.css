@@ -14,7 +14,7 @@
     padding-left: 50px;
     padding-right: 50px;
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 991px) {
     .plp-main-display {
         width: 100%;
     }
@@ -128,28 +128,23 @@
 
 
 /* -----------------PRODUCT LISTING PAGE WHY SHOP WITH US SETUP STARTS HERE------------------*/
-@media only screen and (max-width: 1600px) {
-    .plp-products-why-shop-wrapper {
+@media only screen and (max-width: 1400px) {
+    .why-shop-with-us-icons-boxes-wrapper {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-}
-/* .plp-products-why-shop-wrapper {
-    border: 2px solid red;
-} */
-.plp-why-shop-one-icon-box-1, .plp-why-shop-one-icon-box-3 {
-    /* border: 2px solid red; */
-    margin-left: 0;
-
-}
-@media only screen and (max-width: 900px) {
-    .plp-products-why-shop-wrapper {
-        display: grid;
-        grid-template-columns: 1fr;
+    .why-shop-with-us-one-icon-box img {
+        margin-left: 0;
+        margin-right: 0;
     }
-    .plp-why-shop-one-icon-box {
+    .why-shop-with-us-one-icon-box div {
         margin-left: 0;
     }
+}
+@media only screen and (max-width: 991px) {
+    .why-shop-with-us-icons-boxes-wrapper {
+        grid-template-columns: 1fr;
+    } 
 }
 /* -----------------PRODUCT LISTING PAGE WHY SHOP WITH US SETUP ENDS HERE------------------*/
 
