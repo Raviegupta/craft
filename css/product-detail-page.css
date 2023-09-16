@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
 
 
 :root {
@@ -12,6 +12,14 @@
     --orng-clr: #FE8453;
     --orng-clr-hover: #FE4901;
     --input-placeholder-clr: #818181;
+    /* pdp & artists*/
+    --cr-8: #323232;
+    --cr-9: #D9D9D9;
+    --cr-10: #24221E;
+    --cr-11: #404040;
+    --cr-12: #F3F2EC;
+    --ylw-clr: #FFEBBD;
+
 
     --bgr-1: #FFF;
     --bgr-2: #FFFDF5;
@@ -34,7 +42,14 @@
     --fnt-siz-10: 1.036rem;
     --fnt-siz-11: 1.375rem;
     --fnt-siz-12: 1.4375rem;
+    /* pdp & artists*/
+    --fnt-siz-13: 0.75rem; 
+    --fnt-siz-14: 1.125rem;
+    --fnt-siz-15: 1.875rem;
+    --fnt-siz-16: 1.625rem;
 
+    /* pdp & artists*/
+    --fnt-wt-0: 300;
     --fnt-wt-1: 400;
     --fnt-wt-2: 500;
     --fnt-wt-3: 600;
@@ -46,9 +61,14 @@
     --line-ht-150-prcnt: 1.5;
     --line-ht-131-prcnt: 1.3125;
     --line-ht-185-prcnt: 1.85714;
+    /* pdp & artists*/
+    --line-ht-125-prcnt: 1.25;
+    --line-ht-281-prcnt: 2.8125;
+    --line-ht-225-prcnt: 2.25;
 
     --text-align-center: center;
     --text-align-left: left;
+    --text-align-right: right;
 
     --cursor-pointer: pointer;
     --border-none: none;
@@ -63,11 +83,17 @@
     --border-radius-4: 0.75rem;
     --border-radius-5: 3.875rem;
     --border-radius-50-cnt: 50%;
+    /* pdp & artists*/
+    --border-radius-6: 6.25rem;
+    --border-radius-7: 2.3125rem;
 
     --stn-padding-top: 3.5rem;
     --stn-padding-bott: 3.5rem;
     --stn-padding-left: 10rem;
     --stn-padding-right: 10rem;
+
+    /* pdp & artists*/
+    text-decoration-line: underline;
 
 
     --justify-content-space-around: 
@@ -735,9 +761,9 @@ a {
 }
 /* -*-*-*-*-*-*-*-*-*- ABOUT THE CREATOR SECTION -DETAILS -*-*-*-*-*-*-*-*-*- */
 /* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
-.pdp-about-the-creator-section-details {
+/* .pdp-about-the-creator-section-details {
     border: 1px solid blue;
-}
+} */
 .about-the-creator-heading {
     border: 1px solid blue;
     color: var(--cr-1);
