@@ -1,4 +1,132 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+
+:root {
+    --cr-1: #000;
+    --cr-2: #656565;
+    --cr-3: #FFF;
+    --cr-4: #909090;
+    --cr-5: #1F2017;
+    --cr-6: #B3B3B3;
+    --cr-7: #A4A4A4;
+    --orng-clr: #FE8453;
+    --orng-clr-hover: #FE4901;
+    --input-placeholder-clr: #818181;
+
+    --bgr-1: #FFF;
+    --bgr-2: #FFFDF5;
+    --bgr-3: #F5F4F2;
+    --bgr-4: #F0FAFF;
+    --bgr-5: #FAFAFA;
+    --bgr-6: #F1FAFF;
+    --bgr-7: #F5F2E2;
+    --bgr-8: #000;
+
+    --fnt-siz-1: 2.5rem;
+    --fnt-siz-2: 1rem;
+    --fnt-siz-3: 0.9375rem;
+    --fnt-siz-4: 0.875rem;
+    --fnt-siz-5: 2.375rem;
+    --fnt-siz-6: 1.25rem;
+    --fnt-siz-7: 2rem;
+    --fnt-siz-8: 0.777rem;
+    --fnt-siz-9: 1.554rem;
+    --fnt-siz-10: 1.036rem;
+    --fnt-siz-11: 1.375rem;
+    --fnt-siz-12: 1.4375rem;
+
+    --fnt-wt-1: 400;
+    --fnt-wt-2: 500;
+    --fnt-wt-3: 600;
+    --fnt-wt-4: 700;
+
+    --fnt-stl-normal: normal;
+
+    --line-ht-normal: normal;
+    --line-ht-150-prcnt: 1.5;
+    --line-ht-131-prcnt: 1.3125;
+    --line-ht-185-prcnt: 1.85714;
+
+    --text-align-center: center;
+    --text-align-left: left;
+
+    --cursor-pointer: pointer;
+    --border-none: none;
+
+    --list-none: none;
+
+    --box-shadow-1: 0px 22px 47px 0px #DEE9EE;
+
+    --border-radius-1: 0.9375rem;
+    --border-radius-2: 0.971rem;
+    --border-radius-3: 3.0625rem;
+    --border-radius-4: 0.75rem;
+    --border-radius-5: 3.875rem;
+    --border-radius-50-cnt: 50%;
+
+    --stn-padding-top: 3.5rem;
+    --stn-padding-bott: 3.5rem;
+    --stn-padding-left: 10rem;
+    --stn-padding-right: 10rem;
+
+
+    --justify-content-space-around: 
+    --justify-content-space-evenly:
+  }
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.button-common-css {
+    font-family: Montserrat;
+    padding: 1rem 2rem;
+    border-radius: var(--border-radius-3);
+    color: var(--cr-3);
+    text-align: var(--text-align-center);
+    font-size: var(--fnt-siz-3);
+    background-color: var(--orng-clr);
+    font-style: var(--fnt-siz-9);
+    font-weight: var(--fnt-wt-3);
+    line-height: var(--line-ht-normal);
+    border: var(--border-none);
+    cursor: var(--cursor-pointer);
+}
+
+.button-common-css:hover {
+    background-color: var(--orng-clr-hover);
+}
+
+a {
+    text-decoration: none;
+    color: var(--cr-1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* GLOBAL STYLING */
 *{
@@ -574,19 +702,50 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* |*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|* */
 .pdp-about-the-creator-section {
-    border: 1px solid blue;
+    border: 2px solid red;
     display: grid;
     grid-template-columns: 65% 35%;
 }
 /* -*-*-*-*-*-*-*-*-*- ABOUT THE CREATOR SECTION -DETAILS -*-*-*-*-*-*-*-*-*- */
 /* *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*- */
 .pdp-about-the-creator-section-details {
-    border: 0px solid red;
+    border: 1px solid blue;
 }
 .about-the-creator-heading {
-    border: 0px solid red;
+    border: 1px solid blue;
+    color: var(--cr-1);
+    font-family: Montserrat;
+    font-size: 1.625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.8125rem; /* 173.077% */
 }
 
 /* ---------- ((profile + name) + follow button) ---------- */
@@ -816,6 +975,49 @@
 
 /* |*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|* */
 /* |*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|* */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
