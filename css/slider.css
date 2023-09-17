@@ -9,7 +9,6 @@
     display: flex;
     overflow-x: auto;
     scroll-behavior: smooth;
-    gap: 2rem;
     /* border: 3px solid red; */
     padding: 10px;
   }
@@ -22,9 +21,9 @@
     flex: 0 0 auto;
     /* width: 250px; */
     /* border: 1px solid rgb(223, 213, 213); */
-    padding: 1.5rem;
-    width: 300px;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 0px 20px;
+    padding: 1.5rem 0.75rem;
+    /* width: 300px; */
+    /* box-shadow: rgba(149, 157, 165, 0.2) 0px 0px 20px; */
     /* border: 2px solid blue; */
   }
   
@@ -70,4 +69,17 @@
     .pre-btn, .nxt-btn {
       display: none;
     }
+  }
+
+
+
+
+
+
+
+/* ARTWORK TRENDING Slider FULL WIDTH  */
+  .atn-slider-full-width  {
+    /* border: 2px solid red; */
+    padding-left: 0;
+    padding-right: 0;
   }
