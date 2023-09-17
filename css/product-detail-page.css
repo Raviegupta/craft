@@ -186,8 +186,8 @@ a {
 }
 @media only screen and (max-width: 768px) {
     .pdp-section-setup {
-        padding-left: 0px;
-        padding-right: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
 
