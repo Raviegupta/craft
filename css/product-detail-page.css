@@ -134,8 +134,60 @@ a {
 
 
 
+.stn-h-stl {
+    color: var(--cr-1);
+    text-align: var(--text-align-center);
+    font-family: Montserrat;
+    font-size: var(--fnt-siz-1);
+    font-weight: var(--fnt-wt-3);
+    line-height: var(--line-ht-normal);
+    font-style: var(--fnt-stl-normal);
 
+    font-weight: var(--fnt-wt-4);
+}
+.stn-sh-stl {
+    color: var(--cr-1);
+    text-align: var(--text-align-center);
+    font-family: Montserrat;
+    font-size: var(--fnt-siz-2);
+    font-style: var(--fnt-stl-normal);
+    font-weight: var(--fnt-wt-1);
+    line-height: var(--line-ht-normal);
+}
 
+.pro-ttl-stl {
+    color: var(--cr-1);
+    font-size: var(--fnt-siz-3);
+    font-style: normal;
+    font-weight: var(--fnt-wt-3);
+    line-height: normal;
+}
+.pro-typ-stl {
+    color: var(--cr-2);
+    font-family: Montserrat;
+    font-size: var(--fnt-siz-4);
+    font-style: var(--fnt-stl-normal);
+    font-weight: var(--fnt-wt-2);
+    line-height: var(--line-ht-normal);
+}
+.pro-size-stl {
+    color: var(--cr-2);
+    font-family: Montserrat;
+    font-size: var(--fnt-siz-4);
+    font-style: var(--fnt-stl-normal);
+    font-weight: var(--fnt-wt-2);
+    line-height: var(--line-ht-normal);
+
+    margin: 0.12rem auto;
+}
+.pro-price-stl {
+    color: var(--cr-1);
+    font-family: Montserrat;
+    font-size: var(--fnt-siz-4);
+    font-style: var(--fnt-stl-normal);
+    font-weight: var(--fnt-wt-2);
+    line-height: var(--line-ht-normal);
+}
 
 
 
@@ -178,9 +230,25 @@ a {
     padding-bottom: 3.63rem;
     border: 2px solid blue;
 }
-
+.pro-6-row-stn-stl {
+    border: 7px solid pink;
+    padding-left: 9%;
+    padding-right: 9%;
+}
 .side-bars-setup {
     padding-left: 60px;
+}
+@media only screen and (max-width: 1700px) {
+    .pro-6-row-stn-stl {
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+}
+@media only screen and (max-width: 1550px) {
+    .pro-6-row-stn-stl {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
 }
 @media only screen and (max-width: 1200px) {
     .pdp-section-setup {
@@ -208,7 +276,7 @@ a {
 /* |*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|* */
 /* |*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|* */
 .pdp-product {
-    border: 2px solid orangered;    
+    border: 2px solid orangered;
     display: grid;
     grid-template-columns: 64% 36%;
 }
@@ -1072,30 +1140,33 @@ a {
 
 
 /* |*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|* */
-.pdp-other-artworks-wrapper {
-    width: 100%;
+
+.pro-heading-wrap h2:nth-child(2){
+    /* border: 1px solid red; */
+    margin-top: -2rem;
 }
+
+
 .pdp-other-artworks-by-section {
     border: 1px solid red;
     display: grid;
     grid-template-columns: auto auto auto auto auto auto;
     place-items: center;
+    gap: 1.5rem;
     width: 100%;
-    
 }
 .product-single-card-wrapper {
     border: 1px solid blue;
-    width: 100%;
+    height: 300px;
+    display: grid; 
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: column;
 }
-
 .product-image-and-whislist-wrapper {
     /* border: 2px solid black; */
-    width: max-content;
+    /* width: 100%; */
     position: relative;
-}
-.pdp-image-wrapper {
-    border: 0px solid blue
-    /* padding: 3px; */
 }
 .pdp-image-wrapper img{
     width: 100%;
@@ -1103,56 +1174,32 @@ a {
     padding: 3px;
 }
 .pdp-whislist-wrapper {
-    /* border: 2px solid orangered; */
     width: max-content;
     position: absolute;
     bottom: 0.75rem;
     right: 0.80rem;
 }
-
 .product-image-details-text-box {
-    border: 0px solid red;
-}
-.product-image-details-rext-box-title {
     /* border: 2px solid red; */
-    color: #000;
-    font-family: Montserrat;
-    font-size: 0.9375rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+    width: 100%;
+    margin-right: auto;
+    margin-bottom: 0;
+}
+.product-image-details-box-title {
+    /* border: 2px solid red; */
     margin-top: 10px;
     margin-bottom: 0px;
 }
-.product-image-details-rext-box-para-1 {
-    color: #656565;
-    font-family: Montserrat;
-    font-size: 0.875rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+.product-image-details-para-1 {
     margin-top: 5px;
 }
-.product-image-details-rext-box-para-2 {
-    color: #656565;
-    font-family: Montserrat;
-    font-size: 0.875rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    margin-top: -12px;
+.product-image-details-para-2 {
+    margin-top: -14px;
     margin-bottom: 0px;
 }
-.product-image-details-rext-box-para-3 {
-    color: #000;
-    font-family: Montserrat;
-    font-size: 0.875rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+.product-image-details-price {
     margin-top: 5px;
 }
-
 
 
 
