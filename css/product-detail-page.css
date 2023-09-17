@@ -174,14 +174,28 @@ a {
     max-width: 1920px;
     padding-left: 50px;
     padding-right: 50px;
+    padding-top: 3.63rem;
+    padding-bottom: 3.63rem;
+    border: 2px solid blue;
 }
+
 .side-bars-setup {
     padding-left: 60px;
 }
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1200px) {
+    .pdp-section-setup {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+    }
+}
+@media only screen and (max-width: 991px) {
     .pdp-section-setup {
         padding-left: 20px;
         padding-right: 20px;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
     }
 }
 @media only screen and (max-width: 768px) {
@@ -760,7 +774,7 @@ a {
 
 /* |*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|* */
 .pdp-about-the-creator-section {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: grid;
     grid-template-columns: 65% 35%;
 }
@@ -770,17 +784,18 @@ a {
     border: 1px solid blue;
 } */
 .about-the-creator-heading {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     color: var(--cr-1);
     font-family: Montserrat;
     font-size: var(--fnt-siz-16);
     font-style: var(--fnt-stl-normal);
     font-weight: var(--fnt-wt-4);
     line-height: var(--line-ht-281-rem); /* 173.077% */
+    margin-top: 0;
 }
 /* ---------- ((profile + name) + follow button) ---------- */
 .profile-wrapper {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     display: flex;
     align-items: center;
     gap: 30px;
@@ -931,15 +946,12 @@ a {
 }
 .pdp-about-the-creator-section-image-wrapper img {
     width: 100%;
-    /* height: 100%; */
-    /* border: 1px solid black; */
     border-radius: 15px;
 }
 /* -------------- right side image ------------ */
 
-
 /* |R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R| */
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 991px) {
     .pdp-about-the-creator-section-image-wrapper {
         display: none;
     }
@@ -947,9 +959,9 @@ a {
         grid-template-columns: 100%;
     }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .about-the-creator-heading {
-        text-align: center;
+        text-align: var(--text-align-center);
     }
     .profile-wrapper{
         /* border: 2px solid blue; */
@@ -963,33 +975,19 @@ a {
     }
     .profile-name-wrapper{
         border: 0px solid red;
-        text-align: center;
-        
+        text-align: var(--text-align-center);
     }
-    .profile-name-wrapper p{
-        margin-top: -12px;
-        
-    }
-    .pdp-about-the-creator-section-image-wrapper {
-        display: block;
-        padding-left: 0;
-    }
-
     .pdp-about-creator-artist-highlight-cred-txt-wrapper {
         /* border: 3px solid black; */
         flex-direction: column;
-
     }
     .artist-highlight-text-wrapper {
-        /* border: 3px solid red; */
         width: 100%;
         padding-left: 0;
         padding-right: 0;
         text-align: justify;
     }
-
     .artist-highlight-cred-wrapper {
-        /* border: 2px solid red; */
         width: 100%;
     }
     .pdp-artist-highlight-section {
@@ -999,12 +997,24 @@ a {
         width: auto;
         margin-left: auto;
         margin-right: auto;
+        display: block;
+        padding-left: 0;
+        display: flex;
+        place-items: center;
     }
-    .artist-highlight-text-wrapper-heading {
-        font-size: 1.5rem;
-        line-height: 1.2;
+    .pdp-about-the-creator-section-image-wrapper img {
+        width: auto;
     }
 
+    .artist-highlight-text-wrapper-heading , .artist-highlight-text-wrapper-para{
+        text-align: var(--text-align-center);
+    }
+}
+@media only screen and (max-width: 450px) {
+    .pdp-about-the-creator-section-image-wrapper img {
+        text-align: center;
+        width: 100%;
+    }
 }
 /* |R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R| */
 
