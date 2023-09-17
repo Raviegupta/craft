@@ -228,10 +228,10 @@ a {
     padding-right: 50px;
     padding-top: 3.63rem;
     padding-bottom: 3.63rem;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
 }
 .pro-6-row-stn-stl {
-    border: 7px solid pink;
+    /* border: 7px solid pink; */
     padding-left: 9%;
     padding-right: 9%;
 }
@@ -276,7 +276,7 @@ a {
 /* |*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|* */
 /* |*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|* */
 .pdp-product {
-    border: 2px solid orangered;
+    /* border: 2px solid orangered; */
     display: grid;
     grid-template-columns: 64% 36%;
 }
@@ -292,15 +292,15 @@ a {
     padding-top: 40px;
     padding-bottom: 40px;
 }
-.product-image-on-display img{
+/* .product-image-on-display img{
     border: 0px solid blue;
-}
+} */
 
-.prod-display-image {
+/* .prod-display-image {
     border: 2px solid red;
-}
+} */
 .prod-display-image img {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 100%;
 }
 
@@ -334,9 +334,9 @@ a {
 
 
 
-.pdp-aside-wrapper {
+/* .pdp-aside-wrapper {
     border: 1px solid blue;
-}
+} */
 .pdp-product-heading {
     color: #000;
     font-family: Montserrat;
@@ -595,12 +595,12 @@ a {
 /* |*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|* */
 /* |*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|* */
 .pdp-about-the-creation-section {
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     display: grid;
     grid-template-columns: 64% 36%;
 }
 .about-the-creation-details-part {
-    border: 1px solid red;
+    border: 0px solid red;
 }
 .certificate-of-authenticity-wrapper {
     border: 0px solid red;
@@ -661,7 +661,7 @@ a {
 
 
 .about-creation-btns-wrapper {
-    border: 2px solid red;
+    border: 0px solid red;
     padding-top: 10px;
     display: flex;
     flex-wrap: wrap;
@@ -777,7 +777,7 @@ a {
     line-height: normal;
 }
 .discover-images {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     gap: 20px;
 }
@@ -1148,7 +1148,7 @@ a {
 
 
 .pdp-other-artworks-by-section {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: grid;
     grid-template-columns: auto auto auto auto auto auto;
     place-items: center;
@@ -1156,7 +1156,7 @@ a {
     width: 100%;
 }
 .product-single-card-wrapper {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     height: 300px;
     display: grid; 
     padding-bottom: 0;
