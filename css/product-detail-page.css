@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Figtree&family=Montserrat:wght@400;500;600;700;800&family=Open+Sans&display=swap');
 
 
 :root {
@@ -63,7 +64,7 @@
     --line-ht-185-prcnt: 1.85714;
     /* pdp & artists*/
     --line-ht-125-prcnt: 1.25;
-    --line-ht-281-prcnt: 2.8125;
+    --line-ht-281-rem: 2.8125rem;
     --line-ht-225-prcnt: 2.25;
 
     --text-align-center: center;
@@ -86,6 +87,7 @@
     /* pdp & artists*/
     --border-radius-6: 6.25rem;
     --border-radius-7: 2.3125rem;
+    --border-radius--8: 1.21875rem;
 
     --stn-padding-top: 3.5rem;
     --stn-padding-bott: 3.5rem;
@@ -93,7 +95,7 @@
     --stn-padding-right: 10rem;
 
     /* pdp & artists*/
-    text-decoration-line: underline;
+    --text-decoration-line-underline: underline;
 
 
     --justify-content-space-around: 
@@ -768,16 +770,16 @@ a {
     border: 1px solid blue;
     color: var(--cr-1);
     font-family: Montserrat;
-    font-size: 1.625rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 2.8125rem; /* 173.077% */
+    font-size: var(--fnt-siz-16);
+    font-style: var(--fnt-stl-normal);
+    font-weight: var(--fnt-wt-4);
+    line-height: var(--line-ht-281-rem); /* 173.077% */
 }
-
 /* ---------- ((profile + name) + follow button) ---------- */
 .profile-wrapper {
-    /* border: 1px solid blue; */
+    border: 1px solid blue;
     display: flex;
+    align-items: center;
     gap: 30px;
 }
 .profile-img-wrapper {
@@ -787,27 +789,38 @@ a {
     border-radius: 50%;
 }
 .profile-name-wrapper {
-    /* border: 2px solid red; */
     margin-top: auto;
     margin-bottom: auto;
 }
-.profile-follow-btn {
-    border-radius: 1.21875rem;
-    border: 1px solid #000;
-    background: #FFF;
-    width: 7.875rem;
-    height: 2.4375rem;
-    flex-shrink: 0;
-    margin-top: auto;
-    margin-bottom: auto;
-
-    color: #000;
-    text-align: center;
+.profile-name-wrapper h3 {
+    color: var(--cr-1);
+    font-family: Montserrat;
+    font-style: var(--fnt-stl-normal);
+    font-weight: 700;
+    line-height: var(--line-ht-normal);
+    margin-bottom: -1rem;
+}
+.profile-name-wrapper h4 {
+    color: var(--cr-10);
     font-family: Montserrat;
     font-size: 1rem;
-    font-style: normal;
+    font-style: var(--fnt-stl-normal);
+    font-weight: 500;
+    line-height: var(--line-ht-normal);
+}
+.profile-follow-btn {
+    width: 7.875rem;
+    height: 2.4375rem;
+    border-radius: var(--border-radius--8);
+    border: 1px solid #000;
+    background: var(--bgr-1);
+    color: var(--cr-1);
+    text-align: var(--text-align-center);
+    font-family: Montserrat;
+    font-size: var(--fnt-siz-2);
+    font-style: var(--fnt-stl-normal);
     font-weight: bold;
-    line-height: normal;
+    line-height: var(--line-ht-normal);
 }
 /* ---------- ((profile + name) + follow button) ---------- */
 
