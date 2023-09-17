@@ -854,6 +854,17 @@ img {
     }
     /* =*=*=*=*=*=*=*=*=*= customization for banner-3 =*=*=*=*=*=*=*=*=*=  */
 }
+
+@media only screen and (max-width: 1500px) {
+    .textbox-banner-1 > h2 {
+        font-size: 4rem;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .textbox-banner-1 > h2 {
+        font-size: 3rem;
+    }
+}
 @media only screen and (max-width: 991px) {
     .textbox-banner-1 > h2 {
         font-style: normal;
