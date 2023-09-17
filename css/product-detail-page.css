@@ -48,6 +48,7 @@
     --fnt-siz-14: 1.125rem;
     --fnt-siz-15: 1.875rem;
     --fnt-siz-16: 1.625rem;
+    --fnt-siz-17: 1.75rem;
 
     /* pdp & artists*/
     --fnt-wt-0: 300;
@@ -65,7 +66,7 @@
     /* pdp & artists*/
     --line-ht-125-prcnt: 1.25;
     --line-ht-281-rem: 2.8125rem;
-    --line-ht-225-prcnt: 2.25;
+    --line-ht-225-rem: 2.25rem;
 
     --text-align-center: center;
     --text-align-left: left;
@@ -169,22 +170,24 @@ a {
     border: 3px solid blue;
 }
 .pdp-section-setup {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin: 0 auto;
+    max-width: 1920px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 .side-bars-setup {
     padding-left: 60px;
 }
 @media only screen and (max-width: 1000px) {
     .pdp-section-setup {
-        margin-left: 20px;
-        margin-right: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
 @media only screen and (max-width: 768px) {
     .pdp-section-setup {
-        margin-left: 0px;
-        margin-right: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 }
 
@@ -826,26 +829,21 @@ a {
 
 /* ********* ((Artist highlight + credentials) + texts) ********* */
 .pdp-about-creator-artist-highlight-cred-txt-wrapper {
-    /* border: 2px solid red; */
     display: flex;
 }
 .artist-highlight-cred-wrapper {
-    /* border: 2px solid black; */
     width: 35%;
 }
 .artist-highlight-text-wrapper {
-    /* border: 2px solid red; */
     width: 65%;
 }
 /* ---------artist highlight section-------- */
 .pdp-artist-highlight-section {
-    /* border: 1px solid blue; */
     padding-bottom: 20px;
     border-bottom: 1px solid #E0E0E0;
     margin-right: 25px;
 }
 .art-light-1-unit {
-    /* border: 1px solid red; */
     display: flex;
     gap: 10px;
     align-items: center;
@@ -855,9 +853,7 @@ a {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    /* border: 1px solid red; */
     padding-left: 10px;
-    /* padding-right: 10px; */
 }
 .artist-gf {
     width: 2.7305rem;
@@ -883,18 +879,18 @@ a {
     display: flex;
     align-items: center;
     gap: 10px;
-    height: 2.81rem;
+    height: 2.41rem;
 }
 .cred-section-one-unit p {
-    color: #404040;
+    color: var(--cr-11);
     font-family: Montserrat;
-    font-size: 0.875rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 2.8125rem; /* 321.429% */
+    font-size: var(--fnt-siz-4);
+    font-style: var(--fnt-stl-normal);
+    font-weight: var(--fnt-wt-1);
+    line-height:var(--line-ht-150-prcnt); 
+    /* border: 1px solid red; */
 }
 .cred-section-one-unit span {
-    /* border: 3px solid red; */
     display: flex;
 }
 /* ----------credential section------------- */
@@ -905,20 +901,20 @@ a {
     padding-left: 20px;
 }
 .artist-highlight-text-wrapper-heading {
-    color: #404040;
+    color: var(--cr-11);
     font-family: Montserrat;
-    font-size: 1.75rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 2.25rem; /* 128.571% */
+    font-size: var(--fnt-siz-17);
+    font-style: var(--fnt-stl-normal);
+    font-weight: 700;
+    line-height: var(--line-ht-225-rem); /* 128.571% */
 }
 .artist-highlight-text-wrapper-para {
-    color: #404040;
+    color: var(--cr-11);
     font-family: Montserrat;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.5rem; /* 150% */
+    font-size: var(--fnt-siz-2);
+    font-style: var(--fnt-stl-normal);
+    font-weight: 500;
+    line-height:var(--line-ht-150-prcnt); 
 }
 /* -------artist highlight text section------ */
 /* ********* ((Artist highlight + credentials) + texts) ********* */
