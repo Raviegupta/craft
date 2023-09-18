@@ -209,19 +209,11 @@ a {
     flex-shrink: 0;
     border: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media only screen and (max-width: 1200px) and (min-width: 992px) {
+    .cart-btn-stl {
+        width: 90%;
+    }
+}
 
 
 
@@ -299,10 +291,10 @@ a {
     grid-template-columns: 60% 40%;
 }
 .product-image-wrapper {
-    border: 1px solid blue;
+    border: 2px solid red;
     background-color: var(--bgr-9);
     padding-bottom: 2.5rem;
-    height: max-content;
+    height: 100%;
 }
 .product-image-on-display {
     padding: 30px 15px 0 15px;
@@ -512,9 +504,8 @@ a {
 
 
 /* |R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R| */
-@media only screen and (max-width: 1000px) { 
-    .pdp-product {
-        border: 2px solid orangered;    
+@media only screen and (max-width: 991px) {
+    .pdp-product {  
         display: grid;
         grid-template-columns: 100%;
     }
@@ -523,32 +514,22 @@ a {
         padding: 30px 0;
     }
     .product-heading-wrapper {
-        text-align: center;
+        text-align: var(--text-align-center);
         /* border: 2px solid red; */
     }
     .pdp-product-heading-plus-whislist-wrapper {
         border: 2px solid red;
         margin-left: auto;
         margin-right: auto;
-        width: max-content;
         gap: 30px;
+    }
+    .cart-btn-stl {
+        width: 100%
     }
 }
 @media only screen and (max-width: 768px) { 
-    .pdp-product-heading-plus-whislist-wrapper {
-        width: 100%;
-        display: grid; 
-        grid-template-columns: 80% 20%;
-    }
    
-    .pdp-product-heading {
-        text-align: left;
-    }
-    .pdp-product-heading-2 {
-        text-align: center;
-    }
 }
-
 /* |R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R| */
 
 
