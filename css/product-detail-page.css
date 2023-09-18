@@ -99,6 +99,7 @@
 
     /* pdp & artists*/
     --text-decoration-line-underline: underline;
+    --border-bottom: 1px solid #E0E0E0;
 
 
     --justify-content-space-around: 
@@ -192,7 +193,22 @@ a {
 }
 
 
-
+.cart-btn-stl {
+    border-radius: var(--border-radius-6);
+    background: var(--orng-clr);
+    color: var(--cr-3);
+    text-align: var(--text-align-center);
+    font-family: Montserrat;
+    font-size: var(--fnt-siz-14);
+    font-style: var(--fnt-stl-normal);
+    font-weight: var(--fnt-wt-3);
+    line-height: var(--line-ht-normal);
+    width: 22rem;
+    height: 3.25rem;
+    /* width: 71%; */
+    flex-shrink: 0;
+    border: none;
+}
 
 
 
@@ -335,143 +351,112 @@ a {
 }
 
 
-
-/* .pdp-aside-wrapper {
+/* aside */
+.pdp-aside-wrapper {
     border: 1px solid blue;
-} */
+}
+/* aside product heading */
 .pdp-product-heading {
-    color: #000;
+    color: var(--cr-1);
     font-family: Montserrat;
-    font-size: 1.8rem;
-    font-style: normal;
-    font-weight: 800;
+    font-size: var(--fnt-siz-15);
+    font-style: var(--fnt-stl-normal);
+    font-weight: var(--fnt-wt-4);
     /* border: 2px solid red; */
     margin-bottom: 5px;
-    margin-top: 5px;
-    
+    margin-top: 5px; 
 }
 .pdp-product-heading-plus-whislist-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     width: 100%;
-    /* border: 1px solid black; */
-    
+    /* border: 1px solid black;   */
+    align-items: flex-start;
 }
-
+.pdp-product-whislist-wrapper {
+   /* border: 1px solid red; */
+   height: 100%;
+   margin-top: 5px;
+   padding: 10px 5px;
+}
 .pdp-product-para {
     /* border: 2px solid red; */
-    color: #000;
+    color: var(--cr-1);
     font-family: Montserrat;
-    font-size: 0.875rem;
-    font-style: normal;
-    font-weight: 300;
-    line-height: normal;
+    font-size: var(--fnt-siz-4);
+    font-style: var(--fnt-stl-normal);
+    font-weight: var(--fnt-wt-0);
+    line-height: var(--line-ht-normal);
     margin-bottom: -5px;
 }
 #artist-name {
-    color: #000;
+    color: var(--cr-1);
     font-family: Montserrat;
-    font-size: 0.875rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+    font-size: var(--fnt-siz-4);
+    font-style: var(--fnt-stl-normal);
+    font-weight: var(--fnt-wt-3);
+    line-height: var(--line-ht-normal);
     text-decoration-line: underline;
 }
 .pdp-product-para-2 {
-    color: #404040;
+    color: var(--cr-11);
     font-family: Montserrat;
-    font-size: 0.75rem;
-    font-style: normal;
-    font-weight: 300;
-    line-height: normal;
+    font-size: var(--fnt-siz-13);
+    font-style: var(--fnt-stl-normal);
+    font-weight: var(--fnt-wt-0);
+    line-height: var(--line-ht-normal);
 }
 .product-heading-wrapper {
-    /* border: 2px solid red; */
     padding-bottom: 0px;
-    border-bottom: 1px solid #E0E0E0;
+    border-bottom: var(--border-bottom);
 }
 
-
-
-
-
+/* aside price and cart */
 .price-cart-offer-wrapper {
-    /* border: 2px solid red; */
-    text-align: center;
+    /* border: 2px solid blue; */
+    text-align: var(--text-align-center);
     padding-bottom: 20px;
-    border-bottom: 1px solid #E0E0E0;
+    border-bottom: var(--border-bottom);
 }
 .price-box-wrapper {
-    /* border: 2px solid red; */
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    /* border: 2px solid black; */
     justify-content: space-around; 
-    margin-bottom: -40px;
+    margin-bottom: -50px;
 }
 .price-with-currency {
-    display: flex;
     gap: 10px;
 }
 #product-price-currency-select {
     border: none;
     margin-left: 0px;
+    height: max-content;
 }
 .product-price {
-    color: #000;
+    color: var(--cr-1);
     font-family: Montserrat;
-    font-size: 1.875rem;
-    font-style: normal;
-    font-weight: 600;
+    font-size: var(--fnt-siz-15);
+    font-style: var(--fnt-stl-normal);
+    font-weight: var(--fnt-wt-3);
     margin-left: auto;
     margin-right: auto;
+    line-height: var(--line-ht-normal);
 }
-.Shipping-tax-para {
-    color: #404040;
-    text-align: center;
+.shipping-tax-para {
+    color: var(--cr-11);
+    text-align: var(--text-align-center);
     font-family: Montserrat;
-    font-size: 0.75rem;
-    font-style: normal;
-    font-weight: 300;
-    line-height: normal;
+    font-size: var(--fnt-siz-13);
+    font-style: var(--fnt-stl-normal);
+    font-weight: var(--fnt-wt-0);
+    line-height: var(--line-ht-normal);
 }
 .cart-btn {
-    border-radius: 6.25rem;
-    background: #FE8453;
-    color: #FFF;
-    text-align: center;
-    font-family: Montserrat;
-    font-size: 1.125rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    width: 22rem;
-    width: 71%;
-    height: 3.25rem;
-    flex-shrink: 0;
-    border: none;
     margin-bottom: 10PX;
-    margin-TOP: 5PX;
+    margin-top: 5PX;
 }
 .offer-btn {
-    width: 22rem;
-    width: 71%;
-    height: 3.25rem;
-    flex-shrink: 0;
-    background: #FFEBBD;
-    border-radius: 6.25rem;
-    color: #24221E;
-    text-align: center;
-    font-family: Montserrat;
-    font-size: 1.125rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    border: none;
+    background: var(--ylw-clr);
+    color: var(--cr-10);
 }
 .have-a-question-wrapper {
-    /* border: 2px solid red; */
     display: flex;
     margin-top: 20px; 
 }
@@ -482,28 +467,24 @@ a {
     gap: 10px;
 }
 .have-question {
-    color: #000;
+    color: var(--cr-1);
     font-family: Montserrat;
-    font-size: 0.875rem;
+    font-size: var(--fnt-siz-4);
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
 
-
-
-
+/* aside price and cart */
 .delivery-return-assurance-wrapper {
     /* border: 2px solid red; */
-    display: flex;
-    gap: 20px;
     justify-content: space-evenly;
-    align-items: center;
+    gap: 20px;
     padding-top: 0;
     margin-top: 10px;
     padding-top: 25px;
     padding-bottom: 5px;
-    border-bottom: 1px solid #E0E0E0;
+    border-bottom: var(--border-bottom);
 }
 .pdp-dra-box {
     /* border: 2px solid blue; */
