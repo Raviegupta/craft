@@ -331,6 +331,8 @@ a {
     margin-left: auto;
     margin-right: auto;
     gap: 1rem;
+    width: 100%;
+    overflow: hidden;
 }
 .product-image-to-be-displayed-wrapper picture{
     /* border: 1px solid black; */
@@ -542,7 +544,7 @@ a {
         padding-right: 8%;
     }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
     picture.prod-display-image {
         /* background-color: red; */
         padding: 0  
