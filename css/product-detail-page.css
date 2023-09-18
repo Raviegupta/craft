@@ -282,9 +282,6 @@ a {
     display: grid;
     grid-template-columns: 60% 40%;
 }
-.xx {
-    background-color: aqua;
-}
 .product-image-wrapper {
     border: 1px solid blue;
     background-color: var(--bgr-9);
