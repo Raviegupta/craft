@@ -489,31 +489,27 @@ a {
 .pdp-dra-box {
     /* border: 2px solid blue; */
     height: fit-content;
-    text-align: center;
+    text-align: var(--text-align-center);
     height: 130px;
 }
 .pdp-dra-box p {
-    color: #000;
-    text-align: center;
+    color: var(--cr-1);
+    text-align: var(--text-align-center);
     font-family: Montserrat;
     font-size: 0.8rem;
-    font-style: normal;
-    font-weight: 300;
-
+    font-style: var(--fnt-stl-normal);
+    font-weight: var(--fnt-wt-0);
     margin-bottom: -10px;
 }
-
 .pdp-aside-last-unit {
-    /* border: 2px solid red; */
-    border-bottom: 1px solid #E0E0E0;
-    display: flex;
-    font-weight: bold;
+    /* border: 1px solid red; */
+    border-bottom: var(--border-bottom);
 }
-.arrrr {
+.pdp-aside-last-unit h4 {
     /* border: 2px solid red; */
-    margin: auto;
-    margin-right: 0;
+    font-weight: var(--fnt-wt-3);
 }
+
 
 /* |R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R| */
 @media only screen and (max-width: 1000px) { 
