@@ -136,7 +136,6 @@ a {
 }
 
 
-
 .stn-h-stl {
     color: var(--cr-1);
     text-align: var(--text-align-center);
@@ -193,6 +192,27 @@ a {
 }
 
 
+
+/* pdp & artists */
+.creator-heading-stl {
+    border: 1px solid blue;
+    color: var(--cr-1);
+    font-family: Montserrat;
+    font-size: var(--fnt-siz-16);
+    font-style: var(--fnt-stl-normal);
+    font-weight: var(--fnt-wt-4);
+    line-height: var(--line-ht-281-rem); /* 173.077% */
+    margin-top: 0;
+}
+.creator-para-stl {
+    color: var(--cr-11);
+    font-family: Montserrat;
+    font-size: var(--fnt-siz-2);
+    font-style: var(--fnt-stl-normal);
+    font-weight: var(--fnt-wt-4);
+    line-height:var(--line-ht-150-prcnt); 
+    /* background-color: red; */
+}
 .cart-btn-stl {
     border-radius: var(--border-radius-6);
     background: var(--orng-clr);
@@ -215,6 +235,20 @@ a {
         width: 90%;
     }
 }
+.pdp-stn-66-34-division {
+    border: 2px solid orangered;
+    display: grid;
+    grid-template-columns: 66% 34%;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -286,11 +320,6 @@ a {
 
 /* |*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|* */
 /* |*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|* */
-.pdp-product {
-    /* border: 2px solid orangered; */
-    display: grid;
-    grid-template-columns: 60% 40%;
-}
 .product-image-wrapper {
     /* border: 2px solid red; */
     background-color: var(--bgr-9);
@@ -516,7 +545,7 @@ a {
 
 /* |R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R| */
 @media only screen and (max-width: 991px) {
-    .pdp-product {  
+    .pdp-stn-66-34-division {  
         display: grid;
         grid-template-columns: 100%;
     }
@@ -573,58 +602,41 @@ a {
 /* WORKING .................. */
 /* |*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|* */
 /* |*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|* */
-.pdp-about-the-creation-section {
-    /* border: 2px solid blue; */
-    display: grid;
-    grid-template-columns: 64% 36%;
-}
 .about-the-creation-details-part {
-    border: 0px solid red;
+    border: 1px solid red;
 }
 .certificate-of-authenticity-wrapper {
     border: 0px solid red;
 }
-.about-creation-para {
-    color: #404040;
-    font-family: Montserrat;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.5rem; /* 150% */
-    /* text-align: justify; */
-}
 .about-creation-show-more {
-    color: #000;
+    color: var(--cr-1);
     font-family: Montserrat;
-    font-size: 0.875rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal; 
+    font-size: var(--fnt-siz-4);
+    font-style: var(--fnt-stl-normal);
+    font-weight: var(--fnt-wt-3);
+    line-height: var(--line-ht-normal);
     margin-top: -10px;
 }
 .about-creation-show-more strong {
     margin-right: 15px;
 }
 
-
-
-
 .specs-details-heading {
-    color: #000;
+    color: var(--cr-1);
     font-family: Montserrat;
-    font-size: 1.125rem;
-    font-style: normal;
+    font-size: var(--fnt-siz-14);
+    font-style: var(--fnt-stl-normal);
     font-weight: bold;
-    line-height: 2.8125rem;
+    line-height: var(--line-ht-281-rem);
 }
 .spec-details-one-unit {
-    color: #404040;
+    color: var(--cr-11);
     font-family: Montserrat;
-    font-size: 0.875rem;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 2.8125rem; 
-    border-bottom: 1px solid #E0E0E0;
+    font-size: var(--fnt-siz-4);
+    font-style: var(--fnt-stl-normal);
+    font-weight: var(--fnt-wt-0);
+    line-height: var(--line-ht-281-rem);
+    border-bottom: var(--border-bottom);
 
     display: flex;
 }
@@ -635,8 +647,6 @@ a {
 .spec-details-one-unit span:nth-child(2) {
     border: 0px solid red;
 }
-
-
 
 .about-creation-btns-wrapper {
     border: 0px solid red;
@@ -661,28 +671,17 @@ a {
     border: none;
     width: fit-content;
     flex-wrap: wrap;
-
     margin-left: 0px;
     margin-right: 0.625rem;
     margin-bottom: 0.625rem;
 }
 
 
-
-
-
-/* .certificate-of-authenticity-wrapper {
-    padding-left: 80px;
-} */
-
+.certificate-of-authenticity-wrapper {
+    border: 1px solid blue;
+}
 .certificate-of-authenticity-para {
-    color: #404040;
-    font-family: Montserrat;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 400;
-    /* line-height: 1.5rem; */
-    margin-bottom: -10px;
+    margin-bottom: -15px;
 }
 .auth-certificate-wrapper {
     /* border: 2px solid red; */
@@ -694,24 +693,24 @@ a {
     height: 100%;
     border-radius: 15px;
 }
-
-
-
 /* |R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R| */
-@media only screen and (max-width:1000px) {
-    .pdp-about-the-creation-section {
+@media only screen and (max-width:991px) {
+    .pdp-stn-66-34-division {
         /* border: 2px solid blue; */
         display: flex; 
         flex-direction: column;
-   
     }
     .certificate-of-authenticity-wrapper {
         padding-left: 0px;
         padding-top: 40px;
         text-align: center;
     }
+    .auth-certificate-wrapper {
+        border: 2px solid blue;
+        
+    }
     .auth-certificate-wrapper img {
-        /* border: 2px solid red; */
+        border: 2px solid red;
         width: auto;
         height: auto;
         border-radius: 15px;
@@ -829,16 +828,7 @@ a {
 /* .pdp-about-the-creator-section-details {
     border: 1px solid blue;
 } */
-.about-the-creator-heading {
-    /* border: 1px solid blue; */
-    color: var(--cr-1);
-    font-family: Montserrat;
-    font-size: var(--fnt-siz-16);
-    font-style: var(--fnt-stl-normal);
-    font-weight: var(--fnt-wt-4);
-    line-height: var(--line-ht-281-rem); /* 173.077% */
-    margin-top: 0;
-}
+
 /* ---------- ((profile + name) + follow button) ---------- */
 .profile-wrapper {
     /* border: 1px solid blue; */
@@ -969,14 +959,6 @@ a {
     font-weight: 700;
     line-height: var(--line-ht-225-rem); /* 128.571% */
 }
-.artist-highlight-text-wrapper-para {
-    color: var(--cr-11);
-    font-family: Montserrat;
-    font-size: var(--fnt-siz-2);
-    font-style: var(--fnt-stl-normal);
-    font-weight: 500;
-    line-height:var(--line-ht-150-prcnt); 
-}
 /* -------artist highlight text section------ */
 /* ********* ((Artist highlight + credentials) + texts) ********* */
 /* -*-*-*-*-*-*-*-*-*- ABOUT THE CREATOR SECTION -DETAILS -*-*-*-*-*-*-*-*-*- */
@@ -1006,7 +988,7 @@ a {
     }
 }
 @media only screen and (max-width: 767px) {
-    .about-the-creator-heading {
+    .pdp-about-the-creator-section-details > h2 {
         text-align: var(--text-align-center);
     }
     .profile-wrapper{
