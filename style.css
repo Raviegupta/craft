@@ -184,8 +184,9 @@ a {
     font-family: Montserrat;
     font-size: var(--fnt-siz-4);
     font-style: var(--fnt-stl-normal);
-    font-weight: var(--fnt-wt-2);
+    font-weight: var(--fnt-wt-3);
     line-height: var(--line-ht-normal);
+    /* background-color: red; */
 }
 
 .sas-fig-caption-1-stl {
@@ -2328,6 +2329,7 @@ img {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    cursor: var(--cursor-pointer);
 }
 .view-all-box-wrap {
     /* border: 5px solid black; */
@@ -2384,6 +2386,7 @@ img {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    cursor: var(--cursor-pointer);
 } 
 @media only screen and (max-width: 1150px) {
     .view-all-box-sas {
@@ -2410,7 +2413,7 @@ img {
     /* border: 5px solid gray; */
     height: fit-content;
     position: absolute;
-    top: 40px;
+    top: 60px;
     right: 0;
 }
 @media only screen and (max-width: 1150px) {
