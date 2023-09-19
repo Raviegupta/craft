@@ -195,7 +195,7 @@ a {
 
 /* pdp & artists */
 .creator-heading-stl {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     color: var(--cr-1);
     font-family: Montserrat;
     font-size: var(--fnt-siz-16);
@@ -605,6 +605,10 @@ a {
 .about-the-creation-details-part {
     border: 1px solid red;
 }
+.my-rich-stn h2 {
+    /* background-color: red; */
+    margin-bottom: -10px;
+}
 .certificate-of-authenticity-wrapper {
     border: 0px solid red;
 }
@@ -675,8 +679,6 @@ a {
     margin-right: 0.625rem;
     margin-bottom: 0.625rem;
 }
-
-
 .certificate-of-authenticity-wrapper {
     border: 1px solid blue;
 }
@@ -697,23 +699,13 @@ a {
 @media only screen and (max-width:991px) {
     .pdp-stn-66-34-division {
         /* border: 2px solid blue; */
-        display: flex; 
+        display: flex;
         flex-direction: column;
     }
     .certificate-of-authenticity-wrapper {
         padding-left: 0px;
         padding-top: 40px;
         text-align: center;
-    }
-    .auth-certificate-wrapper {
-        border: 2px solid blue;
-        
-    }
-    .auth-certificate-wrapper img {
-        border: 2px solid red;
-        width: auto;
-        height: auto;
-        border-radius: 15px;
     }
     .about-creation-btns-wrapper {
         border: 2px solid red;
@@ -728,18 +720,24 @@ a {
         margin-right: 10px;
         margin-bottom: 10px;
     }
-}
-@media only screen and (max-width:1000px)  {
-    .certificate-of-authenticity-wrapper {
-        padding-left: 0px;
-        padding-top: 40px;
-        text-align: center;
+    .auth-certificate-wrapper {
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
     }
     .auth-certificate-wrapper img {
-        /* border: 2px solid red; */
-        width: 100%;
-        height: auto;
         border-radius: 15px;
+    }
+
+}
+@media only screen and (max-width: 600px)  {
+    .auth-certificate-wrapper {
+        width: 60%;
+    }
+}
+@media only screen and (max-width: 480px)  {
+    .auth-certificate-wrapper {
+        width: 100%;
     }
 }
 /* |R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R| */
