@@ -236,7 +236,7 @@ a {
     }
 }
 .pdp-stn-66-34-division {
-    border: 2px solid orangered;
+    border: 0px solid orangered;
     display: grid;
     grid-template-columns: 66% 34%;
 }
@@ -273,7 +273,7 @@ a {
     padding-right: 50px;
     padding-top: 3.63rem;
     padding-bottom: 3.63rem;
-    border: 2px solid blue;
+    border: 2px solid red;
 }
 .pro-6-row-stn-stl {
     /* border: 7px solid pink; */
@@ -604,9 +604,9 @@ a {
 /* WORKING .................. */
 /* |*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|* */
 /* |*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|* */
-.about-the-creation-details-part {
+/* .about-the-creation-details-part {
     border: 1px solid red;
-}
+} */
 .my-rich-stn h2 {
     /* background-color: red; */
     margin-bottom: -10px;
@@ -681,9 +681,9 @@ a {
     margin-right: 0.625rem;
     margin-bottom: 0.625rem;
 }
-.certificate-of-authenticity-wrapper {
+/* .certificate-of-authenticity-wrapper {
     border: 1px solid blue;
-}
+} */
 .certificate-of-authenticity-para {
     margin-bottom: -15px;
 }
