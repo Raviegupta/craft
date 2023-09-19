@@ -114,6 +114,9 @@ a {
     text-decoration: none;
     color: var(--cr-1);
 }
+svg {
+    cursor: pointer;
+}
 
 .stn-stl {
     /* border: 1px solid blue; */
@@ -398,6 +401,8 @@ a {
     font-weight: var(--fnt-wt-4);
     line-height: var(--line-ht-normal);
     text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
 }
 .my-accounts {
     gap: 1.25rem;
