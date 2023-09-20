@@ -758,34 +758,39 @@ a {
 /* WORKING .................. */
 /* |*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|* */
 .discover-section-heading {
-    color: #000;
-    text-align: center;
-    font-family: Montserrat;
-    font-size: 2.5rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
+    margin-bottom: 0;
 }
-.discover-images {
-    /* border: 2px solid red; */
-    display: flex;
-    gap: 20px;
-}
-.discover-images-one-unit-box {
-    width: 100%;
-}
-.discover-images-one-unit-box img {
-    width: 100%;
+.discover-pic-card img {
+    width: 400px;
+    height: 400px;
     border-radius: .94rem;
 }
-@media only screen and (max-width: 1000px) {
-    .discover-images {
-        border: 2px solid red;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+@media only screen and (max-width: 1300px) {
+    .discover-pic-card img {
+        width: 300px;
+        height: 300px;
     }
 }
-
+@media only screen and (max-width: 600px) {
+    .discover-pic-card img {
+        width: 350px;
+        height: 350px;
+    }
+    .discover-section {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .discover-pic-card img {
+        width: 300px;
+        height: 300px;
+    }
+    .discover-section {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
 /* |*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|* */
 
 
