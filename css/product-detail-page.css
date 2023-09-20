@@ -1057,7 +1057,7 @@ a {
 /* |*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|* */
 /* this section is for OTHER ARTWORKS BY SOME ARTISTS */
 .pro-heading-wrap h2:nth-child(2){
-    /* border: 1px solid red; */
+    border: 1px solid red;
     margin-top: -2rem;
 }
 
