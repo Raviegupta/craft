@@ -186,7 +186,7 @@ a {
     font-family: Montserrat;
     font-size: var(--fnt-siz-4);
     font-style: var(--fnt-stl-normal);
-    font-weight: var(--fnt-wt-2);
+    font-weight: var(--fnt-wt-3);
     line-height: var(--line-ht-normal);
 }
 /* |*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|* */
@@ -1062,7 +1062,7 @@ a {
 }
 
 .pdp-other-artworks-by-section {
-    /* border: 1px solid red; */
+    border: 1px solid red;
     display: grid;
     grid-template-columns: auto auto auto auto auto auto;
     place-items: center;
