@@ -228,10 +228,10 @@ a {
     padding-left: 60px;
 }
 @media only screen and (max-width: 1550px) {
-    .pro-6-row-stn-stl {
+    /* .pro-6-row-stn-stl {
         padding-left: 0px;
         padding-right: 0px;
-    }
+    } */
     .side-bars-setup {
         padding-left: 40px;
     }
