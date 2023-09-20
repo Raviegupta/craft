@@ -1059,25 +1059,26 @@ a {
 .pro-heading-wrap h2:nth-child(2){
     /* border: 1px solid red; */
     margin-top: -2rem;
+    margin-bottom: -1rem;
 }
 
 .pdp-other-artworks-by-section {
     /* border: 1px solid red; */
-    display: grid;
+    /* display: grid;
     grid-template-columns: auto auto auto auto auto auto;
-    place-items: center;
+    place-items: center; */
     width: 100%;
 }
 .product-single-card-wrapper {
-    border: 1px solid blue;
+    border: 0px solid blue;
     /* display: grid;  */
-    padding-bottom: 0;
+    /* padding-bottom: 0; */
     /* display: flex;/ */
     /* flex-direction: column; */
 }
 .product-image-and-whislist-wrapper {
     /* border: 1px solid red; */
-    height: 11.15rem;
+    height: 11.30rem;
     position: relative;
 }
 .pdp-image-wrapper img {
