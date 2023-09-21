@@ -1,5 +1,11 @@
+
+
+
 .art-page-cred-section {
     background-color: #000;
+    /* border: 1px solid red; */
+    margin-left: -8px;
+    margin-right: -8px;
 }
 
 /* ******************** */
@@ -37,22 +43,20 @@
 
 
 
-
+/* this is for the ARTISTS CREDENTIALS SECTION */
 .art-page-cred-section > header {
     text-align: var(--text-align-center);
     justify-content: space-around;
     width: max-content;
     margin-left: 50%;
     transform: translate(-50%);
-    /* gap: .25rem; */
+    margin: -1rem auto;
 }
 .art-page-cred-section > header > picture:nth-child(1) {
-    /* background-color: red; */
     margin-right: 0;
     transform: rotate(90deg);
 }
 .art-page-cred-section > header > picture:nth-child(3) {
-    /* background-color: red; */
     margin-right: 0;
     transform: rotate(270deg);
 }
@@ -62,18 +66,14 @@
     width: max-content;
     margin-left: 50%;
     transform: translate(-50%);
-    /* gap: .25rem; */
 }
 .art-page-cred-section > header > h2 {
     color: #FFF;
 }
 #ap-cred-section-main-part {
-    /* border: 3px solid blue; */
     gap: 7rem;
 }
-
 #ap-cred-section-main-part article ul {
-    /* border: 1px solid red; */
     height: 600px;
     overflow-y: auto;
     scroll-behavior: smooth;
@@ -86,10 +86,36 @@
     display: none;
 }
 
-
-#ap-cred-section-main-part article ul svg {
-   /* border: 1px solid red; */
+#ap-cred-section-main-part article {
+    position: relative;
+}
+#ap-cred-section-main-part article svg {
    position: absolute;
-   top: 0;
+   top: 5rem;
    right: 0;
+   margin-left: .5rem;
+}
+@media only screen and (max-width: 1440px) {
+    #ap-cred-section-main-part {
+        gap: 3rem;
+    }
+}
+@media only screen and (max-width: 991px) {
+    #ap-cred-section-main-part {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2.5rem;
+    }
+    #ap-cred-section-main-part article ul {
+        height: 400px;
+        margin-top: -1.5rem;
+    }
+    #ap-cred-section-main-part article h3 {
+        text-align: var(--text-align-center);
+    }
+}
+@media only screen and (max-width: 480px) {
+    #ap-cred-section-main-part {
+        gap: 1rem;
+    }
 }
