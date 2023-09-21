@@ -1,11 +1,11 @@
 
-
+section {
+    margin: -4px -8px;
+}
 
 .art-page-cred-section {
     background-color: #000;
     /* border: 1px solid red; */
-    margin-left: -8px;
-    margin-right: -8px;
 }
 
 /* ******************** */
@@ -118,4 +118,36 @@
     #ap-cred-section-main-part {
         gap: 1rem;
     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* this is for youtube play video */
+#artist-sample-video {
+    /* border: 2px solid red; */
+    position: relative
+}
+#artist-sample-video > picture > img {
+    width: 100%;
+}
+#artist-sample-video > iframe {
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    border: none;
+    width: 50%;
+    height: 75%;
 }
