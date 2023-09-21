@@ -1,8 +1,10 @@
 /* |*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|* */
 /* GLOBAL STYLING FOR ARTIST PAGE */
-section {
-    margin: -4px -8px;
+.art-section {
     max-width: 1920px;
+    margin: -4px -8px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .art-page-cred-section {
     background-color: #000;
