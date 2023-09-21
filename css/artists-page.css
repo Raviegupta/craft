@@ -1,14 +1,12 @@
-
+/* |*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|* */
+/* GLOBAL STYLING FOR ARTIST PAGE */
 section {
     margin: -4px -8px;
 }
-
 .art-page-cred-section {
     background-color: #000;
     /* border: 1px solid red; */
 }
-
-/* ******************** */
 .cred-stn-sh-stl {
     color: #FFF;
     font-family: Montserrat;
@@ -35,14 +33,41 @@ section {
     font-weight: 400;
     line-height: 1.25rem; /* 142.857% */
 }
-
-/* ******************** */
-
+/* |*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|* */
 
 
 
 
 
+
+
+/* |*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|* */
+/* this is for youtube play video */
+#artist-sample-video {
+    /* border: 2px solid red; */
+    position: relative
+}
+#artist-sample-video > picture > img {
+    width: 100%;
+}
+#artist-sample-video > iframe {
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    border: none;
+    width: 50%;
+    height: 75%;
+}
+/* |*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|* */
+
+
+
+
+
+
+
+/* |*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|* */
 /* this is for the ARTISTS CREDENTIALS SECTION */
 .art-page-cred-section > header {
     text-align: var(--text-align-center);
@@ -95,6 +120,8 @@ section {
    right: 0;
    margin-left: .5rem;
 }
+
+/* |R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R| */
 @media only screen and (max-width: 1440px) {
     #ap-cred-section-main-part {
         gap: 3rem;
@@ -119,35 +146,5 @@ section {
         gap: 1rem;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* this is for youtube play video */
-#artist-sample-video {
-    /* border: 2px solid red; */
-    position: relative
-}
-#artist-sample-video > picture > img {
-    width: 100%;
-}
-#artist-sample-video > iframe {
-    position: absolute; 
-    top: 50%; 
-    left: 50%; 
-    transform: translate(-50%, -50%); 
-    border: none;
-    width: 50%;
-    height: 75%;
-}
+/* |R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R| */
+/* |*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|* */
