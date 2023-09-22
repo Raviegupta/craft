@@ -53,6 +53,7 @@
 
 
 /* |*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|* */
+
 #follow-artist-top-section {
     /* border: 1px solid blue; */
     background-image: url(../images/artists-page/artist-follow-banner-1.png);
@@ -61,11 +62,8 @@
     /* color: white; */
     position: relative;
     margin-bottom: 10rem;
-    width: 1728px;
+    max-width: 1728px;
     background-repeat: no-repeat;
-        
-    
-    
 }
 .artists-path-line {
     /* border: 1px solid red; */
