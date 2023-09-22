@@ -8,6 +8,7 @@
     <!-- stylesheet -->
     <link rel="stylesheet" href="../css/product-detail-page.css">
     <link rel="stylesheet" href="../css/artists-page.css">
+    <link rel="stylesheet" href="../css/artists-page-follow-via-email-input.css">
 
     <!-- FontsAwsome  links-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -15,7 +16,6 @@
     <!-- scripts  -->
 </head>
 <body>
-
 
     <!-- this section is for FOLLOW ARTIST TOP SECTION -->
     <section id="follow-artist-top-section" class="art-section">
@@ -61,38 +61,29 @@
 
 
     <!-- this section is for FOLLOW ARTIST MIDDLE SECTION -->
-    <section id="follow-artist-top-section" class="art-section">
-
-        
-
-        <main class="artist-follow-wrapper">
-
-            <article class="artist-profile-wrapper">
+    <section id="follow-artist-middle-section" class="art-section">
+        <main class="artist-follow-wrapper-middle-section">
+            <article class="artist-profile-wrapper-middle-section">
                 <picture>
                     <img src="../images/artists-page/artist-profile-pic.png" alt="">
                 </picture>
             </article>
-
-            <div class="painter-country">
-                
-            </div>
             <h3 class="artist-name">You like Pratap Chandra Chakraborty</h3>
-            <h4 style="color: #FFF;
-            text-align: center;
-            font-family: Montserrat;
-            font-size: 1.125rem;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 1.5rem; /* 133.333% */">
-            Follow to receive exclusive news and latest Artworks!
-            </h4>
-            <input type="email" placeholder="">
-            <p class="about-the-particular-creator"><a href="">About the Creator</a></p>
-        </main>
+            <h4>Follow to receive exclusive news and latest Artworks!</h4>
 
-        
+            <address class="email-box" style="background-color: aqu;">
+                <div class="email-entry-box">
+                    <div class="mail-icon-plus-input-field">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" viewBox="0 0 20 16" fill="none">
+                            <path d="M17.3846 0H2.30769C1.03523 0 0 1.03523 0 2.30769V4.21135L8.46888 10.5106C8.88077 10.817 9.36346 10.9702 9.84615 10.9702C10.3288 10.9702 10.8115 10.817 11.2234 10.5106L19.6923 4.21135V2.30769C19.6923 1.03523 18.6571 0 17.3846 0ZM18.1538 3.43831L10.3053 9.27615C10.0307 9.48042 9.66165 9.48042 9.38708 9.27615L1.53846 3.43831V2.30769C1.53846 1.88354 1.88354 1.53846 2.30769 1.53846H17.3846C17.8088 1.53846 18.1538 1.88354 18.1538 2.30769V3.43831ZM18.1538 7.27304L19.6923 6.12873V13.6923C19.6923 14.9648 18.6571 16 17.3846 16H2.30769C1.03523 16 0 14.9648 0 13.6923V6.12873L1.53846 7.27304V13.6923C1.53846 14.1165 1.88354 14.4615 2.30769 14.4615H17.3846C17.8088 14.4615 18.1538 14.1165 18.1538 13.6923V7.27304Z" fill="#FE8453"/>
+                        </svg>
+                        <input type="email" name="" id="follow-via-email" placeholder="Your Email" >
+                    </div>
+                    <button type="submit" class="follow-text">Follow</button>
+                </div>
+            </address>
+        </main>        
     </section>
-
 
 
     <!-- this section is for youtube play video -->
@@ -252,5 +243,6 @@
             </article>
         </main>
     </section>
+    
 </body>
 </html>

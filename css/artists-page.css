@@ -53,7 +53,7 @@
 
 
 /* |*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|* */
-
+/* this section is for FOLLOW ARTIST TOP SECTION */
 #follow-artist-top-section {
     /* border: 1px solid blue; */
     background-image: url(../images/artists-page/artist-follow-banner-1.png);
@@ -187,8 +187,55 @@
 
 
 
+/* |*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|* */
+/* this section is for FOLLOW ARTIST MIDDLE SECTION */
+#follow-artist-middle-section {
+    border: 1px solid blue;
+    background-image: url(../images/artists-page/artist-follow-banner-2.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    position: relative;
+    max-width: 1728px;
+    background-repeat: no-repeat;
+    padding-top: 2.56rem;
+    padding-bottom: 2.88rem;
+}
 
-
+.artist-profile-wrapper-middle-section picture img {
+    border-radius: var(--border-radius-50-cnt);
+    width: 6.25rem;
+    height: 6.25rem;
+    flex-shrink: 0;
+    border: 2px solid #FE8453;
+}
+.artist-profile-wrapper-middle-section {
+    z-index: 1;
+    text-align: center;
+}
+.artist-follow-wrapper-middle-section > h3 {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2.25rem; /* 128.571% */
+    /* border: 1px solid red; */
+    margin-bottom: .62rem;
+}
+.artist-follow-wrapper-middle-section > h4 {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 1.87rem;
+}
+/* this section is for FOLLOW ARTIST MIDDLE SECTION */
+/* |*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|* */
 
 
 
@@ -315,3 +362,39 @@
 }
 /* |R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R| */
 /* |*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|* */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
