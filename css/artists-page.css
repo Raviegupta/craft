@@ -44,14 +44,6 @@
 
 
 
-
-
-
-
-
-
-
-
 /* |*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|* */
 /* this section is for FOLLOW ARTIST TOP SECTION */
 #follow-artist-top-section {
@@ -182,15 +174,18 @@
     transform: translate(-50%);
     z-index: 1;
 }
-
 /* |*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|* */
+
+
+
+
 
 
 
 /* |*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|* */
 /* this section is for FOLLOW ARTIST MIDDLE SECTION */
 #follow-artist-middle-section {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     background-image: url(../images/artists-page/artist-follow-banner-2.png);
     background-repeat: no-repeat;
     background-size: auto;
@@ -234,19 +229,7 @@
     margin-top: 0;
     margin-bottom: 1.87rem;
 }
-/* this section is for FOLLOW ARTIST MIDDLE SECTION */
 /* |*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|* */
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -362,39 +345,3 @@
 }
 /* |R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R| */
 /* |*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|* */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
