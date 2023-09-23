@@ -361,3 +361,38 @@
 }
 /* |R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R| */
 /* |*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|* */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.artist-all-artworks-by-section {
+    border: 2px solid red;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 0.94rem;
+}
