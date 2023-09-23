@@ -396,3 +396,6 @@
     flex-wrap: wrap;
     gap: 0.94rem;
 }
+.artist-all-artworks-by-section main article {
+    border: 2px solid red;
+}
