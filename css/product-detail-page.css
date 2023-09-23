@@ -301,7 +301,7 @@ svg {
     font-family: Montserrat;
     font-size: var(--fnt-siz-2);
     font-style: var(--fnt-stl-normal);
-    font-weight: var(--fnt-wt-4);
+    font-weight: var(--fnt-wt-3);
     line-height:var(--line-ht-150-prcnt); 
     /* background-color: red; */
 }
@@ -853,12 +853,17 @@ svg {
     display: flex;
     align-items: center;
     gap: 30px;
+    margin-top: -.92rem;
+    margin-bottom: 1rem;
 }
-.profile-img-wrapper {
-    border: 0px solid red;
-}
+/* .profile-img-wrapper {
+    border: 5px solid red;
+    
+} */
 .profile-img-wrapper img {
     border-radius: 50%;
+    width: 6rem;
+    height: 6rem;
 }
 .profile-name-wrapper {
     margin-top: auto;
@@ -942,6 +947,10 @@ svg {
 .cred-heading {
     /* border: 2px solid red; */
     margin-bottom: 0;
+}
+.pdp-artist-cred-section > h3{
+    /* border: 2px solid blue; */
+    margin-top: 2.2rem;
 }
 .cred-section-one-unit {
     /* border: 2px solid red; */
