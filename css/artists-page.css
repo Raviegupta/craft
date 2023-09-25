@@ -392,10 +392,49 @@
 
 .artist-all-artworks-by-section {
     border: 2px solid red;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-wrap: wrap;
     gap: 0.94rem;
 }
 .artist-all-artworks-by-section main article {
     border: 2px solid red;
+}
+
+
+
+.all-artworks-by-particular-artist-filter-section {
+    border: 2px solid blue;
+    padding-left: 7rem;
+    padding-right: 7rem;
+
+}
+
+#pdp-section-setup-filter-attribute-1 > span {
+    flex-direction: column; 
+    border-radius: 0.375rem;
+    border: 1px solid #ABABAB;
+    background: #FFF; 
+    width: max-content; 
+    padding: 10px; 
+    width: 2.625rem;
+    height: 2.625rem;
+    flex-shrink: 0;
+}
+
+#pdp-section-setup-filter-attribute-1 {
+    gap: .75rem;
+}
+ 
+
+#pdp-section-setup-filter-attribute-2 div {
+    gap: 1rem;
+}
+#pdp-section-setup-filter-attribute-2 div h4 {
+    gap: .5rem;
+    font-size: .7rem;
+}
+
+#pdp-section-setup-filter-attribute-2 div span {
+    gap: 1rem;
+    font-size: .7rem;
 }
