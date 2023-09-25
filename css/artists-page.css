@@ -403,13 +403,13 @@
 
 
 .all-artworks-by-particular-artist-filter-section {
-    border: 2px solid blue;
+    border: 5px solid blue;
     padding-left: 7rem;
     padding-right: 7rem;
 
 }
 
-#pdp-section-setup-filter-attribute-1 > span {
+#pdp-section-setup-filter-attribute-1 .list-attri-box .list-attri {
     flex-direction: column; 
     border-radius: 0.375rem;
     border: 1px solid #ABABAB;
@@ -437,4 +437,15 @@
 #pdp-section-setup-filter-attribute-2 div span {
     gap: 1rem;
     font-size: .7rem;
+}
+
+
+.filter-attri {
+    border: 2px solid blue;
+}
+
+
+#pdp-section-setup-filter-attribute-1  {
+    border: 2px solid red;
+    margin-top: .31rem;
 }
