@@ -227,6 +227,9 @@ svg {
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
+button {
+    cursor: var(--cursor-pointer);
+}
 .ring {
     border: 3px solid red;
 }
