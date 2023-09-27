@@ -468,7 +468,52 @@
         </div>
     
 
+        <div id="no-artworks-and-sorting" class="flex">
+            <p>93 Artworks</p>
+            
 
+            <select name="" id="">
+                <option value=""><h4>Sort by</h4></option>
+                <option value="">Price: Low to High</option>
+                <option value="">Price: High to Low</option>
+                <option value="">Size: Small to Large</option>
+                <option value="">Size: Large to Small</option>
+                <option value="">Most recent</option>
+            </select>
+        </div>
+
+
+
+
+        <div class="js-sortby-desktop">
+            <div class="sort-button ds-fix js-sort-button-wrapper js-dropdown-wrapper filters-sort js-artist-artworks-sort" data-sort-button-initialized="true" data-initialized="true">
+                <button class="sort-button__button js-dropdown-toggle-button body--accent" type="button" data-open-on-hover="false">
+                    <span class="sort-button__text js-sort-button-text" data-original-text="Sort by">Sort by</span>
+                    <span class="sort-button__icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" width="24" height="24" class="icon icon--block">
+                            <use href="https://www.singulart.com/assets/assets/build/images/components/atoms/icons/icon-global-defs.12bc9379.svg#icon-global-keyboard-arrow-up"></use>
+                        </svg>
+                    </span>
+                </button>
+                <ul class="ds-dropdown ds-dropdown--open-left js-dropdown scrollbar scrollbar--neutral sort-button__dropdown">
+                        <li class="ds-dropdown__item">
+                            <button class="dropdown-item-action expand-click-area js-sort-button-item" type="button" data-name="price_asc">Price: Low to High</button>
+                        </li>
+                        <li class="ds-dropdown__item">
+                            <button class="dropdown-item-action expand-click-area js-sort-button-item" type="button" data-name="price_desc">Price: High to Low</button>
+                        </li>
+                        <li class="ds-dropdown__item">
+                            <button class="dropdown-item-action expand-click-area js-sort-button-item" type="button" data-name="size_asc">Size: Small to Large</button>
+                        </li>
+                        <li class="ds-dropdown__item">
+                            <button class="dropdown-item-action expand-click-area js-sort-button-item" type="button" data-name="size_desc">Size: Large to Small</button>
+                        </li>
+                        <li class="ds-dropdown__item">
+                            <button class="dropdown-item-action expand-click-area js-sort-button-item" type="button" data-name="date_desc">Most recent</button>
+                        </li>
+                </ul>
+            </div>
+        </div>
 
         
         <main class="view-all-box-wrap">
@@ -2039,6 +2084,7 @@
             </div>
         </main>
     </section>
+
 
 </body>
 </html>

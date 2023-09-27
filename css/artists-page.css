@@ -390,6 +390,9 @@
 
 
 
+
+
+
 .artist-all-artworks-by-section {
     border: 2px solid red;
     justify-content: space-between;
@@ -407,8 +410,16 @@
 
 
 
+
+
+
+
+
+
+
+
 .all-artworks-by-particular-artist-filter-section {
-    border: 5px solid orangered;
+    border: 5px solid blue;
     margin-bottom: 20px;
     padding-left: 5rem;
     padding-right: 5rem;
@@ -447,7 +458,6 @@
 
 
 
- 
 #pdp-section-setup-filter-attribute-2 div h4 {
     gap: .8rem;
     font-size: .8rem;
@@ -522,30 +532,15 @@
     }
 }
 
-@media only screen and (max-width: 1200px) {  
-    .all-artworks-by-particular-artist-filter-section {
-        padding-left: 3rem;
-        padding-right: 3rem;
-    }
-    #pdp-section-setup-filter-attribute-6 {
-        padding-left: 10px;
-        padding-right: 10px;
-        width: 155%;
-    }
-    .all-artworks-by-particular-artist-filter-section {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
-    #pdp-section-setup-filter-attribute-1 {
-        width: 100%;
-    }
-    #pdp-section-setup-filter-attribute-1 .grid-icon-box {
-        /* border: 2px solid red; */
-        margin-left: 100px;
-    }
-    #pdp-section-setup-filter-attribute-4 {
+@media only screen and (max-width: 1199px) {  
+   .all-artworks-by-particular-artist-filter-section {
         border: 2px solid red;
-        margin-left: 10px;
-    }
-   
+   }
+  
+}
+
+
+
+#no-artworks-and-sorting select {
+    border: none;
 }
