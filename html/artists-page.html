@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="../css/slider.css">
     <link rel="stylesheet" href="../css/pdp-artists-view-all.css">
     <link rel="stylesheet" href="../css/product-listings-page.css">
+    <link rel="stylesheet" href="../css/artist-page-sort-by-filter.css">
     <!-- <link rel="stylesheet" href="../style.css"> -->
 
     <!-- FontsAwsome  links-->
@@ -19,6 +20,7 @@
 
     <!-- scripts  -->
     <script src="../js/homePage/slider.js" defer></script>
+    <script src="../js/artist-page-sort-by-filter.js" defer></script>
 </head>
 <body>
 
@@ -380,7 +382,6 @@
         <h2 class="stn-h-stl">All Artworks by Pratap Chandra Chakraborty</h2>
 
 
-
         <div class="pdp-section-setup all-artworks-by-particular-artist-filter-section flex">
             <div id="pdp-section-setup-filter-attribute-1" class="filter-attri flex">
                 <div class="flex grid-icon-box">
@@ -468,52 +469,52 @@
         </div>
     
 
+
         <div id="no-artworks-and-sorting" class="flex">
             <p>93 Artworks</p>
-            
+           
+            <div class="js-sortby-desktop">
+                <div class="">
+                    <button class="sort-by-wrapper">
+                        <span class="">Sort by</span>
+                        <span class="">
+                            <img src="../images/Accordian-Arrow-down.png" alt="" class="sort-by-filter-arrow-down">
+                            <img src="../images/Accordian-Arrow-up.png" alt="" class="sort-by-filter-arrow-up hidden">
+                        </span>
+                    </button>
 
-            <select name="" id="">
-                <option value=""><h4>Sort by</h4></option>
-                <option value="">Price: Low to High</option>
-                <option value="">Price: High to Low</option>
-                <option value="">Size: Small to Large</option>
-                <option value="">Size: Large to Small</option>
-                <option value="">Most recent</option>
-            </select>
-        </div>
-
-
-
-
-        <div class="js-sortby-desktop">
-            <div class="sort-button ds-fix js-sort-button-wrapper js-dropdown-wrapper filters-sort js-artist-artworks-sort" data-sort-button-initialized="true" data-initialized="true">
-                <button class="sort-button__button js-dropdown-toggle-button body--accent" type="button" data-open-on-hover="false">
-                    <span class="sort-button__text js-sort-button-text" data-original-text="Sort by">Sort by</span>
-                    <span class="sort-button__icon" aria-hidden="true">
-                        <svg viewBox="0 0 24 24" width="24" height="24" class="icon icon--block">
-                            <use href="https://www.singulart.com/assets/assets/build/images/components/atoms/icons/icon-global-defs.12bc9379.svg#icon-global-keyboard-arrow-up"></use>
-                        </svg>
-                    </span>
-                </button>
-                <ul class="ds-dropdown ds-dropdown--open-left js-dropdown scrollbar scrollbar--neutral sort-button__dropdown">
-                        <li class="ds-dropdown__item">
-                            <button class="dropdown-item-action expand-click-area js-sort-button-item" type="button" data-name="price_asc">Price: Low to High</button>
-                        </li>
-                        <li class="ds-dropdown__item">
-                            <button class="dropdown-item-action expand-click-area js-sort-button-item" type="button" data-name="price_desc">Price: High to Low</button>
-                        </li>
-                        <li class="ds-dropdown__item">
-                            <button class="dropdown-item-action expand-click-area js-sort-button-item" type="button" data-name="size_asc">Size: Small to Large</button>
-                        </li>
-                        <li class="ds-dropdown__item">
-                            <button class="dropdown-item-action expand-click-area js-sort-button-item" type="button" data-name="size_desc">Size: Large to Small</button>
-                        </li>
-                        <li class="ds-dropdown__item">
-                            <button class="dropdown-item-action expand-click-area js-sort-button-item" type="button" data-name="date_desc">Most recent</button>
-                        </li>
-                </ul>
+                    <ul class="sorting-options-box hidden" style="list-style-type: none;">
+                            <li class="ds-dropdown-item">
+                                <a href="">Price: Low to High</a>
+                            </li>
+                            <li class="ds-dropdown-item">
+                                <a href="">Price: High to Low</a>
+                            </li>
+                            <li class="ds-dropdown-item">
+                                <a href="">Size: Small to Large</a>
+                            </li>
+                            <li class="ds-dropdown-item">
+                                <a href="">Size: Large to Small</a>
+                            </li>
+                            <li class="ds-dropdown-item">
+                                <a href="">Most recent</a>
+                            </li>
+                    </ul>
+                </div>
             </div>
         </div>
+
+
+
+
+
+
+
+
+
+
+
+
 
         
         <main class="view-all-box-wrap">
