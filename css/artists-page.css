@@ -659,7 +659,16 @@
 
 @media only screen and (max-width: 1199px) {  
    .all-artworks-by-particular-artist-filter-section {
-        border: 2px solid red;
+        flex-direction: column;
    }
   
+   #pdp-section-setup-filter-attribute-1,
+   #pdp-section-setup-filter-attribute-2,
+   #pdp-section-setup-filter-attribute-3,
+   #pdp-section-setup-filter-attribute-4,
+   #pdp-section-setup-filter-attribute-5,
+   #pdp-section-setup-filter-attribute-6 {
+        border: 2px solid red;
+        width: 100%;
+   }
 }
