@@ -457,7 +457,7 @@
 
 
 /* ********************************************************************** */
-.all-artworks-by-particular-artist-filter-section {
+.all-artworks-by-particular-artist-filter-section-desktop {
     /* border: 5px solid blue; */
     margin-bottom: 20px;
     padding-left: 5rem;
@@ -585,7 +585,15 @@
 
 
 
-#no-artworks-and-sorting {
+
+
+
+
+
+
+
+
+#all-artworks-by-particular-artist-filter-sorting-desktop {
     border-top: 1px solid #E0E0E0;
     border-bottom: 1px solid #E0E0E0;
     margin-top: -25px;
@@ -609,7 +617,7 @@
     font-weight: 600;
 }
 
-#no-artworks-and-sorting {
+#all-artworks-by-particular-artist-filter-sorting-desktop {
     position: relative;
 }
 .sorting-options-box {
@@ -648,7 +656,7 @@
 
 
 @media only screen and (max-width: 1400px) {
-    .all-artworks-by-particular-artist-filter-section {
+    .all-artworks-by-particular-artist-filter-section-desktop {
         padding-left: 1rem;
         padding-right: 1rem;
         
@@ -658,11 +666,8 @@
 
 
 @media only screen and (max-width: 1199px) {  
-   .all-artworks-by-particular-artist-filter-section {
-        flex-direction: column;
-   }
   
-   #pdp-section-setup-filter-attribute-1,
+   /* #pdp-section-setup-filter-attribute-1,
    #pdp-section-setup-filter-attribute-2,
    #pdp-section-setup-filter-attribute-3,
    #pdp-section-setup-filter-attribute-4,
@@ -670,5 +675,92 @@
    #pdp-section-setup-filter-attribute-6 {
         border: 2px solid red;
         width: 100%;
+   } */
+
+
+   #all-artworks-by-particular-artist-filter-sorting-desktop, 
+   .all-artworks-by-particular-artist-filter-section-desktop {
+    display: none;
    }
+
+
+   
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+/* artist-page-filter-section-lower-devices */
+.artist-page-filter-section-lower-devices {
+    text-align: center;
+    margin-bottom: 2rem;
+    border-radius: 2px;
+    cursor: pointer;
+    gap: 10px;
+}
+
+
+.text-filter {
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: 1px solid red;
+    width: 90%;
+    margin-right: 10px;
+
+    text-align: center;
+    border: 1px solid #333;
+    padding: 10px;
+    border-radius: 2px;
+}
+.text-filter:hover {
+    background-color: #f5eded;
+}
+
+
+.list-attri{
+    border: 2px solid red;
+    flex-direction: column; 
+    border-radius: 0.375rem;
+    border: 1px solid #ABABAB;
+    background: #FFF; 
+    width: max-content; 
+    padding: 10px; 
+    width: 2.625rem;
+    height: 2.625rem;
+    flex-shrink: 0;
+}
+.grid-attri {
+    background-color: #FE8453;
+    border-radius: 0.375rem;
+}
+@media only screen and (max-width:600px) {
+    .grid-attri {
+        width: 3rem;
+    }
+}
+@media only screen and (max-width:500px) {
+    .grid-attri {
+        width: 3.4rem;
+    }
+}
+@media only screen and (max-width:400px) {
+    .grid-attri {
+        width: 3.6rem;
+    }
+}
+@media only screen and (max-width:350px) {
+    .grid-attri {
+        width: 4rem;
+    }
 }
