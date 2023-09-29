@@ -678,7 +678,7 @@
    } */
 
 
-   #all-artworks-by-particular-artist-filter-sorting-desktop, 
+   .all-artworks-by-particular-artist-filter-sorting-desktop, 
    .all-artworks-by-particular-artist-filter-section-desktop {
     display: none;
    }
@@ -763,4 +763,56 @@
     .grid-attri {
         width: 4rem;
     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* filter popup */
+.text-filter-onfilter-menu {
+    font-size: 1rem;
+    font-weight: 600;
+    width: 100%;
+    margin-right: 10px;
+
+    text-align: center;
+    /* border-bottom: 2px solid #E0E0E0; */
+    padding: 10px;
+    border-radius: 2px;
+    margin-bottom: 2rem;
+}
+.mini-devices-filter-orientation h4 {
+    font-size: .8rem;
+    /* border: 2px solid red; */
+    margin-bottom: 5px;
+}
+.mini-devices-filter-orientation, 
+.mini-devices-filter-height {
+    border-top: 1px solid #E0E0E0;
+    margin-bottom: 30px;
+}
+
+.mini-devices-filter-width {
+    border-bottom: 1px solid #E0E0E0;
+    padding-bottom: 20px;
+    /* border: 2px solid red; */
+    padding-bottom:75px;
 }

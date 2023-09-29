@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="../css/pdp-artists-view-all.css">
     <link rel="stylesheet" href="../css/product-listings-page.css">
     <link rel="stylesheet" href="../css/artist-page-sort-by-filter.css">
+    <link rel="stylesheet" href="../css/range-input.css">
     <!-- <link rel="stylesheet" href="../style.css"> -->
 
     <!-- FontsAwsome  links-->
@@ -377,13 +378,19 @@
 
 
 
+
+    
+
+    
+
+
     
     <!-- this section is for All Artworks by Particular Artist ❤️❤️❤️❤️❤️ ************* -->
     <section class="artwork-tending-now-1 hamburger-icon-click-not-render hamburger-icon-click-not-render view-all-box-wrapn pdp-section-setup">
         <h2 class="stn-h-stl">All Artworks by Pratap Chandra Chakraborty</h2>
 
 
-        <!-- FILTER SECTIONB FOER HIGHER DEVICES -->
+        <!-- FILTER SECTION FOR HIGHER DEVICES -->
         <div class="pdp-section-setup all-artworks-by-particular-artist-filter-section-desktop flex">
             <div id="pdp-section-setup-filter-attribute-1" class="filter-attri flex">
                 <div class="flex grid-icon-box">
@@ -471,8 +478,8 @@
         </div>
     
 
-        <!-- FILTER SECTIONB FOER HIGHER DEVICES -->
-        <div id="all-artworks-by-particular-artist-filter-sorting-desktop" class="flex">
+        <!-- FILTER SECTION FOR HIGHER DEVICES -->
+        <div id="all-artworks-by-particular-artist-filter-sorting-desktop" class="flex all-artworks-by-particular-artist-filter-sorting-desktop">
             <p>93 Artworks</p>
            
             <div class="js-sortby-desktop">
@@ -507,7 +514,7 @@
         </div>
 
 
-        <!-- FILTER SECTIONB FOER LOWER DEVICES -->
+        <!-- FILTER SECTION ON CLICK FOR LOWER DEVICES -->
         <div class="artist-page-filter-section-lower-devices flex">
 
             <span class="text-filter">filter</span>
@@ -537,16 +544,7 @@
 
         
 
-
-
-
-
-
-
-
-
-
-        <main class="view-all-box-wrap">
+        <!-- <main class="view-all-box-wrap">
             <div class="artist-all-artworks-by-section flex">
                 <article class="product-single-card-wrapper">
                     <div class="product-image-and-whislist-wrapper">
@@ -1168,8 +1166,90 @@
                     </div>
                 </article>
             </div> 
-        </main>
+        </main> -->
 
+    </section>
+
+
+
+
+    <!-- FILTER SECTION FOR LOWER DEVICES -->
+    <section>
+        <div class="text-filter-onfilter-menu">Filter</div>
+
+        <div id="all-artworks-by-particular-artist-filter-sorting-desktop" class="flex all-artworks-by-particular-artist-filter-sorting-desktop">
+            <p>93 Artworks</p>
+           
+            <div class="js-sortby-desktop">
+                <div class="">
+                    <button class="sort-by-wrapper sort-by-wrapper-mini-devices">
+                        <span class="">Sort by</span>
+                        <span class="">
+                            <img src="../images/Accordian-Arrow-down.png" alt="" class="sort-by-filter-arrow-down sort-by-filter-arrow-down-mini-devices">
+                            <img src="../images/Accordian-Arrow-up.png" alt="" class="sort-by-filter-arrow-up hidden sort-by-filter-arrow-up-mini-devices">
+                        </span>
+                    </button>
+
+                    <ul class="sorting-options-box sorting-options-box-mini-devices hidden" style="list-style-type: none;">
+                            <li class="ds-dropdown-item">
+                                <a href="">Price: Low to High</a>
+                            </li>
+                            <li class="ds-dropdown-item">
+                                <a href="">Price: High to Low</a>
+                            </li>
+                            <li class="ds-dropdown-item">
+                                <a href="">Size: Small to Large</a>
+                            </li>
+                            <li class="ds-dropdown-item">
+                                <a href="">Size: Large to Small</a>
+                            </li>
+                            <li class="ds-dropdown-item">
+                                <a href="">Most recent</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="pdp-section-setup-filter-attribute-2" class="filter-attri">
+            <div class="flex"><h4>PRICE</h4><span>0 - 1,000,000+ INR</span></div>
+            <div>
+                <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+            </div>
+        </div>  
+
+        <div id="" class="filter-attri mini-devices-filter-orientation">
+            <h4 class="">ORIENTATION</h4>
+            <div class="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="33" viewBox="0 0 32 33" fill="none">
+                    <rect x="0.5" y="0.75" width="31" height="31" rx="5.5" fill="white" stroke="#ABABAB"/>
+                    <rect x="26.4346" y="10.6843" width="11.1304" height="20.8696" transform="rotate(90 26.4346 10.6843)" fill="#BCBCBC"/>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="33" viewBox="0 0 32 33" fill="none">
+                    <rect x="0.5" y="0.75" width="31" height="31" rx="5.5" fill="white" stroke="#ABABAB"/>
+                    <rect x="10.4346" y="5.81519" width="11.1304" height="20.8696" fill="#BCBCBC"/>
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="33" viewBox="0 0 32 33" fill="none">
+                    <rect x="0.5" y="0.75" width="31" height="31" rx="5.5" fill="white" stroke="#ABABAB"/>
+                    <rect x="7.65234" y="7.9021" width="16.6957" height="16.6957" fill="#BCBCBC"/>
+                </svg>
+            </div>
+        </div>
+
+        <div id="pdp-section-setup-filter-attribute-4" class="filter-attri mini-devices-filter-height">
+            <div class="flex"><h4>HEIGHT</h4><span>0 - 500+ cm</span></div>
+            <div>
+                <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+            </div>
+        </div>
+
+        <div id="pdp-section-setup-filter-attribute-5" class="filter-attri mini-devices-filter-width">
+            <div class="flex"><h4>WIDTH</h4><span>0 - 500+ cm</span></div>
+            <div>
+                <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+            </div>
+        </div>
     </section>
 
 
@@ -2128,6 +2208,14 @@
             </div>
         </main>
     </section>
+
+
+
+
+
+
+
+
 
 
 </body>
