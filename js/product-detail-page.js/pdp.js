@@ -8,9 +8,10 @@ const aboutCreatorShowLessBtn = document.querySelector('.about-creation-show-les
 const artistHighlightsOneUnitQ = document.querySelectorAll('.art-light-1-unit-txt-section');
 const artistHighlightsOneUnitAns = document.querySelectorAll('.art-light-1-unit-txt-section-ans');
 
-const prodImageOnScreen = document.querySelectorAll('.product-image-on-screen');
+const prodImageOnScreen = document.querySelector('.product-image-on-screen');
 const prodImages = document.querySelectorAll('.product-image');
-
+const prev = document.querySelector('.product-image-prev');
+const next = document.querySelector('.product-image-next');
 
 // -------------------------------------------------------------------------------
 // ASIDE PART ACCORDIAN ❤️❤️❤️
@@ -73,17 +74,42 @@ for(let i = 0; i<artistHighlightsOneUnitQ.length; i++) {
 console.log(prodImages)
 
 const arr = [];
+let currIndex = 0;
+
 for(let i=0; i<prodImages.length; i++) {
     // console.log(prodImages[i].src);
     arr[i] = prodImages[i].src
 }
-
-
+prodImageOnScreen.src == arr[0];
 
 
 for(let i = 0; i<prodImages.length; i++) {
     prodImages[i].addEventListener('click', () => {
-        console.log(arr[i]);
-        prodImageOnScreen.src = arr[i];
+        currIndex = i;
+        // console.log(arr[currIndex]);
+        prodImageOnScreen.src = arr[currIndex];
+        console.log(prodImageOnScreen.src);
     })
 }
+// console.log(prev, next);
+
+prev.addEventListener('click', function() {
+    if(currIndex > 0) {
+        currIndex--;
+        prodImageOnScreen.src = arr[currIndex];
+    } else if(currIndex == 0) {
+        currIndex = arr.length - 1;
+        prodImageOnScreen.src = arr[currIndex];
+    }
+});
+
+next.addEventListener('click', function() {
+    if(currIndex < arr.length - 1) {
+        currIndex++;
+        prodImageOnScreen.src = arr[currIndex];
+    } else if(currIndex == arr.length - 1) {
+        currIndex = 0;
+        prodImageOnScreen.src = arr[currIndex];
+    }
+});
+// -------------------------------------------------------------------------------
