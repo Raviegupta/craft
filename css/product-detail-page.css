@@ -591,6 +591,12 @@ button {
 .pdp-aside-last-unit svg {
     cursor: var(--cursor-pointer);
 }
+.pdp-aside-last-unit-ans {
+    font-size: 0.9375rem;
+    /* border: 2px solid red; */
+    margin-top: -.5rem;
+    padding-bottom: .5rem;
+}
 
 /* |R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R| */
 @media only screen and (max-width: 1000px) {
