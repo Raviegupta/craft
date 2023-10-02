@@ -700,6 +700,7 @@ button {
     font-weight: var(--fnt-wt-3);
     line-height: var(--line-ht-normal);
     margin-top: -10px;
+    cursor: var(--cursor-pointer);
 }
 .about-creation-show-more strong, .about-creation-show-less strong {
     margin-right: 15px;
@@ -987,6 +988,7 @@ button {
     align-items: center;
     width: 100%;
     padding-left: 10px;
+    cursor: var(--cursor-pointer);
 }
 .artist-gf {
     width: 2.7305rem;
