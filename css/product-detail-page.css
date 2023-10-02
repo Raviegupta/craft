@@ -692,7 +692,7 @@ button {
 .certificate-of-authenticity-wrapper {
     border: 0px solid red;
 }
-.about-creation-show-more {
+.about-creation-show-more, .about-creation-show-less {
     color: var(--cr-1);
     font-family: Montserrat;
     font-size: var(--fnt-siz-4);
@@ -701,7 +701,7 @@ button {
     line-height: var(--line-ht-normal);
     margin-top: -10px;
 }
-.about-creation-show-more strong {
+.about-creation-show-more strong, .about-creation-show-less strong {
     margin-right: 15px;
 }
 
