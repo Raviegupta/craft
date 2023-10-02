@@ -8,6 +8,9 @@ const aboutCreatorShowLessBtn = document.querySelector('.about-creation-show-les
 const artistHighlightsOneUnitQ = document.querySelectorAll('.art-light-1-unit-txt-section');
 const artistHighlightsOneUnitAns = document.querySelectorAll('.art-light-1-unit-txt-section-ans');
 
+const prodImageOnScreen = document.querySelectorAll('.product-image-on-screen');
+const prodImages = document.querySelectorAll('.product-image');
+
 
 // -------------------------------------------------------------------------------
 // ASIDE PART ACCORDIAN ❤️❤️❤️
@@ -26,11 +29,11 @@ for(let i = 0; i<asideOneUnitQ.length; i++) {
 // -------------------------------------------------------------------------------
 // ABOUT THE CREATION SHOW MORE AND SHW LESS 
 const aboutCreatorParaText = aboutCreatorPara.textContent;
-console.log(aboutCreatorParaText.length);
+// console.log(aboutCreatorParaText.length);
 
 if(aboutCreatorParaText.length > 450 ) {
     aboutCreatorPara.textContent = aboutCreatorParaText.slice(0, 450) + '...';
-    console.log('hello ')
+    // console.log('hello ')
 } else {
     aboutCreatorPara.textContent = aboutCreatorParaText;
 
@@ -58,5 +61,29 @@ aboutCreatorShowLessBtn.addEventListener('click', () => {
 for(let i = 0; i<artistHighlightsOneUnitQ.length; i++) {
     artistHighlightsOneUnitQ[i].addEventListener('click', () => {
         artistHighlightsOneUnitAns[i].classList.toggle('hidden');
+    })
+}
+
+
+
+
+
+// -------------------------------------------------------------------------------
+// Product Image display from Stack
+console.log(prodImages)
+
+const arr = [];
+for(let i=0; i<prodImages.length; i++) {
+    // console.log(prodImages[i].src);
+    arr[i] = prodImages[i].src
+}
+
+
+
+
+for(let i = 0; i<prodImages.length; i++) {
+    prodImages[i].addEventListener('click', () => {
+        console.log(arr[i]);
+        prodImageOnScreen.src = arr[i];
     })
 }
