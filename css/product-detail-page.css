@@ -253,6 +253,10 @@ button {
 .side-bars-setup {
     padding-left: 60px;
 }
+.hidden {
+    display: none;
+}
+
 @media only screen and (max-width: 1550px) {
     /* .pro-6-row-stn-stl {
         padding-left: 0px;
