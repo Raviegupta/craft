@@ -1,9 +1,34 @@
 // FILTER SECTIONB FOR LOWER DEVICES
-const filterMiniDevices = document.querySelector('.artist-page-filter-section-lower-devices');
+const filterMiniDeviceBtn = document.querySelector('.artist-page-filter-section-lower-devices');
+const filterMiniDeviceOptions = document.querySelector('#artist-section-filter-section');
+const filterMiniDeviceSectionsHidden = document.querySelectorAll('.ravie');
+const filterMiniCross = document.querySelector('.modal-cross');
 
-console.log(filterMiniDevices);
+console.log(filterMiniDeviceBtn);
 
 
-filterMiniDevices.addEventListener('click', () => {
-    console.log('ravie .........................')
+filterMiniDeviceBtn.addEventListener('click', () => {
+    console.log('ravie .........................');
+    
+    // console.log(filterMiniDeviceOptions);
+    filterMiniDeviceOptions.classList.toggle('hidden');
+    // console.log(filterMiniDeviceOptions);
+
+    for(let i=0; i<filterMiniDeviceSectionsHidden.length; i++ ) {
+        filterMiniDeviceSectionsHidden[i].classList.toggle('hidden');
+        // console.log(filterMiniDeviceSectionsHidden[i]);
+    }
 })
+
+
+filterMiniCross.addEventListener('click', () => {
+
+    for(let i=0; i<filterMiniDeviceSectionsHidden.length; i++ ) {
+        filterMiniDeviceSectionsHidden[i].classList.toggle('hidden');
+        // console.log(filterMiniDeviceSectionsHidden[i]);
+    }
+
+    filterMiniDeviceOptions.classList.toggle('hidden');
+
+})
+

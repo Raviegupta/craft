@@ -394,7 +394,7 @@
 
 
 .artist-all-artworks-by-section {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 0.94rem;
@@ -458,7 +458,7 @@
 
 /* ********************************************************************** */
 .all-artworks-by-particular-artist-filter-section-desktop {
-    /* border: 5px solid blue; */
+    /* border: 3px solid blue; */
     margin-bottom: 20px;
     padding-left: 5rem;
     padding-right: 5rem;
@@ -473,9 +473,21 @@
     padding-left: 12px;
     padding-right: 12px;
 }
+#pdp-section-setup-filter-attribute-1 {
+    /* border: 1px solid red; */
+    width: 50% !important;
+}
+#pdp-section-setup-filter-attribute-4 {
+    border: none;
+}
+#pdp-section-setup-filter-attribute-6 {
+    /* border: 3px solid blue; */
+    width: 95%;
+}
 #pdp-section-setup-filter-attribute-7 {
-    padding-left: 0px;
+    padding-left: 20px;
     padding-right: 0px;
+    /* border: 3px solid blue; */
 }
 
 #pdp-section-setup-filter-attribute-1 .list-attri-box .list-attri {
@@ -551,11 +563,11 @@
 }
 
 
-#pdp-section-setup-filter-attribute-6 {
+/* #pdp-section-setup-filter-attribute-6 {
     padding-left: 20px;
     padding-right: 20px;
     width: 155%;
-}
+} */
 
 #pdp-section-setup-filter-attribute-7 {
     color: #FE8453;
@@ -573,8 +585,39 @@
 
 
 
+.filter-attri-mini {
+    border-right: none;
+}
 
+#filter-mini-bottom-part {
+    /* border: 1px solid red; */
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 2px rgb(211, 157, 157);
+    padding-left: 50px;
+    padding-right: 20px;
 
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: -8px;
+}
+#filter-mini-bottom-part span {
+    color: #000;
+    font-weight: 700;
+}
+.see-filter-results-mini {
+    background-color: #FE8453;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    padding: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
 
 
 
@@ -683,13 +726,12 @@
     display: none;
    }
 
-
-   
-
-
-
+   .artist-page-filter-section-lower-devices {
+        display: flex;
+   }
 
 }
+
 
 
 
@@ -701,14 +743,21 @@
 
 /* artist-page-filter-section-lower-devices */
 #artist-section-filter-section {
-    border: 3px solid red;
-    height: 100vh;
+    /* border: 3px solid blue; */
+    height: 98vh;
     width: 100%;
-    
+    position: relative;
 }
-
-
-
+.modal-cross {
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: var(--cursor-pointer);
+}
+.modal-cross i {
+    font-size: 2rem;
+}
 
 .artist-page-filter-section-lower-devices {
     text-align: center;
@@ -717,7 +766,6 @@
     cursor: pointer;
     gap: 10px;
 }
-
 
 .text-filter {
     font-size: 1rem;
@@ -737,7 +785,6 @@
     background-color: #f5eded;
 }
 
-
 .list-attri{
     border: 2px solid red;
     flex-direction: column; 
@@ -754,6 +801,9 @@
     background-color: #FE8453;
     border-radius: 0.375rem;
 }
+
+
+
 @media only screen and (max-width:600px) {
     .grid-attri {
         width: 3rem;
@@ -774,17 +824,6 @@
         width: 4rem;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 

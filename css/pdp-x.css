@@ -1,0 +1,15 @@
+.product-image-to-be-displayed-wrapper {
+    /* border: 2px solid black; */
+    width: 100%;
+
+
+}
+
+.product-image-to-be-displayed-wrapper picture img{
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center !important;
+    margin-top: auto;
+    
+
+}

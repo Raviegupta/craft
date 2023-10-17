@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CrattTatva PLP</title>
+    <title>CrattTatva PDP</title>
+
+    <!-- FontsAwsome  links-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- stylesheet -->
     <!-- <link rel="stylesheet" href="../style.css"> -->
@@ -13,11 +16,12 @@
 
     <!-- script -->
     <script src="../js/homePage/slider.js" defer></script>
-    <script src="../js/product-detail-page.js/pdp.js" defer></script>
+    <script src="../js/pdp.js" defer></script>
 </head>
-<body>
+<body class="pdp-body">
+    
     <!-- this section is for particular product detail -->
-    <section class="pdp-stn-66-34-division pdp-section-setup">
+    <section class="pdp-stn-66-34-division pdp-section-setup product-section">
         <div class="product-image-wrapper">
             <figure class="product-image-on-display flex">
                 <svg class="product-image-prev" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
@@ -31,24 +35,31 @@
                     <circle cx="24" cy="24" r="24" fill="white"/>
                     <path d="M29.1322 23.6912L20.5689 15.1279C20.3984 14.9574 20.1219 14.9574 19.9514 15.1279L19.1279 15.9514C19.046 16.0333 19 16.1443 19 16.2602C19 16.376 19.046 16.4871 19.1279 16.5689L26.559 24L19.1279 31.4311C19.046 31.5129 19 31.624 19 31.7398C19 31.8556 19.046 31.9667 19.1279 32.0486L19.9514 32.8721C20.0366 32.9573 20.1484 33 20.2602 33C20.3719 33 20.4837 32.9574 20.5689 32.8721L29.1322 24.3088C29.3028 24.1382 29.3028 23.8617 29.1322 23.6912Z" fill="#FE8453" stroke="#FE8453" stroke-width="0.4"/>
                 </svg>
+
+                <div class="pdp-modal-cross pdp-modal-cross-hidden">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
             </figure>
+
             <div class="product-image-to-be-displayed-wrapper flex">
                 <div class="product-image-to-be-displayed-div-wrapper flex">
-                    <picture class="flex"><img src="https://www.singulart.com/images/artworks/v2/cropped/6733/alts/zoom/alt_1865150_d8baf3cc66d69f4143ad0a1442741c7c.jpeg" alt="" class="product-image"></picture>
-                    <picture class="flex"><img src="https://www.singulart.com/images/artworks/v2/cropped/6733/main/zoom/1865150_78e286efd4745f46734e859cb1db68ad.jpeg" alt="" class="product-image"></picture>
-                    <picture class="flex"><img src="https://www.singulart.com/images/artworks/v2/cropped/5855/main/zoom/1525034_cac868e5df5f1049a84591c08fb31ecb.jpeg" alt="" class="product-image"></picture>
-                    <picture class="flex"><img src="../images/product-detail-page/product-image.png" alt="" class="product-image"></picture>
-                    <picture class="flex"><img src="https://www.singulart.com/images-sh/eyJidWNrZXQiOiJzaW5ndWxhcnQtd2Vic2l0ZS1wcm9kIiwia2V5IjoiYXJ0d29ya3NcL3BpY3R1cmVzXC9jcm9wcGVkXC8zNjVcLzE0NzdcL3pvb21cLzE0NzdfYjNjMzY2NDExMmI3YTgyYzQyNmI0MTQzNGYwMThkZGQuanBlZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTA4NCwiaGVpZ2h0Ijo3NzgsImZpdCI6Imluc2lkZSIsImJhY2tncm91bmQiOm51bGx9LCJ0b0Zvcm1hdCI6IndlYnAifX0=?signature=2773eacf433c7d6cf37e30e2b52dd2651915873b5a847d236b7b1653a8f25489" alt="" class="product-image"></picture>
-                    <picture class="flex"><img src="https://www.singulart.com/images-sh/eyJidWNrZXQiOiJzaW5ndWxhcnQtd2Vic2l0ZS1wcm9kIiwia2V5IjoiYXJ0d29ya3NcL3YyXC9jcm9wcGVkXC8xODk2OVwvbWFpblwvem9vbVwvMTg3MjAzOF85ZWRmMWExMDRhY2Y5OWRjOWE3MTU5NjA2ZjY0Zjg1ZC5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMDg0LCJoZWlnaHQiOjc3OCwiZml0IjoiaW5zaWRlIiwiYmFja2dyb3VuZCI6bnVsbH0sInRvRm9ybWF0Ijoid2VicCJ9fQ==?signature=403f551492ff7808eace40e0b059c9526b951223168909340e961fe0fe6d2e03" alt="" class="product-image"></picture>
-                    <picture class="flex"><img src="https://www.singulart.com/images/artworks/v2/cropped/18969/main/zoom/1871876_01a0a03665d8a562f825938420709ed5.jpeg" alt="" class="product-image"></picture>
-                    <picture class="flex"><img src="https://www.singulart.com/images/artworks/v2/cropped/6733/main/zoom/1858025_4f0c2b091802a36cdfb6b4a25b9114fb.jpeg" alt="" class="product-image"></picture>
-                    <picture class="flex"><img src="https://www.singulart.com/images/artworks/v2/cropped/6743/main/zoom/317925_5df60d441d85922cfa9fe95f00900f6e.jpeg" alt="" class="product-image"></picture>
-                    <picture class="flex"><img src="https://www.singulart.com/images/artworks/v2/cropped/6425/main/zoom/1870091_fc8ef460806c5d64da1cc575bdd47460.jpeg" alt="" class="product-image"></picture>
-                    <picture class="flex"><img src="https://www.singulart.com/images-sh/eyJidWNrZXQiOiJzaW5ndWxhcnQtd2Vic2l0ZS1wcm9kIiwia2V5IjoiYXJ0d29ya3NcL3YyXC9jcm9wcGVkXC8xODk2OVwvbWFpblwvem9vbVwvMTg3MTg3Nl8wMWEwYTAzNjY1ZDhhNTYyZjgyNTkzODQyMDcwOWVkNS5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMDg0LCJoZWlnaHQiOjc3OCwiZml0IjoiaW5zaWRlIiwiYmFja2dyb3VuZCI6bnVsbH0sInRvRm9ybWF0Ijoid2VicCJ9fQ==?signature=cd804a9d9b174afe9dc6a9f158cc686eee0d8cd52027b0aa75cb0c33c846bc3c" alt="" class="product-image"></picture>
-                    <picture class="flex"><img src="https://www.singulart.com/images-sh/eyJidWNrZXQiOiJzaW5ndWxhcnQtd2Vic2l0ZS1wcm9kIiwia2V5IjoiYXJ0d29ya3NcL3YyXC9jcm9wcGVkXC8yMzc4MVwvbWFpblwvem9vbVwvNzk1MDc5X2IzZTViYjIwYWMzMzZiYjNlYjZhMjQ2ZTc4NTk4YTBjLmpwZWciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwODQsImhlaWdodCI6Nzc4LCJmaXQiOiJpbnNpZGUiLCJiYWNrZ3JvdW5kIjpudWxsfSwidG9Gb3JtYXQiOiJ3ZWJwIn19?signature=a6892f9fc73e9e9149bed362d54e6fdb04287efc948e5d8dd4a3b3abe073d69d" alt="" class="product-image"></picture>
-                    <picture class="flex"><img src="https://www.singulart.com/images-sh/eyJidWNrZXQiOiJzaW5ndWxhcnQtd2Vic2l0ZS1wcm9kIiwia2V5IjoiYXJ0d29ya3NcL3BpY3R1cmVzXC9jcm9wcGVkXC80NjA3XC8xNTQ0N1wvem9vbVwvc2VyaWVfMTU0NDdfMmFmZTYwMDE2YjE0NTcyMWM2ZjgyMzA2ODI0YzFjZGMuanBlZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTA4NCwiaGVpZ2h0Ijo3NzgsImZpdCI6Imluc2lkZSIsImJhY2tncm91bmQiOm51bGx9LCJ0b0Zvcm1hdCI6IndlYnAifX0=?signature=51d20fee095e47025938fd16746b526073e014e6e491b6ef9a040bad1551378d" alt="" class="product-image"></picture>
-                    <picture class="flex"><img src="https://www.singulart.com/images-sh/eyJidWNrZXQiOiJzaW5ndWxhcnQtd2Vic2l0ZS1wcm9kIiwia2V5IjoiYXJ0d29ya3NcL3YyXC9jcm9wcGVkXC8yMjc4M1wvbWFpblwvem9vbVwvMTg2Nzg5MF84YjMzZWFiZjYzMjg5MjYyNDhkZTZiNzk0YmU1OTFjMi5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMDg0LCJoZWlnaHQiOjc3OCwiZml0IjoiaW5zaWRlIiwiYmFja2dyb3VuZCI6bnVsbH0sInRvRm9ybWF0Ijoid2VicCJ9fQ==?signature=f8e50a871e19ad2219cf44835caff7a2da32ed6af448a3dcc40df17de22c01ee" alt="" class="product-image"></picture>
-                    <picture class="flex"><img src="https://www.singulart.com/images/artworks/v2/cropped/15971/main/zoom/620933_15e1d3d66a430c07a0e0265c2b587a3c.jpeg" alt="" class="product-image"></picture>
+                    <picture class="flex prod-img-wrapper"><img src="https://www.singulart.com/images/artworks/v2/cropped/6733/alts/zoom/alt_1865150_d8baf3cc66d69f4143ad0a1442741c7c.jpeg" alt="" class="product-image"></picture>
+                    <picture class="flex prod-img-wrapper"><img src="https://www.singulart.com/images/artworks/v2/cropped/6733/main/zoom/1865150_78e286efd4745f46734e859cb1db68ad.jpeg" alt="" class="product-image"></picture>
+                    <picture class="flex prod-img-wrapper"><img src="https://www.singulart.com/images/artworks/v2/cropped/5855/main/zoom/1525034_cac868e5df5f1049a84591c08fb31ecb.jpeg" alt="" class="product-image"></picture>
+                    <picture class="flex prod-img-wrapper"><img src="../images/product-detail-page/product-image.png" alt="" class="product-image"></picture>
+                    <picture class="flex prod-img-wrapper"><img src="https://www.singulart.com/images-sh/eyJidWNrZXQiOiJzaW5ndWxhcnQtd2Vic2l0ZS1wcm9kIiwia2V5IjoiYXJ0d29ya3NcL3BpY3R1cmVzXC9jcm9wcGVkXC8zNjVcLzE0NzdcL3pvb21cLzE0NzdfYjNjMzY2NDExMmI3YTgyYzQyNmI0MTQzNGYwMThkZGQuanBlZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTA4NCwiaGVpZ2h0Ijo3NzgsImZpdCI6Imluc2lkZSIsImJhY2tncm91bmQiOm51bGx9LCJ0b0Zvcm1hdCI6IndlYnAifX0=?signature=2773eacf433c7d6cf37e30e2b52dd2651915873b5a847d236b7b1653a8f25489" alt="" class="product-image"></picture>
+                    <picture class="flex prod-img-wrapper"><img src="https://www.singulart.com/images-sh/eyJidWNrZXQiOiJzaW5ndWxhcnQtd2Vic2l0ZS1wcm9kIiwia2V5IjoiYXJ0d29ya3NcL3YyXC9jcm9wcGVkXC8xODk2OVwvbWFpblwvem9vbVwvMTg3MjAzOF85ZWRmMWExMDRhY2Y5OWRjOWE3MTU5NjA2ZjY0Zjg1ZC5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMDg0LCJoZWlnaHQiOjc3OCwiZml0IjoiaW5zaWRlIiwiYmFja2dyb3VuZCI6bnVsbH0sInRvRm9ybWF0Ijoid2VicCJ9fQ==?signature=403f551492ff7808eace40e0b059c9526b951223168909340e961fe0fe6d2e03" alt="" class="product-image"></picture>
+                    <picture class="flex prod-img-wrapper"><img src="https://www.singulart.com/images/artworks/v2/cropped/18969/main/zoom/1871876_01a0a03665d8a562f825938420709ed5.jpeg" alt="" class="product-image"></picture>
+                    <picture class="flex prod-img-wrapper"><img src="https://www.singulart.com/images/artworks/v2/cropped/6733/main/zoom/1858025_4f0c2b091802a36cdfb6b4a25b9114fb.jpeg" alt="" class="product-image"></picture>
+                    <picture class="flex prod-img-wrapper"><img src="https://www.singulart.com/images/artworks/v2/cropped/6743/main/zoom/317925_5df60d441d85922cfa9fe95f00900f6e.jpeg" alt="" class="product-image"></picture>
+                    <picture class="flex prod-img-wrapper"><img src="https://www.singulart.com/images/artworks/v2/cropped/6425/main/zoom/1870091_fc8ef460806c5d64da1cc575bdd47460.jpeg" alt="" class="product-image"></picture>
+                    <picture class="flex prod-img-wrapper"><img src="https://www.singulart.com/images-sh/eyJidWNrZXQiOiJzaW5ndWxhcnQtd2Vic2l0ZS1wcm9kIiwia2V5IjoiYXJ0d29ya3NcL3YyXC9jcm9wcGVkXC8xODk2OVwvbWFpblwvem9vbVwvMTg3MTg3Nl8wMWEwYTAzNjY1ZDhhNTYyZjgyNTkzODQyMDcwOWVkNS5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMDg0LCJoZWlnaHQiOjc3OCwiZml0IjoiaW5zaWRlIiwiYmFja2dyb3VuZCI6bnVsbH0sInRvRm9ybWF0Ijoid2VicCJ9fQ==?signature=cd804a9d9b174afe9dc6a9f158cc686eee0d8cd52027b0aa75cb0c33c846bc3c" alt="" class="product-image"></picture>
+                    <picture class="flex prod-img-wrapper"><img src="https://www.singulart.com/images-sh/eyJidWNrZXQiOiJzaW5ndWxhcnQtd2Vic2l0ZS1wcm9kIiwia2V5IjoiYXJ0d29ya3NcL3YyXC9jcm9wcGVkXC8yMzc4MVwvbWFpblwvem9vbVwvNzk1MDc5X2IzZTViYjIwYWMzMzZiYjNlYjZhMjQ2ZTc4NTk4YTBjLmpwZWciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwODQsImhlaWdodCI6Nzc4LCJmaXQiOiJpbnNpZGUiLCJiYWNrZ3JvdW5kIjpudWxsfSwidG9Gb3JtYXQiOiJ3ZWJwIn19?signature=a6892f9fc73e9e9149bed362d54e6fdb04287efc948e5d8dd4a3b3abe073d69d" alt="" class="product-image"></picture>
+                    <picture class="flex prod-img-wrapper"><img src="https://www.singulart.com/images-sh/eyJidWNrZXQiOiJzaW5ndWxhcnQtd2Vic2l0ZS1wcm9kIiwia2V5IjoiYXJ0d29ya3NcL3BpY3R1cmVzXC9jcm9wcGVkXC80NjA3XC8xNTQ0N1wvem9vbVwvc2VyaWVfMTU0NDdfMmFmZTYwMDE2YjE0NTcyMWM2ZjgyMzA2ODI0YzFjZGMuanBlZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MTA4NCwiaGVpZ2h0Ijo3NzgsImZpdCI6Imluc2lkZSIsImJhY2tncm91bmQiOm51bGx9LCJ0b0Zvcm1hdCI6IndlYnAifX0=?signature=51d20fee095e47025938fd16746b526073e014e6e491b6ef9a040bad1551378d" alt="" class="product-image"></picture>
+                    <picture class="flex prod-img-wrapper"><img src="https://www.singulart.com/images-sh/eyJidWNrZXQiOiJzaW5ndWxhcnQtd2Vic2l0ZS1wcm9kIiwia2V5IjoiYXJ0d29ya3NcL3YyXC9jcm9wcGVkXC8yMjc4M1wvbWFpblwvem9vbVwvMTg2Nzg5MF84YjMzZWFiZjYzMjg5MjYyNDhkZTZiNzk0YmU1OTFjMi5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMDg0LCJoZWlnaHQiOjc3OCwiZml0IjoiaW5zaWRlIiwiYmFja2dyb3VuZCI6bnVsbH0sInRvRm9ybWF0Ijoid2VicCJ9fQ==?signature=f8e50a871e19ad2219cf44835caff7a2da32ed6af448a3dcc40df17de22c01ee" alt="" class="product-image"></picture>
+                    <picture class="flex prod-img-wrapper"><img src="https://www.singulart.com/images/artworks/v2/cropped/15971/main/zoom/620933_15e1d3d66a430c07a0e0265c2b587a3c.jpeg" alt="" class="product-image"></picture>
+                    <picture class="flex prod-img-wrapper"><img src="https://www.singulart.com/images/artworks/v2/cropped/8457/main/zoom/1867796_197a3a2606c62a32ec2ee17e57ce9a12.jpeg" alt="" class="product-image"></picture>
+                    <picture class="flex prod-img-wrapper"><img src="https://www.singulart.com/images-sh/eyJidWNrZXQiOiJzaW5ndWxhcnQtd2Vic2l0ZS1wcm9kIiwia2V5IjoiYXJ0d29ya3NcL3YyXC9jcm9wcGVkXC84NDU3XC9hbHRzXC96b29tXC9hbHRfMTg2Nzc5Nl9kN2MyN2ExMzliMWY5ZjAwYzRlM2ZlNGE0NTE2Mjk4MC5qcGVnIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMDg0LCJoZWlnaHQiOjc3OCwiZml0IjoiaW5zaWRlIiwiYmFja2dyb3VuZCI6bnVsbH0sInRvRm9ybWF0Ijoid2VicCJ9fQ==?signature=2d0a69b9c1c4490ddff756bc8266ac520bd1123bf8c71f5fe937c249b4aca0a5" alt="" class="product-image"></picture>
                 </div>
             </div>
         </div>
@@ -56,7 +67,7 @@
         <aside class="pdp-aside-wrapper side-bars-setup">
             <article class="product-heading-wrapper">
                 <div class="pdp-product-heading-plus-whislist-wrapper flex">
-                    <h3 class="pdp-product-heading">Admiring - Acrylic onto Canvas Acrylic on Canvas then Acrylic on Canvas Acrylic on Canvas</h3>
+                    <h3 class="pdp-product-heading">Admiring - Acrylic onto Canvas Acrylic on Canvas</h3>
                     <span class="pdp-product-whislist-wrapper flex">
                         <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20" fill="none">
                             <path d="M16.123 0C15.118 0.0156446 14.1349 0.296417 13.2731 0.813962C12.4112 1.33151 11.701 2.0675 11.2143 2.94761C10.7276 2.0675 10.0174 1.33151 9.15551 0.813962C8.29362 0.296417 7.31055 0.0156446 6.30555 0C4.70347 0.0696625 3.19404 0.771072 2.10705 1.95099C1.02006 3.13091 0.443854 4.69343 0.504321 6.29717C0.504321 12.3487 10.2825 19.3381 10.6984 19.6347L11.2143 20L11.7301 19.6347C12.1461 19.3399 21.9242 12.3487 21.9242 6.29717C21.9847 4.69343 21.4085 3.13091 20.3215 1.95099C19.2345 0.771072 17.7251 0.0696625 16.123 0ZM11.2143 17.8009C8.31099 15.6304 2.28931 10.2979 2.28931 6.29717C2.2283 5.167 2.6163 4.05853 3.36867 3.21352C4.12104 2.36851 5.17675 1.85552 6.30555 1.78643C7.43435 1.85552 8.49006 2.36851 9.24244 3.21352C9.99481 4.05853 10.3828 5.167 10.3218 6.29717H12.1068C12.0458 5.167 12.4338 4.05853 13.1861 3.21352C13.9385 2.36851 14.9942 1.85552 16.123 1.78643C17.2518 1.85552 18.3075 2.36851 19.0599 3.21352C19.8123 4.05853 20.2003 5.167 20.1393 6.29717C20.1393 10.2997 14.1176 15.6304 11.2143 17.8009Z" fill="#A3A3A3"/>
@@ -305,9 +316,9 @@
                                     <img src="../images/product-detail-page/Accordian-Arrow-down.png" alt="" style="height: 7px; width: 12px;">
                                 </div>
                             </div>
-                            <div class="pdp-aside-last-unit-ans art-light-1-unit-txt-section-ans hidden">
+                            <!-- <div class="pdp-aside-last-unit-ans art-light-1-unit-txt-section-ans hidden">
                                 <p>Professional worldwide delivery, monitored by our logistics experts</p>
-                            </div>
+                            </div> -->
                         </div>
 
                         <div>
@@ -320,9 +331,9 @@
                                     <img src="../images/product-detail-page/Accordian-Arrow-down.png" alt="" style="height: 7px; width: 12px;">
                                 </div>
                             </div>
-                            <div class="pdp-aside-last-unit-ans art-light-1-unit-txt-section-ans hidden">
+                            <!-- <div class="pdp-aside-last-unit-ans art-light-1-unit-txt-section-ans hidden">
                                 <p>Get Me Online Internet Hello Check Yes Mic,  We are Here</p>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                     
@@ -966,5 +977,6 @@
             </div>
         </main>
     </section>
+
 </body>
 </html>
