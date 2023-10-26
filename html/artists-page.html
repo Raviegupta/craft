@@ -6,16 +6,20 @@
     <title>CraftTatva.com</title>
 
     <!-- stylesheet -->
-    <link rel="stylesheet" href="../css/product-detail-page.css">
-    <link rel="stylesheet" href="../css/artists-page.css">
+    <link rel="stylesheet" href="../style.css">
+
+
+    <link rel="stylesheet" href="../css/product-detail-page-new.css">
+
+    <link rel="stylesheet" href="../css/artists-page-new.css">
+
     <link rel="stylesheet" href="../css/artists-page-follow-via-email-input.css">
     <link rel="stylesheet" href="../css/slider.css">
     <link rel="stylesheet" href="../css/pdp-artists-view-all.css">
     <link rel="stylesheet" href="../css/product-listings-page.css">
     <link rel="stylesheet" href="../css/artist-page-sort-by-filter.css">
     <link rel="stylesheet" href="../css/range-input.css">
-    <!-- <link rel="stylesheet" href="../style.css"> -->
-
+    
     <!-- FontsAwsome  links-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
@@ -547,8 +551,6 @@
            
         </div>
 
-
-        
 
         <main class="view-all-box-wrap">
             <div class="artist-all-artworks-by-section flex">
@@ -1176,11 +1178,9 @@
 
     </section>
 
-    
 
-
-    <!-- FILTER SECTION FOR LOWER DEVICES -->
-    <section id="artist-section-filter-section" class="hidden">
+    <!-- FILTER SECTION FOR LOWER DEVICES (will appear after clicking FITER button on Lower Devices)-->
+    <section id="artist-section-filter-section" class="hidden mini-artist-section-filter-section">
         <div class="text-filter-onfilter-menu">Filter</div>
 
         <div id="all-artworks-by-particular-artist-filter-sorting-desktop" class="flex all-artworks-by-particular-artist-filter-sorting-mini-devices">
@@ -1220,7 +1220,7 @@
             </div>
         </div>
 
-        <div id="pdp-section-setup-filter-attribute-2" class="filter-attri filter-attri-mini">
+        <div id="pdp-section-setup-filter-attribute-2" class="filter-attri mini-devices-filter-price filter-attri-mini">
             <div class="flex"><h4>PRICE</h4><span>0 - 1,000,000+ INR</span></div>
             <div>
                 <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
@@ -1259,7 +1259,7 @@
             </div>
         </div>
 
-        <div id="pdp-section-setup-filter-attribute-6" class="filter-attri flex filter-attri-mini">
+        <div id="pdp-section-setup-filter-attribute-6" class="filter-attri flex filter-attri-mini mini-devices-filter-show-only">
             <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
             <label for="vehicle1"> Show only available artworks</label><br>
         </div>

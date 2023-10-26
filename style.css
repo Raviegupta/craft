@@ -1290,7 +1290,7 @@ img {
     height: 100%;
     width: 100%;
 }   
-.shop-by-art-style-image-box > img {
+.shop-by-art-style-image-box > a > img {
     height: 100%;
     width: 100%;
     border-radius: var(--border-radius-2);
