@@ -41,7 +41,7 @@
 /* this section is for FOLLOW ARTIST TOP SECTION */
 #follow-artist-top-section {
   /* border: 1px solid blue; */
-  background-image: url(../images/artists-page/artist-follow-banner-1.png);
+  background-image: url(https://cdn.shopify.com/s/files/1/0586/6497/6431/files/artist-follow-banner-1_71b92e51-725d-45b3-b327-8f63426e22aa.png?v=1698270917);
   background-repeat: no-repeat;
   background-size: auto;
   /* color: white; */
@@ -174,7 +174,7 @@
 /* this section is for FOLLOW ARTIST MIDDLE SECTION */
 #follow-artist-middle-section {
   /* border: 1px solid blue; */
-  background-image: url(../images/artists-page/artist-follow-banner-2.png);
+  background-image: url('https://cdn.shopify.com/s/files/1/0586/6497/6431/files/artist-follow-banner-2_0224e602-1b7b-437e-921b-2a6909949754.png?v=1698270916');
   background-repeat: no-repeat;
   background-size: auto;
   position: relative;
