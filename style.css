@@ -891,8 +891,8 @@ img {
 
 
 
-/* CSS STYLING For Home-Page Artwork Trending Now Section & Curator's fresh pick of the week Section*/
-/* -------------------------------------------------------------------------------------------------*/
+/* CSS STYLING For Home-Page Artwork Trending Now Section & ❤️❤️❤️Curator's fresh pick of the week Section❤️❤️❤️ Starts Here*/
+/* ----------------------------------------------------------------------------------------------------------------------------*/
 .artwork-tending-now-1 {
     background-color: var(--bgr-1);
 }
@@ -905,12 +905,12 @@ img {
 .wrapper-image-cards {
     /* border: 2px solid tomato; */
     padding: 1.5rem 0;
-
     max-width: 1920px;
     display: grid;
-    grid-template-columns: 1.5fr 1fr 1fr 1.5fr 1fr;
+    /* grid-template-columns: 1.5fr 1fr 1fr 1.5fr 1fr; */
+    grid-template-columns: auto auto auto auto auto;
     row-gap: 70px;
-    column-gap: 30px;
+    column-gap: 1rem;
 }
 .single-image-box {
     /* border: 1px solid rgb(232, 218, 218); */
@@ -920,7 +920,7 @@ img {
     padding: 0.25rem;
 }
 .single-image-box-image-wrapper > img {
-    height: fit-content;
+    /* height: fit-content; */
     height: 200px;
     border: 4px solid black;
     padding: 3px;
@@ -946,9 +946,7 @@ img {
     cursor: var(--cursor-pointer);
 }
 
-
-
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1199px) {
     .artwork-tending-now-1 {
         padding-left: 0;
         padding-right: 0;
@@ -957,6 +955,7 @@ img {
         display: grid;
         grid-template-columns: 25% 25% 25% 25%;
         gap: 0px;
+        border: 3px solid blue;
     }
     .single-image-box {
         border: 1px solid rgb(224, 212, 212);
@@ -971,23 +970,39 @@ img {
     } */
     .image-details-text-box {
         width: 100%;
+        /* border: 1px solid blue; */
     }
     .single-image-box-text-box {
         width: 100%;
         position: relative;
+        /* border: 2px solid red; */
     }
     .image-details-text-box-whislist-box {
         position: absolute;
         bottom: -10px;
         right: 0px;
     }
-    /* .single-image-box-image-wrapper img {
+    .single-image-box-image-wrapper > img {
         height: auto;
-    } */
+        max-height: 200px;
+        width: 100%;
+    }
 }
 @media only screen and (max-width: 800px) {
     .wrapper-image-cards {
-        grid-template-columns: 33% 33% 33%;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .single-image-box {
+        height: 300px;
+        width: 100%;
+        display: grid;
+        grid-template-rows: 60% 40%;
+        padding: 10px;
+    }
+    .single-image-box-image-wrapper > img {
+        height: auto;
+        max-height: 180px;
+        width: 100%;
     }
 }
 @media only screen and (max-width: 600px) {
@@ -995,16 +1010,16 @@ img {
         grid-template-columns: 50% 50%;
     }
 }
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 320px) {
     .wrapper-image-cards {
         grid-template-columns: 100%;
     }
 }
+/* CSS STYLING For Home-Page Artwork Trending Now Section & ❤️❤️❤️Curator's fresh pick of the week Section❤️❤️❤️ Ends Here*/
+/* ------------------------------------------------------------------------------------------------------------------------- */
 
 
-/* |||||||||||||||||||||||||||||||||||| ATN SLIDER ||||||||||||||||||||||||||||||||| */
 
-/* |||||||||||||||||||||||||||||||||||| ATN SLIDER ||||||||||||||||||||||||||||||||| */
 
 
 
@@ -1315,8 +1330,10 @@ img {
     position: absolute;
     left: 7.78%;
     bottom: 6.7%;
+    border: 3px solid black;
+    width: 84.44%;
 }
-@media only screen and (max-width: 1000px) and (min-width: 600px) {
+@media only screen and (max-width: 1000px) and (min-width: 768px) {
     #shop-by-art-style {
         padding-top: 9rem;
     } 
@@ -1328,6 +1345,11 @@ img {
     }
     .shop-by-art-style-image-box > img {
         border-radius: 10px;
+    }
+}
+@media only screen and (max-width: 768px) and (min-width: 600px) {
+    .sas-fig-caption-2-stl {
+        font-size: 0.666rem;
     }
 }
 
@@ -1346,6 +1368,10 @@ img {
         grid-column-end: 3;
         grid-row-start: 1;
         grid-row-end: 2;
+    }
+    .sas-fig-caption-1-stl, .sas-fig-caption-2-stl {
+        font-size: var(--fnt-siz-6);
+        font-weight: var(--fnt-wt-4);
     }
 }
 @media only screen and (max-width: 350px) {
@@ -2170,14 +2196,18 @@ img {
         margin-top: 0;
     }
 }
-@media only screen and (max-width: 400px) {
-    .my-footer-last img {
+@media only screen and (max-width: 425px) {
+    /* .my-footer-last img {
         display: none;
-    }
+    } */
    .my-footer-last {
     grid-template-columns: 1fr;
     height: 100%;
    }
+}
+
+#footers-wrapper {
+    background-color: #000;
 }
 /* -----------------CSS FOR FOOTER ENDS HERE------------------*/
 /* ======================================================================================= */

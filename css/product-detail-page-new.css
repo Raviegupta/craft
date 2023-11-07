@@ -380,7 +380,7 @@ button {
     /* margin-left: 0; */
     /* margin-right: 0; */
     /* margin-top: 0; */
-    border: 2px solid black;
+    border: 5px solid black;
     height: 70%;
 }
 .product-image-on-display svg {

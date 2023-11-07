@@ -1,0 +1,73 @@
+<div class="flex">
+                    
+    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="33" viewBox="0 0 32 33" fill="none">
+        <rect x="0.5" y="0.75" width="31" height="31" rx="5.5" fill="white" stroke="#ABABAB"/>
+        <rect x="26.4346" y="10.6843" width="11.1304" height="20.8696" transform="rotate(90 26.4346 10.6843)" fill="#BCBCBC"/>
+    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="33" viewBox="0 0 32 33" fill="none">
+        <rect x="0.5" y="0.75" width="31" height="31" rx="5.5" fill="white" stroke="#ABABAB"/>
+        <rect x="10.4346" y="5.81519" width="11.1304" height="20.8696" fill="#BCBCBC"/>
+    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="33" viewBox="0 0 32 33" fill="none">
+        <rect x="0.5" y="0.75" width="31" height="31" rx="5.5" fill="white" stroke="#ABABAB"/>
+        <rect x="7.65234" y="7.9021" width="16.6957" height="16.6957" fill="#BCBCBC"/>
+    </svg>
+        
+        {% for tag in collections[section.settings.collection].all_tags %}
+        {% if tag contains 'orientation_' %}
+        {% assign orientationTag = tag | split: '_' | last %}
+        {% if orientationTag == 'landscape' %}
+        <div class="form-buttons-list__option" title="Landscape orientation">
+            <input class="form-buttons-list__input js-button" {% if current_tags contains tag
+                %}checked{% endif %} data-value="producttype_mug" type="radio" id="landscape"
+                data-collection-handle="{{ collection.handle }}" name="orientation1"
+                data-tag-name="{{tag}}">
+            <label class="form-buttons-list__label" for="landscape">
+                <span class="form-buttons-list__button icon-landscape">
+                    <svg width="26" height="14" viewBox="0 0 26 14" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <rect x="25.3911" y="0.391357" width="13.2174" height="24.7826"
+                            transform="rotate(90 25.3911 0.391357)" fill="#BEBEBE" />
+                    </svg>
+                </span>
+                <span class="text--upper sr-only">Landscape orientation</span>
+            </label>
+        </div>
+        {% endif %}
+        {% if orientationTag == 'portrait' %}
+        <div class="form-buttons-list__option" title="Portrait orientation">
+            <input class="form-buttons-list__input js-button" {% if current_tags contains tag
+                %}checked{% endif %} data-collection-handle="{{ collection.handle }}" type="radio"
+                id="portrait" name="orientation1" data-tag-name="{{tag}}" value="portrait">
+            <label class="form-buttons-list__label" for="portrait">
+                <span class="form-buttons-list__button icon-portrait">
+                    <svg width="14" height="26" viewBox="0 0 14 26" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <rect x="0.391113" y="0.608643" width="13.2174" height="24.7826"
+                            fill="#BEBEBE" />
+                    </svg>
+                </span>
+                <span class="text--upper sr-only">Portrait orientation</span>
+            </label>
+        </div>
+        {% endif %}
+        {% if orientationTag == 'square' %}
+        <div class="form-buttons-list__option" title="Square dimensions">
+            <input class="form-buttons-list__input js-button" {% if current_tags contains tag
+                %}checked{% endif %} data-collection-handle="{{ collection.handle }}" type="radio"
+                id="square" name="orientation1" data-tag-name="{{tag}}" value="square">
+            <label class="form-buttons-list__label" for="square">
+                <span class="form-buttons-list__button icon-square">
+                    <svg width="26" height="14" viewBox="0 0 26 14" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <rect x="25.3911" y="0.391357" width="13.2174" height="24.7826"
+                            transform="rotate(90 25.3911 0.391357)" fill="#BEBEBE" />
+                    </svg>
+                </span>
+                <span class="text--upper sr-only">Square dimensions</span>
+            </label>
+        </div>
+        {% endif %}
+        {% endif %}
+        {% endfor %}
+</div>

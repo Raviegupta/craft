@@ -6,42 +6,42 @@ const mobileMenuMain = document.querySelector('.mobile-menu-main');
 const hamburgerIconClickNotRender = document.querySelectorAll('.hamburger-icon-click-not-render');
 
       
-const mobileMenu1 = document.querySelector('.mobile-menu-1');
+const mobileMenu1 = document.querySelector('.mobile-menu-1-open');
 const mobileMenu1List = document.querySelector('.mobile-menu-1-list');
 const arrowDown1 = document.querySelector('.arrow-down1');
 const arrowUp1 = document.querySelector('.arrow-up1');
         
-const mobileMenu2 = document.querySelector('.mobile-menu-2');
+const mobileMenu2 = document.querySelector('.mobile-menu-2-open');
 const mobileMenu2List = document.querySelector('.mobile-menu-2-list');
 const arrowDown2 = document.querySelector('.arrow-down2');
 const arrowUp2 = document.querySelector('.arrow-up2');
 
-const mobileMenu3 = document.querySelector('.mobile-menu-3');
+const mobileMenu3 = document.querySelector('.mobile-menu-3-open');
 const mobileMenu3List = document.querySelector('.mobile-menu-3-list');
 const arrowDown3 = document.querySelector('.arrow-down3');
 const arrowUp3 = document.querySelector('.arrow-up3');
 
-const mobileMenu4 = document.querySelector('.mobile-menu-4');
+const mobileMenu4 = document.querySelector('.mobile-menu-4-open');
 const mobileMenu4List = document.querySelector('.mobile-menu-4-list');
 const arrowDown4 = document.querySelector('.arrow-down4');
 const arrowUp4 = document.querySelector('.arrow-up4');
 
-const mobileMenu5 = document.querySelector('.mobile-menu-5');
+const mobileMenu5 = document.querySelector('.mobile-menu-5-open');
 const mobileMenu5List = document.querySelector('.mobile-menu-5-list');
 const arrowDown5 = document.querySelector('.arrow-down5');
 const arrowUp5 = document.querySelector('.arrow-up5');
 
-const mobileMenu6 = document.querySelector('.mobile-menu-6');
+const mobileMenu6 = document.querySelector('.mobile-menu-6-open');
 const mobileMenu6List = document.querySelector('.mobile-menu-6-list');
 const arrowDown6 = document.querySelector('.arrow-down6');
 const arrowUp6 = document.querySelector('.arrow-up6');
 
-const mobileMenu7 = document.querySelector('.mobile-menu-7');
+const mobileMenu7 = document.querySelector('.mobile-menu-7-open');
 const mobileMenu7List = document.querySelector('.mobile-menu-7-list');
 const arrowDown7 = document.querySelector('.arrow-down7');
 const arrowUp7 = document.querySelector('.arrow-up7');
 
-const mobileMenu8 = document.querySelector('.mobile-menu-8');
+const mobileMenu8 = document.querySelector('.mobile-menu-8-open');
 const mobileMenu8List = document.querySelector('.mobile-menu-8-list');
 const arrowDown8 = document.querySelector('.arrow-down8');
 const arrowUp8 = document.querySelector('.arrow-up8');

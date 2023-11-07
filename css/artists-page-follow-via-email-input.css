@@ -1,67 +1,99 @@
 .email-box {
-    display: flex;
-    width: 32.17%;
-    height: 3.75rem;
-    flex-shrink: 0;
-    margin: 0 auto;
-    /* background-color: red; */
+  display: flex;
+  width: 32.17%;
+  height: 3.75rem;
+  flex-shrink: 0;
+  margin: 0 auto;
+  /* border: 3px solid red; */
+}
+.email-entry-box {
+  flex: 1;
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+}
+#follow-via-email {
+  margin: auto 0.77rem;
+  height: 100%;
+  width: 91%;
+  border: none;
+  outline: none;
+  font-size: 1.125rem;
+  color: #8e8e8e;
+}
+#follow-via-email::placeholder {
+  color: #8e8e8e;
+  font-family: Montserrat;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.mail-icon-plus-input-field {
+  /* border: 1px solid #ccc; */
+  border-right: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  border-top-left-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+  padding-left: 1.75rem;
+  background-color: #fff;
+}
+.follow-text {
+  /* padding: 10px; */
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border: 1px solid #ccc;
+  border-left: none;
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fe8453;
+  text-align: right;
+  font-family: Montserrat;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-right: 1.75rem;
+  background-color: #fff;
+}
+
+/* |R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R| */
+@media only screen and (max-width: 1300px) {
+  .email-box {
+    width: 42%;
   }
-  .email-entry-box {
-    flex: 1;
-    border-top-right-radius: 2rem;
-    border-bottom-right-radius: 2rem;
-    overflow: hidden;
-    position: relative;
-    height: 100%;
+}
+@media only screen and (max-width: 1024px) {
+  .email-box {
+    width: 50%;
+    height: 3.5rem;
   }
-  #follow-via-email {
-    margin: auto .77rem;
-    height: 100%;
-    width: 91%;
-    border: none;
-    outline: none;
-    font-size: 1.125rem;
-    color: #8E8E8E;
+}
+@media only screen and (max-width: 768px) {
+  .email-box {
+    width: 60%;
   }
-  #follow-via-email::placeholder {
-    color: #8E8E8E;
-    font-family: Montserrat;
-    font-size: 1.125rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+}
+@media only screen and (max-width: 600px) {
+  .email-box {
+    width: 70%;
   }
-  .mail-icon-plus-input-field {
-    /* border: 1px solid #ccc; */
-    border-right: none;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    border-top-left-radius: 2rem;
-    border-bottom-left-radius: 2rem;
-    padding-left: 1.75rem ;
-    background-color: #fff;
+}
+@media only screen and (max-width: 425px) {
+  .email-box {
+    width: 90%;
+    height: 3rem;
+    margin-top: -1.5rem;
   }
-  .follow-text {
-    /* padding: 10px; */
-    position: absolute;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    border: 1px solid #ccc;
-    border-left: none;
-    border-top-right-radius: 2rem;
-    border-bottom-right-radius: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #FE8453;
-    text-align: right;
-    font-family: Montserrat;
-    font-size: 1.25rem;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    padding-right: 1.75rem;
-    background-color: #FFF;
-  }
+}
+/* |R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R||R|R|R|R|R| */
+/* |*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|*|* */
